@@ -11,11 +11,13 @@
  */
 window.CREDO_REVIEW_CONFIG = {
   FIREBASE_CONFIG: {
-    apiKey:      "PASTE_API_KEY",
-    authDomain:  "PASTE_PROJECT.firebaseapp.com",
-    databaseURL: "https://PASTE_PROJECT-default-rtdb.firebaseio.com",
-    projectId:   "PASTE_PROJECT",
-    appId:       "PASTE_APP_ID"
+    apiKey: "AIzaSyCQvyKmdjRlIBcRW8CbC73Ew9o5uFp9jt0",
+    authDomain: "credo-712c4.firebaseapp.com",
+    databaseURL: "https://credo-712c4-default-rtdb.firebaseio.com",
+    projectId: "credo-712c4",
+    storageBucket: "credo-712c4.firebasestorage.app",
+    messagingSenderId: "494337801532",
+    appId: "1:494337801532:web:298e363efe2ed11807f239"
   },
   REVIEW_LABELS: {
     toggleButton: "Comments",
@@ -30,6 +32,12 @@ window.CREDO_REVIEW_CONFIG = {
     cancel: "Cancel",
     edit: "Edit",
     del: "Delete",
+    apply: "Apply",
+    archive: "Archive",
+    restore: "Restore",
+    tabActive: "Active",
+    tabApplied: "Applied",
+    tabArchived: "Archived",
     placeholder: "Your feedback…",
     replacementPlaceholder: "Suggested change (optional)…",
     namePrompt: "Your name (so the team knows who left this comment):"
