@@ -54,6 +54,7 @@ function esc(s){return (s==null?'':String(s)).replace(/[&<>"]/g,c=>({'&':'&amp;'
 function when(ts){const d=new Date(ts||Date.now());return d.toLocaleDateString()+' '+d.toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'})}
 
 let SIDE,LIST,TABS,PILL,ADAPTER,ME,COMMENTS={},FILTER='open',curEl=null,curId=null,hideT=null;
+let SELID=null,SELANCHOR=null; /* clicked comment: row id + its anchor (persist across re-renders) */
 const TAB_OF={open:'pending',resolved:'resolved'};
 
 function buildChrome(){
@@ -133,7 +134,7 @@ function render(){
   if(!rows.length){LIST.appendChild(el('div','review-empty',esc(L.empty)));return}
   rows.forEach(([id,c])=>{
     const st=statusOf(c);
-    const row=el('div','review-row');
+    const row=el('div','review-row'+(id===SELID?' rw-selected':''));
     const blabel=st==='resolved'?'resolved':'open';
     row.innerHTML='<div class="rw-meta"><b>'+esc(c.author||'Anonymous')+'</b><span class="rw-badge rw-'+st+'">'+blabel+'</span><span>'+when(c.timestamp)+(c.edited_at?' · edited':'')+'</span></div>'+
       '<div class="rw-body">'+esc(c.comment||'')+'</div>'+
@@ -149,11 +150,32 @@ function render(){
     }
     acts.appendChild(actBtn(L.del,'delete-btn',()=>{if(confirm('Delete this comment?'))ADAPTER.remove(id)}));
     row.appendChild(acts);
-    row.onclick=()=>spotlight(c.anchor);
+    row.onclick=()=>{SELID=id;spotlight(c.anchor);};
     LIST.appendChild(row);
   });
+  applyActive();
 }
-function spotlight(anchor){const a=document.querySelector('[data-comment-id="'+(window.CSS&&CSS.escape?CSS.escape(anchor):anchor)+'"]');if(!a)return;a.scrollIntoView({behavior:'smooth',block:'center'});a.classList.remove('rw-spot');void a.offsetWidth;a.classList.add('rw-spot');setTimeout(()=>a.classList.remove('rw-spot'),1200);}
+/* persistent strong highlight on the currently-selected comment's element(s).
+ * querySelectorAll because a campaign-wide headline anchor (hl-{i}) can match
+ * several ads at once. */
+function applyActive(){
+  document.querySelectorAll('.rw-active-anchor').forEach(e=>e.classList.remove('rw-active-anchor'));
+  if(!SELANCHOR)return;
+  const sel='[data-comment-id="'+(window.CSS&&CSS.escape?CSS.escape(SELANCHOR):SELANCHOR)+'"]';
+  document.querySelectorAll(sel).forEach(a=>a.classList.add('rw-active-anchor'));
+}
+function spotlight(anchor){
+  SELANCHOR=anchor;
+  let a=null;
+  /* the prototype exposes __rwReveal: it flips the right dropdown/tab so the
+   * commented variant is on screen, then returns that zone's element. */
+  if(window.__rwReveal){try{a=window.__rwReveal(anchor)}catch(e){}}
+  if(!a)a=document.querySelector('[data-comment-id="'+(window.CSS&&CSS.escape?CSS.escape(anchor):anchor)+'"]');
+  applyActive();
+  if(!a)return;
+  a.scrollIntoView({behavior:'smooth',block:'center'});
+  a.classList.remove('rw-spot');void a.offsetWidth;a.classList.add('rw-spot');setTimeout(()=>a.classList.remove('rw-spot'),1200);
+}
 
 (async function init(){
   ME=reviewer();

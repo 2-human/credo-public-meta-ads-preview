@@ -335,6 +335,33 @@ document.querySelectorAll('.adwrap').forEach(w=>{
   w.querySelectorAll('.sub').forEach(b=>b.addEventListener('click',()=>{st.dir=b.dataset.d;w.querySelectorAll('.sub').forEach(x=>x.classList.toggle('on',x===b));paint();}));
   w.querySelector('.ratiosel').addEventListener('change',e=>{st.ratio=e.target.value;paint();});
 });
+/* __rwReveal: called by the review widget when a comment row is clicked. Parses
+ * the comment's anchor, flips the matching dropdown/tab so that variant is on
+ * screen (which updates the zone's data-comment-id), and returns the zone
+ * element so the widget can scroll to and highlight it. */
+window.__rwReveal=function(anchor){
+  let m;
+  const fire=(sel)=>sel.dispatchEvent(new Event('change'));
+  if((m=anchor.match(/^hl-(\d+)$/))){
+    const w=document.querySelector('.adwrap'); if(!w)return null;            /* headline is campaign-wide: reveal on the first ad */
+    const s=w.querySelector('.hsel'); s.value=m[1]; fire(s); return w.querySelector('.hl');
+  }
+  if((m=anchor.match(/^(.+)-msg-(\d+)$/))){
+    const w=document.querySelector('.adwrap[data-ad="'+m[1]+'"]'); if(!w)return null;
+    const s=w.querySelector('.msel'); s.value=m[2]; fire(s); return w.querySelector('.ptext');
+  }
+  if((m=anchor.match(/^(.+)-cr-(illustration|photo|stilllife|video)$/))){
+    const w=document.querySelector('.adwrap[data-ad="'+m[1]+'"]'); if(!w)return null;
+    if(m[2]==='video'){ w.querySelector('.mode[data-mode="video"]').click(); }
+    else { w.querySelector('.mode[data-mode="image"]').click(); const dk={illustration:'d1',photo:'d2',stilllife:'d3'}[m[2]]; const b=w.querySelector('.sub[data-d="'+dk+'"]'); if(b)b.click(); }
+    return w.querySelector('.media');
+  }
+  if((m=anchor.match(/^(.+)-(card|desc)$/))){
+    const w=document.querySelector('.adwrap[data-ad="'+m[1]+'"]'); if(!w)return null;
+    return m[2]==='card'?w.querySelector('.fbcard'):w.querySelector('.desc');
+  }
+  return document.querySelector('[data-comment-id="'+anchor+'"]');
+};
 </script>
 <script src="review.config.js"></script>
 <script src="review-bootstrap.js"></script>
