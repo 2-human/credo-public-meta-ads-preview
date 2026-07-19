@@ -5,7 +5,7 @@ collaborator review **before any ad spend**. Strategy, copy spec, campaign
 plan, creative spec, and the full creative matrix live in the private working
 repo and are intentionally not mirrored here.
 
-**Live preview:** https://tnosugar.github.io/credo-public-meta-ads-preview/
+**Live preview:** https://2-human.github.io/credo-public-meta-ads-preview/
 
 The prototype renders the five debt/service ad sets (Credit Card, Lawsuit,
 Harassment, Medical Debt, Garnishment) as a Facebook feed of 14 ads. Each ad

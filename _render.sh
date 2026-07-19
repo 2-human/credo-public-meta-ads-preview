@@ -5,7 +5,7 @@
 # Canonical source: ../../content/campaigns/meta-ads/prototype.html
 # This script renders that source into the folder-as-contract that
 # .github/workflows/sync-public.yml auto-discovers and mirrors to
-# tnosugar/credo-public-meta-ads-preview (GitHub Pages).
+# 2-human/credo-public-meta-ads-preview (GitHub Pages).
 #
 # It produces, in THIS folder:
 #   index.html   — prototype.html renamed (clean URL, no /prototype.html)
@@ -34,8 +34,9 @@ CHECK_ONLY=false
 # Match asset paths anywhere in the HTML: in src="..." attributes AND inside
 # the embedded JS asset map (the per-ad ratio/direction switcher), where paths
 # appear as bare quoted JSON string values rather than src attributes.
-mapfile -t REFS < <(grep -oE 'assets/[A-Za-z0-9_./-]+\.(png|jpe?g|mp4|webp|gif|svg)' "$SRC_HTML" \
-  | sort -u)
+# (portable: macOS ships bash 3.2, which has no `mapfile`)
+REFS=()
+while IFS= read -r _ref; do REFS+=("$_ref"); done < <(grep -oE 'assets/[A-Za-z0-9_./-]+\.(png|jpe?g|mp4|webp|gif|svg)' "$SRC_HTML" | sort -u)
 echo "Canonical source: $SRC_HTML"
 echo "Referenced assets: ${#REFS[@]}"
 
@@ -72,7 +73,7 @@ collaborator review **before any ad spend**. Strategy, copy spec, campaign
 plan, creative spec, and the full creative matrix live in the private working
 repo and are intentionally not mirrored here.
 
-**Live preview:** https://tnosugar.github.io/credo-public-meta-ads-preview/
+**Live preview:** https://2-human.github.io/credo-public-meta-ads-preview/
 
 The prototype renders the five debt/service ad sets (Credit Card, Lawsuit,
 Harassment, Medical Debt, Garnishment) as a Facebook feed of 14 ads. Each ad
