@@ -423,7 +423,7 @@ const BOLD_DIR='assets/bold/';
 const BOLD_CR={CC_Lawsuit:'bake-fist',Collection_Lawsuit:'bake-fist',Creditor_Suing:'bake-fist',Served_Papers:'bake-fist',Medical_Lawsuit:'bake-fist',CC_Harassment:'bake-stop',Creditor_Harassment:'bake-stop',Medical_Harassment:'bake-stop',FDCPA_Harassment:'bake-pointing',Multiple_Collectors:'bake-pointing',CC_Negotiation:'bake-pinch',Medical_Rights:'bake-pinch',Pre_Judgment_Garn:'bake-offer',Post_Judgment_Garn:'bake-offer'};
 /* src carries the full literal path so the render step (which greps asset paths out of
  * the HTML) copies every bold creative; BOLD_CR reuses the same 5 files (heart excepted). */
-const BOLD_SET=[{f:'bake-pointing',src:'assets/bold/bake-pointing.jpeg',g:'Pointing finger',h:'Your debt collector may be breaking the law',u:'FDCPA · Multiple Collectors'},{f:'bake-stop',src:'assets/bold/bake-stop.jpeg',g:'Open palm',h:'Make the calls stop',u:'Harassment: card · creditor · medical'},{f:'bake-fist',src:'assets/bold/bake-fist.jpeg',g:'Clenched fist',h:'Sued over a debt? Make them prove it',u:'All lawsuit + served-papers ads'},{f:'bake-pinch',src:'assets/bold/bake-pinch.jpeg',g:'Pinch',h:'You may owe less than they say',u:'CC negotiation · Medical rights'},{f:'bake-offer',src:'assets/bold/bake-offer.jpeg',g:'Open hand',h:'Find out where you stand',u:'Garnishment · universal CTA'},{f:'bake-heart',src:'assets/bold/bake-heart.jpeg',g:'Heart hands',h:"You don't have to face them alone",u:'Brand closer / All-States'}];
+const BOLD_SET=[{f:'bake-pointing',src:'assets/bold/bake-pointing.jpeg',gsrc:'assets/bold/bake-pointing-sq.jpeg',g:'Pointing finger',h:'Your debt collector may be breaking the law',u:'FDCPA · Multiple Collectors'},{f:'bake-stop',src:'assets/bold/bake-stop.jpeg',gsrc:'assets/bold/bake-stop-sq.jpeg',g:'Open palm',h:'Make the calls stop',u:'Harassment: card · creditor · medical'},{f:'bake-fist',src:'assets/bold/bake-fist.jpeg',gsrc:'assets/bold/bake-fist-sq.jpeg',g:'Clenched fist',h:'Sued over a debt? Make them prove it',u:'All lawsuit + served-papers ads'},{f:'bake-pinch',src:'assets/bold/bake-pinch.jpeg',gsrc:'assets/bold/bake-pinch-sq.jpeg',g:'Pinch',h:'You may owe less than they say',u:'CC negotiation · Medical rights'},{f:'bake-offer',src:'assets/bold/bake-offer.jpeg',gsrc:'assets/bold/bake-offer-sq.jpeg',g:'Open hand',h:'Find out where you stand',u:'Garnishment · universal CTA'},{f:'bake-heart',src:'assets/bold/bake-heart.jpeg',gsrc:'assets/bold/bake-heart-sq.jpeg',g:'Heart hands',h:"You don't have to face them alone",u:'Brand closer / All-States'}];
 const RVN=()=>{if(window.__rwRefresh)window.__rwRefresh();};
 document.querySelectorAll('.adwrap').forEach(w=>{
   const ad=w.dataset.ad, hl=w.querySelector('.hl'), ptextEl=w.querySelector('.ptext'),
@@ -503,7 +503,7 @@ const GADS = {"pulled":"2026-07 live","customer_id":"9399506772","campaigns":[{"
   const host=u=>{try{return new URL(u).host.replace(/^www\./,'');}catch(e){return (u||'').split('/')[0];}};
   const phone=p=>{p=(p||'').replace(/\D/g,'');return p.length===10?'('+p.slice(0,3)+') '+p.slice(3,6)+'-'+p.slice(6):p;};
   const LOGO=GADS.logo, BNAME=GADS.business_name||'Credo Legal';
-  const BOLDS=(typeof BOLD_SET!=='undefined'?BOLD_SET:[]).map(b=>({src:b.src,label:b.g}));
+  const BOLDS=(typeof BOLD_SET!=='undefined'?BOLD_SET:[]).map(b=>({src:b.gsrc||b.src,label:b.g}));
 
   /* ---------- RSA builder card ---------- */
   function rsaCard(c, ag){
