@@ -423,7 +423,7 @@ const BOLD_DIR='assets/bold/';
 const BOLD_CR={CC_Lawsuit:'bake-fist',Collection_Lawsuit:'bake-fist',Creditor_Suing:'bake-fist',Served_Papers:'bake-fist',Medical_Lawsuit:'bake-fist',CC_Harassment:'bake-stop',Creditor_Harassment:'bake-stop',Medical_Harassment:'bake-stop',FDCPA_Harassment:'bake-pointing',Multiple_Collectors:'bake-pointing',CC_Negotiation:'bake-pinch',Medical_Rights:'bake-pinch',Pre_Judgment_Garn:'bake-offer',Post_Judgment_Garn:'bake-offer'};
 /* src carries the full literal path so the render step (which greps asset paths out of
  * the HTML) copies every bold creative; BOLD_CR reuses the same 5 files (heart excepted). */
-const BOLD_SET=[{f:'bake-pointing',src:'assets/bold/bake-pointing.jpeg',gsrc:'assets/bold/bake-pointing-sq.jpeg',g:'Pointing finger',h:'Your debt collector may be breaking the law',u:'FDCPA · Multiple Collectors'},{f:'bake-stop',src:'assets/bold/bake-stop.jpeg',gsrc:'assets/bold/bake-stop-sq.jpeg',g:'Open palm',h:'Make the calls stop',u:'Harassment: card · creditor · medical'},{f:'bake-fist',src:'assets/bold/bake-fist.jpeg',gsrc:'assets/bold/bake-fist-sq.jpeg',g:'Clenched fist',h:'Sued over a debt? Make them prove it',u:'All lawsuit + served-papers ads'},{f:'bake-pinch',src:'assets/bold/bake-pinch.jpeg',gsrc:'assets/bold/bake-pinch-sq.jpeg',g:'Pinch',h:'You may owe less than they say',u:'CC negotiation · Medical rights'},{f:'bake-offer',src:'assets/bold/bake-offer.jpeg',gsrc:'assets/bold/bake-offer-sq.jpeg',g:'Open hand',h:'Find out where you stand',u:'Garnishment · universal CTA'},{f:'bake-heart',src:'assets/bold/bake-heart.jpeg',gsrc:'assets/bold/bake-heart-sq.jpeg',g:'Heart hands',h:"You don't have to face them alone",u:'Brand closer / All-States'}];
+const BOLD_SET=[{f:'bake-pointing',src:'assets/bold/bake-pointing.jpeg',gsrc:'assets/bold/bake-pointing-sq.jpeg',gls:'assets/bold/bake-pointing-ls.jpeg',gpt:'assets/bold/bake-pointing-pt.jpeg',g:'Pointing finger',h:'Your debt collector may be breaking the law',u:'FDCPA · Multiple Collectors'},{f:'bake-stop',src:'assets/bold/bake-stop.jpeg',gsrc:'assets/bold/bake-stop-sq.jpeg',gls:'assets/bold/bake-stop-ls.jpeg',gpt:'assets/bold/bake-stop-pt.jpeg',g:'Open palm',h:'Make the calls stop',u:'Harassment: card · creditor · medical'},{f:'bake-fist',src:'assets/bold/bake-fist.jpeg',gsrc:'assets/bold/bake-fist-sq.jpeg',gls:'assets/bold/bake-fist-ls.jpeg',gpt:'assets/bold/bake-fist-pt.jpeg',g:'Clenched fist',h:'Sued over a debt? Make them prove it',u:'All lawsuit + served-papers ads'},{f:'bake-pinch',src:'assets/bold/bake-pinch.jpeg',gsrc:'assets/bold/bake-pinch-sq.jpeg',gls:'assets/bold/bake-pinch-ls.jpeg',gpt:'assets/bold/bake-pinch-pt.jpeg',g:'Pinch',h:'You may owe less than they say',u:'CC negotiation · Medical rights'},{f:'bake-offer',src:'assets/bold/bake-offer.jpeg',gsrc:'assets/bold/bake-offer-sq.jpeg',gls:'assets/bold/bake-offer-ls.jpeg',gpt:'assets/bold/bake-offer-pt.jpeg',g:'Open hand',h:'Find out where you stand',u:'Garnishment · universal CTA'},{f:'bake-heart',src:'assets/bold/bake-heart.jpeg',gsrc:'assets/bold/bake-heart-sq.jpeg',gls:'assets/bold/bake-heart-ls.jpeg',gpt:'assets/bold/bake-heart-pt.jpeg',g:'Heart hands',h:"You don't have to face them alone",u:'Brand closer / All-States'}];
 const RVN=()=>{if(window.__rwRefresh)window.__rwRefresh();};
 document.querySelectorAll('.adwrap').forEach(w=>{
   const ad=w.dataset.ad, hl=w.querySelector('.hl'), ptextEl=w.querySelector('.ptext'),
@@ -446,6 +446,10 @@ document.querySelectorAll('.adwrap').forEach(w=>{
   w.querySelectorAll('.mode').forEach(b=>b.addEventListener('click',()=>{st.mode=b.dataset.mode;w.querySelectorAll('.mode').forEach(x=>x.classList.toggle('on',x===b));paint();}));
   w.querySelectorAll('.sub').forEach(b=>b.addEventListener('click',()=>{st.dir=b.dataset.d;w.querySelectorAll('.sub').forEach(x=>x.classList.toggle('on',x===b));paint();}));
   w.querySelector('.ratiosel').addEventListener('change',e=>{st.ratio=e.target.value;paint();});
+  /* default starting point: Bold copy (headline+message option 5) + Bold creative */
+  const _hs=w.querySelector('.hsel'); if(_hs){_hs.value='5';_hs.dispatchEvent(new Event('change'));}
+  const _ms=w.querySelector('.msel'); if(_ms){_ms.value='5';_ms.dispatchEvent(new Event('change'));}
+  const _bs=w.querySelector('.sub[data-d="bold"]'); if(_bs)_bs.click();
 });
 /* Bold creative set gallery — all 6 gestures incl. the brand closer, each commentable. */
 (function(){const el=document.getElementById('boldset');if(!el)return;
@@ -504,6 +508,10 @@ const GADS = {"pulled":"2026-07 live","customer_id":"9399506772","campaigns":[{"
   const phone=p=>{p=(p||'').replace(/\D/g,'');return p.length===10?'('+p.slice(0,3)+') '+p.slice(3,6)+'-'+p.slice(6):p;};
   const LOGO=GADS.logo, BNAME=GADS.business_name||'Credo Legal';
   const BOLDS=(typeof BOLD_SET!=='undefined'?BOLD_SET:[]).map(b=>({src:b.gsrc||b.src,label:b.g}));
+  /* bold creatives in all 3 PMax formats (index-aligned with BOLDS / BOLD_SET) */
+  const GBOLD3=(typeof BOLD_SET!=='undefined'?BOLD_SET:[]).map(b=>({landscape:b.gls,square:b.gsrc,portrait:b.gpt,label:b.g}));
+  /* ad-group theme -> default bold creative index (into BOLDS: pointing0 stop1 fist2 pinch3 offer4 heart5) */
+  const THEME2G={lawsuit:2,harassment:1,fdcpa:0,garnishment:4,creditcard:3,medical:3,collection:0,lien:2};
 
   /* ---------- RSA builder card ---------- */
   function rsaCard(c, ag){
@@ -511,15 +519,16 @@ const GADS = {"pulled":"2026-07 live","customer_id":"9399506772","campaigns":[{"
       .concat((c.adImages||[]).map(s=>({src:s,label:'Ad image'})))
       .concat(BOLDS.map(b=>({src:b.src,label:'Bold: '+b.label})));
     const disp=host(ag.finalUrl)+(ag.path1?'/'+ag.path1:'')+(ag.path2?'/'+ag.path2:'');
-    const st={v:'live', h:[0,1,2], d:[0,1],
+    const bIdx=(THEME2G[ag.theme]!=null?THEME2G[ag.theme]:2);   /* default: bold copy + mapped bold creative */
+    const st={v:'bold', h:[0,1,2], d:[0,1], cr:1+(c.adImages||[]).length+bIdx,
       co:new Set((c.callouts||[]).slice(0,4).map((_,i)=>i)),
       sn:new Set((c.snippets&&c.snippets.length)?[0]:[]),
-      call:!!c.call, cr:0};
+      call:!!c.call};
     const el=document.createElement('div'); el.className='rsa';
     el.dataset.cn=c.name; el.dataset.gn=ag.name;
     el.innerHTML=
       '<div class="rsa-hd"><span class="nm">'+esc(ag.name)+'</span><span class="du">'+esc(disp)+'</span>'+
-        '<span class="sp"></span><span class="gvar"><button data-v="live" class="on">Live</button><button data-v="bold">Bold</button></span></div>'+
+        '<span class="sp"></span><span class="gvar"><button data-v="live">Live</button><button data-v="bold" class="on">Bold</button></span></div>'+
       '<div class="rsa-bd"><div class="rsa-ctl"></div><div class="rsa-pv"></div></div>';
     const ctl=el.querySelector('.rsa-ctl'), pv=el.querySelector('.rsa-pv');
     const rsa=()=>st.v==='bold'?ag.bold:ag.live;
@@ -587,8 +596,13 @@ const GADS = {"pulled":"2026-07 live","customer_id":"9399506772","campaigns":[{"
 
   /* ---------- PMax builder card ---------- */
   function pmaxCard(g){
-    const imgs={landscape:g.marketing||[], square:g.square||[], portrait:(g.portrait||[]).concat(g.tallPortrait||[])};
-    const st={fmt:'landscape', h:0, lh:0, d:0, img:0};
+    const nMkt=(g.marketing||[]).length;
+    /* native format assets + the Bold creatives appended in each format */
+    const imgs={landscape:(g.marketing||[]).concat(GBOLD3.map(x=>x.landscape)),
+                square:(g.square||[]).concat(GBOLD3.map(x=>x.square)),
+                portrait:(g.portrait||[]).concat(g.tallPortrait||[]).concat(GBOLD3.map(x=>x.portrait))};
+    const PMX2G={Collection_Lawsuit:2, Harassment:0};   /* default to a mapped Bold creative */
+    const st={fmt:'landscape', h:0, lh:0, d:0, img:nMkt+(PMX2G[g.name]!=null?PMX2G[g.name]:2)};
     const logo=(g.logos&&g.logos[0])||LOGO;
     const el=document.createElement('div'); el.className='pmx';
     el.innerHTML='<div class="pmx-hd">'+esc(g.name)+' <span>· '+esc(host(g.finalUrl))+' · PMax asset group</span></div>'+
@@ -618,7 +632,10 @@ const GADS = {"pulled":"2026-07 live","customer_id":"9399506772","campaigns":[{"
     }
     function paint(){renderCtl();renderPv();}
     ctl.addEventListener('click',e=>{const b=e.target.closest('[data-k]');if(!b)return;st[b.dataset.k]=+b.dataset.i;paint();});
-    pv.addEventListener('click',e=>{const b=e.target.closest('[data-f]');if(!b)return;st.fmt=b.dataset.f;st.img=0;paint();});
+    pv.addEventListener('click',e=>{const b=e.target.closest('[data-f]');if(!b)return;
+      const nat=f=>f==='landscape'?nMkt:f==='square'?(g.square||[]).length:((g.portrait||[]).length+(g.tallPortrait||[]).length);
+      const gi=st.img-nat(st.fmt);            /* >=0 means a Bold creative is selected — keep it across formats */
+      st.fmt=b.dataset.f; st.img=gi>=0?nat(st.fmt)+gi:0; paint();});
     paint();
     return el;
   }
