@@ -133,10 +133,31 @@ header.page h1{margin:0 0 4px;font-family:Georgia,serif;font-size:26px;color:var
 .bcard figcaption b{display:block;color:#1a1a1a;font-size:12.5px}
 .bcard figcaption span{color:var(--sec)}
 .bold-sub.on{background:var(--red);border-color:var(--red);color:#fff}
+#safezones{max-width:960px;margin:26px auto 0;padding:16px 12px 4px;border-top:1px solid var(--div)}
+.szpick{font-size:12px;color:var(--sec);margin:0 2px 8px;display:flex;flex-wrap:wrap;gap:5px;align-items:center}
+.szlegend{font-size:11px;color:var(--sec);margin:0 2px 12px;display:flex;align-items:center;gap:6px}
+.szlegend .k{display:inline-block;width:20px;height:12px;border-radius:3px;vertical-align:middle}
+.szlegend .k.zone{background:repeating-linear-gradient(45deg,rgba(200,20,20,.5) 0 5px,rgba(200,20,20,.25) 5px 10px);border:1px solid rgba(200,20,20,.6)}
+.szlegend .k.safe{border:2px dashed rgba(20,140,60,.9)}
+.szgrid{display:flex;flex-wrap:wrap;gap:20px;justify-content:center}
+.szcard{width:auto;max-width:100%}
+.szframe{position:relative;border-radius:11px;overflow:hidden;background:#000;border:1px solid var(--div);margin:0 auto}
+.szframe img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.szband{position:absolute;background:repeating-linear-gradient(45deg,rgba(200,20,20,.5) 0 7px,rgba(200,20,20,.26) 7px 14px);border:1px solid rgba(200,20,20,.55);display:flex;align-items:center;justify-content:center}
+.szband span{font:600 9px -apple-system,sans-serif;color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.7);letter-spacing:.02em;text-align:center;padding:0 4px;text-transform:uppercase}
+.szsafe{position:absolute;border:2px dashed rgba(40,200,90,.95);border-radius:4px;pointer-events:none;box-shadow:0 0 0 1px rgba(0,0,0,.25) inset}
+.szsafe.szok{border-color:rgba(40,200,90,.8)}
+.szcard figcaption{margin-top:8px;text-align:center;max-width:300px}
+.szcard figcaption b{font-size:13px;color:#1a1a1a}
+.szcard figcaption span{font-family:ui-monospace,Menlo,monospace;font-size:10.5px;color:var(--sec);margin-left:5px}
+.szcard figcaption em{display:block;font-style:normal;font-size:10.5px;font-weight:600;margin-top:3px}
+.szcard figcaption em.warn{color:var(--red)}
+.szcard figcaption em.ok{color:#128c3c}
+.szcard figcaption p{font-size:11px;color:var(--sec);line-height:1.4;margin:3px 0 0}
 </style></head><body>
 <header class="page"><h1>Crēdo Legal — Ad Review Hub</h1><p><b>Meta ✓</b> · <b>Google ✓</b> (live · credolegal.com verticals). Two channels via the toggle below. <b>Meta:</b> Facebook-feed preview of 14 ads — pick a Headline and Message variant per ad (incl. the new <b>Bold / Direct</b> approach) and a Creative (Illustration / Photo / Still life / 9:16 Video, or a <b>Bold</b> red hand-gesture visual; the full set is shown at the top). <b>Google:</b> build any served variant — pick up to 3 headlines + 2 descriptions per ad group (Live ↔ Bold), toggle the real campaign extensions (callouts / structured snippets / call), choose the creative shown beside the ad, and recombine the <b>Performance Max</b> asset groups. Pre-spend review — Bold copy and all creatives are draft, pending legal sign-off.</p></header>
 <div class="chantabs" id="chantabs"><button data-ch="meta" class="on">Meta</button><button data-ch="google">Google</button></div>
-<div id="meta-view"><section id="boldset"></section><div class="feed">
+<div id="meta-view"><section id="boldset"></section><section id="safezones"></section><div class="feed">
 <div class="setlabel">Credit Card <span>· AS_CreditCard_NW</span></div>
 <div class="adwrap" data-ad="CC_Lawsuit">
 <div class="adtitle">Sued over a card <span>· CC_Lawsuit</span></div>
@@ -464,6 +485,42 @@ document.querySelectorAll('.adwrap').forEach(w=>{
 (function(){const el=document.getElementById('boldset');if(!el)return;
   el.innerHTML='<h2 class="bstitle">Bold creative set <span>6 red hand-gesture visuals with hard-baked copy · draft, pending legal sign-off</span></h2>'+
     '<div class="brow">'+BOLD_SET.map(b=>'<figure class="bcard" data-bg="'+b.f+'" data-comment-target data-comment-id="boldset-'+b.f+'" data-variant-note="Bold creative · '+b.g+'"><img loading="lazy" src="'+b.src+'" alt="'+b.h+'"><figcaption><b>'+b.g+'</b><span>'+b.u+'</span></figcaption></figure>').join('')+'</div>';
+})();
+/* Placement safe zones: one example creative laid over every Meta placement, with the
+ * reserved UI zones shaded and the safe area outlined. Safe-zone %s are Meta's published
+ * guidance (approx; varies by app version). Meta ratio files come from BOLD_SET[].m. */
+(function(){const el=document.getElementById('safezones');if(!el)return;
+  const PL=[
+    {n:'Facebook Feed',s:'FB',r:'1x1',ar:'1 / 1',w:250,z:{},note:'Full image shown. Copy is safe.'},
+    {n:'Instagram Feed',s:'IG',r:'4x5',ar:'4 / 5',w:250,z:{},note:'Full image shown. Copy is safe.'},
+    {n:'Stories',s:'FB & IG',r:'9x16',ar:'9 / 16',w:216,z:{top:14,bottom:20},note:'Keep copy out of the top 14% (profile) and bottom 20% (name + CTA).'},
+    {n:'Reels',s:'FB & IG',r:'9x16',ar:'9 / 16',w:216,z:{top:13,bottom:35,right:6},note:'Reels UI covers the bottom ~35% and the right rail — a bottom CTA is hidden here.'},
+    {n:'Right column',s:'FB',r:'1_91x1',ar:'1.91 / 1',w:300,z:{},note:'Full image shown. Copy is safe.'}
+  ];
+  let cur=BOLD_SET.find(b=>b.f==='fist')||BOLD_SET[0];
+  function band(style,label){return '<div class="szband" style="'+style+'"><span>'+label+'</span></div>';}
+  function card(p){
+    const z=p.z, t=z.top||0, b=z.bottom||0, rr=z.right||0;
+    let bands='';
+    if(t) bands+=band('top:0;left:0;right:0;height:'+t+'%','Profile / UI · '+t+'%');
+    if(b) bands+=band('bottom:0;left:0;right:0;height:'+b+'%',(p.n==='Reels'?'Reels UI':'Name · CTA')+' · '+b+'%');
+    if(rr) bands+=band('top:'+t+'%;bottom:'+b+'%;right:0;width:'+rr+'%','');
+    const hasZone=t||b||rr;
+    const safe=hasZone?'<div class="szsafe" style="top:'+t+'%;bottom:'+b+'%;left:1.5%;right:'+(rr+1.5)+'%"></div>':'<div class="szsafe szok" style="inset:2%"></div>';
+    return '<figure class="szcard"><div class="szframe" style="width:'+p.w+'px;aspect-ratio:'+p.ar+'">'+
+      '<img src="'+cur.m[p.r]+'" alt="">'+bands+safe+'</div>'+
+      '<figcaption><b>'+p.n+'</b> <span>'+p.s+' · '+p.r.replace('_','.').replace('x',':')+'</span>'+
+      '<em class="'+(hasZone?'warn':'ok')+'">'+(hasZone?'⚠ safe zone applies':'✓ all safe')+'</em>'+
+      '<p>'+p.note+'</p></figcaption></figure>';
+  }
+  function draw(){
+    el.innerHTML='<h2 class="bstitle">Placement safe zones <span>one creative across every Meta placement · shaded = area covered by app UI (keep copy out) · approx Meta guidance</span></h2>'+
+      '<div class="szpick">Example creative: '+BOLD_SET.map(b=>'<button class="chip small'+(b===cur?' on':'')+'" data-f="'+b.f+'">'+b.g+'</button>').join('')+'</div>'+
+      '<div class="szlegend"><span class="k zone"></span> reserved (app UI) &nbsp; <span class="k safe"></span> safe area</div>'+
+      '<div class="szgrid">'+PL.map(card).join('')+'</div>';
+    el.querySelector('.szpick').addEventListener('click',e=>{const btn=e.target.closest('button[data-f]');if(!btn)return;cur=BOLD_SET.find(b=>b.f===btn.dataset.f);draw();});
+  }
+  draw();
 })();
 /* __rwReveal: called by the review widget when a comment row is clicked. Parses
  * the comment's anchor, flips the matching dropdown/tab so that variant is on
