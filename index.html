@@ -154,6 +154,55 @@ header.page h1{margin:0 0 4px;font-family:Georgia,serif;font-size:26px;color:var
 .szcard figcaption em.warn{color:var(--red)}
 .szcard figcaption em.ok{color:#128c3c}
 .szcard figcaption p{font-size:11px;color:var(--sec);line-height:1.4;margin:3px 0 0}
+/* placement switcher */
+.dirbar{margin:0 auto 6px;max-width:540px}
+.placemock{padding:14px 4px 6px;display:flex;justify-content:center}
+.placemock .more{color:#8a8d91;font-weight:400}
+.pm-av{width:30px;height:30px;border-radius:50%;background:linear-gradient(45deg,#feda75,#d62976,#4f5bd5);flex:0 0 auto;display:inline-block}
+.pm-av.sm{width:24px;height:24px;vertical-align:middle}
+/* Instagram feed */
+.pm-ig{width:100%;max-width:360px;border:1px solid var(--div);border-radius:10px;overflow:hidden;background:#fff;font-family:-apple-system,sans-serif}
+.pm-ig .ig-hd{display:flex;align-items:center;gap:9px;padding:9px 11px}
+.pm-ig .ig-nm{flex:1;line-height:1.15}.pm-ig .ig-nm b{font-size:13px}.pm-ig .ig-nm small{display:block;font-size:11px;color:var(--sec)}
+.pm-ig .ig-dots{color:#333;font-weight:700}
+.pm-ig .ig-media{width:100%;object-fit:cover;display:block;background:#e4e6eb}
+.pm-ig .ig-cta{display:flex;justify-content:space-between;align-items:center;padding:10px 13px;font:600 13px sans-serif;color:#00376b;background:#fafafa;border-top:1px solid #efefef}
+.pm-ig .ig-acts{display:flex;gap:15px;padding:9px 12px 5px;font-size:19px}.pm-ig .ig-acts .ig-bk{margin-left:auto}
+.pm-ig .ig-likes{font:600 13px sans-serif;padding:0 12px 3px}
+.pm-ig .ig-cap{font-size:13px;padding:0 12px 12px;line-height:1.4}.pm-ig .ig-cap b{font-weight:600}
+/* Stories / Reels phone */
+.pm-phone{width:270px;aspect-ratio:9/16;border-radius:20px;overflow:hidden;position:relative;background:#111;box-shadow:0 5px 22px rgba(0,0,0,.28)}
+.pm-phone .pm-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.st-top{position:absolute;top:0;left:0;right:0;padding:9px 11px 0;z-index:2}
+.st-prog{display:flex;gap:3px;margin-bottom:8px}.st-prog i{flex:1;height:2.5px;background:rgba(255,255,255,.45);border-radius:2px}.st-prog i:first-child{background:#fff}
+.st-hd{display:flex;align-items:center;gap:7px;color:#fff;font-size:12px;text-shadow:0 1px 3px rgba(0,0,0,.55)}
+.st-hd b{font-weight:600}.st-hd small{color:rgba(255,255,255,.85);font-size:11px}.st-hd .st-x{margin-left:auto;font-size:13px;opacity:.9}
+.st-btm{position:absolute;left:0;right:0;bottom:0;padding:14px 16px 18px;background:linear-gradient(transparent,rgba(0,0,0,.55));text-align:center;z-index:2}
+.st-hl{color:#fff;font:600 14px sans-serif;text-shadow:0 1px 4px rgba(0,0,0,.6);margin-bottom:10px;line-height:1.3}
+.st-cta{background:#fff;color:#111;border:0;border-radius:8px;padding:9px 14px;font:600 13px sans-serif;width:100%;cursor:pointer}
+.pm-phone.reels .rl-rail{position:absolute;right:8px;bottom:96px;display:flex;flex-direction:column;align-items:center;gap:2px;color:#fff;font-size:19px;text-shadow:0 1px 3px rgba(0,0,0,.6);z-index:2}
+.rl-rail small{font-size:10px;margin-bottom:7px}
+.rl-rail .rl-disc{width:24px;height:24px;border-radius:6px;background:linear-gradient(45deg,#666,#222);border:2px solid #fff;margin-top:5px}
+.rl-btm{position:absolute;left:0;right:42px;bottom:0;padding:10px 12px 15px;background:linear-gradient(transparent,rgba(0,0,0,.5));color:#fff;z-index:2}
+.rl-nm{font-size:12px;margin-bottom:5px}.rl-nm b{font-weight:600}.rl-nm small{color:rgba(255,255,255,.85)}
+.rl-cap{font-size:11.5px;line-height:1.35;margin-bottom:9px;text-shadow:0 1px 3px rgba(0,0,0,.6)}
+.rl-cta{background:rgba(255,255,255,.95);color:#111;border:0;border-radius:7px;padding:8px 12px;font:600 12px sans-serif;cursor:pointer}
+/* Right column */
+.pm-right{width:322px;border:1px solid var(--div);border-radius:8px;overflow:hidden;background:#fff;display:flex}
+.pm-right .rc-img{width:125px;height:125px;object-fit:cover;flex:0 0 auto;background:#e4e6eb}
+.pm-right .rc-tx{padding:9px 11px;min-width:0}
+.rc-hl{font:600 13px sans-serif;color:#1a1a1a;line-height:1.3}.rc-dom{font-size:11px;color:var(--sec);margin-top:4px;text-transform:uppercase}.rc-nm{font-size:11px;color:var(--sec);margin-top:2px}
+/* Marketplace */
+.pm-mkt{width:232px;border:1px solid var(--div);border-radius:9px;overflow:hidden;background:#fff}
+.pm-mkt .mk-img{width:100%;aspect-ratio:1/1;object-fit:cover;background:#e4e6eb;display:block}
+.mk-tx{padding:8px 11px 4px}.mk-hl{font:600 13px sans-serif;color:#1a1a1a;line-height:1.3}.mk-sp{font-size:11px;color:var(--sec);margin-top:3px}
+.pm-mkt .mk-cta{margin:8px 11px 11px;padding:7px;width:calc(100% - 22px);border:1px solid var(--div);border-radius:6px;background:#e7f3ff;color:#1877f2;font:600 12px sans-serif;cursor:pointer}
+/* Messenger */
+.pm-msgr{width:342px;display:flex;align-items:center;gap:11px;padding:9px 11px;border:1px solid var(--div);border-radius:12px;background:#fff}
+.pm-msgr .mg-img{width:48px;height:48px;border-radius:9px;object-fit:cover;flex:0 0 auto;background:#e4e6eb}
+.mg-tx{flex:1;min-width:0}.mg-nm{font:600 13px sans-serif}.mg-nm small{color:var(--sec);font-weight:400;margin-left:5px}
+.mg-ds{font-size:12px;color:var(--sec);margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mg-chev{color:var(--sec);font-size:18px}
 </style></head><body>
 <header class="page"><h1>Crēdo Legal — Ad Review Hub</h1><p><b>Meta ✓</b> · <b>Google ✓</b> (live · credolegal.com verticals). Two channels via the toggle below. <b>Meta:</b> Facebook-feed preview of 14 ads — pick a Headline and Message variant per ad (incl. the new <b>Bold / Direct</b> approach) and a Creative (Illustration / Photo / Still life / 9:16 Video, or a <b>Bold</b> red hand-gesture visual; the full set is shown at the top). <b>Google:</b> build any served variant — pick up to 3 headlines + 2 descriptions per ad group (Live ↔ Bold), toggle the real campaign extensions (callouts / structured snippets / call), choose the creative shown beside the ad, and recombine the <b>Performance Max</b> asset groups. Pre-spend review — Bold copy and all creatives are draft, pending legal sign-off.</p></header>
 <div class="chantabs" id="chantabs"><button data-ch="meta" class="on">Meta</button><button data-ch="google">Google</button></div>
@@ -454,12 +503,50 @@ const BOLD_SET=[
  {f:'heart',src:'assets/bold/bake-heart-m-4x5.jpeg',gsrc:'assets/bold/bake-heart-g-1x1.jpeg',gls:'assets/bold/bake-heart-g-1_91x1.jpeg',gpt:'assets/bold/bake-heart-g-4x5.jpeg',m:{'1x1':'assets/bold/bake-heart-m-1x1.jpeg','4x5':'assets/bold/bake-heart-m-4x5.jpeg','9x16':'assets/bold/bake-heart-m-9x16.jpeg','1_91x1':'assets/bold/bake-heart-m-1_91x1.jpeg'},g:'Heart hands',h:"Don't face your debt collectors alone",u:'Brand closer / All-States'}];
 const BOLD_BY_SLUG={};BOLD_SET.forEach(b=>{BOLD_BY_SLUG[b.f]=b;});
 const RVN=()=>{if(window.__rwRefresh)window.__rwRefresh();};
+/* ===== Placement switcher: render each ad in every Meta placement (specs per Meta ads
+ * guide, July 2026): Feed 4:5 (primary text truncates ~125 → "more", headline ~40,
+ * desc ~30, chrome around the image); Stories 9:16 (top ~14% / bottom ~20% reserved,
+ * ad headline+CTA overlaid in the bottom band); Reels 9:16 (bottom ~35% reserved). ===== */
+const PLACEMENTS=[
+ {id:'fb_feed',label:'Facebook Feed',kind:'fbfeed',app:'fb',ratio:'4x5'},
+ {id:'ig_feed',label:'Instagram Feed',kind:'igfeed',app:'ig',ratio:'4x5'},
+ {id:'fb_story',label:'Facebook Stories',kind:'story',app:'fb',ratio:'9x16'},
+ {id:'ig_story',label:'Instagram Stories',kind:'story',app:'ig',ratio:'9x16'},
+ {id:'fb_reels',label:'Facebook Reels',kind:'reels',app:'fb',ratio:'9x16'},
+ {id:'ig_reels',label:'Instagram Reels',kind:'reels',app:'ig',ratio:'9x16'},
+ {id:'fb_right',label:'Facebook Right Column',kind:'right',app:'fb',ratio:'1x1'},
+ {id:'fb_market',label:'Marketplace',kind:'market',app:'fb',ratio:'1x1'},
+ {id:'messenger',label:'Messenger Inbox',kind:'messenger',app:'fb',ratio:'1x1'}
+];
+const PLesc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function PLtr(s,n){s=(s||'').trim();if(s.length<=n)return PLesc(s);return PLesc(s.slice(0,n).replace(/\s+\S*$/,''))+'… <span class="more">more</span>';}
+function PLpic(cre,cls,style){style=style||'';if(!cre||!cre.src)return '<div class="'+cls+'" style="'+style+';background:#e4e6eb"></div>';
+  return cre.v?'<video class="'+cls+'" style="'+style+'" src="'+PLesc(cre.src)+'" autoplay muted loop playsinline></video>':'<img class="'+cls+'" style="'+style+'" src="'+PLesc(cre.src)+'" alt="">';}
+function PLbg(cre){if(!cre||!cre.src)return '<div class="pm-bg" style="background:#333"></div>';
+  return cre.v?'<video class="pm-bg" src="'+PLesc(cre.src)+'" autoplay muted loop playsinline></video>':'<img class="pm-bg" src="'+PLesc(cre.src)+'" alt="">';}
+const PLnm=(d,pl)=>pl.app==='ig'?d.igname:d.name;
+const PM={
+ igfeed:(d)=>'<div class="pm-ig"><div class="ig-hd"><span class="pm-av"></span><div class="ig-nm"><b>'+PLesc(d.igname)+'</b><small>Sponsored</small></div><span class="ig-dots">···</span></div>'+
+   PLpic(d.cre,'ig-media','aspect-ratio:4/5')+
+   '<div class="ig-cta"><span>'+PLesc(d.cta)+'</span><span>›</span></div>'+
+   '<div class="ig-acts"><span>♡</span><span>💬</span><span>➤</span><span class="ig-bk">🔖</span></div>'+
+   '<div class="ig-likes">1,204 likes</div><div class="ig-cap"><b>'+PLesc(d.igname)+'</b> '+PLtr(d.primary,125)+'</div></div>',
+ story:(d,pl)=>'<div class="pm-phone">'+PLbg(d.cre)+
+   '<div class="st-top"><div class="st-prog"><i></i><i></i><i></i></div><div class="st-hd"><span class="pm-av sm"></span><b>'+PLesc(PLnm(d,pl))+'</b><small>Sponsored</small><span class="st-x">✕</span></div></div>'+
+   '<div class="st-btm"><div class="st-hl">'+PLtr(d.headline,40)+'</div><button class="st-cta">'+PLesc(d.cta)+'</button></div></div>',
+ reels:(d,pl)=>'<div class="pm-phone reels">'+PLbg(d.cre)+
+   '<div class="rl-rail"><span>♡</span><small>1.2K</small><span>💬</span><small>84</small><span>➤</span><span>⋯</span><span class="rl-disc"></span></div>'+
+   '<div class="rl-btm"><div class="rl-nm"><span class="pm-av sm"></span> <b>'+PLesc(PLnm(d,pl))+'</b> · <small>Sponsored</small></div><div class="rl-cap">'+PLtr(d.primary,90)+'</div><button class="rl-cta">'+PLesc(d.cta)+' ›</button></div></div>',
+ right:(d)=>'<div class="pm-right">'+PLpic(d.cre,'rc-img')+'<div class="rc-tx"><div class="rc-hl">'+PLtr(d.headline,40)+'</div><div class="rc-dom">'+PLesc(d.domain)+'</div><div class="rc-nm">'+PLesc(d.name)+' · Sponsored</div></div></div>',
+ market:(d)=>'<div class="pm-mkt">'+PLpic(d.cre,'mk-img')+'<div class="mk-tx"><div class="mk-hl">'+PLtr(d.headline,40)+'</div><div class="mk-sp">Sponsored · '+PLesc(d.domain)+'</div></div><button class="mk-cta">'+PLesc(d.cta)+'</button></div>',
+ messenger:(d)=>'<div class="pm-msgr">'+PLpic(d.cre,'mg-img')+'<div class="mg-tx"><div class="mg-nm">'+PLesc(d.name)+' <small>Sponsored</small></div><div class="mg-ds">'+PLtr(d.headline,40)+'</div></div><span class="mg-chev">›</span></div>'
+};
 document.querySelectorAll('.adwrap').forEach(w=>{
   const ad=w.dataset.ad, hl=w.querySelector('.hl'), ptextEl=w.querySelector('.ptext'),
         full=ptextEl.querySelector('.full'), img=w.querySelector('.mimg'),
         vid=w.querySelector('.mvid'), imgctl=w.querySelector('.imgctl'), media=w.querySelector('.media');
-  w.querySelector('.hsel').addEventListener('change',e=>{const i=+e.target.value;hl.textContent=HEADLINES[i]||HEADLINES[0];hl.dataset.commentId='hl-'+i;RVN();});
-  w.querySelector('.msel').addEventListener('change',e=>{const i=+e.target.value;full.textContent=(ADV[ad]&&ADV[ad][i])||full.textContent;ptextEl.dataset.commentId=ad+'-msg-'+i;RVN();});
+  w.querySelector('.hsel').addEventListener('change',e=>{const i=+e.target.value;hl.textContent=HEADLINES[i]||HEADLINES[0];hl.dataset.commentId='hl-'+i;if(w.__renderPl)w.__renderPl();RVN();});
+  w.querySelector('.msel').addEventListener('change',e=>{const i=+e.target.value;full.textContent=(ADV[ad]&&ADV[ad][i])||full.textContent;ptextEl.dataset.commentId=ad+'-msg-'+i;if(w.__renderPl)w.__renderPl();RVN();});
   const st={mode:'image',dir:'d1',ratio:'4x5'};
   function paint(){
     if(st.mode==='video'){img.style.display='none';vid.style.display='block';imgctl.style.display='none';vid.play().catch(()=>{});media.dataset.commentId=ad+'-cr-video';media.dataset.variantNote='Video · 9:16';}
@@ -471,11 +558,35 @@ document.querySelectorAll('.adwrap').forEach(w=>{
       else{if(rsel)rsel.style.display='';
         const p=ASSETS[ad]&&ASSETS[ad][st.dir]&&ASSETS[ad][st.dir][st.ratio];if(p)img.src=p;
         media.dataset.commentId=ad+'-cr-'+DIRKEY[st.dir];media.dataset.variantNote=DIRLBL[st.dir]+' · '+RATLBL[st.ratio];}}
+    if(w.__renderPl)w.__renderPl();
     RVN();
   }
   w.querySelectorAll('.mode').forEach(b=>b.addEventListener('click',()=>{st.mode=b.dataset.mode;w.querySelectorAll('.mode').forEach(x=>x.classList.toggle('on',x===b));paint();}));
   w.querySelectorAll('.sub').forEach(b=>b.addEventListener('click',()=>{st.dir=b.dataset.d;w.querySelectorAll('.sub').forEach(x=>x.classList.toggle('on',x===b));paint();}));
   w.querySelector('.ratiosel').addEventListener('change',e=>{st.ratio=e.target.value;paint();});
+  /* ---- placement switcher: relocate creative controls out of the card, add a Placement
+   *      select, and render the ad in the chosen placement (or the FB feed card). ---- */
+  (function(){
+    const fb=w.querySelector('.fbcard'); const dir=w.querySelector('.dirbar'); if(dir&&dir.parentNode===fb)w.insertBefore(dir,fb);
+    const vb=w.querySelector('.varbar');
+    const lab=document.createElement('label'); lab.innerHTML='Placement <select class="plsel">'+PLACEMENTS.map(p=>'<option value="'+p.id+'">'+p.label+'</option>').join('')+'</select>';
+    vb.appendChild(lab);
+    const mock=document.createElement('div'); mock.className='placemock'; mock.hidden=true; w.appendChild(mock);
+    function creAt(r){ if(st.mode==='video')return {v:1,src:(ASSETS[ad]&&ASSETS[ad].video)};
+      if(st.dir==='bold'){const bd=BOLD_BY_SLUG[BOLD_CR[ad]];return {v:0,src:bd&&(bd.m[r]||bd.m['4x5'])};}
+      return {v:0,src:ASSETS[ad]&&ASSETS[ad][st.dir]&&ASSETS[ad][st.dir][r]}; }
+    let curPl='fb_feed';
+    w.__renderPl=function(){
+      const pl=PLACEMENTS.find(p=>p.id===curPl)||PLACEMENTS[0];
+      const rsel=w.querySelector('.ratiosel'); if(rsel)rsel.style.display=(pl.kind==='fbfeed'&&st.mode!=='video')?'':'none';
+      if(pl.kind==='fbfeed'){fb.hidden=false;mock.hidden=true;return;}
+      const d={app:pl.app,name:'Crēdo Legal',igname:'credolegal',cre:creAt(pl.ratio),
+        headline:hl.textContent,primary:full.textContent,cta:'Book Now',
+        domain:(w.querySelector('.domain')||{}).textContent||'start.credolegal.com'};
+      fb.hidden=true;mock.hidden=false;mock.innerHTML=PM[pl.kind](d,pl);
+    };
+    lab.querySelector('.plsel').addEventListener('change',e=>{curPl=e.target.value;w.__renderPl();if(window.__rwRefresh)window.__rwRefresh();});
+  })();
   /* default starting point: Bold copy (headline+message option 5) + Bold creative */
   const _hs=w.querySelector('.hsel'); if(_hs){_hs.value='5';_hs.dispatchEvent(new Event('change'));}
   const _ms=w.querySelector('.msel'); if(_ms){_ms.value='5';_ms.dispatchEvent(new Event('change'));}
