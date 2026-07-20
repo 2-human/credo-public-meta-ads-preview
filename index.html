@@ -453,6 +453,8 @@ const BOLD_SET=[
  {f:'offer',src:'assets/bold/bake-offer-m-4x5.jpeg',gsrc:'assets/bold/bake-offer-g-1x1.jpeg',gls:'assets/bold/bake-offer-g-1_91x1.jpeg',gpt:'assets/bold/bake-offer-g-4x5.jpeg',m:{'1x1':'assets/bold/bake-offer-m-1x1.jpeg','4x5':'assets/bold/bake-offer-m-4x5.jpeg','9x16':'assets/bold/bake-offer-m-9x16.jpeg','1_91x1':'assets/bold/bake-offer-m-1_91x1.jpeg'},g:'Open hand',h:'Check your debt for free',u:'Garnishment · universal CTA'},
  {f:'heart',src:'assets/bold/bake-heart-m-4x5.jpeg',gsrc:'assets/bold/bake-heart-g-1x1.jpeg',gls:'assets/bold/bake-heart-g-1_91x1.jpeg',gpt:'assets/bold/bake-heart-g-4x5.jpeg',m:{'1x1':'assets/bold/bake-heart-m-1x1.jpeg','4x5':'assets/bold/bake-heart-m-4x5.jpeg','9x16':'assets/bold/bake-heart-m-9x16.jpeg','1_91x1':'assets/bold/bake-heart-m-1_91x1.jpeg'},g:'Heart hands',h:"Don't face your debt collectors alone",u:'Brand closer / All-States'}];
 const BOLD_BY_SLUG={};BOLD_SET.forEach(b=>{BOLD_BY_SLUG[b.f]=b;});
+/* Reels-safe 9:16 variant (copy kept inside the top-13% / bottom-35% Reels safe band). */
+const BOLD_REELS={pointing:'assets/bold/bake-pointing-reels.jpeg',stop:'assets/bold/bake-stop-reels.jpeg',fist:'assets/bold/bake-fist-reels.jpeg',pinch:'assets/bold/bake-pinch-reels.jpeg',offer:'assets/bold/bake-offer-reels.jpeg',heart:'assets/bold/bake-heart-reels.jpeg'};
 const RVN=()=>{if(window.__rwRefresh)window.__rwRefresh();};
 document.querySelectorAll('.adwrap').forEach(w=>{
   const ad=w.dataset.ad, hl=w.querySelector('.hl'), ptextEl=w.querySelector('.ptext'),
@@ -494,7 +496,8 @@ document.querySelectorAll('.adwrap').forEach(w=>{
     {n:'Facebook Feed',s:'FB',r:'1x1',ar:'1 / 1',w:250,z:{},note:'Full image shown. Copy is safe.'},
     {n:'Instagram Feed',s:'IG',r:'4x5',ar:'4 / 5',w:250,z:{},note:'Full image shown. Copy is safe.'},
     {n:'Stories',s:'FB & IG',r:'9x16',ar:'9 / 16',w:216,z:{top:14,bottom:20},note:'Keep copy out of the top 14% (profile) and bottom 20% (name + CTA).'},
-    {n:'Reels',s:'FB & IG',r:'9x16',ar:'9 / 16',w:216,z:{top:13,bottom:35,right:6},note:'Reels UI covers the bottom ~35% and the right rail — a bottom CTA is hidden here.'},
+    {n:'Reels',s:'FB & IG · master',r:'9x16',ar:'9 / 16',w:216,z:{top:13,bottom:35,right:6},note:'The standard 9:16 master: bottom CTA falls inside the Reels UI band (hidden).'},
+    {n:'Reels · safe variant',s:'FB & IG',r:'9x16',ar:'9 / 16',w:216,z:{top:13,bottom:35,right:6},src:'reels',ok:1,note:'Reels-optimized: headline below the top 13%, CTA raised above the bottom 35% UI — all copy inside the safe area.'},
     {n:'Right column',s:'FB',r:'1_91x1',ar:'1.91 / 1',w:300,z:{},note:'Full image shown. Copy is safe.'}
   ];
   let cur=BOLD_SET.find(b=>b.f==='fist')||BOLD_SET[0];
@@ -507,10 +510,12 @@ document.querySelectorAll('.adwrap').forEach(w=>{
     if(rr) bands+=band('top:'+t+'%;bottom:'+b+'%;right:0;width:'+rr+'%','');
     const hasZone=t||b||rr;
     const safe=hasZone?'<div class="szsafe" style="top:'+t+'%;bottom:'+b+'%;left:1.5%;right:'+(rr+1.5)+'%"></div>':'<div class="szsafe szok" style="inset:2%"></div>';
+    const img=p.src==='reels'?BOLD_REELS[cur.f]:cur.m[p.r];
+    const ok=p.ok||!hasZone;
     return '<figure class="szcard"><div class="szframe" style="width:'+p.w+'px;aspect-ratio:'+p.ar+'">'+
-      '<img src="'+cur.m[p.r]+'" alt="">'+bands+safe+'</div>'+
+      '<img src="'+img+'" alt="">'+bands+safe+'</div>'+
       '<figcaption><b>'+p.n+'</b> <span>'+p.s+' · '+p.r.replace('_','.').replace('x',':')+'</span>'+
-      '<em class="'+(hasZone?'warn':'ok')+'">'+(hasZone?'⚠ safe zone applies':'✓ all safe')+'</em>'+
+      '<em class="'+(ok?'ok':'warn')+'">'+(ok?(hasZone?'✓ copy inside safe zone':'✓ all safe'):'⚠ safe zone applies')+'</em>'+
       '<p>'+p.note+'</p></figcaption></figure>';
   }
   function draw(){
