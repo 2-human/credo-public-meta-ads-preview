@@ -124,9 +124,19 @@ function render(){
   const counts={pending:0,resolved:0};
   all.forEach(([id,c])=>{counts[statusOf(c)]=(counts[statusOf(c)]||0)+1});
   TABS.querySelectorAll('button').forEach(b=>{b.querySelector('.rw-c').textContent=counts[TAB_OF[b.dataset.k]]||0;});
-  // outlines
+  // outlines + status dots — full outline on commented components (red while any
+  // comment is open, green when only resolved remain) + a vertical stack of dots
+  // just outside the right border: one red dot per active comment, one green per resolved.
   document.querySelectorAll('.has-comment,.has-applied-comment').forEach(e=>e.classList.remove('has-comment','has-applied-comment'));
-  all.forEach(([id,c])=>{const st=statusOf(c);if(st==='archived')return;const sel='[data-comment-id="'+(window.CSS&&CSS.escape?CSS.escape(c.anchor):c.anchor)+'"]';document.querySelectorAll(sel).forEach(a=>a.classList.add(st==='applied'?'has-applied-comment':'has-comment'))});
+  document.querySelectorAll('.rw-dots').forEach(e=>e.remove());
+  const byTarget={};
+  all.forEach(([id,c])=>{const st=statusOf(c);const sel='[data-comment-id="'+(window.CSS&&CSS.escape?CSS.escape(c.anchor):c.anchor)+'"]';const r=byTarget[sel]||(byTarget[sel]={active:0,resolved:0});if(st==='resolved')r.resolved++;else r.active++;});
+  Object.keys(byTarget).forEach(sel=>{const r=byTarget[sel];document.querySelectorAll(sel).forEach(a=>{
+    a.classList.add(r.active>0?'has-comment':'has-applied-comment');
+    const d=document.createElement('span');d.className='rw-dots';d.setAttribute('aria-hidden','true');
+    let h='';for(let i=0;i<r.active;i++)h+='<i class="rw-dot rw-dot-active"></i>';for(let i=0;i<r.resolved;i++)h+='<i class="rw-dot rw-dot-resolved"></i>';
+    d.innerHTML=h;a.appendChild(d);
+  });});
   // list for current tab
   const want=TAB_OF[FILTER];
   const rows=all.filter(([id,c])=>statusOf(c)===want).sort((a,b)=>(a[1].timestamp||0)-(b[1].timestamp||0));
