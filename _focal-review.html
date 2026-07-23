@@ -1,0 +1,33 @@
+<!doctype html><meta charset="utf-8"><title>9:16 subject-aware crop — before / after</title>
+<style>
+ body{margin:0;background:#eef0f4;font:14px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;color:#222}
+ h1{font-size:16px;margin:16px 18px 2px}p.sub{margin:0 18px 14px;color:#666;font-size:12.5px}
+ .row{display:flex;gap:20px;padding:8px 18px 26px;flex-wrap:nowrap;align-items:flex-start}
+ .pair{}
+ .pair h2{font-size:11.5px;margin:0 0 6px;color:#333;height:30px}
+ .frames{display:flex;gap:8px}
+ .f{position:relative;width:116px;aspect-ratio:9/16;border-radius:10px;overflow:hidden;background:#000;border:1px solid #ccc}
+ .f img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+ .f img.crop{transform:scale(var(--s));transform-origin:50% 100%}
+ /* Stories safe zone bands */
+ .band{position:absolute;left:0;right:0;background:repeating-linear-gradient(45deg,rgba(200,20,20,.5)0 7px,rgba(200,20,20,.26)7px 14px)}
+ .band.t{top:0;height:14%}.band.b{bottom:0;height:20%}
+ .safe{position:absolute;top:14%;bottom:20%;left:2%;right:2%;border:2px dashed rgba(40,200,90,.95);border-radius:4px}
+ .cap{font-size:11px;color:#777;text-align:center;margin-top:4px}
+</style>
+<h1>9:16 subject-aware crop — before (full frame) vs after (focal crop)</h1>
+<p class="sub">Green = Stories safe zone (top 14% / bottom 20%, fixed by Meta). "After" lifts the person / documents into it. Standalone review page.</p>
+<div class="row" id="row"></div>
+<script>
+ const items=[
+   ['Person · Collection Lawsuit (Photo)','assets/lawsuit/v3-pilot/Collection_Lawsuit_D2_Photo_9x16.png',1.23],
+   ['Person · Post-Judgment Garnishment (Photo)','assets/garnishment/v3-pilot/Post_Judgment_Garn_D2_Photo_9x16.png',1.372],
+   ['Documents · Served Papers (Still life)','assets/lawsuit/v3-pilot/Served_Papers_D3_StillLife_9x16.png',1.55],
+   ['Phone · Medical Rights (Illustration)','assets/medical-debt/v3-pilot/Medical_Rights_D1_Illustration_9x16.png',1.178],
+ ];
+ document.getElementById('row').innerHTML=items.map(([t,src,s])=>`
+   <div class="pair"><h2>${t} · S=${s}</h2><div class="frames">
+     <div><div class="f"><img src="${src}"><div class="band t"></div><div class="band b"></div><div class="safe"></div></div><div class="cap">before</div></div>
+     <div><div class="f"><img class="crop" style="--s:${s}" src="${src}"><div class="band t"></div><div class="band b"></div><div class="safe"></div></div><div class="cap">after</div></div>
+   </div></div>`).join('');
+</script>
