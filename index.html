@@ -134,6 +134,9 @@ header.page h1{margin:0 0 4px;font-family:Georgia,serif;font-size:26px;color:var
 .bcard figcaption span{color:var(--sec)}
 .bold-sub.on{background:var(--red);border-color:var(--red);color:#fff}
 #safezones{max-width:960px;margin:26px auto 0;padding:16px 12px 4px;border-top:1px solid var(--div)}
+.szsel{font:inherit;font-size:13px;padding:5px 9px;border:1px solid var(--div);border-radius:6px;background:#fff;max-width:280px;cursor:pointer}
+.szanim{font-size:11.5px;color:#8a6d3b;margin-left:10px}
+.szframe video{width:100%;height:100%;object-fit:cover;display:block}
 .szpick{font-size:12px;color:var(--sec);margin:0 2px 8px;display:flex;flex-wrap:wrap;gap:5px;align-items:center}
 .szlegend{font-size:11px;color:var(--sec);margin:0 2px 12px;display:flex;align-items:center;gap:6px}
 .szlegend .k{display:inline-block;width:20px;height:12px;border-radius:3px;vertical-align:middle}
@@ -495,12 +498,12 @@ const BOLD_CR={CC_Lawsuit:'fist',Collection_Lawsuit:'fist',Creditor_Suing:'fist'
  * the HTML) copies them all. m = Meta treatment (4 ratios, matches campaign dims);
  * gsrc/gls/gpt = Google treatment (top copy only): square / landscape / portrait. */
 const BOLD_SET=[
- {f:'pointing',src:'assets/bold/bake-pointing-m-4x5.jpeg',gsrc:'assets/bold/bake-pointing-g-1x1.jpeg',gls:'assets/bold/bake-pointing-g-1_91x1.jpeg',gpt:'assets/bold/bake-pointing-g-4x5.jpeg',m:{'1x1':'assets/bold/bake-pointing-m-1x1.jpeg','4x5':'assets/bold/bake-pointing-m-4x5.jpeg','9x16':'assets/bold/bake-pointing-m-9x16.jpeg','1_91x1':'assets/bold/bake-pointing-m-1_91x1.jpeg'},g:'Pointing finger',h:'Your debt collector may be breaking the law',u:'FDCPA · Multiple Collectors'},
- {f:'stop',src:'assets/bold/bake-stop-m-4x5.jpeg',gsrc:'assets/bold/bake-stop-g-1x1.jpeg',gls:'assets/bold/bake-stop-g-1_91x1.jpeg',gpt:'assets/bold/bake-stop-g-4x5.jpeg',m:{'1x1':'assets/bold/bake-stop-m-1x1.jpeg','4x5':'assets/bold/bake-stop-m-4x5.jpeg','9x16':'assets/bold/bake-stop-m-9x16.jpeg','1_91x1':'assets/bold/bake-stop-m-1_91x1.jpeg'},g:'Open palm',h:'Stop debt collector calls',u:'Harassment: card · creditor · medical'},
- {f:'fist',src:'assets/bold/bake-fist-m-4x5.jpeg',gsrc:'assets/bold/bake-fist-g-1x1.jpeg',gls:'assets/bold/bake-fist-g-1_91x1.jpeg',gpt:'assets/bold/bake-fist-g-4x5.jpeg',m:{'1x1':'assets/bold/bake-fist-m-1x1.jpeg','4x5':'assets/bold/bake-fist-m-4x5.jpeg','9x16':'assets/bold/bake-fist-m-9x16.jpeg','1_91x1':'assets/bold/bake-fist-m-1_91x1.jpeg'},g:'Clenched fist',h:'Sued over a debt? Make them prove it',u:'All lawsuit + served-papers ads'},
- {f:'pinch',src:'assets/bold/bake-pinch-m-4x5.jpeg',gsrc:'assets/bold/bake-pinch-g-1x1.jpeg',gls:'assets/bold/bake-pinch-g-1_91x1.jpeg',gpt:'assets/bold/bake-pinch-g-4x5.jpeg',m:{'1x1':'assets/bold/bake-pinch-m-1x1.jpeg','4x5':'assets/bold/bake-pinch-m-4x5.jpeg','9x16':'assets/bold/bake-pinch-m-9x16.jpeg','1_91x1':'assets/bold/bake-pinch-m-1_91x1.jpeg'},g:'Pinch',h:'Your debt may be less than they say',u:'CC negotiation · Medical rights'},
- {f:'offer',src:'assets/bold/bake-offer-m-4x5.jpeg',gsrc:'assets/bold/bake-offer-g-1x1.jpeg',gls:'assets/bold/bake-offer-g-1_91x1.jpeg',gpt:'assets/bold/bake-offer-g-4x5.jpeg',m:{'1x1':'assets/bold/bake-offer-m-1x1.jpeg','4x5':'assets/bold/bake-offer-m-4x5.jpeg','9x16':'assets/bold/bake-offer-m-9x16.jpeg','1_91x1':'assets/bold/bake-offer-m-1_91x1.jpeg'},g:'Open hand',h:'Check your debt for free',u:'Garnishment · universal CTA'},
- {f:'heart',src:'assets/bold/bake-heart-m-4x5.jpeg',gsrc:'assets/bold/bake-heart-g-1x1.jpeg',gls:'assets/bold/bake-heart-g-1_91x1.jpeg',gpt:'assets/bold/bake-heart-g-4x5.jpeg',m:{'1x1':'assets/bold/bake-heart-m-1x1.jpeg','4x5':'assets/bold/bake-heart-m-4x5.jpeg','9x16':'assets/bold/bake-heart-m-9x16.jpeg','1_91x1':'assets/bold/bake-heart-m-1_91x1.jpeg'},g:'Heart hands',h:"Don't face your debt collectors alone",u:'Brand closer / All-States'}];
+ {f:'pointing',src:'assets/bold/bake-pointing-m-4x5.jpeg',gsrc:'assets/bold/bake-pointing-g-1x1.jpeg',gls:'assets/bold/bake-pointing-g-1_91x1.jpeg',gpt:'assets/bold/bake-pointing-g-4x5.jpeg',m:{'1x1':'assets/bold/bake-pointing-m-1x1.jpeg','4x5':'assets/bold/bake-pointing-m-4x5.jpeg','9x16':'assets/bold/bake-pointing-m-9x16.jpeg','1_91x1':'assets/bold/bake-pointing-m-1_91x1.jpeg'},reel:'assets/bold/video/bake-pointing-reel.mp4',g:'Pointing finger',h:'Your debt collector may be breaking the law',u:'FDCPA · Multiple Collectors'},
+ {f:'stop',src:'assets/bold/bake-stop-m-4x5.jpeg',gsrc:'assets/bold/bake-stop-g-1x1.jpeg',gls:'assets/bold/bake-stop-g-1_91x1.jpeg',gpt:'assets/bold/bake-stop-g-4x5.jpeg',m:{'1x1':'assets/bold/bake-stop-m-1x1.jpeg','4x5':'assets/bold/bake-stop-m-4x5.jpeg','9x16':'assets/bold/bake-stop-m-9x16.jpeg','1_91x1':'assets/bold/bake-stop-m-1_91x1.jpeg'},reel:'assets/bold/video/bake-stop-reel.mp4',g:'Open palm',h:'Stop debt collector calls',u:'Harassment: card · creditor · medical'},
+ {f:'fist',src:'assets/bold/bake-fist-m-4x5.jpeg',gsrc:'assets/bold/bake-fist-g-1x1.jpeg',gls:'assets/bold/bake-fist-g-1_91x1.jpeg',gpt:'assets/bold/bake-fist-g-4x5.jpeg',m:{'1x1':'assets/bold/bake-fist-m-1x1.jpeg','4x5':'assets/bold/bake-fist-m-4x5.jpeg','9x16':'assets/bold/bake-fist-m-9x16.jpeg','1_91x1':'assets/bold/bake-fist-m-1_91x1.jpeg'},reel:'assets/bold/video/bake-fist-reel.mp4',g:'Clenched fist',h:'Sued over a debt? Make them prove it',u:'All lawsuit + served-papers ads'},
+ {f:'pinch',src:'assets/bold/bake-pinch-m-4x5.jpeg',gsrc:'assets/bold/bake-pinch-g-1x1.jpeg',gls:'assets/bold/bake-pinch-g-1_91x1.jpeg',gpt:'assets/bold/bake-pinch-g-4x5.jpeg',m:{'1x1':'assets/bold/bake-pinch-m-1x1.jpeg','4x5':'assets/bold/bake-pinch-m-4x5.jpeg','9x16':'assets/bold/bake-pinch-m-9x16.jpeg','1_91x1':'assets/bold/bake-pinch-m-1_91x1.jpeg'},reel:'assets/bold/video/bake-pinch-reel.mp4',g:'Pinch',h:'Your debt may be less than they say',u:'CC negotiation · Medical rights'},
+ {f:'offer',src:'assets/bold/bake-offer-m-4x5.jpeg',gsrc:'assets/bold/bake-offer-g-1x1.jpeg',gls:'assets/bold/bake-offer-g-1_91x1.jpeg',gpt:'assets/bold/bake-offer-g-4x5.jpeg',m:{'1x1':'assets/bold/bake-offer-m-1x1.jpeg','4x5':'assets/bold/bake-offer-m-4x5.jpeg','9x16':'assets/bold/bake-offer-m-9x16.jpeg','1_91x1':'assets/bold/bake-offer-m-1_91x1.jpeg'},reel:'assets/bold/video/bake-offer-reel.mp4',g:'Open hand',h:'Check your debt for free',u:'Garnishment · universal CTA'},
+ {f:'heart',src:'assets/bold/bake-heart-m-4x5.jpeg',gsrc:'assets/bold/bake-heart-g-1x1.jpeg',gls:'assets/bold/bake-heart-g-1_91x1.jpeg',gpt:'assets/bold/bake-heart-g-4x5.jpeg',m:{'1x1':'assets/bold/bake-heart-m-1x1.jpeg','4x5':'assets/bold/bake-heart-m-4x5.jpeg','9x16':'assets/bold/bake-heart-m-9x16.jpeg','1_91x1':'assets/bold/bake-heart-m-1_91x1.jpeg'},reel:'assets/bold/video/bake-heart-reel.mp4',g:'Heart hands',h:"Don't face your debt collectors alone",u:'Brand closer / All-States'}];
 const BOLD_BY_SLUG={};BOLD_SET.forEach(b=>{BOLD_BY_SLUG[b.f]=b;});
 const RVN=()=>{if(window.__rwRefresh)window.__rwRefresh();};
 /* ===== Placement switcher: render each ad in every Meta placement (specs per Meta ads
@@ -608,7 +611,12 @@ document.querySelectorAll('.adwrap').forEach(w=>{
     {n:'Reels',s:'FB & IG',r:'9x16',ar:'9 / 16',w:216,z:{top:13,bottom:35,right:6},ok:1,note:'Headline below the top; no baked copy in the bottom ~35%, so the ad headline + CTA overlay has clear room.'},
     {n:'Right column',s:'FB',r:'1_91x1',ar:'1.91 / 1',w:300,z:{},note:'Full image shown. Copy is safe.'}
   ];
-  let cur=BOLD_SET.find(b=>b.f==='fist')||BOLD_SET[0];
+  const CSETS=[];
+  BOLD_SET.forEach(b=>CSETS.push({grp:'Bold',label:b.g,ratios:b.m,reel:b.reel,bold:1}));
+  [['d1','Illustration'],['d2','Photo'],['d3','Still life']].forEach(function(dd){
+    Object.keys(ASSETS).forEach(function(ad){ if(ASSETS[ad]&&ASSETS[ad][dd[0]]) CSETS.push({grp:dd[1],label:ad.replace(/_/g,' '),ratios:ASSETS[ad][dd[0]]}); });
+  });
+  let cur=CSETS[0];
   function band(style,label){return '<div class="szband" style="'+style+'"><span>'+label+'</span></div>';}
   function card(p){
     const z=p.z, t=z.top||0, b=z.bottom||0, rr=z.right||0;
@@ -618,20 +626,23 @@ document.querySelectorAll('.adwrap').forEach(w=>{
     if(rr) bands+=band('top:'+t+'%;bottom:'+b+'%;right:0;width:'+rr+'%','');
     const hasZone=t||b||rr;
     const safe=hasZone?'<div class="szsafe" style="top:'+t+'%;bottom:'+b+'%;left:1.5%;right:'+(rr+1.5)+'%"></div>':'<div class="szsafe szok" style="inset:2%"></div>';
-    const img=cur.m[p.r];
+    const src=cur.ratios[p.r], useReel=cur.reel&&p.r==='9x16';
+    const vis=useReel?'<video src="'+cur.reel+'" autoplay muted loop playsinline></video>':'<img src="'+(src||'')+'" alt="">';
     const ok=p.ok||!hasZone;
     return '<figure class="szcard"><div class="szframe" style="width:'+p.w+'px;aspect-ratio:'+p.ar+'">'+
-      '<img src="'+img+'" alt="">'+bands+safe+'</div>'+
-      '<figcaption><b>'+p.n+'</b> <span>'+p.s+' · '+p.r.replace('_','.').replace('x',':')+'</span>'+
+      vis+bands+safe+'</div>'+
+      '<figcaption><b>'+p.n+'</b> <span>'+p.s+' · '+p.r.replace('_','.').replace('x',':')+(useReel?' · ▶ animated':'')+'</span>'+
       '<em class="'+(ok?'ok':'warn')+'">'+(ok?(hasZone?'✓ copy inside safe zone':'✓ all safe'):'⚠ safe zone applies')+'</em>'+
       '<p>'+p.note+'</p></figcaption></figure>';
   }
   function draw(){
-    el.innerHTML='<h2 class="bstitle">Placement safe zones <span>one creative across every Meta placement · shaded = area covered by app UI (keep copy out) · approx Meta guidance</span></h2>'+
-      '<div class="szpick">Example creative: '+BOLD_SET.map(b=>'<button class="chip small'+(b===cur?' on':'')+'" data-f="'+b.f+'">'+b.g+'</button>').join('')+'</div>'+
+    const groups={};CSETS.forEach((c,i)=>{(groups[c.grp]=groups[c.grp]||[]).push([i,c]);});
+    const opts=Object.keys(groups).map(function(g){return '<optgroup label="'+g+'">'+groups[g].map(function(pair){return '<option value="'+pair[0]+'"'+(pair[1]===cur?' selected':'')+'>'+pair[1].label+(pair[1].reel?' ▶':'')+'</option>';}).join('')+'</optgroup>';}).join('');
+    el.innerHTML='<h2 class="bstitle">Placement safe zones <span>any creative set across every Meta placement · shaded = area covered by app UI (keep copy out) · approx Meta guidance</span></h2>'+
+      '<div class="szpick">Preview creative: <select class="szsel">'+opts+'</select>'+(cur.reel?' <span class="szanim">▶ Bold reels animate in the Stories / Reels frames</span>':'')+'</div>'+
       '<div class="szlegend"><span class="k zone"></span> reserved (app UI) &nbsp; <span class="k safe"></span> safe area</div>'+
       '<div class="szgrid">'+PL.map(card).join('')+'</div>';
-    el.querySelector('.szpick').addEventListener('click',e=>{const btn=e.target.closest('button[data-f]');if(!btn)return;cur=BOLD_SET.find(b=>b.f===btn.dataset.f);draw();});
+    el.querySelector('.szsel').addEventListener('change',e=>{cur=CSETS[+e.target.value];draw();});
   }
   draw();
 })();
@@ -691,12 +702,18 @@ const GADS = {"pulled":"2026-07 live","customer_id":"9399506772","campaigns":[{"
   const GBOLD3=(typeof BOLD_SET!=='undefined'?BOLD_SET:[]).map(b=>({landscape:b.gls,square:b.gsrc,portrait:b.gpt,label:b.g}));
   /* ad-group theme -> default bold creative index (into BOLDS: pointing0 stop1 fist2 pinch3 offer4 heart5) */
   const THEME2G={lawsuit:2,harassment:1,fdcpa:0,garnishment:4,creditcard:3,medical:3,collection:0,lien:2};
+  /* map each Google ad-group theme to the matching Meta ad codes, so the remaining Meta
+   * creatives (Illustration / Photo / Still life) can be offered beside the Google ad
+   * as variants alongside the Bold set. */
+  const THEME2AC={lawsuit:['CC_Lawsuit','Collection_Lawsuit','Creditor_Suing','Served_Papers','Medical_Lawsuit'],harassment:['CC_Harassment','Creditor_Harassment','Medical_Harassment','Multiple_Collectors'],fdcpa:['FDCPA_Harassment','Creditor_Harassment'],garnishment:['Pre_Judgment_Garn','Post_Judgment_Garn'],creditcard:['CC_Lawsuit','CC_Harassment','CC_Negotiation'],medical:['Medical_Lawsuit','Medical_Harassment','Medical_Rights'],collection:['Collection_Lawsuit','Creditor_Suing'],lien:['Post_Judgment_Garn']};
+  const STDMETA=function(theme){const out=[];[['d1','Illustration'],['d2','Photo'],['d3','Still life']].forEach(function(d){(THEME2AC[theme]||[]).forEach(function(ac){var p=(typeof ASSETS!=='undefined'&&ASSETS[ac]&&ASSETS[ac][d[0]])&&ASSETS[ac][d[0]]['1x1'];if(p)out.push({src:p,label:d[1]+': '+ac.replace(/_/g,' ')});});});return out;};
 
   /* ---------- RSA builder card ---------- */
   function rsaCard(c, ag){
     const creatives=[{src:null,label:'None'}]
       .concat((c.adImages||[]).map(s=>({src:s,label:'Ad image'})))
-      .concat(BOLDS.map(b=>({src:b.src,label:'Bold: '+b.label})));
+      .concat(BOLDS.map(b=>({src:b.src,label:'Bold: '+b.label})))
+      .concat(STDMETA(ag.theme));
     const disp=host(ag.finalUrl)+(ag.path1?'/'+ag.path1:'')+(ag.path2?'/'+ag.path2:'');
     const bIdx=(THEME2G[ag.theme]!=null?THEME2G[ag.theme]:2);   /* default: bold copy + mapped bold creative */
     const st={v:'bold', h:[0,1,2], d:[0,1], cr:1+(c.adImages||[]).length+bIdx,
