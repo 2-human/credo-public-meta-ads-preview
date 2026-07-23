@@ -1,0 +1,205 @@
+{
+ "campaign": "PMax_Core_HighLTV",
+ "id": "23883890800",
+ "status": "PAUSED",
+ "asset_groups": [
+  {
+   "name": "Harassment",
+   "final_url": "https://start.credolegal.com/debt-harassment-fdcpa-attorney",
+   "headlines": [
+    "Get a Free Case Evaluation",
+    "Talk to an FDCPA Attorney",
+    "We Identify Every Breach",
+    "We Build Your FDCPA Case",
+    "Collector Broke the Law?",
+    "We Act Fast. So They Pay.",
+    "Sue Debt Collector for Breach",
+    "FDCPA Violation? We Fight.",
+    "Cease Letter Sent Same Day",
+    "Each Violation Can Get You $1K",
+    "FDCPA Attorneys Who Act Fast",
+    "Know Your Rights & Use Them.",
+    "Real Lawyers, Not Snakeoil",
+    "From Violation to Lawsuit",
+    "Free FDCPA Violation Review"
+   ],
+   "long_headlines": [
+    "Not sure if a collector broke the law? Our attorneys review your case For Free.",
+    "Our attorneys have filed hundreds of FDCPA claims. Each violation = $1,000. Free Consult.",
+    "Every illegal call or threat is tracked. More violations = stronger case. Free Consult.",
+    "Collector calling illegal hours or threatening you? It's potential FDCPA violation."
+   ],
+   "descriptions": [
+    "The FDCPA limits how collectors contact you. Learn your rights with real attorneys.",
+    "Calling before 8AM, threatening jail, contacting family - all illegal. Get Hep for Free.",
+    "Thousands used FDCPA to stop harassment. Our attorneys help you understand. Free Consult.",
+    "Not sure if a collector broke the law? Our attorneys review your case For Free."
+   ],
+   "images": {
+    "marketing": [
+     "assets/gads/4388079466311421260.jpg",
+     "assets/gads/2232667615549641579.jpg",
+     "assets/gads/906769791381549719.jpg",
+     "assets/gads/7839317366585756640.jpg",
+     "assets/gads/15838574335205574330.png",
+     "assets/gads/4250663023879392861.png"
+    ],
+    "square": [
+     "assets/gads/12962276670207616251.jpg",
+     "assets/gads/6876093685323911673.jpg",
+     "assets/gads/15864712395696854368.jpg",
+     "assets/gads/15838574335205574330.png"
+    ],
+    "portrait": [
+     "assets/gads/12717141593674796074.jpg",
+     "assets/gads/14136210781228345983.jpg",
+     "assets/gads/15838574335205574330.png"
+    ],
+    "tallPortrait": [
+     "assets/gads/15838574335205574330.png"
+    ],
+    "logos": []
+   },
+   "youtube_videos": [
+    {
+     "id": "uJVhPkwErNg",
+     "title": "Sharp Cadence video"
+    },
+    {
+     "id": "6s_idhHDr4I",
+     "title": "Sharp Cadence video"
+    },
+    {
+     "id": "26UwyoysA10",
+     "title": "Sharp Cadence video"
+    },
+    {
+     "id": "lmMINUuf4lw",
+     "title": "Sharp Cadence video"
+    },
+    {
+     "id": "OS1F0_ANP-I",
+     "title": "Vertical: Sharp Cadence video"
+    },
+    {
+     "id": "MGlcKWxFGdE",
+     "title": "Voiceover: Sharp Cadence video"
+    },
+    {
+     "id": "XWe4dtEVP3U",
+     "title": "Voiceover: Sharp Cadence video"
+    },
+    {
+     "id": "r-CfcWdgRl8",
+     "title": "Voiceover: Sharp Cadence video"
+    },
+    {
+     "id": "vzvsPOz5ZrI",
+     "title": "Voiceover: Sharp Cadence video"
+    },
+    {
+     "id": "Q_bDHrL88LM",
+     "title": "Vertical: Sharp Cadence video"
+    }
+   ]
+  },
+  {
+   "name": "Collection_Lawsuit",
+   "final_url": "https://start.credolegal.com/debt-lawsuit-respond-on-time",
+   "headlines": [
+    "Get a Free Case Evaluation",
+    "Not Too Late to Fight Back",
+    "Our Attorneys Respond Fast",
+    "Real Lawyers From Day One",
+    "Flexible Payment Plans",
+    "Call Now. Free Consultation.",
+    "Sued by a Collector? Act Now",
+    "You Have 20-28 Days to Act",
+    "Collection Lawsuit? Respond.",
+    "Don't Default. File Response.",
+    "Most People Don't Respond.",
+    "They Win If You Ignore It!",
+    "We File Your Answer Fast!",
+    "Debt Lawsuit Defense Lawyer",
+    "Free Debt Lawsuit Defense"
+   ],
+   "long_headlines": [
+    "Debt Collector Suing You? Get Real Legal Help To Respond On Time & Fight Back",
+    "Don't Let Debt Collectors Win By Default - Get A Free Case Review Today",
+    "Stop Default Judgments & Frozen Accounts | Get A Timely Legal Response Filed Today",
+    "Protect Your Future From Wage Garnishment & Frozen Accounts With Our Help",
+    "Challenge Unverified Claims & Inflated Balances With A Timely Legal Response"
+   ],
+   "descriptions": [
+    "Sued by a collector? 20-28 days to respond or you lose by default. We act fast.",
+    "Real attorneys file your answer from day one. Not salespeople. Free Consultation.",
+    "Most folk sued by collectors don't respond and lose automatically. Don't let that happen.",
+    "Collectors count on you not fighting. Our attorneys respond fast. Get Free Consultation."
+   ],
+   "images": {
+    "marketing": [
+     "assets/gads/15749177018745725430.jpg",
+     "assets/gads/2232667615549641579.jpg",
+     "assets/gads/906769791381549719.jpg"
+    ],
+    "square": [
+     "assets/gads/12962276670207616251.jpg",
+     "assets/gads/6876093685323911673.jpg"
+    ],
+    "portrait": [],
+    "tallPortrait": [],
+    "logos": []
+   },
+   "youtube_videos": [
+    {
+     "id": "EHXkzHThWMw",
+     "title": "Sharp Cadence video"
+    },
+    {
+     "id": "9eX3x-ya2xk",
+     "title": "Sharp Cadence video"
+    },
+    {
+     "id": "XnoCSYkJYJk",
+     "title": "Rotating Tiles video"
+    },
+    {
+     "id": "EGsIAVlGmRM",
+     "title": "Rotating Tiles video"
+    },
+    {
+     "id": "vmrucotbxRs",
+     "title": "Vertical: Sharp Cadence video"
+    },
+    {
+     "id": "z1V2JUMjlmw",
+     "title": "Vertical: Rotating Tiles video"
+    },
+    {
+     "id": "KduIL-1wm3s",
+     "title": "Vertical: Rotating Tiles video"
+    },
+    {
+     "id": "jlC728OInSE",
+     "title": "Vertical: Sharp Cadence video"
+    },
+    {
+     "id": "FhTUlgnhXjw",
+     "title": "Voiceover: Rotating Tiles video"
+    },
+    {
+     "id": "8HYiJ28so8E",
+     "title": "Voiceover: Sharp Cadence video"
+    },
+    {
+     "id": "C3OSX4cVpn0",
+     "title": "Voiceover: Sharp Cadence video"
+    },
+    {
+     "id": "pfdcBY9O45M",
+     "title": "Voiceover: Rotating Tiles video"
+    }
+   ]
+  }
+ ]
+}

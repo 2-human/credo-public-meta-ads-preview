@@ -1,0 +1,145 @@
+campaign,type,value
+S_All-States,Callout,Free Consultation
+S_All-States,Callout,$1M Client Debt Wiped Out
+S_All-States,Callout,Fully Confidential
+S_All-States,Callout,$10K+ Unsecured Debt
+S_All-States,Callout,Unsecured Debt Relief
+S_All-States,Callout,Debt Negotiation
+S_All-States,Structured snippet,"Service catalog: Wage Garnishment Defense, Lawsuit Defense, FDCPA Representation, Debt Validation, Cease & Desist Letters, Medical Debt Defense, Credit Card Defense, Harassment Defense, Property Lien Removal, Debt Negotiation"
+S_All-States,Structured snippet,"Types: Wage Garnishment, Collection Lawsuits, FDCPA Violations, Medical Debt, Credit Card Debt, Payday Loan Debt, Creditor Harassment, Default Judgments, Sending Cease Letter, Debt Validation"
+S_All-States,Call,3474749602
+S_CreditCard_NW,Callout,"Real Attorneys, Not Sales"
+S_CreditCard_NW,Callout,"A Law Firm, Not Sales"
+S_CreditCard_NW,Callout,Free Case Evaluation
+S_CreditCard_NW,Callout,We Send Response On Time
+S_CreditCard_NW,Callout,Flexible Payment Plans
+S_CreditCard_NW,Callout,Attorney Help From Day 1
+S_CreditCard_NW,Callout,We File Your Response
+S_CreditCard_NW,Callout,We Check If Debt Is Legal
+S_CreditCard_NW,Callout,20-28 Days to Respond
+S_CreditCard_NW,Callout,We Check If Debt Is Valid
+S_CreditCard_NW,Callout,Negotiate Your Debt Down
+S_CreditCard_NW,Callout,Your Debt Might Be Lower
+S_CreditCard_NW,Callout,We Help Stop The Calls
+S_CreditCard_NW,Callout,We Demand Proof for Debt
+S_CreditCard_NW,Callout,We Help Stop Harassment
+S_CreditCard_NW,Callout,Help With Credit Report
+S_CreditCard_NW,Callout,Get Debt Lawsuit Defense
+S_CreditCard_NW,Callout,Their Lawyers vs. Ours
+S_CreditCard_NW,Callout,FDCPA Protects You
+S_CreditCard_NW,Callout,Free Review of Your Case
+S_CreditCard_NW,Structured snippet,"Service catalog: Credit Card Debt Defense, Debt Lawsuit Defense, Debt Validation, Debt Negotiation, Cease & Desist Letters, FDCPA Representation, Demand Proof of Debt, Stop Collector Harassment, Default Judgment Defense, Credit Report Repair"
+S_CreditCard_NW,Structured snippet,"Types: Credit Card Debt Lawsuits, Debt Collector Calls, Debt Negotiation, Debt FDCPA Breaches, Default Judgments, Debt Validation, Junk Debt Buyer Suits, Resold Credit Card Debt"
+S_CreditCard_NW,Call,6469527392
+S_Garnishment_NW,Callout,"Real Attorneys, Not Sales"
+S_Garnishment_NW,Callout,"A Law Firm, Not Sales"
+S_Garnishment_NW,Callout,Free Case Evaluation
+S_Garnishment_NW,Callout,We Send Response On Time
+S_Garnishment_NW,Callout,Flexible Payment Plans
+S_Garnishment_NW,Callout,Attorney Help From Day 1
+S_Garnishment_NW,Callout,We Help Stop Garnishment
+S_Garnishment_NW,Callout,Protect Your Paycheck
+S_Garnishment_NW,Callout,File Exemption Claims
+S_Garnishment_NW,Callout,Help Reduce Garnishment
+S_Garnishment_NW,Callout,Garnishment Defense
+S_Garnishment_NW,Callout,Don't Lose 25% of Pay
+S_Garnishment_NW,Callout,Head of Household? Exempt
+S_Garnishment_NW,Callout,Federal Benefits Exempt
+S_Garnishment_NW,Callout,Garnishment Is Stoppable
+S_Garnishment_NW,Callout,File Response on Time
+S_Garnishment_NW,Callout,We Help Beat Garnishment
+S_Garnishment_NW,Callout,Free Garnishment Review
+S_Garnishment_NW,Callout,Help Dispute Garnishment
+S_Garnishment_NW,Callout,Low Income? You Qualify
+S_Garnishment_NW,Structured snippet,"Service catalog: Wage Garnishment Defense, Exemption Filings, Garnishment Objections, Paycheck Protection, Court Motions, FDCPA Representation, Disputing Judgement, Cease & Desist Letters, Debt Validation, Free Case Review"
+S_Garnishment_NW,Structured snippet,"Types: Wage Garnishment, After Judgement Dispute, Paycheck Garnishment, Garnishment Exemptions, Court-Ordered Garnishment, Free Garnishment Review, Garnishment Objections, Filing Objection To Court, Prepare Hearing"
+S_Harassment_NW,Callout,"Real Attorneys, Not Sales"
+S_Harassment_NW,Callout,"A Law Firm, Not Sales"
+S_Harassment_NW,Callout,Free Case Evaluation
+S_Harassment_NW,Callout,We Send Response On Time
+S_Harassment_NW,Callout,Flexible Payment Plans
+S_Harassment_NW,Callout,Attorney Help From Day 1
+S_Harassment_NW,Callout,"Send Letter, Stop Calls"
+S_Harassment_NW,Callout,Stop Collector Calls
+S_Harassment_NW,Callout,"$1,000 Per FDCPA Breach"
+S_Harassment_NW,Callout,Sue Your Debt Collector
+S_Harassment_NW,Callout,Calls Before 8AM? Illegal
+S_Harassment_NW,Callout,They Can't Call Your Job
+S_Harassment_NW,Callout,End the Harassment
+S_Harassment_NW,Callout,We Track Every Violation
+S_Harassment_NW,Callout,Make Collectors Pay
+S_Harassment_NW,Callout,Know Your FDCPA Rights
+S_Harassment_NW,Callout,Each Violation = $1K
+S_Harassment_NW,Callout,Free FDCPA Case Review
+S_Harassment_NW,Callout,Stop The Abusive Calls
+S_Harassment_NW,Callout,We Help Send Cease Letter
+S_Harassment_NW,Structured snippet,"Service catalog: FDCPA Representation, Cease & Desist Letters, Collector Lawsuits, Violation Tracking, Harassment Defense, Debt Validation, Stop the Calls, Statutory Damages, Class Action Filings, Credit Report Repair"
+S_Harassment_NW,Structured snippet,"Types: Collector Harassment, Illegal Phone Calls, Workplace Contact, Threats of Arrest, Third-Party Disclosure, Calls Before 8 AM, Calls After 9 PM, Family Member Contact, FDCPA Violations, False Representation"
+S_Harassment_NW,Call,2014167080
+S_Lawsuit_NW,Callout,"Real Attorneys, Not Sales"
+S_Lawsuit_NW,Callout,"A Law Firm, Not Sales"
+S_Lawsuit_NW,Callout,Free Case Evaluation
+S_Lawsuit_NW,Callout,We Send Response On Time
+S_Lawsuit_NW,Callout,Flexible Payment Plans
+S_Lawsuit_NW,Callout,Attorney Help From Day 1
+S_Lawsuit_NW,Callout,We File Your Response
+S_Lawsuit_NW,Callout,20-28 Days to Respond
+S_Lawsuit_NW,Callout,Don't Default. File.
+S_Lawsuit_NW,Callout,Sued by a Collector?
+S_Lawsuit_NW,Callout,Challenge Debt Validity
+S_Lawsuit_NW,Callout,Many Debts Lack Proof
+S_Lawsuit_NW,Callout,Preempt Default Judgment
+S_Lawsuit_NW,Callout,Got Served? Act Now.
+S_Lawsuit_NW,Callout,We Demand They Prove It
+S_Lawsuit_NW,Callout,Court Papers? We Help.
+S_Lawsuit_NW,Callout,Same-Day Lawsuit Defense
+S_Lawsuit_NW,Callout,Free Lawsuit Review
+S_Lawsuit_NW,Callout,Don't Lose by Default
+S_Lawsuit_NW,Callout,Debt Lawsuit Attorney
+S_Lawsuit_NW,Structured snippet,"Service catalog: Lawsuit Defense, Answer Filing, Debt Validation, Demand Proof of Debt, Motion to Dismiss, Discovery Defense, Trial Representation, Settlement Negotiation, Default Judgment Defense, Credit Report Repair"
+S_Lawsuit_NW,Structured snippet,"Types: Collection Lawsuits, Credit Card Lawsuits, Medical Debt Lawsuits, Payday Loan Lawsuits, Junk Debt Buyer Suits, Summons Response, Default Judgments, Debt Buyer Lawsuits, Court-Ordered Wages"
+S_MedicalDebt_NW,Callout,"Real Attorneys, Not Sales"
+S_MedicalDebt_NW,Callout,"A Law Firm, Not Sales"
+S_MedicalDebt_NW,Callout,Free Case Evaluation
+S_MedicalDebt_NW,Callout,We Send Response On Time
+S_MedicalDebt_NW,Callout,Flexible Payment Plans
+S_MedicalDebt_NW,Callout,Attorney Help From Day 1
+S_MedicalDebt_NW,Callout,Sued Over Medical Debt?
+S_MedicalDebt_NW,Callout,Medical Bills Often Wrong
+S_MedicalDebt_NW,Callout,Challenge Every Charge
+S_MedicalDebt_NW,Callout,We Demand Itemized Proof
+S_MedicalDebt_NW,Callout,Duplicate Billing? Common
+S_MedicalDebt_NW,Callout,Insurance Not Applied?
+S_MedicalDebt_NW,Callout,Invalid Bills Removed
+S_MedicalDebt_NW,Callout,Medical Debt Attorney
+S_MedicalDebt_NW,Callout,FDCPA Covers Medical
+S_MedicalDebt_NW,Callout,Remove From Credit Report
+S_MedicalDebt_NW,Callout,Protect Your Credit Score
+S_MedicalDebt_NW,Callout,Don't Pay Invalid Bills
+S_MedicalDebt_NW,Callout,Hospital Lawsuit Defense
+S_MedicalDebt_NW,Callout,Free Medical Bill Review
+S_MedicalDebt_NW,Structured snippet,"Service catalog: Medical Debt Defense, Hospital Bill Disputes, Insurance Billing Review, Itemized Bill Demand, Medical Lawsuit Defense, Credit Report Disputes, Debt Validation, FDCPA Representation, Duplicate Billing Claims, Invalid Bill Removal"
+S_MedicalDebt_NW,Structured snippet,"Types: Hospital Bill Lawsuits, Medical Collections, Surprise Medical Bills, Insurance Denials, Hospital Liens, Duplicate Billing, Billing Errors, Out-of-Network Charges, Medical Credit Reports"
+S_PaydayLoan_NW,Callout,"Real Attorneys, Not Sales"
+S_PaydayLoan_NW,Callout,"A Law Firm, Not Sales"
+S_PaydayLoan_NW,Callout,Free Case Evaluation
+S_PaydayLoan_NW,Callout,We Send Response On Time
+S_PaydayLoan_NW,Callout,Flexible Payment Plans
+S_PaydayLoan_NW,Callout,Attorney Help From Day 1
+S_PaydayLoan_NW,Callout,"Send Letter, Stop Calls"
+S_PaydayLoan_NW,Callout,Calls Before 8AM? Illegal
+S_PaydayLoan_NW,Callout,Payday Lender Lawsuit?
+S_PaydayLoan_NW,Callout,We Stop Payday Calls
+S_PaydayLoan_NW,Callout,FDCPA Covers Payday
+S_PaydayLoan_NW,Callout,Payday Lawsuit Defense
+S_PaydayLoan_NW,Callout,Lender Broke FDCPA?
+S_PaydayLoan_NW,Callout,$1K Per Illegal Call
+S_PaydayLoan_NW,Callout,Sue Your Payday Lender
+S_PaydayLoan_NW,Callout,Payday Debts Lack Proof
+S_PaydayLoan_NW,Callout,Threatened Arrest? Sue.
+S_PaydayLoan_NW,Callout,Payday Defense Lawyer
+S_PaydayLoan_NW,Callout,Challenge Payday Debt
+S_PaydayLoan_NW,Callout,Stop Lender Harassment
+S_PaydayLoan_NW,Structured snippet,"Service catalog: Payday Loan Defense, Payday Lawsuit Defense, FDCPA Representation, Cease & Desist Letters, Debt Validation, Lender Negotiation, Bank Account Defense, Stop ACH Withdrawals, Credit Report Repair, Harassment Defense"
+S_PaydayLoan_NW,Structured snippet,"Types: Payday Loan Lawsuits, Payday Harassment, Tribal Lender Cases, Online Lender Disputes, ACH Auto-Withdrawals, Threats of Arrest, Tax Refund Threats, Workplace Calls, Rollover Loan Issues"
+S_PaydayLoan_NW,Call,4075120808

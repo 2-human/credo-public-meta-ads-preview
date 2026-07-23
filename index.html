@@ -40,6 +40,10 @@ header.page h1{margin:0 0 4px;font-family:Georgia,serif;font-size:26px;color:var
 .chantabs button{flex:1;font:600 14px -apple-system,sans-serif;padding:9px;border:1px solid var(--div);background:#fff;color:var(--sec);border-radius:9px;cursor:pointer}
 .chantabs button.on{background:var(--red);border-color:var(--red);color:#fff}
 #google-view{max-width:820px;margin:6px auto;padding:0 12px}
+.handoff-cta{max-width:760px;margin:10px auto 6px;padding:11px 15px;background:#eef4ff;border:1px solid #cddffb;border-radius:10px;font-size:13.5px;color:#1a3a6b;display:flex;gap:9px;align-items:baseline}
+.handoff-cta a{font-weight:700;color:#0a58ca;text-decoration:none;white-space:nowrap}
+.handoff-cta a:hover{text-decoration:underline}
+.handoff-cta .x{flex:1}
 .gnote{max-width:760px;margin:6px auto 10px;padding:0 4px;color:var(--sec);font-size:12px;line-height:1.5}
 .gsub{display:inline-flex;gap:2px;margin:2px auto 10px;padding:3px;background:#eeeef6;border:1px solid var(--div);border-radius:9px}
 .gsub button{font:600 13px -apple-system,sans-serif;color:var(--sec);background:transparent;border:0;padding:6px 16px;border-radius:6px;cursor:pointer}
@@ -211,7 +215,7 @@ header.page h1{margin:0 0 4px;font-family:Georgia,serif;font-size:26px;color:var
 </style></head><body>
 <header class="page"><h1>Crēdo Legal — Ad Review Hub</h1><p><b>Meta ✓</b> · <b>Google ✓</b> (live · credolegal.com verticals). Two channels via the toggle below. <b>Meta:</b> Facebook-feed preview of 14 ads — pick a Headline and Message variant per ad (incl. the new <b>Bold / Direct</b> approach) and a Creative (Illustration / Photo / Still life / 9:16 Video, or a <b>Bold</b> red hand-gesture visual; the full set is shown at the top). <b>Google:</b> build any served variant — pick up to 3 headlines + 2 descriptions per ad group (Live ↔ Bold), toggle the real campaign extensions (callouts / structured snippets / call), choose the creative shown beside the ad, and recombine the <b>Performance Max</b> asset groups. Pre-spend review — Bold copy and all creatives are draft, pending legal sign-off.</p></header>
 <div class="chantabs" id="chantabs"><button data-ch="meta" class="on">Meta</button><button data-ch="google">Google</button></div>
-<div id="meta-view"><section id="boldset"></section><section id="safezones"></section><div class="feed">
+<div id="meta-view"><div class="handoff-cta"><span>📦</span><span class="x"><b>Ready to launch?</b> The Meta upload package — manifest, copy &amp; asset list for Ads Manager or MCP.</span><a href="handoff.html#meta" target="_blank" rel="noopener">Open Meta handoff ↗</a></div><section id="boldset"></section><section id="safezones"></section><div class="feed">
 <div class="setlabel">Credit Card <span>· AS_CreditCard_NW</span></div>
 <div class="adwrap" data-ad="CC_Lawsuit">
 <div class="adtitle">Sued over a card <span>· CC_Lawsuit</span></div>
@@ -849,7 +853,8 @@ const GADS = {"pulled":"2026-07 live","customer_id":"9399506772","campaigns":[{"
   }
 
   /* ---------- assemble ---------- */
-  gv.innerHTML='<div class="gnote"><b>Google Ads previews — Credo (credolegal.com) verticals.</b> Build any served variant: pick up to <b>3 headlines</b> + <b>2 descriptions</b> from each ad group\'s pool (switch <b>Live</b> ↔ <b>Bold</b>), toggle the real campaign <b>extensions</b> (callouts, structured snippets, call), and choose the <b>creative</b> shown beside the ad (real ad-image assets or a Bold creative). <b>Performance Max</b> rebuilds a display ad from its asset group. Bold copy/creatives are draft, pending legal sign-off.</div>'+
+  gv.innerHTML='<div class="handoff-cta"><span>📦</span><span class="x"><b>Ready to launch?</b> The Google upload package — Editor bulk-import CSV, extensions &amp; PMax asset groups.</span><a href="handoff.html#google" target="_blank" rel="noopener">Open Google handoff ↗</a></div>'+
+    '<div class="gnote"><b>Google Ads previews — Credo (credolegal.com) verticals.</b> Build any served variant: pick up to <b>3 headlines</b> + <b>2 descriptions</b> from each ad group\'s pool (switch <b>Live</b> ↔ <b>Bold</b>), toggle the real campaign <b>extensions</b> (callouts, structured snippets, call), and choose the <b>creative</b> shown beside the ad (real ad-image assets or a Bold creative). <b>Performance Max</b> rebuilds a display ad from its asset group. Bold copy/creatives are draft, pending legal sign-off.</div>'+
     '<div class="gsub"><button data-s="search" class="on">Search ads (RSA)</button><button data-s="pmax">Performance Max</button></div>'+
     '<div id="g-search"></div><div id="g-pmax" hidden></div>';
   const search=gv.querySelector('#g-search'), pmax=gv.querySelector('#g-pmax');

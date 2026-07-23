@@ -1,0 +1,1189 @@
+{
+ "customer_id": "9399506772",
+ "business_name": "Credo Legal",
+ "note": "Search RSAs use the LIVE copy set. Extensions are per-campaign. PMax has 2 asset groups. Final URL suffix adds Google UTMs. Exclude consumerlegalgroup.com (legacy).",
+ "final_url_suffix": "utm_source=google&utm_medium=cpc&utm_campaign=credo_search",
+ "campaigns": [
+  {
+   "name": "S_All-States",
+   "label": "All-States",
+   "ad_groups": [
+    {
+     "name": "Credit Card",
+     "theme": "creditcard",
+     "final_url": "https://start.credolegal.com/credit-cards",
+     "path1": "debt-collection",
+     "path2": "attorney",
+     "headlines": [
+      "Stop Credit Card Harassment",
+      "Credit Card Harassment Issues?",
+      "CC Debt Collector Harassment?",
+      "Fight CC Debt Harassment Now",
+      "Get Help Stop Debt Harassment",
+      "Fight Card Debt With FDCPA",
+      "Shut Down Card Harassment!",
+      "Fight Back! End The Abuse.",
+      "We Help Fight CC Collectors",
+      "We Help Stop Collector Calls",
+      "Hit Back at Debt Collectors!",
+      "Know Credit Card Debt Rights",
+      "You Have Rights, Use Them!",
+      "Demand Your Rights Use the Law",
+      "Demand Justice, Act Today!"
+     ],
+     "descriptions": [
+      "Stop illegal credit card harassment. FDCPA attorneys fight for you. Get Free Consult!",
+      "Harassing calls end here. We help you silence bully card collectors for good. Act Now!",
+      "Abusive card collectors violating your rights? We're your legal warriors. Free Consult!",
+      "Sick of card collector bullying? We're your shield & sword. Free & Confidential Consult."
+     ]
+    },
+    {
+     "name": "Debt Collector",
+     "theme": "collection",
+     "final_url": "https://start.credolegal.com/collection-defense",
+     "path1": "debt-collection",
+     "path2": "attorney",
+     "headlines": [
+      "Sued by a Collection Lawyer?",
+      "Sued by a Collection Attorney?",
+      "Harassed by Debt Collectors?",
+      "Collection Law Firm Suing You?",
+      "Debt Collectors at Your Door?",
+      "Talk to a Defense Attorney",
+      "Real Lawyers on Your Side",
+      "We Can Help You Fight Back",
+      "Real Attorneys. Real Results.",
+      "We Can Help With Debt Lawsuits",
+      "We Can Help Stop a Judgment",
+      "Request Help Before Court Date",
+      "Start Fighting Back Now",
+      "Know Your Rights Today",
+      "Get a Free Consultation"
+     ],
+     "descriptions": [
+      "Facing a collection lawsuit? Our attorneys can help. Get a Free Consultation.",
+      "Fight debt collectors & protect your rights. Talk to an attorney. Get a Free Consultation.",
+      "Sued by a collection attorney? You still have options. Get a Free Consultation.",
+      "We can help dismiss or settle your debt collection lawsuit. Get a Free Consultation."
+     ]
+    },
+    {
+     "name": "FDCPA",
+     "theme": "fdcpa",
+     "final_url": "https://start.credolegal.com/fcba-and-fdcpa",
+     "path1": "FDCPA",
+     "path2": "Debt-Relief",
+     "headlines": [
+      "Know Your FDCPA Rights",
+      "Stop Abusive Debt Collectors",
+      "FDCPA Protection Explained",
+      "Harassed by Collectors?",
+      "What Does FDCPA Cover?",
+      "Your Debt Collection Rights",
+      "FDCPA Rules for Collectors",
+      "End Illegal Collection Calls",
+      "Understand FDCPA Protections",
+      "Fight Back With FDCPA Rights",
+      "FDCPA: Stop Harassing Calls",
+      "Are Collectors Breaking FDCPA?",
+      "Use FDCPA to Protect Yourself",
+      "FDCPA Help for Consumers NY"
+     ],
+     "descriptions": [
+      "Learn how FDCPA limits collector calls, harassment, and deceptive tactics.",
+      "Discover what collectors can and cannot do under FDCPA guidelines.",
+      "Get a clear explanation of your debt collection rights under FDCPA.",
+      "See how to demand validation and respond to abusive collection behaviour."
+     ]
+    },
+    {
+     "name": "Garnishment",
+     "theme": "garnishment",
+     "final_url": "https://start.credolegal.com/stop-wage-garnishment",
+     "path1": "garnishment",
+     "path2": "attorney",
+     "headlines": [
+      "Fight Wage Garnishment Now",
+      "Paycheck Garnished? Call Us",
+      "Need a Wage Garnishment Lawyer",
+      "Need Debt Collector Attorney?",
+      "Need a Debt Lawsuit Lawyer?",
+      "Fight For Your Paycheck Today",
+      "We Can Help Fight Harassment",
+      "Talk to a Real Attorney Now",
+      "We Can Fight Wage Garnishment",
+      "Proven Lawyers Ready to Help",
+      "Get Help Before Court Action",
+      "Get Help to Pursue Your Rights",
+      "Understand Your Legal Rights",
+      "Fight Back Against Garnishment",
+      "Get a Free Consultation"
+     ],
+     "descriptions": [
+      "Our lawyers help you fight wage garnishment. Know your rights. Get a Free Consultation.",
+      "Struggling with a garnished paycheck? Talk to our attorneys. Get a Free Consultation.",
+      "We can help you with wage garnishment defense. Get a Free Consultation.",
+      "Facing a wage garnishment notice? You still have options. Get a Free Consultation."
+     ]
+    },
+    {
+     "name": "Lien",
+     "theme": "lien",
+     "final_url": "https://start.credolegal.com/remove-property-lien",
+     "path1": "lien",
+     "path2": "attorney",
+     "headlines": [
+      "Need Help with a Lien?",
+      "Lien on House or Property?",
+      "Remove Judgment Liens Now",
+      "Are You Harassed by Creditors?",
+      "Lien Lawyer Near You",
+      "Fight Creditor Liens Today",
+      "Lien Removal Attorney Help",
+      "Legal Help for Lien Issues",
+      "Take the Fight to Creditors!",
+      "Contact Lien Attorney Near You",
+      "Get Help to Fight Back Now",
+      "Let's Make a Plan Together",
+      "Get a Free Consultation",
+      "We're Seasoned Lien Lawyers",
+      "Get a Lien Attorney"
+     ],
+     "descriptions": [
+      "We help remove creditor liens from homes, paychecks and accounts. Get a Free Consultation.",
+      "Property lien stopping your refinance or sale? Talk to a lawyer today. Free Consultation.",
+      "Get help removing or negotiating property liens. Free and Confidential Consultation.",
+      "You may be able to remove or reduce a lien. Learn your rights today. Free Consultation."
+     ]
+    },
+    {
+     "name": "Medical",
+     "theme": "medical",
+     "final_url": "https://start.credolegal.com/medical-debt-attorney",
+     "path1": "medical-debt",
+     "path2": "attorney",
+     "headlines": [
+      "Struggling With Medical Bills?",
+      "Sued Over Hospital Debt?",
+      "Can’t Pay a Medical Bill?",
+      "A Medical Bill in Collections?",
+      "Need Help With Medical Debt?",
+      "We Help With Medical Debt",
+      "Legal Help for Hospital Bills",
+      "Get a Medical Debt Lawyer",
+      "You Deserve Your Health!",
+      "We Fight Aggressive Collectors",
+      "Talk to an Attorney Today",
+      "Get Help Before It Escalates",
+      "Get Help to Fight Back Now",
+      "Let's Make a Plan Together",
+      "Get a Free Consultation"
+     ],
+     "descriptions": [
+      "Can’t pay a hospital bill? Talk to a medical debt attorney today. Get a Free Consultation.",
+      "Sued for medical bills? You have legal rights. Get a Free Consultation.",
+      "Legal help for medical debt collections. Fight harassment. Free Consultation.",
+      "We fight medical debt collectors & aim to reduce or remove what you owe. Free Consult."
+     ]
+    }
+   ],
+   "callouts": [
+    "Free Consultation",
+    "$1M Client Debt Wiped Out",
+    "Fully Confidential",
+    "$10K+ Unsecured Debt",
+    "Unsecured Debt Relief",
+    "Debt Negotiation"
+   ],
+   "snippets": [
+    {
+     "header": "Service catalog",
+     "values": [
+      "Wage Garnishment Defense",
+      "Lawsuit Defense",
+      "FDCPA Representation",
+      "Debt Validation",
+      "Cease & Desist Letters",
+      "Medical Debt Defense",
+      "Credit Card Defense",
+      "Harassment Defense",
+      "Property Lien Removal",
+      "Debt Negotiation"
+     ]
+    },
+    {
+     "header": "Types",
+     "values": [
+      "Wage Garnishment",
+      "Collection Lawsuits",
+      "FDCPA Violations",
+      "Medical Debt",
+      "Credit Card Debt",
+      "Payday Loan Debt",
+      "Creditor Harassment",
+      "Default Judgments",
+      "Sending Cease Letter",
+      "Debt Validation"
+     ]
+    }
+   ],
+   "call": "3474749602"
+  },
+  {
+   "name": "S_CreditCard_NW",
+   "label": "Credit Card",
+   "ad_groups": [
+    {
+     "name": "CC_Branded",
+     "theme": "harassment",
+     "final_url": "https://start.credolegal.com/credit-card-debt-stop-calls",
+     "path1": "credit-card",
+     "path2": "debt-stop-calls",
+     "headlines": [
+      "{Keyword:Card Company Won't Stop?}",
+      "We Send Cease Letter Today",
+      "Stop Credit Card Harassment",
+      "Calls About Credit Card Debt?",
+      "Calls Before 8AM? Illegal.",
+      "Threatening You? Violation.",
+      "FDCPA Covers Card Collectors",
+      "Real Attorneys From Day One",
+      "We Stop Card Collector Calls",
+      "Attorney Help Starts Today",
+      "Calling Your Job? Illegal.",
+      "Flexible Payment Plans",
+      "Free Confidential Consultation",
+      "Talk to an Attorney For Free",
+      "Get a Free Case Evaluation"
+     ],
+     "descriptions": [
+      "Card debt collector won't stop calling? FDCPA protects you. We act fast. Free consult.",
+      "We send a cease letter the day you enroll. Real attorneys. Get Free Consultation.",
+      "Thousands have stopped credit card harassment with our help. Get Free Evaluation.",
+      "Calling before 8AM, threatening arrest, contacting family. It's all illegal. Free Consult."
+     ]
+    },
+    {
+     "name": "CC_Lawsuit",
+     "theme": "lawsuit",
+     "final_url": "https://start.credolegal.com/credit-card-debt-lawsuit-respond",
+     "path1": "credit-card",
+     "path2": "lawsuit-respond",
+     "headlines": [
+      "Sued for Credit Card Debt?",
+      "You Have Days to Respond",
+      "Credit Card Lawsuit? Act Now.",
+      "Don't Default. File An Answer.",
+      "No Response = You Lose.",
+      "Our Attorneys Respond Fast",
+      "Real Lawyers From Day One",
+      "We File Your Answer Fast",
+      "Card Company Has Lawyers",
+      "Now You Need an Attorney",
+      "Most People Don't Respond",
+      "Flexible Payment Plans",
+      "Call Now. Free Consultation.",
+      "Free Lawsuit Defense Consult",
+      "Get a Free Case Evaluation"
+     ],
+     "descriptions": [
+      "Sued for credit card debt? Days to respond or you lose by default. Get Free Consult.",
+      "Real attorneys file your answer and protect you in court. Get a Free Consultation.",
+      "Most sued for credit card debt don't respond and lose. Our attorneys fight back. Call Now.",
+      "Credit card companies have legal teams. Now you can too. Flexible plans. Get Free Consult."
+     ]
+    },
+    {
+     "name": "CC_Negotiation",
+     "theme": "creditcard",
+     "final_url": "https://start.credolegal.com/credit-card-debt-negotiation",
+     "path1": "credit-card",
+     "path2": "debt-negotiate",
+     "headlines": [
+      "We Can Help You Talk To Them",
+      "You Can Pay Less Than You Owe",
+      "Card Debt Negotiation Lawyer",
+      "Attorney-Led Negotiation",
+      "Settle Card Debt for Less",
+      "Don't Negotiate Debt Alone",
+      "We Talk to Them. Not You.",
+      "Lower Your Card Debt Balance",
+      "Real Attorneys. Better Terms",
+      "Stop Paying More Than Owed",
+      "It's Harder To Negotiate Alone",
+      "Flexible Payment Plans",
+      "Free Negotiation Consultation",
+      "Free Debt Review",
+      "Get a Free Case Evaluation"
+     ],
+     "descriptions": [
+      "Our attorneys negotiate your card debt so you don't have to. Better terms. Free Consult.",
+      "Card companies won't negotiate fairly. Our attorneys demand what you deserve. Free Consult",
+      "Thousands have settled credit card debt for less with attorney help. Get Free Evaluation.",
+      "Negotiate a lump sum and put credit card debt behind you. Real attorneys. Free Consult."
+     ]
+    }
+   ],
+   "callouts": [
+    "Real Attorneys, Not Sales",
+    "A Law Firm, Not Sales",
+    "Free Case Evaluation",
+    "We Send Response On Time",
+    "Flexible Payment Plans",
+    "Attorney Help From Day 1",
+    "We File Your Response",
+    "We Check If Debt Is Legal",
+    "20-28 Days to Respond",
+    "We Check If Debt Is Valid",
+    "Negotiate Your Debt Down",
+    "Your Debt Might Be Lower",
+    "We Help Stop The Calls",
+    "We Demand Proof for Debt",
+    "We Help Stop Harassment",
+    "Help With Credit Report",
+    "Get Debt Lawsuit Defense",
+    "Their Lawyers vs. Ours",
+    "FDCPA Protects You",
+    "Free Review of Your Case"
+   ],
+   "snippets": [
+    {
+     "header": "Service catalog",
+     "values": [
+      "Credit Card Debt Defense",
+      "Debt Lawsuit Defense",
+      "Debt Validation",
+      "Debt Negotiation",
+      "Cease & Desist Letters",
+      "FDCPA Representation",
+      "Demand Proof of Debt",
+      "Stop Collector Harassment",
+      "Default Judgment Defense",
+      "Credit Report Repair"
+     ]
+    },
+    {
+     "header": "Types",
+     "values": [
+      "Credit Card Debt Lawsuits",
+      "Debt Collector Calls",
+      "Debt Negotiation",
+      "Debt FDCPA Breaches",
+      "Default Judgments",
+      "Debt Validation",
+      "Junk Debt Buyer Suits",
+      "Resold Credit Card Debt"
+     ]
+    }
+   ],
+   "call": "6469527392"
+  },
+  {
+   "name": "S_Garnishment_NW",
+   "label": "Garnishment",
+   "ad_groups": [
+    {
+     "name": "Garnishment",
+     "theme": "garnishment",
+     "final_url": "https://start.credolegal.com/wage-garnishment-prevention",
+     "path1": "garnishment",
+     "path2": "prevention",
+     "headlines": [
+      "Threatened With Garnishment?",
+      "We Can Help With Garnishment",
+      "Fight Wage Garnishment Now",
+      "Don't Wait for Paycheck Cut",
+      "We Act Before They Garnish",
+      "Protect Your Paycheck Now",
+      "Real Attorneys Act Fast",
+      "Legal Options Still Open",
+      "Don't Let Them Take 25%",
+      "Attorney Help Starts Today",
+      "Garnishment Is Preventable",
+      "Flexible Payment Plans",
+      "Call Now. Free Consultation.",
+      "Free Garnishment Case Review",
+      "Get a Free Case Evaluation"
+     ],
+     "descriptions": [
+      "Facing garnishment threats? Still time to act. Our attorneys file fast. Get Free Consult.",
+      "Real attorneys work to stop garnishment before it hits your paycheck. Get Free Consult.",
+      "Thousands stopped garnishments before they started. Don't wait. Get Free Consultation.",
+      "Garnishment can take 25% of your paycheck. We fight to keep your money. Get Free Consult."
+     ]
+    }
+   ],
+   "callouts": [
+    "Real Attorneys, Not Sales",
+    "A Law Firm, Not Sales",
+    "Free Case Evaluation",
+    "We Send Response On Time",
+    "Flexible Payment Plans",
+    "Attorney Help From Day 1",
+    "We Help Stop Garnishment",
+    "Protect Your Paycheck",
+    "File Exemption Claims",
+    "Help Reduce Garnishment",
+    "Garnishment Defense",
+    "Don't Lose 25% of Pay",
+    "Head of Household? Exempt",
+    "Federal Benefits Exempt",
+    "Garnishment Is Stoppable",
+    "File Response on Time",
+    "We Help Beat Garnishment",
+    "Free Garnishment Review",
+    "Help Dispute Garnishment",
+    "Low Income? You Qualify"
+   ],
+   "snippets": [
+    {
+     "header": "Service catalog",
+     "values": [
+      "Wage Garnishment Defense",
+      "Exemption Filings",
+      "Garnishment Objections",
+      "Paycheck Protection",
+      "Court Motions",
+      "FDCPA Representation",
+      "Disputing Judgement",
+      "Cease & Desist Letters",
+      "Debt Validation",
+      "Free Case Review"
+     ]
+    },
+    {
+     "header": "Types",
+     "values": [
+      "Wage Garnishment",
+      "After Judgement Dispute",
+      "Paycheck Garnishment",
+      "Garnishment Exemptions",
+      "Court-Ordered Garnishment",
+      "Free Garnishment Review",
+      "Garnishment Objections",
+      "Filing Objection To Court",
+      "Prepare Hearing"
+     ]
+    }
+   ],
+   "call": null
+  },
+  {
+   "name": "S_Harassment_NW",
+   "label": "Harassment",
+   "ad_groups": [
+    {
+     "name": "Creditor_Harassment",
+     "theme": "harassment",
+     "final_url": "https://start.credolegal.com/debt-harassment-stop-calls",
+     "path1": "debt-harassment",
+     "path2": "stop-calls",
+     "headlines": [
+      "Collector Won't Stop Calling?",
+      "We'll Send Cease Letter Today",
+      "Harassed by Debt Collectors?",
+      "Calling Your Job? Illegal.",
+      "Threatening Arrest? Illegal.",
+      "Real Attorneys From Day One",
+      "Stop Harassment by Collectors",
+      "Calls Before 8AM? Violation.",
+      "You Don't Have to Take This",
+      "Attorney Help Can Start Today",
+      "Debt Collector Calling Family?",
+      "We Act Fast. So They'll Stop.",
+      "Free Confidential Consultation",
+      "Talk to an Attorney For Free",
+      "Get a Free Case Evaluation"
+     ],
+     "descriptions": [
+      "Collector calling your job or family? They are violating FDCPA. We act fast. Free Consult.",
+      "Real attorneys send legal cease letter the day you enroll to stop calls. Consult for Free.",
+      "Thousands have stopped collector harassment with our help. Get Free Evaluation today.",
+      "Each illegal call may violate federal law. We identify every breach. Get a Free Review."
+     ]
+    },
+    {
+     "name": "FDCPA_Harassment",
+     "theme": "fdcpa",
+     "final_url": "https://start.credolegal.com/debt-harassment-fdcpa-rights",
+     "path1": "debt-harassment",
+     "path2": "fdcpa-rights",
+     "headlines": [
+      "Know Your FDCPA Rights",
+      "Know What Collectors Can't Do?",
+      "FDCPA Protects You By Law",
+      "Collectors Have Legal Limits",
+      "No Calls 8AM to 9PM!",
+      "They Can't Contact Your Boss!",
+      "They Can't Threaten Arrest!",
+      "FDCPA Violation? Free Review.",
+      "Understand Your Legal Rights",
+      "Real Attorneys Explain. Free.",
+      "Are They Breaking the Law?",
+      "FDCPA Attorney for Your Case",
+      "Free FDCPA Rights Evaluation",
+      "Free Confidential Consultation",
+      "Learn Your Rights at No Cost"
+     ],
+     "descriptions": [
+      "The FDCPA limits how collectors contact you. Learn your rights with real attorneys.",
+      "Calling before 8AM, threatening jail, contacting family - all illegal. Get Hep for Free.",
+      "Thousands used FDCPA to stop harassment. Our attorneys help you understand. Free Consult.",
+      "Not sure if a collector broke the law? Our attorneys review your case For Free."
+     ]
+    }
+   ],
+   "callouts": [
+    "Real Attorneys, Not Sales",
+    "A Law Firm, Not Sales",
+    "Free Case Evaluation",
+    "We Send Response On Time",
+    "Flexible Payment Plans",
+    "Attorney Help From Day 1",
+    "Send Letter, Stop Calls",
+    "Stop Collector Calls",
+    "$1,000 Per FDCPA Breach",
+    "Sue Your Debt Collector",
+    "Calls Before 8AM? Illegal",
+    "They Can't Call Your Job",
+    "End the Harassment",
+    "We Track Every Violation",
+    "Make Collectors Pay",
+    "Know Your FDCPA Rights",
+    "Each Violation = $1K",
+    "Free FDCPA Case Review",
+    "Stop The Abusive Calls",
+    "We Help Send Cease Letter"
+   ],
+   "snippets": [
+    {
+     "header": "Service catalog",
+     "values": [
+      "FDCPA Representation",
+      "Cease & Desist Letters",
+      "Collector Lawsuits",
+      "Violation Tracking",
+      "Harassment Defense",
+      "Debt Validation",
+      "Stop the Calls",
+      "Statutory Damages",
+      "Class Action Filings",
+      "Credit Report Repair"
+     ]
+    },
+    {
+     "header": "Types",
+     "values": [
+      "Collector Harassment",
+      "Illegal Phone Calls",
+      "Workplace Contact",
+      "Threats of Arrest",
+      "Third-Party Disclosure",
+      "Calls Before 8 AM",
+      "Calls After 9 PM",
+      "Family Member Contact",
+      "FDCPA Violations",
+      "False Representation"
+     ]
+    }
+   ],
+   "call": "2014167080"
+  },
+  {
+   "name": "S_Lawsuit_NW",
+   "label": "Lawsuit",
+   "ad_groups": [
+    {
+     "name": "Collection_Lawsuit",
+     "theme": "lawsuit",
+     "final_url": "https://start.credolegal.com/debt-lawsuit-respond-on-time",
+     "path1": "debt-lawsuit",
+     "path2": "respond-on-time",
+     "headlines": [
+      "Sued by a Collector? Act Now",
+      "You Have 20-28 Days to Act",
+      "Collection Lawsuit? Respond.",
+      "Don't Default. File Response.",
+      "Most People Don't Respond.",
+      "They Win If You Ignore It!",
+      "Our Attorneys Respond Fast",
+      "Real Lawyers From Day One",
+      "Not Too Late to Fight Back",
+      "We File Your Answer Fast!",
+      "Debt Lawsuit Defense Lawyer",
+      "Flexible Payment Plans",
+      "Call Now. Free Consultation.",
+      "Free Debt Lawsuit Defense",
+      "Get a Free Case Evaluation"
+     ],
+     "descriptions": [
+      "Sued by a collector? 20-28 days to respond or you lose by default. We act fast.",
+      "Real attorneys file your answer from day one. Not salespeople. Free Consultation.",
+      "Most folk sued by collectors don't respond and lose automatically. Don't let that happen.",
+      "Collectors count on you not fighting. Our attorneys respond fast. Get Free Consultation."
+     ]
+    },
+    {
+     "name": "Creditor_Suing",
+     "theme": "lawsuit",
+     "final_url": "https://start.credolegal.com/debt-lawsuit-fight-back",
+     "path1": "debt-lawsuit",
+     "path2": "fight-back",
+     "headlines": [
+      "Creditor Suing You?",
+      "Don't Let Them Win",
+      "Fight Back Against Creditors",
+      "They Count on You Giving Up",
+      "Default Judgment = They Win",
+      "Respond Before It's Too Late",
+      "Our Attorneys Fight for You",
+      "Real Lawyers From Day One",
+      "You Have Legal Options",
+      "We File Your Answer Fast",
+      "Don't Lose by Not Showing Up",
+      "Flexible Payment Plans",
+      "Call Now. Free Consultation.",
+      "Get a Free Case Evaluation",
+      "Fight Back Today. Free Review."
+     ],
+     "descriptions": [
+      "Creditor suing? They count on you not responding. We file a response on time. Free Cosnult",
+      "Real attorneys fight creditor lawsuits from day one. We know their playbook. Free Consult.",
+      "Folks don't respond to creditor lawsuits and lose by default. Don't be one such. Act Now.",
+      "We challenge the debt, file your response, and protect your rights. Get Free Consult."
+     ]
+    },
+    {
+     "name": "Served_Papers",
+     "theme": "lawsuit",
+     "final_url": "https://start.credolegal.com/debt-lawsuit-summons-respond",
+     "path1": "debt-lawsuit",
+     "path2": "summons-respond",
+     "headlines": [
+      "Just Got Served? Act Now.",
+      "You Have Days to Respond",
+      "Received a Debt Summons?",
+      "Don't Ignore Court Papers",
+      "No Response = You Lose!",
+      "We File Your Answer Fast",
+      "Got Papers? Call Today.",
+      "Real Attorneys Respond Fast",
+      "20-28 Days Is All You Have",
+      "Don't Default on a Lawsuit",
+      "Attorney Help Starts Today",
+      "Flexible Payment Plans",
+      "Call Now - Time Is Limited",
+      "Free Emergency Consultation",
+      "Get a Free Case Evaluation"
+     ],
+     "descriptions": [
+      "Just got served? You have 20-28 days to respond or lose by default. Call Now.",
+      "Our attorneys file your answer fast. Real lawyers, not salespeople. Day one. Free Consult.",
+      "Ignoring court papers leads to automatic judgment. Don't wait. Get Free Consult.",
+      "We read your papers, explain options, and file a response. Flexible plans. Free Consult."
+     ]
+    }
+   ],
+   "callouts": [
+    "Real Attorneys, Not Sales",
+    "A Law Firm, Not Sales",
+    "Free Case Evaluation",
+    "We Send Response On Time",
+    "Flexible Payment Plans",
+    "Attorney Help From Day 1",
+    "We File Your Response",
+    "20-28 Days to Respond",
+    "Don't Default. File.",
+    "Sued by a Collector?",
+    "Challenge Debt Validity",
+    "Many Debts Lack Proof",
+    "Preempt Default Judgment",
+    "Got Served? Act Now.",
+    "We Demand They Prove It",
+    "Court Papers? We Help.",
+    "Same-Day Lawsuit Defense",
+    "Free Lawsuit Review",
+    "Don't Lose by Default",
+    "Debt Lawsuit Attorney"
+   ],
+   "snippets": [
+    {
+     "header": "Service catalog",
+     "values": [
+      "Lawsuit Defense",
+      "Answer Filing",
+      "Debt Validation",
+      "Demand Proof of Debt",
+      "Motion to Dismiss",
+      "Discovery Defense",
+      "Trial Representation",
+      "Settlement Negotiation",
+      "Default Judgment Defense",
+      "Credit Report Repair"
+     ]
+    },
+    {
+     "header": "Types",
+     "values": [
+      "Collection Lawsuits",
+      "Credit Card Lawsuits",
+      "Medical Debt Lawsuits",
+      "Payday Loan Lawsuits",
+      "Junk Debt Buyer Suits",
+      "Summons Response",
+      "Default Judgments",
+      "Debt Buyer Lawsuits",
+      "Court-Ordered Wages"
+     ]
+    }
+   ],
+   "call": null
+  },
+  {
+   "name": "S_MedicalDebt_NW",
+   "label": "Medical Debt",
+   "ad_groups": [
+    {
+     "name": "Medical_Lawsuit",
+     "theme": "lawsuit",
+     "final_url": "https://start.credolegal.com/medical-debt-lawsuit-respond",
+     "path1": "medical-debt",
+     "path2": "lawsuit-respond",
+     "headlines": [
+      "Sued Over Medical Bills?",
+      "You Have Days to Respond",
+      "Medical Debt Lawsuit? Act Now.",
+      "Don't Default. File an Answer.",
+      "No Response = You Lose",
+      "Our Attorneys Respond Fast",
+      "Real Lawyers From Day One",
+      "We File Your Answer Fast",
+      "Most People Don't Respond",
+      "Attorney Help Starts Today",
+      "Don't Lose by Ignoring It",
+      "Flexible Payment Plans",
+      "Call Now. Free Consultation.",
+      "Free Lawsuit Defense Consult",
+      "Get a Free Case Evaluation"
+     ],
+     "descriptions": [
+      "Sued over medical bills? Days to respond or you lose by default. We act fast. Free Consult",
+      "Real attorneys file your answer from day one. Not salespeople. Get Free Consultation.",
+      "Most folk sued for medical debt don't respond and lose. Don't let that happen. Call Now.",
+      "Medical debt lawsuits can often be challenged. We review and fight back. Get Free Consult."
+     ]
+    },
+    {
+     "name": "Medical_Rights",
+     "theme": "medical",
+     "final_url": "https://start.credolegal.com/medical-debt-fdcpa-rights",
+     "path1": "medical-debt",
+     "path2": "fdcpa-rights",
+     "headlines": [
+      "Medical Debt? Know Your Rights",
+      "Know what Collectors Can't Do?",
+      "FDCPA Covers Medical Debt",
+      "Medical Collectors Have Limits",
+      "No Calls Before 8AM or 9PM",
+      "They Can't Contact Your Boss",
+      "They Can't Threaten Arrest",
+      "Real Attorneys Explain Free",
+      "Your Rights Are Protected",
+      "Understand the FDCPA For Free",
+      "Are They Breaking the Law?",
+      "We Review Your Case Free",
+      "Free Rights Consultation",
+      "Free Confidential Evaluation",
+      "Learn Your Rights At No Cost"
+     ],
+     "descriptions": [
+      "The FDCPA limits how medical debt collectors contact you. Learn your rights For Free.",
+      "Calling before 8AM, threatening jail, contacting family. It's all illegal. Free Consult.",
+      "Many don't know medical debt has special protections. We explain options. Free Consult.",
+      "Not sure if a medical collector broke the law? Get a Free Review by an Attorney."
+     ]
+    }
+   ],
+   "callouts": [
+    "Real Attorneys, Not Sales",
+    "A Law Firm, Not Sales",
+    "Free Case Evaluation",
+    "We Send Response On Time",
+    "Flexible Payment Plans",
+    "Attorney Help From Day 1",
+    "Sued Over Medical Debt?",
+    "Medical Bills Often Wrong",
+    "Challenge Every Charge",
+    "We Demand Itemized Proof",
+    "Duplicate Billing? Common",
+    "Insurance Not Applied?",
+    "Invalid Bills Removed",
+    "Medical Debt Attorney",
+    "FDCPA Covers Medical",
+    "Remove From Credit Report",
+    "Protect Your Credit Score",
+    "Don't Pay Invalid Bills",
+    "Hospital Lawsuit Defense",
+    "Free Medical Bill Review"
+   ],
+   "snippets": [
+    {
+     "header": "Service catalog",
+     "values": [
+      "Medical Debt Defense",
+      "Hospital Bill Disputes",
+      "Insurance Billing Review",
+      "Itemized Bill Demand",
+      "Medical Lawsuit Defense",
+      "Credit Report Disputes",
+      "Debt Validation",
+      "FDCPA Representation",
+      "Duplicate Billing Claims",
+      "Invalid Bill Removal"
+     ]
+    },
+    {
+     "header": "Types",
+     "values": [
+      "Hospital Bill Lawsuits",
+      "Medical Collections",
+      "Surprise Medical Bills",
+      "Insurance Denials",
+      "Hospital Liens",
+      "Duplicate Billing",
+      "Billing Errors",
+      "Out-of-Network Charges",
+      "Medical Credit Reports"
+     ]
+    }
+   ],
+   "call": null
+  },
+  {
+   "name": "S_PaydayLoan_NW",
+   "label": "Payday Loan",
+   "ad_groups": [
+    {
+     "name": "Payday_Brand_Harassment",
+     "theme": "harassment",
+     "final_url": "https://start.credolegal.com/payday-loan-debt-harassment",
+     "path1": "payday-loan",
+     "path2": "harassment",
+     "headlines": [
+      "{Keyword:Payday Lender Harassing You?}",
+      "We Send Cease Letter Today",
+      "Lender Won't Stop Calling?",
+      "Calls Before 8AM? Illegal.",
+      "Threatening Arrest? Illegal.",
+      "Calling Your Job? Violation.",
+      "We Stop Payday Harassment",
+      "Real Attorneys. We Act Fast.",
+      "FDCPA Covers Payday Lenders",
+      "Payday Collectors Have Limits",
+      "Attorney Help Starts Today",
+      "Flexible Payment Plans",
+      "Free Confidential Consultation",
+      "Talk to an Attorney For Free",
+      "Get a Free Case Evaluation"
+     ],
+     "descriptions": [
+      "Payday lender calling your job or before 8AM? Those are violations. Get Help, Free Consult",
+      "We send a cease letter the day you enroll. Real attorneys. Get Free Consultation.",
+      "Thousands have stopped payday lender harassment with our help. Get Free Evaluation.",
+      "FDCPA protects you from payday lender abuse. Our attorneys will act. Get Free Review."
+     ]
+    },
+    {
+     "name": "S_PaydayLoan_General",
+     "theme": "lawsuit",
+     "final_url": "https://start.credolegal.com/payday-loan-lawsuit-respond",
+     "path1": "payday-loan",
+     "path2": "lawsuit-respond",
+     "headlines": [
+      "Payday Lender Suing You?",
+      "You Have Days to Respond",
+      "Don't Default on This Suit",
+      "No Response = They Win",
+      "Our Attorneys Respond Fast",
+      "Real Lawyers From Day One",
+      "Fight Payday Loan Lawsuits",
+      "We File Your Answer Fast",
+      "Don't Lose by Ignoring It",
+      "Attorney Help Starts Today",
+      "Most People Don't Respond",
+      "Flexible Payment Plans",
+      "Call Now. Free Consultation.",
+      "Free Lawsuit Defense Consult",
+      "Get a Free Case Evaluation"
+     ],
+     "descriptions": [
+      "Sued by a payday lender? Days to respond or lose by default. We act fast. Free Consult.",
+      "Real attorneys file your answer from day one. Not salespeople. Get Free Consultation.",
+      "Most sued by payday lenders don't respond and lose. Don't be one of them. Free Call.",
+      "Payday loan lawsuits can often be challenged. We know their tactics. Get a Free Review."
+     ]
+    }
+   ],
+   "callouts": [
+    "Real Attorneys, Not Sales",
+    "A Law Firm, Not Sales",
+    "Free Case Evaluation",
+    "We Send Response On Time",
+    "Flexible Payment Plans",
+    "Attorney Help From Day 1",
+    "Send Letter, Stop Calls",
+    "Calls Before 8AM? Illegal",
+    "Payday Lender Lawsuit?",
+    "We Stop Payday Calls",
+    "FDCPA Covers Payday",
+    "Payday Lawsuit Defense",
+    "Lender Broke FDCPA?",
+    "$1K Per Illegal Call",
+    "Sue Your Payday Lender",
+    "Payday Debts Lack Proof",
+    "Threatened Arrest? Sue.",
+    "Payday Defense Lawyer",
+    "Challenge Payday Debt",
+    "Stop Lender Harassment"
+   ],
+   "snippets": [
+    {
+     "header": "Service catalog",
+     "values": [
+      "Payday Loan Defense",
+      "Payday Lawsuit Defense",
+      "FDCPA Representation",
+      "Cease & Desist Letters",
+      "Debt Validation",
+      "Lender Negotiation",
+      "Bank Account Defense",
+      "Stop ACH Withdrawals",
+      "Credit Report Repair",
+      "Harassment Defense"
+     ]
+    },
+    {
+     "header": "Types",
+     "values": [
+      "Payday Loan Lawsuits",
+      "Payday Harassment",
+      "Tribal Lender Cases",
+      "Online Lender Disputes",
+      "ACH Auto-Withdrawals",
+      "Threats of Arrest",
+      "Tax Refund Threats",
+      "Workplace Calls",
+      "Rollover Loan Issues"
+     ]
+    }
+   ],
+   "call": "4075120808"
+  }
+ ],
+ "pmax": {
+  "campaign": "PMax_Core_HighLTV",
+  "id": "23883890800",
+  "status": "PAUSED",
+  "asset_groups": [
+   {
+    "name": "Harassment",
+    "final_url": "https://start.credolegal.com/debt-harassment-fdcpa-attorney",
+    "headlines": [
+     "Get a Free Case Evaluation",
+     "Talk to an FDCPA Attorney",
+     "We Identify Every Breach",
+     "We Build Your FDCPA Case",
+     "Collector Broke the Law?",
+     "We Act Fast. So They Pay.",
+     "Sue Debt Collector for Breach",
+     "FDCPA Violation? We Fight.",
+     "Cease Letter Sent Same Day",
+     "Each Violation Can Get You $1K",
+     "FDCPA Attorneys Who Act Fast",
+     "Know Your Rights & Use Them.",
+     "Real Lawyers, Not Snakeoil",
+     "From Violation to Lawsuit",
+     "Free FDCPA Violation Review"
+    ],
+    "long_headlines": [
+     "Not sure if a collector broke the law? Our attorneys review your case For Free.",
+     "Our attorneys have filed hundreds of FDCPA claims. Each violation = $1,000. Free Consult.",
+     "Every illegal call or threat is tracked. More violations = stronger case. Free Consult.",
+     "Collector calling illegal hours or threatening you? It's potential FDCPA violation."
+    ],
+    "descriptions": [
+     "The FDCPA limits how collectors contact you. Learn your rights with real attorneys.",
+     "Calling before 8AM, threatening jail, contacting family - all illegal. Get Hep for Free.",
+     "Thousands used FDCPA to stop harassment. Our attorneys help you understand. Free Consult.",
+     "Not sure if a collector broke the law? Our attorneys review your case For Free."
+    ],
+    "images": {
+     "marketing": [
+      "assets/gads/4388079466311421260.jpg",
+      "assets/gads/2232667615549641579.jpg",
+      "assets/gads/906769791381549719.jpg",
+      "assets/gads/7839317366585756640.jpg",
+      "assets/gads/15838574335205574330.png",
+      "assets/gads/4250663023879392861.png"
+     ],
+     "square": [
+      "assets/gads/12962276670207616251.jpg",
+      "assets/gads/6876093685323911673.jpg",
+      "assets/gads/15864712395696854368.jpg",
+      "assets/gads/15838574335205574330.png"
+     ],
+     "portrait": [
+      "assets/gads/12717141593674796074.jpg",
+      "assets/gads/14136210781228345983.jpg",
+      "assets/gads/15838574335205574330.png"
+     ],
+     "tallPortrait": [
+      "assets/gads/15838574335205574330.png"
+     ],
+     "logos": []
+    },
+    "youtube_videos": [
+     {
+      "id": "uJVhPkwErNg",
+      "title": "Sharp Cadence video"
+     },
+     {
+      "id": "6s_idhHDr4I",
+      "title": "Sharp Cadence video"
+     },
+     {
+      "id": "26UwyoysA10",
+      "title": "Sharp Cadence video"
+     },
+     {
+      "id": "lmMINUuf4lw",
+      "title": "Sharp Cadence video"
+     },
+     {
+      "id": "OS1F0_ANP-I",
+      "title": "Vertical: Sharp Cadence video"
+     },
+     {
+      "id": "MGlcKWxFGdE",
+      "title": "Voiceover: Sharp Cadence video"
+     },
+     {
+      "id": "XWe4dtEVP3U",
+      "title": "Voiceover: Sharp Cadence video"
+     },
+     {
+      "id": "r-CfcWdgRl8",
+      "title": "Voiceover: Sharp Cadence video"
+     },
+     {
+      "id": "vzvsPOz5ZrI",
+      "title": "Voiceover: Sharp Cadence video"
+     },
+     {
+      "id": "Q_bDHrL88LM",
+      "title": "Vertical: Sharp Cadence video"
+     }
+    ]
+   },
+   {
+    "name": "Collection_Lawsuit",
+    "final_url": "https://start.credolegal.com/debt-lawsuit-respond-on-time",
+    "headlines": [
+     "Get a Free Case Evaluation",
+     "Not Too Late to Fight Back",
+     "Our Attorneys Respond Fast",
+     "Real Lawyers From Day One",
+     "Flexible Payment Plans",
+     "Call Now. Free Consultation.",
+     "Sued by a Collector? Act Now",
+     "You Have 20-28 Days to Act",
+     "Collection Lawsuit? Respond.",
+     "Don't Default. File Response.",
+     "Most People Don't Respond.",
+     "They Win If You Ignore It!",
+     "We File Your Answer Fast!",
+     "Debt Lawsuit Defense Lawyer",
+     "Free Debt Lawsuit Defense"
+    ],
+    "long_headlines": [
+     "Debt Collector Suing You? Get Real Legal Help To Respond On Time & Fight Back",
+     "Don't Let Debt Collectors Win By Default - Get A Free Case Review Today",
+     "Stop Default Judgments & Frozen Accounts | Get A Timely Legal Response Filed Today",
+     "Protect Your Future From Wage Garnishment & Frozen Accounts With Our Help",
+     "Challenge Unverified Claims & Inflated Balances With A Timely Legal Response"
+    ],
+    "descriptions": [
+     "Sued by a collector? 20-28 days to respond or you lose by default. We act fast.",
+     "Real attorneys file your answer from day one. Not salespeople. Free Consultation.",
+     "Most folk sued by collectors don't respond and lose automatically. Don't let that happen.",
+     "Collectors count on you not fighting. Our attorneys respond fast. Get Free Consultation."
+    ],
+    "images": {
+     "marketing": [
+      "assets/gads/15749177018745725430.jpg",
+      "assets/gads/2232667615549641579.jpg",
+      "assets/gads/906769791381549719.jpg"
+     ],
+     "square": [
+      "assets/gads/12962276670207616251.jpg",
+      "assets/gads/6876093685323911673.jpg"
+     ],
+     "portrait": [],
+     "tallPortrait": [],
+     "logos": []
+    },
+    "youtube_videos": [
+     {
+      "id": "EHXkzHThWMw",
+      "title": "Sharp Cadence video"
+     },
+     {
+      "id": "9eX3x-ya2xk",
+      "title": "Sharp Cadence video"
+     },
+     {
+      "id": "XnoCSYkJYJk",
+      "title": "Rotating Tiles video"
+     },
+     {
+      "id": "EGsIAVlGmRM",
+      "title": "Rotating Tiles video"
+     },
+     {
+      "id": "vmrucotbxRs",
+      "title": "Vertical: Sharp Cadence video"
+     },
+     {
+      "id": "z1V2JUMjlmw",
+      "title": "Vertical: Rotating Tiles video"
+     },
+     {
+      "id": "KduIL-1wm3s",
+      "title": "Vertical: Rotating Tiles video"
+     },
+     {
+      "id": "jlC728OInSE",
+      "title": "Vertical: Sharp Cadence video"
+     },
+     {
+      "id": "FhTUlgnhXjw",
+      "title": "Voiceover: Rotating Tiles video"
+     },
+     {
+      "id": "8HYiJ28so8E",
+      "title": "Voiceover: Sharp Cadence video"
+     },
+     {
+      "id": "C3OSX4cVpn0",
+      "title": "Voiceover: Sharp Cadence video"
+     },
+     {
+      "id": "pfdcBY9O45M",
+      "title": "Voiceover: Rotating Tiles video"
+     }
+    ]
+   }
+  ]
+ }
+}
