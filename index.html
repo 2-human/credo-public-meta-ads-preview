@@ -707,6 +707,10 @@ const GADS = {"pulled":"2026-07 live","customer_id":"9399506772","campaigns":[{"
    * as variants alongside the Bold set. */
   const THEME2AC={lawsuit:['CC_Lawsuit','Collection_Lawsuit','Creditor_Suing','Served_Papers','Medical_Lawsuit'],harassment:['CC_Harassment','Creditor_Harassment','Medical_Harassment','Multiple_Collectors'],fdcpa:['FDCPA_Harassment','Creditor_Harassment'],garnishment:['Pre_Judgment_Garn','Post_Judgment_Garn'],creditcard:['CC_Lawsuit','CC_Harassment','CC_Negotiation'],medical:['Medical_Lawsuit','Medical_Harassment','Medical_Rights'],collection:['Collection_Lawsuit','Creditor_Suing'],lien:['Post_Judgment_Garn']};
   const STDMETA=function(theme){const out=[];[['d1','Illustration'],['d2','Photo'],['d3','Still life']].forEach(function(d){(THEME2AC[theme]||[]).forEach(function(ac){var p=(typeof ASSETS!=='undefined'&&ASSETS[ac]&&ASSETS[ac][d[0]])&&ASSETS[ac][d[0]]['1x1'];if(p)out.push({src:p,label:d[1]+': '+ac.replace(/_/g,' ')});});});return out;};
+  /* PMax asset-group name -> theme (fallback keyword match); and the theme's standard Meta
+   * creatives as plain paths in the requested PMax format (landscape=1.91:1, square=1:1, portrait=4:5). */
+  const PMTHEME=function(g){if(g.theme)return g.theme;var n=(g.name||'').toLowerCase();return n.indexOf('fdcpa')>=0?'fdcpa':n.indexOf('lien')>=0?'lien':n.indexOf('garn')>=0?'garnishment':(n.indexOf('medical')>=0)?'medical':(n.indexOf('lawsuit')>=0||n.indexOf('suing')>=0||n.indexOf('served')>=0||n.indexOf('collection')>=0)?'lawsuit':n.indexOf('harass')>=0?'harassment':(n.indexOf('negotiat')>=0||n.indexOf('cc')>=0||n.indexOf('credit')>=0)?'creditcard':null;};
+  const STDMETA_FMT=function(theme,fmt){var ratio=fmt==='landscape'?'1_91x1':fmt==='portrait'?'4x5':'1x1';var out=[];['d1','d2','d3'].forEach(function(dk){(THEME2AC[theme]||[]).forEach(function(ac){var p=(typeof ASSETS!=='undefined'&&ASSETS[ac]&&ASSETS[ac][dk])&&ASSETS[ac][dk][ratio];if(p)out.push(p);});});return out;};
 
   /* ---------- RSA builder card ---------- */
   function rsaCard(c, ag){
@@ -794,9 +798,9 @@ const GADS = {"pulled":"2026-07 live","customer_id":"9399506772","campaigns":[{"
   function pmaxCard(g){
     const nMkt=(g.marketing||[]).length;
     /* native format assets + the Bold creatives appended in each format */
-    const imgs={landscape:(g.marketing||[]).concat(GBOLD3.map(x=>x.landscape)),
-                square:(g.square||[]).concat(GBOLD3.map(x=>x.square)),
-                portrait:(g.portrait||[]).concat(g.tallPortrait||[]).concat(GBOLD3.map(x=>x.portrait))};
+    const imgs={landscape:(g.marketing||[]).concat(GBOLD3.map(x=>x.landscape)).concat(STDMETA_FMT(PMTHEME(g),'landscape')),
+                square:(g.square||[]).concat(GBOLD3.map(x=>x.square)).concat(STDMETA_FMT(PMTHEME(g),'square')),
+                portrait:(g.portrait||[]).concat(g.tallPortrait||[]).concat(GBOLD3.map(x=>x.portrait)).concat(STDMETA_FMT(PMTHEME(g),'portrait'))};
     const PMX2G={Collection_Lawsuit:2, Harassment:0};   /* default to a mapped Bold creative */
     const st={fmt:'landscape', h:0, lh:0, d:0, img:nMkt+(PMX2G[g.name]!=null?PMX2G[g.name]:2)};
     const logo=(g.logos&&g.logos[0])||LOGO;
