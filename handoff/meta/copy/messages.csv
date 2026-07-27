@@ -14,6 +14,9 @@ Crēdo Legal. The choice of a lawyer is an important decision and should not be 
 Credit Card,CC_Lawsuit,Sued over a card,Fresh Start,"What if this credit card lawsuit didn't have to hang over your year? Our attorneys can answer the suit and challenge if the debt holds up. You could put it behind you and move on. Prior outcomes don't guarantee similar results.
 
 Crēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements."
+Credit Card,CC_Lawsuit,Sued over a card,Bold,"Sued over a credit card? The collector may not be able to prove they even own it. Debt buyers routinely lack the contract and full account history a court requires. Our attorneys can file your answer and make them prove it. If they can't, your case could be dismissed. We'll check, free. Prior outcomes don't guarantee similar results.
+
+Crēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements."
 Credit Card,CC_Harassment,Collector harassment,Default,"Getting calls non-stop, at work, at dinner, on weekends? The pressure follows you and you dread your own phone. Our attorneys can send a cease-communication letter and pursue the collector for violations. The calls could stop, and they could owe you up to $1,000 per violation. Prior outcomes don't guarantee similar results.
 
 Crēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements."
@@ -27,6 +30,9 @@ Credit Card,CC_Harassment,Collector harassment,Affordability,"Want the calls to 
 
 Crēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements."
 Credit Card,CC_Harassment,Collector harassment,Fresh Start,"What if your phone stopped being a source of dread? Right now the calls follow you everywhere. Our attorneys can send a cease-communication letter and pursue violations. The calls could stop, and you could get your day back. Prior outcomes don't guarantee similar results.
+
+Crēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements."
+Credit Card,CC_Harassment,Collector harassment,Bold,"Your credit card collector may be breaking the law. Calls before 8am, after 9pm, at your job, or after you told them to stop can each be an FDCPA violation. Our attorneys can send a cease letter and pursue every violation. They could owe you up to $1,000 each. We'll check your calls, free. Prior outcomes don't guarantee similar results.
 
 Crēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements."
 Credit Card,CC_Negotiation,Negotiate the balance,Default,"Buried under a credit card balance that keeps growing? Confusing interest and fees pile on, and you may not owe every dollar your creditors claim. Our attorneys can challenge whether the debt is valid and negotiate your balance down. You could pay less than what they say you owe. Prior outcomes don't guarantee similar results.
@@ -44,6 +50,9 @@ Crēdo Legal. The choice of a lawyer is an important decision and should not be 
 Credit Card,CC_Negotiation,Negotiate the balance,Fresh Start,"What if that growing balance no longer ran your life? Right now the interest and fees keep piling on. Our attorneys can challenge the debt and negotiate it down. You could pay less and start getting ahead. Prior outcomes don't guarantee similar results.
 
 Crēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements."
+Credit Card,CC_Negotiation,Negotiate the balance,Bold,"You may be about to overpay a credit card debt. Interest and fees inflate balances, and you may not owe every dollar they claim. Our attorneys can challenge whether the debt is valid and negotiate it down before you pay. You could owe far less. We'll check the number, free. Prior outcomes don't guarantee similar results.
+
+Crēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements."
 Lawsuit,Collection_Lawsuit,Collection lawsuit,Default,"Sued by a debt collector? You usually have just 20 to 28 days to reply. Miss the window and they can automatically garnish your pay. Our attorneys can file your court answer and demand the collector prove they own the debt. Your case could be dismissed if they can't. Prior outcomes don't guarantee similar results.
 
 Crēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements."
@@ -57,6 +66,9 @@ Lawsuit,Collection_Lawsuit,Collection lawsuit,Affordability,"Being sued by a col
 
 Crēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements."
 Lawsuit,Collection_Lawsuit,Collection lawsuit,Fresh Start,"What if this collection lawsuit didn't end in a judgment hanging over you? The 20-to-28-day window is closing. Our attorneys can answer the suit and challenge the debt. You could put it behind you. Prior outcomes don't guarantee similar results.
+
+Crēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements."
+Lawsuit,Collection_Lawsuit,Collection lawsuit,Bold,"Being sued for a debt? The collector may not be able to prove it's yours, that the amount is right, or that they even own it. Ignore it and you can lose by default. Our attorneys can file your answer and make them prove the debt. It could be dismissed. We'll check, free. Prior outcomes don't guarantee similar results.
 
 Crēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements."
 Lawsuit,Creditor_Suing,Creditor suing you,Default,"Is a creditor suing you? They have attorneys who do this every day, and standing alone feels stacked from the start. Our attorneys can step in, file your answer, and hold the creditor to their burden of proof. The case could end in a dismissal or a settlement you can live with. Prior outcomes don't guarantee similar results.
@@ -74,6 +86,9 @@ Crēdo Legal. The choice of a lawyer is an important decision and should not be 
 Lawsuit,Creditor_Suing,Creditor suing you,Fresh Start,"What if you weren't facing this creditor alone anymore? Right now it feels stacked from the start. Our attorneys can step in and hold them to their proof. The case could end in a dismissal or a settlement you can move on from. Prior outcomes don't guarantee similar results.
 
 Crēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements."
+Lawsuit,Creditor_Suing,Creditor suing you,Bold,"A creditor is suing you, but they still have to prove the debt in court, and often can't. A default judgment is their easy win if you do nothing. Our attorneys can file your answer and hold them to their proof. It could end in a dismissal or a settlement you can live with. We'll check their case, free. Prior outcomes don't guarantee similar results.
+
+Crēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements."
 Lawsuit,Served_Papers,Just got served,Default,"Just got served court papers? Your stomach dropped and it feels final, but it isn't. Our attorneys can review the summons, file your answer in time, and make the collector prove the debt. Acting now could keep the case from becoming a default judgment. Prior outcomes don't guarantee similar results.
 
 Crēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements."
@@ -87,6 +102,9 @@ Lawsuit,Served_Papers,Just got served,Affordability,"Served papers and afraid of
 
 Crēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements."
 Lawsuit,Served_Papers,Just got served,Fresh Start,"What if getting served was the turning point, not the end? Right now it feels final. Our attorneys can file your answer in time and make the collector prove the debt. Acting now could keep it from becoming a judgment you carry. Prior outcomes don't guarantee similar results.
+
+Crēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements."
+Lawsuit,Served_Papers,Just got served,Bold,"Just got served? You may have only 20 to 28 days to respond, and the collector may not have the proof to win. Miss the deadline and they can take a default judgment. Our attorneys can file your answer in time and make them prove the debt. We'll check whether they can, free. Prior outcomes don't guarantee similar results.
 
 Crēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements."
 Harassment,Creditor_Harassment,Creditor harassment,Default,"Phone ringing before work and after dinner with collector calls? The messages pile up and the constant pressure wears you down. Our attorneys can send a cease-communication letter so collectors have to deal with us instead of you. The calls could stop for good. Prior outcomes don't guarantee similar results.
@@ -104,6 +122,9 @@ Crēdo Legal. The choice of a lawyer is an important decision and should not be 
 Harassment,Creditor_Harassment,Creditor harassment,Fresh Start,"What if your phone went quiet again? Right now the messages just pile up. Our attorneys can send a cease-communication letter so collectors deal with us. The calls could stop, and your days could feel like yours again. Prior outcomes don't guarantee similar results.
 
 Crēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements."
+Harassment,Creditor_Harassment,Creditor harassment,Bold,"Your collector may be breaking the law. Nonstop calls, calls at your job, and calls after you told them to stop can each be an FDCPA violation. Our attorneys can send a cease letter and pursue every violation. They could owe you up to $1,000 each. We'll check your calls, free. Prior outcomes don't guarantee similar results.
+
+Crēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements."
 Harassment,FDCPA_Harassment,FDCPA violations,Default,"Are collectors threatening you, calling at odd hours, and contacting people you know? Most people never learn that much of it is against the law. Our attorneys can document the violations and sue the collector under the FDCPA. They could owe you up to $1,000 per violation. Prior outcomes don't guarantee similar results.
 
 Crēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements."
@@ -117,6 +138,9 @@ Harassment,FDCPA_Harassment,FDCPA violations,Affordability,"Want to hold a colle
 
 Crēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements."
 Harassment,FDCPA_Harassment,FDCPA violations,Fresh Start,"What if the threats and odd-hour calls were behind you? Right now they wear you down. Our attorneys can document the violations and sue under the FDCPA. They could owe you up to $1,000 per violation, and you could move on. Prior outcomes don't guarantee similar results.
+
+Crēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements."
+Harassment,FDCPA_Harassment,FDCPA violations,Bold,"Your debt collector may owe you. Threats, odd-hour calls, and contacting people you know are often illegal, and each violation can be worth up to $1,000 under the FDCPA. Our attorneys can document the violations and sue. We'll check your calls for violations, free. Prior outcomes don't guarantee similar results.
 
 Crēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements."
 Harassment,Multiple_Collectors,Multiple collectors,Default,"Juggling calls from several collectors at once? Different debts, no end in sight, and keeping track of them all is exhausting. Our attorneys can take on every collector at once and challenge each debt. Every violation could add to what they owe you. Prior outcomes don't guarantee similar results.
@@ -134,6 +158,9 @@ Crēdo Legal. The choice of a lawyer is an important decision and should not be 
 Harassment,Multiple_Collectors,Multiple collectors,Fresh Start,"What if the endless collector calls finally stopped? Right now keeping track of them all is exhausting. Our attorneys can take on every collector at once and challenge each debt. You could clear the noise and move forward. Prior outcomes don't guarantee similar results.
 
 Crēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements."
+Harassment,Multiple_Collectors,Multiple collectors,Bold,"Juggling several collectors? Some of those debts may be duplicated, unverified, or unprovable, and some of the calls may be illegal. Our attorneys can take on every collector at once and challenge each debt. Every violation could add to what they owe you. We'll check all of them, free. Prior outcomes don't guarantee similar results.
+
+Crēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements."
 Medical Debt,Medical_Harassment,Medical collector calls,Default,"Is a medical collector calling about a bill you're not sure you even owe? Medical billing is full of errors and duplicate charges. Our attorneys can send a cease-communication letter and demand the collector validate the bill. You could owe far less than they claim, or nothing at all. Prior outcomes don't guarantee similar results.
 
 Crēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements."
@@ -147,6 +174,9 @@ Medical Debt,Medical_Harassment,Medical collector calls,Affordability,"Hassled o
 
 Crēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements."
 Medical Debt,Medical_Harassment,Medical collector calls,Fresh Start,"What if that medical bill stopped haunting your phone? Right now the calls keep coming. Our attorneys can demand the collector validate the bill and stop the contact. You could owe far less than they claim, and breathe again. Prior outcomes don't guarantee similar results.
+
+Crēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements."
+Medical Debt,Medical_Harassment,Medical collector calls,Bold,"That medical bill may be wrong, or unprovable. Medical billing is full of coding errors and duplicate charges, and collectors often can't validate it. Our attorneys can demand validation and stop the calls. You could owe far less, or nothing. We'll check it, free. Prior outcomes don't guarantee similar results.
 
 Crēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements."
 Medical Debt,Medical_Lawsuit,Medical debt lawsuit,Default,"Sued over a medical bill? The deadline to respond is closing in, and many of these bills carry coding errors and inflated charges. Our attorneys can file your answer and demand the provider prove the amount. Your case could be dismissed or settled for less. Prior outcomes don't guarantee similar results.
@@ -164,6 +194,9 @@ Crēdo Legal. The choice of a lawyer is an important decision and should not be 
 Medical Debt,Medical_Lawsuit,Medical debt lawsuit,Fresh Start,"What if a medical lawsuit didn't have to derail your year? The deadline is closing in. Our attorneys can file your answer and challenge the charges. Your case could be dismissed or settled, and you could move on. Prior outcomes don't guarantee similar results.
 
 Crēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements."
+Medical Debt,Medical_Lawsuit,Medical debt lawsuit,Bold,"Sued over a medical bill? The provider may not have the itemization to prove it, and many of these bills carry coding errors and inflated charges. Our attorneys can file your answer and demand they prove the amount. Your case could be dismissed or settled for less. We'll check, free. Prior outcomes don't guarantee similar results.
+
+Crēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements."
 Medical Debt,Medical_Rights,Do you owe it?,Default,"A collector says you owe a medical debt — but can they prove it? Old medical bills get sold, resold, and misassigned, and the amounts are often wrong. Our attorneys demand written validation under the FDCPA and challenge anything they can't document. Prior outcomes don't guarantee similar results.
 
 Crēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements."
@@ -177,6 +210,9 @@ Medical Debt,Medical_Rights,Do you owe it?,Affordability,"You may not owe what a
 
 Crēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements."
 Medical Debt,Medical_Rights,Do you owe it?,Fresh Start,"Don't let an unverified medical debt follow you. Our attorneys make collectors prove the debt is yours and the amount is right; what they can't validate, they often can't collect. Get a free review of your case. Prior outcomes don't guarantee similar results.
+
+Crēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements."
+Medical Debt,Medical_Rights,Do you owe it?,Bold,"A collector says you owe a medical debt? Make them prove it. Medical bills are sold, resold, and routinely wrong — and under the FDCPA they must validate the debt before they can collect. Our attorneys demand that proof and challenge what they can't document. Prior outcomes don't guarantee similar results.
 
 Crēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements."
 Garnishment,Pre_Judgment_Garn,Prevent garnishment,Default,"Worried a lawsuit could start garnishing your wages? The threat of a smaller paycheck is frightening, and once it starts it is harder to undo. Our attorneys can respond to the case now and fight the judgment that leads to garnishment. More of your paycheck could stay yours. Prior outcomes don't guarantee similar results.
@@ -194,6 +230,9 @@ Crēdo Legal. The choice of a lawyer is an important decision and should not be 
 Garnishment,Pre_Judgment_Garn,Prevent garnishment,Fresh Start,"What if your paycheck stayed whole? Right now a looming judgment threatens it. Our attorneys can respond to the case now and fight the garnishment before it starts. More of your pay could stay yours, and you could plan ahead. Prior outcomes don't guarantee similar results.
 
 Crēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements."
+Garnishment,Pre_Judgment_Garn,Prevent garnishment,Bold,"They may be about to garnish your wages, and it may be preventable. Once a judgment lands they reach straight for your paycheck. Our attorneys can respond to the case now and fight the judgment behind garnishment. More of your pay could stay yours. We'll check your options, free. Prior outcomes don't guarantee similar results.
+
+Crēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements."
 Garnishment,Post_Judgment_Garn,Active garnishment,Default,"Is your paycheck already being garnished? Every check feels short, and it can feel like there is nothing you can do. Our attorneys can file the exemption motion and challenge the garnishment. You could qualify for protection that puts money back in your pocket. Prior outcomes don't guarantee similar results.
 
 Crēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements."
@@ -207,5 +246,8 @@ Garnishment,Post_Judgment_Garn,Active garnishment,Affordability,"Already garnish
 
 Crēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements."
 Garnishment,Post_Judgment_Garn,Active garnishment,Fresh Start,"What if your full paycheck came back? Right now every check feels short. Our attorneys can file the exemption motion and challenge the garnishment. You could qualify for protection and start rebuilding. Prior outcomes don't guarantee similar results.
+
+Crēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements."
+Garnishment,Post_Judgment_Garn,Active garnishment,Bold,"Your wages are being garnished, but part of your pay may be legally exempt, and the judgment may be challengeable. Our attorneys can file the exemption motion and challenge the garnishment. You could put money back in your pocket. We'll check what can be protected, free. Prior outcomes don't guarantee similar results.
 
 Crēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements."

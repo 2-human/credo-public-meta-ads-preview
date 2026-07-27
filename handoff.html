@@ -49,11 +49,11 @@
      <ul class="files">
        <li><span class="d">Source of truth: campaign → ad sets → ads → copy + creative paths</span><a href="handoff/meta/campaign-manifest.json">manifest.json</a></li>
        <li><span class="d">6 campaign-wide headline options</span><a href="handoff/meta/copy/headlines.csv">headlines.csv</a></li>
-       <li><span class="d">70 messages (14×5), disclaimers baked in</span><a href="handoff/meta/copy/messages.csv">messages.csv</a></li>
+       <li><span class="d">84 messages (14×6, incl. Bold), disclaimers baked in</span><a href="handoff/meta/copy/messages.csv">messages.csv</a></li>
        <li><span class="d">Per-ad final URL, UTM, topic, description</span><a href="handoff/meta/copy/ads.csv">ads.csv</a></li>
-       <li><span class="d"><b>Creatives</b> — 182 files (12 images + 1 video per ad), each row a direct download link</span><a href="handoff/meta/asset-manifest.csv">asset-manifest.csv</a></li>
+       <li><span class="d"><b>Creatives</b> — 252 files: standard set + <b>Bold</b> set + animated reels, each row a direct download link</span><a href="handoff/meta/asset-manifest.csv">asset-manifest.csv</a></li>
      </ul>
-     <p class="meta">Every creative is hosted on this mirror — the <code>path</code> column in the asset-manifest is a direct link, and the <code>campaign-manifest.json</code> creative paths resolve too. The offline zip bundle carries them self-contained.</p>
+     <p class="meta">Every creative is hosted on this mirror — the <code>path</code> column is a direct link. Standard 9:16s here are the originals (previewed with the safe-zone crop in the hub switcher); the offline zip carries the safe-zone-<b>baked</b> 9:16s, self-contained.</p>
    </section>
 
    <section class="card" id="google">
