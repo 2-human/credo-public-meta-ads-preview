@@ -63,25 +63,25 @@
      },
      "creatives": {
       "illustration": {
-       "1x1": "creatives/CC_Lawsuit/CC_Lawsuit_illustration_1x1.png",
-       "4x5": "creatives/CC_Lawsuit/CC_Lawsuit_illustration_4x5.jpeg",
-       "9x16": "creatives/CC_Lawsuit/CC_Lawsuit_illustration_9x16.png",
-       "1.91x1": "creatives/CC_Lawsuit/CC_Lawsuit_illustration_1.91x1.png"
+       "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/credit-card/v3-pilot/CC_Lawsuit_D1_Illustration_1x1.png",
+       "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/assets/credit-card/v3-pilot/CC_Lawsuit_D1_Illustration_4x5.jpeg",
+       "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/assets/credit-card/v3-pilot/CC_Lawsuit_D1_Illustration_9x16.png",
+       "1.91x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/credit-card/v3-pilot/CC_Lawsuit_D1_Illustration_1_91x1.png"
       },
       "photo": {
-       "1x1": "creatives/CC_Lawsuit/CC_Lawsuit_photo_1x1.png",
-       "4x5": "creatives/CC_Lawsuit/CC_Lawsuit_photo_4x5.jpeg",
-       "9x16": "creatives/CC_Lawsuit/CC_Lawsuit_photo_9x16.png",
-       "1.91x1": "creatives/CC_Lawsuit/CC_Lawsuit_photo_1.91x1.png"
+       "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/credit-card/v3-pilot/CC_Lawsuit_D2_Photo_1x1.png",
+       "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/assets/credit-card/v3-pilot/CC_Lawsuit_D2_Photo_4x5.jpeg",
+       "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/assets/credit-card/v3-pilot/CC_Lawsuit_D2_Photo_9x16.png",
+       "1.91x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/credit-card/v3-pilot/CC_Lawsuit_D2_Photo_1_91x1.png"
       },
       "stilllife": {
-       "1x1": "creatives/CC_Lawsuit/CC_Lawsuit_stilllife_1x1.png",
-       "4x5": "creatives/CC_Lawsuit/CC_Lawsuit_stilllife_4x5.jpeg",
-       "9x16": "creatives/CC_Lawsuit/CC_Lawsuit_stilllife_9x16.png",
-       "1.91x1": "creatives/CC_Lawsuit/CC_Lawsuit_stilllife_1.91x1.png"
+       "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/credit-card/v3-pilot/CC_Lawsuit_D3_StillLife_1x1.png",
+       "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/assets/credit-card/v3-pilot/CC_Lawsuit_D3_StillLife_4x5.jpeg",
+       "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/assets/credit-card/v3-pilot/CC_Lawsuit_D3_StillLife_9x16.png",
+       "1.91x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/credit-card/v3-pilot/CC_Lawsuit_D3_StillLife_1_91x1.png"
       }
      },
-     "video": "creatives/CC_Lawsuit/CC_Lawsuit_video_9x16.mp4"
+     "video": "https://2-human.github.io/credo-public-meta-ads-preview/assets/credit-card/v3-pilot/CC_Lawsuit_D4_Video_9x16.mp4"
     },
     {
      "key": "CC_Harassment",
@@ -101,25 +101,25 @@
      },
      "creatives": {
       "illustration": {
-       "1x1": "creatives/CC_Harassment/CC_Harassment_illustration_1x1.png",
-       "4x5": "creatives/CC_Harassment/CC_Harassment_illustration_4x5.jpeg",
-       "9x16": "creatives/CC_Harassment/CC_Harassment_illustration_9x16.png",
-       "1.91x1": "creatives/CC_Harassment/CC_Harassment_illustration_1.91x1.png"
+       "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/credit-card/v3-pilot/CC_Harassment_D1_Illustration_1x1.png",
+       "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/assets/credit-card/v3-pilot/CC_Harassment_D1_Illustration_4x5.jpeg",
+       "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/assets/credit-card/v3-pilot/CC_Harassment_D1_Illustration_9x16.png",
+       "1.91x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/credit-card/v3-pilot/CC_Harassment_D1_Illustration_1_91x1.png"
       },
       "photo": {
-       "1x1": "creatives/CC_Harassment/CC_Harassment_photo_1x1.png",
-       "4x5": "creatives/CC_Harassment/CC_Harassment_photo_4x5.jpeg",
-       "9x16": "creatives/CC_Harassment/CC_Harassment_photo_9x16.png",
-       "1.91x1": "creatives/CC_Harassment/CC_Harassment_photo_1.91x1.png"
+       "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/credit-card/v3-pilot/CC_Harassment_D2_Photo_1x1.png",
+       "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/assets/credit-card/v3-pilot/CC_Harassment_D2_Photo_4x5.jpeg",
+       "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/assets/credit-card/v3-pilot/CC_Harassment_D2_Photo_9x16.png",
+       "1.91x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/credit-card/v3-pilot/CC_Harassment_D2_Photo_1_91x1.png"
       },
       "stilllife": {
-       "1x1": "creatives/CC_Harassment/CC_Harassment_stilllife_1x1.png",
-       "4x5": "creatives/CC_Harassment/CC_Harassment_stilllife_4x5.jpeg",
-       "9x16": "creatives/CC_Harassment/CC_Harassment_stilllife_9x16.png",
-       "1.91x1": "creatives/CC_Harassment/CC_Harassment_stilllife_1.91x1.png"
+       "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/credit-card/v3-pilot/CC_Harassment_D3_StillLife_1x1.png",
+       "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/assets/credit-card/v3-pilot/CC_Harassment_D3_StillLife_4x5.jpeg",
+       "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/assets/credit-card/v3-pilot/CC_Harassment_D3_StillLife_9x16.png",
+       "1.91x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/credit-card/v3-pilot/CC_Harassment_D3_StillLife_1_91x1.png"
       }
      },
-     "video": "creatives/CC_Harassment/CC_Harassment_video_9x16.mp4"
+     "video": "https://2-human.github.io/credo-public-meta-ads-preview/assets/credit-card/v3-pilot/CC_Harassment_D4_Video_9x16.mp4"
     },
     {
      "key": "CC_Negotiation",
@@ -139,25 +139,25 @@
      },
      "creatives": {
       "illustration": {
-       "1x1": "creatives/CC_Negotiation/CC_Negotiation_illustration_1x1.png",
-       "4x5": "creatives/CC_Negotiation/CC_Negotiation_illustration_4x5.png",
-       "9x16": "creatives/CC_Negotiation/CC_Negotiation_illustration_9x16.png",
-       "1.91x1": "creatives/CC_Negotiation/CC_Negotiation_illustration_1.91x1.png"
+       "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/credit-card/v3-pilot/CC_Negotiation_D1_Illustration_1x1.png",
+       "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/assets/credit-card/v3-pilot/CC_Negotiation_D1_Illustration_4x5.png",
+       "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/assets/credit-card/v3-pilot/CC_Negotiation_D1_Illustration_9x16.png",
+       "1.91x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/credit-card/v3-pilot/CC_Negotiation_D1_Illustration_1_91x1.png"
       },
       "photo": {
-       "1x1": "creatives/CC_Negotiation/CC_Negotiation_photo_1x1.png",
-       "4x5": "creatives/CC_Negotiation/CC_Negotiation_photo_4x5.png",
-       "9x16": "creatives/CC_Negotiation/CC_Negotiation_photo_9x16.png",
-       "1.91x1": "creatives/CC_Negotiation/CC_Negotiation_photo_1.91x1.png"
+       "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/credit-card/v3-pilot/CC_Negotiation_D2_Photo_1x1.png",
+       "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/assets/credit-card/v3-pilot/CC_Negotiation_D2_Photo_4x5.png",
+       "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/assets/credit-card/v3-pilot/CC_Negotiation_D2_Photo_9x16.png",
+       "1.91x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/credit-card/v3-pilot/CC_Negotiation_D2_Photo_1_91x1.png"
       },
       "stilllife": {
-       "1x1": "creatives/CC_Negotiation/CC_Negotiation_stilllife_1x1.png",
-       "4x5": "creatives/CC_Negotiation/CC_Negotiation_stilllife_4x5.png",
-       "9x16": "creatives/CC_Negotiation/CC_Negotiation_stilllife_9x16.png",
-       "1.91x1": "creatives/CC_Negotiation/CC_Negotiation_stilllife_1.91x1.png"
+       "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/credit-card/v3-pilot/CC_Negotiation_D3_StillLife_1x1.png",
+       "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/assets/credit-card/v3-pilot/CC_Negotiation_D3_StillLife_4x5.png",
+       "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/assets/credit-card/v3-pilot/CC_Negotiation_D3_StillLife_9x16.png",
+       "1.91x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/credit-card/v3-pilot/CC_Negotiation_D3_StillLife_1_91x1.png"
       }
      },
-     "video": "creatives/CC_Negotiation/CC_Negotiation_video_9x16.mp4"
+     "video": "https://2-human.github.io/credo-public-meta-ads-preview/assets/credit-card/v3-pilot/CC_Negotiation_D4_Video_9x16.mp4"
     }
    ]
   },
@@ -183,25 +183,25 @@
      },
      "creatives": {
       "illustration": {
-       "1x1": "creatives/Collection_Lawsuit/Collection_Lawsuit_illustration_1x1.png",
-       "4x5": "creatives/Collection_Lawsuit/Collection_Lawsuit_illustration_4x5.png",
-       "9x16": "creatives/Collection_Lawsuit/Collection_Lawsuit_illustration_9x16.png",
-       "1.91x1": "creatives/Collection_Lawsuit/Collection_Lawsuit_illustration_1.91x1.png"
+       "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/lawsuit/v3-pilot/Collection_Lawsuit_D1_Illustration_1x1.png",
+       "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/assets/lawsuit/v3-pilot/Collection_Lawsuit_D1_Illustration_4x5.png",
+       "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/assets/lawsuit/v3-pilot/Collection_Lawsuit_D1_Illustration_9x16.png",
+       "1.91x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/lawsuit/v3-pilot/Collection_Lawsuit_D1_Illustration_1_91x1.png"
       },
       "photo": {
-       "1x1": "creatives/Collection_Lawsuit/Collection_Lawsuit_photo_1x1.png",
-       "4x5": "creatives/Collection_Lawsuit/Collection_Lawsuit_photo_4x5.png",
-       "9x16": "creatives/Collection_Lawsuit/Collection_Lawsuit_photo_9x16.png",
-       "1.91x1": "creatives/Collection_Lawsuit/Collection_Lawsuit_photo_1.91x1.png"
+       "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/lawsuit/v3-pilot/Collection_Lawsuit_D2_Photo_1x1.png",
+       "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/assets/lawsuit/v3-pilot/Collection_Lawsuit_D2_Photo_4x5.png",
+       "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/assets/lawsuit/v3-pilot/Collection_Lawsuit_D2_Photo_9x16.png",
+       "1.91x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/lawsuit/v3-pilot/Collection_Lawsuit_D2_Photo_1_91x1.png"
       },
       "stilllife": {
-       "1x1": "creatives/Collection_Lawsuit/Collection_Lawsuit_stilllife_1x1.png",
-       "4x5": "creatives/Collection_Lawsuit/Collection_Lawsuit_stilllife_4x5.png",
-       "9x16": "creatives/Collection_Lawsuit/Collection_Lawsuit_stilllife_9x16.png",
-       "1.91x1": "creatives/Collection_Lawsuit/Collection_Lawsuit_stilllife_1.91x1.png"
+       "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/lawsuit/v3-pilot/Collection_Lawsuit_D3_StillLife_1x1.png",
+       "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/assets/lawsuit/v3-pilot/Collection_Lawsuit_D3_StillLife_4x5.png",
+       "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/assets/lawsuit/v3-pilot/Collection_Lawsuit_D3_StillLife_9x16.png",
+       "1.91x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/lawsuit/v3-pilot/Collection_Lawsuit_D3_StillLife_1_91x1.png"
       }
      },
-     "video": "creatives/Collection_Lawsuit/Collection_Lawsuit_video_9x16.mp4"
+     "video": "https://2-human.github.io/credo-public-meta-ads-preview/assets/lawsuit/v3-pilot/Collection_Lawsuit_D4_Video_9x16.mp4"
     },
     {
      "key": "Creditor_Suing",
@@ -221,25 +221,25 @@
      },
      "creatives": {
       "illustration": {
-       "1x1": "creatives/Creditor_Suing/Creditor_Suing_illustration_1x1.png",
-       "4x5": "creatives/Creditor_Suing/Creditor_Suing_illustration_4x5.png",
-       "9x16": "creatives/Creditor_Suing/Creditor_Suing_illustration_9x16.png",
-       "1.91x1": "creatives/Creditor_Suing/Creditor_Suing_illustration_1.91x1.png"
+       "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/lawsuit/v3-pilot/Creditor_Suing_D1_Illustration_1x1.png",
+       "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/assets/lawsuit/v3-pilot/Creditor_Suing_D1_Illustration_4x5.png",
+       "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/assets/lawsuit/v3-pilot/Creditor_Suing_D1_Illustration_9x16.png",
+       "1.91x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/lawsuit/v3-pilot/Creditor_Suing_D1_Illustration_1_91x1.png"
       },
       "photo": {
-       "1x1": "creatives/Creditor_Suing/Creditor_Suing_photo_1x1.png",
-       "4x5": "creatives/Creditor_Suing/Creditor_Suing_photo_4x5.png",
-       "9x16": "creatives/Creditor_Suing/Creditor_Suing_photo_9x16.png",
-       "1.91x1": "creatives/Creditor_Suing/Creditor_Suing_photo_1.91x1.png"
+       "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/lawsuit/v3-pilot/Creditor_Suing_D2_Photo_1x1.png",
+       "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/assets/lawsuit/v3-pilot/Creditor_Suing_D2_Photo_4x5.png",
+       "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/assets/lawsuit/v3-pilot/Creditor_Suing_D2_Photo_9x16.png",
+       "1.91x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/lawsuit/v3-pilot/Creditor_Suing_D2_Photo_1_91x1.png"
       },
       "stilllife": {
-       "1x1": "creatives/Creditor_Suing/Creditor_Suing_stilllife_1x1.png",
-       "4x5": "creatives/Creditor_Suing/Creditor_Suing_stilllife_4x5.png",
-       "9x16": "creatives/Creditor_Suing/Creditor_Suing_stilllife_9x16.png",
-       "1.91x1": "creatives/Creditor_Suing/Creditor_Suing_stilllife_1.91x1.png"
+       "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/lawsuit/v3-pilot/Creditor_Suing_D3_StillLife_1x1.png",
+       "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/assets/lawsuit/v3-pilot/Creditor_Suing_D3_StillLife_4x5.png",
+       "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/assets/lawsuit/v3-pilot/Creditor_Suing_D3_StillLife_9x16.png",
+       "1.91x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/lawsuit/v3-pilot/Creditor_Suing_D3_StillLife_1_91x1.png"
       }
      },
-     "video": "creatives/Creditor_Suing/Creditor_Suing_video_9x16.mp4"
+     "video": "https://2-human.github.io/credo-public-meta-ads-preview/assets/lawsuit/v3-pilot/Creditor_Suing_D4_Video_9x16.mp4"
     },
     {
      "key": "Served_Papers",
@@ -259,25 +259,25 @@
      },
      "creatives": {
       "illustration": {
-       "1x1": "creatives/Served_Papers/Served_Papers_illustration_1x1.png",
-       "4x5": "creatives/Served_Papers/Served_Papers_illustration_4x5.png",
-       "9x16": "creatives/Served_Papers/Served_Papers_illustration_9x16.png",
-       "1.91x1": "creatives/Served_Papers/Served_Papers_illustration_1.91x1.png"
+       "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/lawsuit/v3-pilot/Served_Papers_D1_Illustration_1x1.png",
+       "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/assets/lawsuit/v3-pilot/Served_Papers_D1_Illustration_4x5.png",
+       "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/assets/lawsuit/v3-pilot/Served_Papers_D1_Illustration_9x16.png",
+       "1.91x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/lawsuit/v3-pilot/Served_Papers_D1_Illustration_1_91x1.png"
       },
       "photo": {
-       "1x1": "creatives/Served_Papers/Served_Papers_photo_1x1.png",
-       "4x5": "creatives/Served_Papers/Served_Papers_photo_4x5.png",
-       "9x16": "creatives/Served_Papers/Served_Papers_photo_9x16.png",
-       "1.91x1": "creatives/Served_Papers/Served_Papers_photo_1.91x1.png"
+       "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/lawsuit/v3-pilot/Served_Papers_D2_Photo_1x1.png",
+       "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/assets/lawsuit/v3-pilot/Served_Papers_D2_Photo_4x5.png",
+       "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/assets/lawsuit/v3-pilot/Served_Papers_D2_Photo_9x16.png",
+       "1.91x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/lawsuit/v3-pilot/Served_Papers_D2_Photo_1_91x1.png"
       },
       "stilllife": {
-       "1x1": "creatives/Served_Papers/Served_Papers_stilllife_1x1.png",
-       "4x5": "creatives/Served_Papers/Served_Papers_stilllife_4x5.png",
-       "9x16": "creatives/Served_Papers/Served_Papers_stilllife_9x16.png",
-       "1.91x1": "creatives/Served_Papers/Served_Papers_stilllife_1.91x1.png"
+       "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/lawsuit/v3-pilot/Served_Papers_D3_StillLife_1x1.png",
+       "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/assets/lawsuit/v3-pilot/Served_Papers_D3_StillLife_4x5.png",
+       "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/assets/lawsuit/v3-pilot/Served_Papers_D3_StillLife_9x16.png",
+       "1.91x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/lawsuit/v3-pilot/Served_Papers_D3_StillLife_1_91x1.png"
       }
      },
-     "video": "creatives/Served_Papers/Served_Papers_video_9x16.mp4"
+     "video": "https://2-human.github.io/credo-public-meta-ads-preview/assets/lawsuit/v3-pilot/Served_Papers_D4_Video_9x16.mp4"
     }
    ]
   },
@@ -303,25 +303,25 @@
      },
      "creatives": {
       "illustration": {
-       "1x1": "creatives/Creditor_Harassment/Creditor_Harassment_illustration_1x1.png",
-       "4x5": "creatives/Creditor_Harassment/Creditor_Harassment_illustration_4x5.png",
-       "9x16": "creatives/Creditor_Harassment/Creditor_Harassment_illustration_9x16.png",
-       "1.91x1": "creatives/Creditor_Harassment/Creditor_Harassment_illustration_1.91x1.png"
+       "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/harassment/v3-pilot/Creditor_Harassment_D1_Illustration_1x1.png",
+       "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/assets/harassment/v3-pilot/Creditor_Harassment_D1_Illustration_4x5.png",
+       "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/assets/harassment/v3-pilot/Creditor_Harassment_D1_Illustration_9x16.png",
+       "1.91x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/harassment/v3-pilot/Creditor_Harassment_D1_Illustration_1_91x1.png"
       },
       "photo": {
-       "1x1": "creatives/Creditor_Harassment/Creditor_Harassment_photo_1x1.png",
-       "4x5": "creatives/Creditor_Harassment/Creditor_Harassment_photo_4x5.png",
-       "9x16": "creatives/Creditor_Harassment/Creditor_Harassment_photo_9x16.png",
-       "1.91x1": "creatives/Creditor_Harassment/Creditor_Harassment_photo_1.91x1.png"
+       "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/harassment/v3-pilot/Creditor_Harassment_D2_Photo_1x1.png",
+       "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/assets/harassment/v3-pilot/Creditor_Harassment_D2_Photo_4x5.png",
+       "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/assets/harassment/v3-pilot/Creditor_Harassment_D2_Photo_9x16.png",
+       "1.91x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/harassment/v3-pilot/Creditor_Harassment_D2_Photo_1_91x1.png"
       },
       "stilllife": {
-       "1x1": "creatives/Creditor_Harassment/Creditor_Harassment_stilllife_1x1.png",
-       "4x5": "creatives/Creditor_Harassment/Creditor_Harassment_stilllife_4x5.png",
-       "9x16": "creatives/Creditor_Harassment/Creditor_Harassment_stilllife_9x16.png",
-       "1.91x1": "creatives/Creditor_Harassment/Creditor_Harassment_stilllife_1.91x1.png"
+       "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/harassment/v3-pilot/Creditor_Harassment_D3_StillLife_1x1.png",
+       "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/assets/harassment/v3-pilot/Creditor_Harassment_D3_StillLife_4x5.png",
+       "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/assets/harassment/v3-pilot/Creditor_Harassment_D3_StillLife_9x16.png",
+       "1.91x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/harassment/v3-pilot/Creditor_Harassment_D3_StillLife_1_91x1.png"
       }
      },
-     "video": "creatives/Creditor_Harassment/Creditor_Harassment_video_9x16.mp4"
+     "video": "https://2-human.github.io/credo-public-meta-ads-preview/assets/harassment/v3-pilot/Creditor_Harassment_D4_Video_9x16.mp4"
     },
     {
      "key": "FDCPA_Harassment",
@@ -341,25 +341,25 @@
      },
      "creatives": {
       "illustration": {
-       "1x1": "creatives/FDCPA_Harassment/FDCPA_Harassment_illustration_1x1.png",
-       "4x5": "creatives/FDCPA_Harassment/FDCPA_Harassment_illustration_4x5.png",
-       "9x16": "creatives/FDCPA_Harassment/FDCPA_Harassment_illustration_9x16.png",
-       "1.91x1": "creatives/FDCPA_Harassment/FDCPA_Harassment_illustration_1.91x1.png"
+       "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/harassment/v3-pilot/FDCPA_Harassment_D1_Illustration_1x1.png",
+       "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/assets/harassment/v3-pilot/FDCPA_Harassment_D1_Illustration_4x5.png",
+       "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/assets/harassment/v3-pilot/FDCPA_Harassment_D1_Illustration_9x16.png",
+       "1.91x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/harassment/v3-pilot/FDCPA_Harassment_D1_Illustration_1_91x1.png"
       },
       "photo": {
-       "1x1": "creatives/FDCPA_Harassment/FDCPA_Harassment_photo_1x1.png",
-       "4x5": "creatives/FDCPA_Harassment/FDCPA_Harassment_photo_4x5.png",
-       "9x16": "creatives/FDCPA_Harassment/FDCPA_Harassment_photo_9x16.png",
-       "1.91x1": "creatives/FDCPA_Harassment/FDCPA_Harassment_photo_1.91x1.png"
+       "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/harassment/v3-pilot/FDCPA_Harassment_D2_Photo_1x1.png",
+       "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/assets/harassment/v3-pilot/FDCPA_Harassment_D2_Photo_4x5.png",
+       "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/assets/harassment/v3-pilot/FDCPA_Harassment_D2_Photo_9x16.png",
+       "1.91x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/harassment/v3-pilot/FDCPA_Harassment_D2_Photo_1_91x1.png"
       },
       "stilllife": {
-       "1x1": "creatives/FDCPA_Harassment/FDCPA_Harassment_stilllife_1x1.png",
-       "4x5": "creatives/FDCPA_Harassment/FDCPA_Harassment_stilllife_4x5.png",
-       "9x16": "creatives/FDCPA_Harassment/FDCPA_Harassment_stilllife_9x16.png",
-       "1.91x1": "creatives/FDCPA_Harassment/FDCPA_Harassment_stilllife_1.91x1.png"
+       "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/harassment/v3-pilot/FDCPA_Harassment_D3_StillLife_1x1.png",
+       "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/assets/harassment/v3-pilot/FDCPA_Harassment_D3_StillLife_4x5.png",
+       "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/assets/harassment/v3-pilot/FDCPA_Harassment_D3_StillLife_9x16.png",
+       "1.91x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/harassment/v3-pilot/FDCPA_Harassment_D3_StillLife_1_91x1.png"
       }
      },
-     "video": "creatives/FDCPA_Harassment/FDCPA_Harassment_video_9x16.mp4"
+     "video": "https://2-human.github.io/credo-public-meta-ads-preview/assets/harassment/v3-pilot/FDCPA_Harassment_D4_Video_9x16.mp4"
     },
     {
      "key": "Multiple_Collectors",
@@ -379,25 +379,25 @@
      },
      "creatives": {
       "illustration": {
-       "1x1": "creatives/Multiple_Collectors/Multiple_Collectors_illustration_1x1.png",
-       "4x5": "creatives/Multiple_Collectors/Multiple_Collectors_illustration_4x5.png",
-       "9x16": "creatives/Multiple_Collectors/Multiple_Collectors_illustration_9x16.png",
-       "1.91x1": "creatives/Multiple_Collectors/Multiple_Collectors_illustration_1.91x1.png"
+       "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/harassment/v3-pilot/Multiple_Collectors_D1_Illustration_1x1.png",
+       "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/assets/harassment/v3-pilot/Multiple_Collectors_D1_Illustration_4x5.png",
+       "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/assets/harassment/v3-pilot/Multiple_Collectors_D1_Illustration_9x16.png",
+       "1.91x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/harassment/v3-pilot/Multiple_Collectors_D1_Illustration_1_91x1.png"
       },
       "photo": {
-       "1x1": "creatives/Multiple_Collectors/Multiple_Collectors_photo_1x1.png",
-       "4x5": "creatives/Multiple_Collectors/Multiple_Collectors_photo_4x5.png",
-       "9x16": "creatives/Multiple_Collectors/Multiple_Collectors_photo_9x16.png",
-       "1.91x1": "creatives/Multiple_Collectors/Multiple_Collectors_photo_1.91x1.png"
+       "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/harassment/v3-pilot/Multiple_Collectors_D2_Photo_1x1.png",
+       "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/assets/harassment/v3-pilot/Multiple_Collectors_D2_Photo_4x5.png",
+       "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/assets/harassment/v3-pilot/Multiple_Collectors_D2_Photo_9x16.png",
+       "1.91x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/harassment/v3-pilot/Multiple_Collectors_D2_Photo_1_91x1.png"
       },
       "stilllife": {
-       "1x1": "creatives/Multiple_Collectors/Multiple_Collectors_stilllife_1x1.png",
-       "4x5": "creatives/Multiple_Collectors/Multiple_Collectors_stilllife_4x5.png",
-       "9x16": "creatives/Multiple_Collectors/Multiple_Collectors_stilllife_9x16.png",
-       "1.91x1": "creatives/Multiple_Collectors/Multiple_Collectors_stilllife_1.91x1.png"
+       "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/harassment/v3-pilot/Multiple_Collectors_D3_StillLife_1x1.png",
+       "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/assets/harassment/v3-pilot/Multiple_Collectors_D3_StillLife_4x5.png",
+       "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/assets/harassment/v3-pilot/Multiple_Collectors_D3_StillLife_9x16.png",
+       "1.91x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/harassment/v3-pilot/Multiple_Collectors_D3_StillLife_1_91x1.png"
       }
      },
-     "video": "creatives/Multiple_Collectors/Multiple_Collectors_video_9x16.mp4"
+     "video": "https://2-human.github.io/credo-public-meta-ads-preview/assets/harassment/v3-pilot/Multiple_Collectors_D4_Video_9x16.mp4"
     }
    ]
   },
@@ -423,25 +423,25 @@
      },
      "creatives": {
       "illustration": {
-       "1x1": "creatives/Medical_Harassment/Medical_Harassment_illustration_1x1.png",
-       "4x5": "creatives/Medical_Harassment/Medical_Harassment_illustration_4x5.png",
-       "9x16": "creatives/Medical_Harassment/Medical_Harassment_illustration_9x16.png",
-       "1.91x1": "creatives/Medical_Harassment/Medical_Harassment_illustration_1.91x1.png"
+       "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/medical-debt/v3-pilot/Medical_Harassment_D1_Illustration_1x1.png",
+       "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/assets/medical-debt/v3-pilot/Medical_Harassment_D1_Illustration_4x5.png",
+       "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/assets/medical-debt/v3-pilot/Medical_Harassment_D1_Illustration_9x16.png",
+       "1.91x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/medical-debt/v3-pilot/Medical_Harassment_D1_Illustration_1_91x1.png"
       },
       "photo": {
-       "1x1": "creatives/Medical_Harassment/Medical_Harassment_photo_1x1.png",
-       "4x5": "creatives/Medical_Harassment/Medical_Harassment_photo_4x5.png",
-       "9x16": "creatives/Medical_Harassment/Medical_Harassment_photo_9x16.png",
-       "1.91x1": "creatives/Medical_Harassment/Medical_Harassment_photo_1.91x1.png"
+       "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/medical-debt/v3-pilot/Medical_Harassment_D2_Photo_1x1.png",
+       "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/assets/medical-debt/v3-pilot/Medical_Harassment_D2_Photo_4x5.png",
+       "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/assets/medical-debt/v3-pilot/Medical_Harassment_D2_Photo_9x16.png",
+       "1.91x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/medical-debt/v3-pilot/Medical_Harassment_D2_Photo_1_91x1.png"
       },
       "stilllife": {
-       "1x1": "creatives/Medical_Harassment/Medical_Harassment_stilllife_1x1.png",
-       "4x5": "creatives/Medical_Harassment/Medical_Harassment_stilllife_4x5.png",
-       "9x16": "creatives/Medical_Harassment/Medical_Harassment_stilllife_9x16.png",
-       "1.91x1": "creatives/Medical_Harassment/Medical_Harassment_stilllife_1.91x1.png"
+       "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/medical-debt/v3-pilot/Medical_Harassment_D3_StillLife_1x1.png",
+       "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/assets/medical-debt/v3-pilot/Medical_Harassment_D3_StillLife_4x5.png",
+       "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/assets/medical-debt/v3-pilot/Medical_Harassment_D3_StillLife_9x16.png",
+       "1.91x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/medical-debt/v3-pilot/Medical_Harassment_D3_StillLife_1_91x1.png"
       }
      },
-     "video": "creatives/Medical_Harassment/Medical_Harassment_video_9x16.mp4"
+     "video": "https://2-human.github.io/credo-public-meta-ads-preview/assets/medical-debt/v3-pilot/Medical_Harassment_D4_Video_9x16.mp4"
     },
     {
      "key": "Medical_Lawsuit",
@@ -461,25 +461,25 @@
      },
      "creatives": {
       "illustration": {
-       "1x1": "creatives/Medical_Lawsuit/Medical_Lawsuit_illustration_1x1.png",
-       "4x5": "creatives/Medical_Lawsuit/Medical_Lawsuit_illustration_4x5.png",
-       "9x16": "creatives/Medical_Lawsuit/Medical_Lawsuit_illustration_9x16.png",
-       "1.91x1": "creatives/Medical_Lawsuit/Medical_Lawsuit_illustration_1.91x1.png"
+       "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/medical-debt/v3-pilot/Medical_Lawsuit_D1_Illustration_1x1.png",
+       "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/assets/medical-debt/v3-pilot/Medical_Lawsuit_D1_Illustration_4x5.png",
+       "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/assets/medical-debt/v3-pilot/Medical_Lawsuit_D1_Illustration_9x16.png",
+       "1.91x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/medical-debt/v3-pilot/Medical_Lawsuit_D1_Illustration_1_91x1.png"
       },
       "photo": {
-       "1x1": "creatives/Medical_Lawsuit/Medical_Lawsuit_photo_1x1.png",
-       "4x5": "creatives/Medical_Lawsuit/Medical_Lawsuit_photo_4x5.png",
-       "9x16": "creatives/Medical_Lawsuit/Medical_Lawsuit_photo_9x16.png",
-       "1.91x1": "creatives/Medical_Lawsuit/Medical_Lawsuit_photo_1.91x1.png"
+       "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/medical-debt/v3-pilot/Medical_Lawsuit_D2_Photo_1x1.png",
+       "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/assets/medical-debt/v3-pilot/Medical_Lawsuit_D2_Photo_4x5.png",
+       "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/assets/medical-debt/v3-pilot/Medical_Lawsuit_D2_Photo_9x16.png",
+       "1.91x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/medical-debt/v3-pilot/Medical_Lawsuit_D2_Photo_1_91x1.png"
       },
       "stilllife": {
-       "1x1": "creatives/Medical_Lawsuit/Medical_Lawsuit_stilllife_1x1.png",
-       "4x5": "creatives/Medical_Lawsuit/Medical_Lawsuit_stilllife_4x5.png",
-       "9x16": "creatives/Medical_Lawsuit/Medical_Lawsuit_stilllife_9x16.png",
-       "1.91x1": "creatives/Medical_Lawsuit/Medical_Lawsuit_stilllife_1.91x1.png"
+       "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/medical-debt/v3-pilot/Medical_Lawsuit_D3_StillLife_1x1.png",
+       "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/assets/medical-debt/v3-pilot/Medical_Lawsuit_D3_StillLife_4x5.png",
+       "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/assets/medical-debt/v3-pilot/Medical_Lawsuit_D3_StillLife_9x16.png",
+       "1.91x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/medical-debt/v3-pilot/Medical_Lawsuit_D3_StillLife_1_91x1.png"
       }
      },
-     "video": "creatives/Medical_Lawsuit/Medical_Lawsuit_video_9x16.mp4"
+     "video": "https://2-human.github.io/credo-public-meta-ads-preview/assets/medical-debt/v3-pilot/Medical_Lawsuit_D4_Video_9x16.mp4"
     },
     {
      "key": "Medical_Rights",
@@ -499,25 +499,25 @@
      },
      "creatives": {
       "illustration": {
-       "1x1": "creatives/Medical_Rights/Medical_Rights_illustration_1x1.png",
-       "4x5": "creatives/Medical_Rights/Medical_Rights_illustration_4x5.png",
-       "9x16": "creatives/Medical_Rights/Medical_Rights_illustration_9x16.png",
-       "1.91x1": "creatives/Medical_Rights/Medical_Rights_illustration_1.91x1.png"
+       "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/medical-debt/v3-pilot/Medical_Rights_D1_Illustration_1x1.png",
+       "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/assets/medical-debt/v3-pilot/Medical_Rights_D1_Illustration_4x5.png",
+       "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/assets/medical-debt/v3-pilot/Medical_Rights_D1_Illustration_9x16.png",
+       "1.91x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/medical-debt/v3-pilot/Medical_Rights_D1_Illustration_1_91x1.png"
       },
       "photo": {
-       "1x1": "creatives/Medical_Rights/Medical_Rights_photo_1x1.png",
-       "4x5": "creatives/Medical_Rights/Medical_Rights_photo_4x5.png",
-       "9x16": "creatives/Medical_Rights/Medical_Rights_photo_9x16.png",
-       "1.91x1": "creatives/Medical_Rights/Medical_Rights_photo_1.91x1.png"
+       "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/medical-debt/v3-pilot/Medical_Rights_D2_Photo_1x1.png",
+       "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/assets/medical-debt/v3-pilot/Medical_Rights_D2_Photo_4x5.png",
+       "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/assets/medical-debt/v3-pilot/Medical_Rights_D2_Photo_9x16.png",
+       "1.91x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/medical-debt/v3-pilot/Medical_Rights_D2_Photo_1_91x1.png"
       },
       "stilllife": {
-       "1x1": "creatives/Medical_Rights/Medical_Rights_stilllife_1x1.png",
-       "4x5": "creatives/Medical_Rights/Medical_Rights_stilllife_4x5.png",
-       "9x16": "creatives/Medical_Rights/Medical_Rights_stilllife_9x16.png",
-       "1.91x1": "creatives/Medical_Rights/Medical_Rights_stilllife_1.91x1.png"
+       "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/medical-debt/v3-pilot/Medical_Rights_D3_StillLife_1x1.png",
+       "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/assets/medical-debt/v3-pilot/Medical_Rights_D3_StillLife_4x5.png",
+       "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/assets/medical-debt/v3-pilot/Medical_Rights_D3_StillLife_9x16.png",
+       "1.91x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/medical-debt/v3-pilot/Medical_Rights_D3_StillLife_1_91x1.png"
       }
      },
-     "video": "creatives/Medical_Rights/Medical_Rights_video_9x16.mp4"
+     "video": "https://2-human.github.io/credo-public-meta-ads-preview/assets/medical-debt/v3-pilot/Medical_Rights_D4_Video_9x16.mp4"
     }
    ]
   },
@@ -543,25 +543,25 @@
      },
      "creatives": {
       "illustration": {
-       "1x1": "creatives/Pre_Judgment_Garn/Pre_Judgment_Garn_illustration_1x1.png",
-       "4x5": "creatives/Pre_Judgment_Garn/Pre_Judgment_Garn_illustration_4x5.png",
-       "9x16": "creatives/Pre_Judgment_Garn/Pre_Judgment_Garn_illustration_9x16.png",
-       "1.91x1": "creatives/Pre_Judgment_Garn/Pre_Judgment_Garn_illustration_1.91x1.png"
+       "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/garnishment/v3-pilot/Pre_Judgment_Garn_D1_Illustration_1x1.png",
+       "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/assets/garnishment/v3-pilot/Pre_Judgment_Garn_D1_Illustration_4x5.png",
+       "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/assets/garnishment/v3-pilot/Pre_Judgment_Garn_D1_Illustration_9x16.png",
+       "1.91x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/garnishment/v3-pilot/Pre_Judgment_Garn_D1_Illustration_1_91x1.png"
       },
       "photo": {
-       "1x1": "creatives/Pre_Judgment_Garn/Pre_Judgment_Garn_photo_1x1.png",
-       "4x5": "creatives/Pre_Judgment_Garn/Pre_Judgment_Garn_photo_4x5.png",
-       "9x16": "creatives/Pre_Judgment_Garn/Pre_Judgment_Garn_photo_9x16.png",
-       "1.91x1": "creatives/Pre_Judgment_Garn/Pre_Judgment_Garn_photo_1.91x1.png"
+       "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/garnishment/v3-pilot/Pre_Judgment_Garn_D2_Photo_1x1.png",
+       "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/assets/garnishment/v3-pilot/Pre_Judgment_Garn_D2_Photo_4x5.png",
+       "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/assets/garnishment/v3-pilot/Pre_Judgment_Garn_D2_Photo_9x16.png",
+       "1.91x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/garnishment/v3-pilot/Pre_Judgment_Garn_D2_Photo_1_91x1.png"
       },
       "stilllife": {
-       "1x1": "creatives/Pre_Judgment_Garn/Pre_Judgment_Garn_stilllife_1x1.png",
-       "4x5": "creatives/Pre_Judgment_Garn/Pre_Judgment_Garn_stilllife_4x5.png",
-       "9x16": "creatives/Pre_Judgment_Garn/Pre_Judgment_Garn_stilllife_9x16.png",
-       "1.91x1": "creatives/Pre_Judgment_Garn/Pre_Judgment_Garn_stilllife_1.91x1.png"
+       "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/garnishment/v3-pilot/Pre_Judgment_Garn_D3_StillLife_1x1.png",
+       "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/assets/garnishment/v3-pilot/Pre_Judgment_Garn_D3_StillLife_4x5.png",
+       "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/assets/garnishment/v3-pilot/Pre_Judgment_Garn_D3_StillLife_9x16.png",
+       "1.91x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/garnishment/v3-pilot/Pre_Judgment_Garn_D3_StillLife_1_91x1.png"
       }
      },
-     "video": "creatives/Pre_Judgment_Garn/Pre_Judgment_Garn_video_9x16.mp4"
+     "video": "https://2-human.github.io/credo-public-meta-ads-preview/assets/garnishment/v3-pilot/Pre_Judgment_Garn_D4_Video_9x16.mp4"
     },
     {
      "key": "Post_Judgment_Garn",
@@ -581,27 +581,28 @@
      },
      "creatives": {
       "illustration": {
-       "1x1": "creatives/Post_Judgment_Garn/Post_Judgment_Garn_illustration_1x1.png",
-       "4x5": "creatives/Post_Judgment_Garn/Post_Judgment_Garn_illustration_4x5.png",
-       "9x16": "creatives/Post_Judgment_Garn/Post_Judgment_Garn_illustration_9x16.png",
-       "1.91x1": "creatives/Post_Judgment_Garn/Post_Judgment_Garn_illustration_1.91x1.png"
+       "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/garnishment/v3-pilot/Post_Judgment_Garn_D1_Illustration_1x1.png",
+       "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/assets/garnishment/v3-pilot/Post_Judgment_Garn_D1_Illustration_4x5.png",
+       "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/assets/garnishment/v3-pilot/Post_Judgment_Garn_D1_Illustration_9x16.png",
+       "1.91x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/garnishment/v3-pilot/Post_Judgment_Garn_D1_Illustration_1_91x1.png"
       },
       "photo": {
-       "1x1": "creatives/Post_Judgment_Garn/Post_Judgment_Garn_photo_1x1.png",
-       "4x5": "creatives/Post_Judgment_Garn/Post_Judgment_Garn_photo_4x5.png",
-       "9x16": "creatives/Post_Judgment_Garn/Post_Judgment_Garn_photo_9x16.png",
-       "1.91x1": "creatives/Post_Judgment_Garn/Post_Judgment_Garn_photo_1.91x1.png"
+       "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/garnishment/v3-pilot/Post_Judgment_Garn_D2_Photo_1x1.png",
+       "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/assets/garnishment/v3-pilot/Post_Judgment_Garn_D2_Photo_4x5.png",
+       "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/assets/garnishment/v3-pilot/Post_Judgment_Garn_D2_Photo_9x16.png",
+       "1.91x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/garnishment/v3-pilot/Post_Judgment_Garn_D2_Photo_1_91x1.png"
       },
       "stilllife": {
-       "1x1": "creatives/Post_Judgment_Garn/Post_Judgment_Garn_stilllife_1x1.png",
-       "4x5": "creatives/Post_Judgment_Garn/Post_Judgment_Garn_stilllife_4x5.png",
-       "9x16": "creatives/Post_Judgment_Garn/Post_Judgment_Garn_stilllife_9x16.png",
-       "1.91x1": "creatives/Post_Judgment_Garn/Post_Judgment_Garn_stilllife_1.91x1.png"
+       "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/garnishment/v3-pilot/Post_Judgment_Garn_D3_StillLife_1x1.png",
+       "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/assets/garnishment/v3-pilot/Post_Judgment_Garn_D3_StillLife_4x5.png",
+       "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/assets/garnishment/v3-pilot/Post_Judgment_Garn_D3_StillLife_9x16.png",
+       "1.91x1": "https://2-human.github.io/credo-public-meta-ads-preview/assets/garnishment/v3-pilot/Post_Judgment_Garn_D3_StillLife_1_91x1.png"
       }
      },
-     "video": "creatives/Post_Judgment_Garn/Post_Judgment_Garn_video_9x16.mp4"
+     "video": "https://2-human.github.io/credo-public-meta-ads-preview/assets/garnishment/v3-pilot/Post_Judgment_Garn_D4_Video_9x16.mp4"
     }
    ]
   }
- ]
+ ],
+ "_note_public": "Creative paths point at the review-hub mirror (assets/…). The offline zip bundle is self-contained under creatives/…"
 }

@@ -51,9 +51,9 @@
        <li><span class="d">6 campaign-wide headline options</span><a href="handoff/meta/copy/headlines.csv">headlines.csv</a></li>
        <li><span class="d">70 messages (14×5), disclaimers baked in</span><a href="handoff/meta/copy/messages.csv">messages.csv</a></li>
        <li><span class="d">Per-ad final URL, UTM, topic, description</span><a href="handoff/meta/copy/ads.csv">ads.csv</a></li>
-       <li><span class="d">Every creative → ad / direction / ratio</span><a href="handoff/meta/asset-manifest.csv">asset-manifest.csv</a></li>
+       <li><span class="d"><b>Creatives</b> — 182 files (12 images + 1 video per ad), each row a direct download link</span><a href="handoff/meta/asset-manifest.csv">asset-manifest.csv</a></li>
      </ul>
-     <p class="meta">Creatives (12 images + 1 video per ad) are viewable in the <a href="index.html">review hub</a>; the full-resolution bundle ships separately.</p>
+     <p class="meta">Every creative is hosted on this mirror — the <code>path</code> column in the asset-manifest is a direct link, and the <code>campaign-manifest.json</code> creative paths resolve too. The offline zip bundle carries them self-contained.</p>
    </section>
 
    <section class="card" id="google">
@@ -65,7 +65,7 @@
        <li><span class="d">Editor bulk-import: one RSA per ad group</span><a href="handoff/google/rsa-import.csv">rsa-import.csv</a></li>
        <li><span class="d">Callouts / structured snippets / call, per campaign</span><a href="handoff/google/extensions.csv">extensions.csv</a></li>
        <li><span class="d">2 Performance Max asset groups</span><a href="handoff/google/pmax-asset-groups.json">pmax-asset-groups.json</a></li>
-       <li><span class="d">Every Google image → campaign / role</span><a href="handoff/google/asset-manifest.csv">asset-manifest.csv</a></li>
+       <li><span class="d"><b>Creatives</b> — every Google image → campaign / role, each row a direct download link</span><a href="handoff/google/asset-manifest.csv">asset-manifest.csv</a></li>
      </ul>
      <p class="meta"><b>Exclude <code>consumerlegalgroup.com</code></b> — legacy entity, not Crēdo's target.</p>
    </section>
