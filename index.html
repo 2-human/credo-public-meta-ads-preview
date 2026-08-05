@@ -213,8 +213,8 @@ header.page h1{margin:0 0 4px;font-family:Georgia,serif;font-size:26px;color:var
 .mg-ds{font-size:12px;color:var(--sec);margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .mg-chev{color:var(--sec);font-size:18px}
 </style></head><body>
-<header class="page"><h1>Crēdo Legal — Ad Review Hub</h1><p><b>Meta ✓</b> · <b>Google ✓</b> (live · credolegal.com verticals). Two channels via the toggle below. <b>Meta:</b> Facebook-feed preview of 14 ads — pick a Headline and Message variant per ad (incl. the new <b>Bold / Direct</b> approach) and a Creative (Illustration / Photo / Still life / 9:16 Video, or a <b>Bold</b> red hand-gesture visual; the full set is shown at the top). <b>Google:</b> build any served variant — pick up to 3 headlines + 2 descriptions per ad group (Live ↔ Bold), toggle the real campaign extensions (callouts / structured snippets / call), choose the creative shown beside the ad, and recombine the <b>Performance Max</b> asset groups. Pre-spend review — Bold copy and all creatives are draft, pending legal sign-off.</p></header>
-<div class="chantabs" id="chantabs"><button data-ch="meta" class="on">Meta</button><button data-ch="google">Google</button></div>
+<header class="page"><h1>Crēdo Legal — Ad Review Hub</h1><p><b>Meta ✓</b> · <b>Google ✓</b> (live · credolegal.com verticals). Three channels via the toggle below. <b>Meta:</b> Facebook-feed preview of 14 ads — pick a Headline and Message variant per ad (incl. the new <b>Bold / Direct</b> approach) and a Creative (Illustration / Photo / Still life / 9:16 Video, or a <b>Bold</b> red hand-gesture visual; the full set is shown at the top). <b>Google:</b> build any served variant — pick up to 3 headlines + 2 descriptions per ad group (Live ↔ Bold), toggle the real campaign extensions (callouts / structured snippets / call), choose the creative shown beside the ad, and recombine the <b>Performance Max</b> asset groups. <b>Nextdoor:</b> the same 14 ads rendered as a neighborhood newsfeed post — Lead-Gen-first, 1:1 / 1.91:1 images, standard creative as the default (the Bold set is available but off-strategy for the community), body folds at ~90 chars, video reframed for upload. Pre-spend review — Bold copy and all creatives are draft, pending legal sign-off and Nextdoor eligibility.</p></header>
+<div class="chantabs" id="chantabs"><button data-ch="meta" class="on">Meta</button><button data-ch="google">Google</button><button data-ch="nextdoor">Nextdoor</button></div>
 <div id="meta-view"><div class="handoff-cta"><span>📦</span><span class="x"><b>Ready to launch?</b> The Meta upload package — manifest, copy &amp; asset list for Ads Manager or MCP.</span><a href="handoff.html#meta" target="_blank" rel="noopener">Open Meta handoff ↗</a></div><section id="boldset"></section><section id="safezones"></section><div class="feed">
 <div class="setlabel">Credit Card <span>· AS_CreditCard_NW</span></div>
 <div class="adwrap" data-ad="CC_Lawsuit">
@@ -489,6 +489,82 @@ header.page h1{margin:0 0 4px;font-family:Georgia,serif;font-size:26px;color:var
 </article></div>
 </div></div>
 <div id="google-view" hidden></div>
+<style>
+/* ---- Nextdoor channel styles (newsfeed post look; reuses .feed/.setlabel/.adtitle/.varbar/.dirbar controls) ---- */
+#nextdoor-view .feed{background:transparent}
+.ndinfo{max-width:540px;margin:0 auto 16px;padding:12px 14px;background:#eef6ef;border:1px solid #c7e2cd;border-radius:12px;font-size:12.5px;line-height:1.55;color:#2c4230}
+.ndinfo b{color:#0a5d2b}
+.ndinfo ul{margin:7px 0 0;padding-left:18px}
+.ndinfo li{margin:2px 0}
+.ndcard{background:#fff;border:1px solid #dfe3e3;border-radius:12px;overflow:hidden;box-shadow:0 1px 3px rgba(20,30,20,.06)}
+.nd-head{display:flex;align-items:center;gap:10px;padding:11px 12px 8px}
+.nd-av{width:40px;height:40px;flex:0 0 auto;border-radius:50%;background:#0a7d3a;color:#fff;display:grid;place-items:center;font:700 18px Georgia,serif}
+.nd-who{flex:1;line-height:1.25}
+.nd-who strong{display:block;font-size:14px}
+.nd-who small{color:#6b7370;font-size:11.5px}
+.nd-dots{color:#9aa19d;font-weight:700}
+.nd-body{padding:2px 12px 10px;font-size:14.5px;line-height:1.5}
+.nd-body .more{color:#6b7370;font-weight:600}
+.nd-media{background:#eef1f0;line-height:0}
+.nd-media img,.nd-media video{width:100%;display:block}
+.nd-link{display:flex;align-items:center;gap:12px;padding:11px 12px;border-top:1px solid #eef0ef}
+.nd-lc{flex:1;min-width:0}
+.nd-dom{font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:#8a918d}
+.nd-hl{font-weight:700;font-size:14px;margin-top:1px}
+.nd-cta{flex:0 0 auto;background:#0a7d3a;color:#fff;border:0;border-radius:22px;padding:9px 18px;font:600 13px -apple-system,sans-serif;cursor:pointer}
+.nd-react{display:flex;gap:16px;padding:9px 14px;border-top:1px solid #eef0ef;color:#6b7370;font-size:12.5px}
+.ndvar{display:flex;gap:8px;margin:0 2px 8px}
+.ndvar .ndv{flex:1;font:600 13px -apple-system,sans-serif;padding:8px 9px;border:1px solid #dfe3e3;background:#fff;color:#5b6360;border-radius:9px;cursor:pointer}
+.ndvar .ndv.on{background:#0a7d3a;border-color:#0a7d3a;color:#fff}
+.ndvar .ndv.bold-v.on{background:var(--red);border-color:var(--red)}
+.nd-vnote{font-size:11px;color:#8a918d;margin:0 2px 10px;line-height:1.4}
+/* ---- CTA user-journey map ---- */
+.ndjourney{max-width:1060px;margin:0 auto 28px;padding:0 12px}
+.ndj-head h3{font:700 16px Georgia,serif;color:#0a5d2b;margin:0}
+.ndj-head p{font-size:12.5px;color:#4a524e;margin:4px 2px 0;line-height:1.55}
+.ndj-head p b{color:#0a5d2b}
+.ndj-legend{display:flex;flex-wrap:wrap;gap:14px;margin:12px 2px 16px;font-size:11px;color:#5b6360}
+.ndj-legend span{display:inline-flex;align-items:center;gap:6px}
+.ndj-dot{display:inline-block;width:10px;height:10px;border-radius:3px}
+.ndj-dot.nd{background:#0a7d3a}.ndj-dot.off{background:#c9862b}.ndj-dot.data{background:#3b6fb0}
+.ndj-lanes{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+@media(max-width:880px){.ndj-lanes{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.ndj-lanes{grid-template-columns:1fr}}
+.ndj-lane{background:#fff;border:1px solid #dfe3e3;border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
+.ndj-lh{padding:12px 12px 13px;border-bottom:1px solid #eef0ef;background:#fbfcfb}
+.ndj-lh .ic{font-size:22px;line-height:1}
+.ndj-lh b{display:block;font-size:14px;margin-top:5px}
+.ndj-lh .obj{display:block;font-size:10.5px;color:#8a918d;margin-top:2px;line-height:1.35}
+.ndj-lh .cta{display:inline-block;margin-top:7px;font:600 10.5px -apple-system,sans-serif;background:#eef6ef;color:#0a5d2b;border:1px solid #c7e2cd;border-radius:20px;padding:2px 9px}
+.ndj-steps{padding:12px 10px 10px;display:flex;flex-direction:column}
+.ndj-step{position:relative;padding:8px 10px;border-left:3px solid #0a7d3a;background:#f7faf8;border-radius:0 8px 8px 0;margin-bottom:17px}
+.ndj-step:last-child{margin-bottom:0}
+.ndj-step.off{border-left-color:#c9862b;background:#fdf9f1}
+.ndj-step.data{border-left-color:#3b6fb0;background:#f4f7fc}
+.ndj-step::after{content:'\2193';position:absolute;left:16px;bottom:-15px;color:#c2c8c5;font-size:14px;font-weight:700}
+.ndj-step:last-child::after{display:none}
+.ndj-step .n{font:700 9px -apple-system,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:#9aa19d}
+.ndj-step .st{font-size:12px;font-weight:700;margin-top:1px;line-height:1.3}
+.ndj-step .sd{font-size:11px;color:#54605c;margin-top:3px;line-height:1.45}
+.ndj-step .tk{display:inline-block;margin-top:6px;font:600 9.5px -apple-system,sans-serif;letter-spacing:.02em;background:#e9efec;color:#4a5a52;border-radius:5px;padding:2px 7px}
+.ndj-step.off .tk{background:#f6ecd9;color:#8a6316}
+.ndj-step.data .tk{background:#e6eef8;color:#2d5590}
+.ndj-foot{font-size:11px;color:#7a827e;margin:14px 2px 0;line-height:1.6}
+.ndj-foot b{color:#4a524e}.ndj-foot code{background:#eef1f0;border-radius:4px;padding:0 4px;font-size:10.5px}
+/* ---- campaign / ad-group control bar + dynamic tags ---- */
+.ndctrl{max-width:720px;margin:0 auto 20px;padding:13px 15px;background:#fff;border:1px solid #dfe3e3;border-radius:12px}
+.ndctrl-row{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:9px}
+.ndctrl-row .lbl{font:700 10.5px -apple-system,sans-serif;text-transform:uppercase;letter-spacing:.05em;color:#8a918d;width:120px;flex:0 0 auto}
+.ndctrl-row button{font:600 12.5px -apple-system,sans-serif;padding:6px 13px;border:1px solid #dfe3e3;background:#fff;color:#5b6360;border-radius:8px;cursor:pointer}
+.ndctrl-row button.on{background:#0a7d3a;border-color:#0a7d3a;color:#fff}
+.ndctrl-note{font-size:11px;color:#8a918d;margin-top:4px;line-height:1.55;border-top:1px solid #eef0ef;padding-top:10px}
+.ndctrl-note b{color:#4a524e}
+.ndtag{background:#eef6ef;border-bottom:1px dashed #0a7d3a;border-radius:3px;padding:0 3px;color:#0a5d2b;cursor:help;white-space:nowrap}
+.ndlp{color:#0a5d2b;font-weight:600;text-decoration:underline;word-break:break-all}
+.nd-behav{font-size:10.5px;color:#8a918d;padding:0 14px 11px;line-height:1.45}
+.nd-behav b{color:#0a7d3a}
+</style>
+<div id="nextdoor-view" hidden></div>
 <script>
 const HEADLINES=["Get a Free Review of Your Case","Talk to an Attorney, Free","See If You Can Fight Back","You Don't Have to Face Them Alone","Know Your Options, Free","See If They Can Even Prove It, Free"];
 const ADV={"CC_Lawsuit":["Sued by a credit card company? The clock is already ticking. Miss the deadline to respond and they can win by default. Our attorneys can file your answer and make the creditor prove they own the debt and the amount. If they can't, your case could be dismissed. Prior outcomes don't guarantee similar results.","Being sued by a credit card company? They have lawyers who do this every day, and a default judgment is their easy win. Our attorneys can file your answer and force them to prove they even own the debt. Make them earn it instead of handing it to them. Prior outcomes don't guarantee similar results.","Did a credit card lawsuit just land in your hands? You are not the first to face this, and it is not as hopeless as it feels right now. Our attorneys can take it from here, file your response, and stand between you and the creditor. You could get through this. Prior outcomes don't guarantee similar results.","Sued over a credit card and worried you can't afford a lawyer? Your defense is a flat monthly fee, not a big upfront retainer. Our attorneys can file your answer and make the creditor prove the debt is valid. Serious defense, at a price that fits your budget. Prior outcomes don't guarantee similar results.","What if this credit card lawsuit didn't have to hang over your year? Our attorneys can answer the suit and challenge if the debt holds up. You could put it behind you and move on. Prior outcomes don't guarantee similar results.","Sued over a credit card? The collector may not be able to prove they even own it. Debt buyers routinely lack the contract and full account history a court requires. Our attorneys can file your answer and make them prove it. If they can't, your case could be dismissed. We'll check, free. Prior outcomes don't guarantee similar results."],"CC_Harassment":["Getting calls non-stop, at work, at dinner, on weekends? The pressure follows you and you dread your own phone. Our attorneys can send a cease-communication letter and pursue the collector for violations. The calls could stop, and they could owe you up to $1,000 per violation. Prior outcomes don't guarantee similar results.","Tired of collectors blowing up your phone? They count on you feeling powerless and picking up. Our attorneys can send a cease-communication letter and come after them for every violation. Turn their harassment into their problem. Prior outcomes don't guarantee similar results.","Dreading every time your phone rings? The constant calls wear anyone down, and you don't have to keep answering. Our attorneys can send a cease-communication letter so they deal with us, not you. You could finally get some quiet. Prior outcomes don't guarantee similar results.","Want the calls to stop but worried about legal costs? For a flat monthly fee, our attorneys can step in, send a cease-communication letter, and pursue collectors for violations. Relief from the calls, at a price you can plan for. Prior outcomes don't guarantee similar results.","What if your phone stopped being a source of dread? Right now the calls follow you everywhere. Our attorneys can send a cease-communication letter and pursue violations. The calls could stop, and you could get your day back. Prior outcomes don't guarantee similar results.","Your credit card collector may be breaking the law. Calls before 8am, after 9pm, at your job, or after you told them to stop can each be an FDCPA violation. Our attorneys can send a cease letter and pursue every violation. They could owe you up to $1,000 each. We'll check your calls, free. Prior outcomes don't guarantee similar results."],"CC_Negotiation":["Buried under a credit card balance that keeps growing? Confusing interest and fees pile on, and you may not owe every dollar your creditors claim. Our attorneys can challenge whether the debt is valid and negotiate your balance down. You could pay less than what they say you owe. Prior outcomes don't guarantee similar results.","Assuming you owe every dollar a creditor claims? They count on that. Our attorneys can challenge whether the debt is even valid and push the balance down. Make them justify the number before you pay it. Prior outcomes don't guarantee similar results.","Watching a balance climb faster than you can pay it? It is overwhelming, and you are not stuck with it. Our attorneys can review the debt, challenge what isn't valid, and negotiate on your behalf. You could owe less than you fear. Prior outcomes don't guarantee similar results.","Want to lower a credit card balance without paying a lawyer upfront? Our flat monthly fee covers the work. Our attorneys can challenge the debt's validity and negotiate your balance down. A path to paying less that you can actually afford. Prior outcomes don't guarantee similar results.","What if that growing balance no longer ran your life? Right now the interest and fees keep piling on. Our attorneys can challenge the debt and negotiate it down. You could pay less and start getting ahead. Prior outcomes don't guarantee similar results.","You may be about to overpay a credit card debt. Interest and fees inflate balances, and you may not owe every dollar they claim. Our attorneys can challenge whether the debt is valid and negotiate it down before you pay. You could owe far less. We'll check the number, free. Prior outcomes don't guarantee similar results."],"Collection_Lawsuit":["Sued by a debt collector? You usually have just 20 to 28 days to reply. Miss the window and they can automatically garnish your pay. Our attorneys can file your court answer and demand the collector prove they own the debt. Your case could be dismissed if they can't. Prior outcomes don't guarantee similar results.","A debt collector dragging you into court? They expect you to miss the deadline and hand them a default. Our attorneys can file your answer and demand they prove they own the debt. Don't give them an easy win. Prior outcomes don't guarantee similar results.","Just found out a collector is suing you? The short deadline is scary, but it is workable. Our attorneys can file your court answer in time and make them prove their claim. You could be in a far better spot than today. Prior outcomes don't guarantee similar results.","Being sued by a collector and can't take on legal bills right now? Defense is a flat monthly fee. Our attorneys can file your answer and demand the collector prove the debt. Full representation, without a giant retainer. Prior outcomes don't guarantee similar results.","What if this collection lawsuit didn't end in a judgment hanging over you? The 20-to-28-day window is closing. Our attorneys can answer the suit and challenge the debt. You could put it behind you. Prior outcomes don't guarantee similar results.","Being sued for a debt? The collector may not be able to prove it's yours, that the amount is right, or that they even own it. Ignore it and you can lose by default. Our attorneys can file your answer and make them prove the debt. It could be dismissed. We'll check, free. Prior outcomes don't guarantee similar results."],"Creditor_Suing":["Is a creditor suing you? They have attorneys who do this every day, and standing alone feels stacked from the start. Our attorneys can step in, file your answer, and hold the creditor to their burden of proof. The case could end in a dismissal or a settlement you can live with. Prior outcomes don't guarantee similar results.","A creditor taking you to court with their own legal team? Alone, the odds are stacked. Our attorneys can step in, file your answer, and hold them to their burden of proof. Even the fight before it is decided for you. Prior outcomes don't guarantee similar results.","Facing a creditor's lawsuit on your own? You don't have to, and it isn't as one-sided as it looks. Our attorneys can stand in your corner, file your answer, and hold the creditor to proof. You could reach an outcome you can live with. Prior outcomes don't guarantee similar results.","Up against a creditor's lawyers but can't match their budget? You don't have to. For a flat monthly fee, our attorneys can file your answer and hold the creditor to their burden of proof. Level the field, affordably. Prior outcomes don't guarantee similar results.","What if you weren't facing this creditor alone anymore? Right now it feels stacked from the start. Our attorneys can step in and hold them to their proof. The case could end in a dismissal or a settlement you can move on from. Prior outcomes don't guarantee similar results.","A creditor is suing you, but they still have to prove the debt in court, and often can't. A default judgment is their easy win if you do nothing. Our attorneys can file your answer and hold them to their proof. It could end in a dismissal or a settlement you can live with. We'll check their case, free. Prior outcomes don't guarantee similar results."],"Served_Papers":["Just got served court papers? Your stomach dropped and it feels final, but it isn't. Our attorneys can review the summons, file your answer in time, and make the collector prove the debt. Acting now could keep the case from becoming a default judgment. Prior outcomes don't guarantee similar results.","Someone just put court papers in your hand? The collector is counting on panic and a missed deadline. Our attorneys can review the summons, file your answer in time, and make them prove the debt. Answer back instead of freezing. Prior outcomes don't guarantee similar results.","Just been served and your stomach dropped? Take a breath, this is handle-able and you are not alone. Our attorneys can review the summons, file your response in time, and make the collector prove the debt. You could be okay. Prior outcomes don't guarantee similar results.","Served papers and afraid of what a lawyer costs? Our defense is a flat monthly fee. Our attorneys can review the summons, file your answer in time, and make the collector prove the debt. Help that fits your budget, starting now. Prior outcomes don't guarantee similar results.","What if getting served was the turning point, not the end? Right now it feels final. Our attorneys can file your answer in time and make the collector prove the debt. Acting now could keep it from becoming a judgment you carry. Prior outcomes don't guarantee similar results.","Just got served? You may have only 20 to 28 days to respond, and the collector may not have the proof to win. Miss the deadline and they can take a default judgment. Our attorneys can file your answer in time and make them prove the debt. We'll check whether they can, free. Prior outcomes don't guarantee similar results."],"Creditor_Harassment":["Phone ringing before work and after dinner with collector calls? The messages pile up and the constant pressure wears you down. Our attorneys can send a cease-communication letter so collectors have to deal with us instead of you. The calls could stop for good. Prior outcomes don't guarantee similar results.","Letting a collector own your phone before work and after dinner? They keep calling because it works. Our attorneys can send a cease-communication letter so they have to go through us. Take your phone back. Prior outcomes don't guarantee similar results.","Worn down by calls that never seem to stop? The constant pressure gets to anyone, and you can hand it off. Our attorneys can send a cease-communication letter so collectors deal with us, not you. The calls could stop for good. Prior outcomes don't guarantee similar results.","Want the harassment to end without a big legal bill? A flat monthly fee covers it. Our attorneys can send a cease-communication letter so collectors deal with us. Peace and quiet, at a price you can plan for. Prior outcomes don't guarantee similar results.","What if your phone went quiet again? Right now the messages just pile up. Our attorneys can send a cease-communication letter so collectors deal with us. The calls could stop, and your days could feel like yours again. Prior outcomes don't guarantee similar results.","Your collector may be breaking the law. Nonstop calls, calls at your job, and calls after you told them to stop can each be an FDCPA violation. Our attorneys can send a cease letter and pursue every violation. They could owe you up to $1,000 each. We'll check your calls, free. Prior outcomes don't guarantee similar results."],"FDCPA_Harassment":["Are collectors threatening you, calling at odd hours, and contacting people you know? Most people never learn that much of it is against the law. Our attorneys can document the violations and sue the collector under the FDCPA. They could owe you up to $1,000 per violation. Prior outcomes don't guarantee similar results.","Letting collectors threaten you and call people you know? A lot of that is illegal, and they're betting you won't act. Our attorneys can document the violations and sue them under the FDCPA. Make their tactics cost them. Prior outcomes don't guarantee similar results.","Feeling cornered by collector threats and odd-hour calls? Most people never realize how much of it breaks the law. Our attorneys can document the violations and sue under the FDCPA. You have more protection than you think. Prior outcomes don't guarantee similar results.","Want to hold a collector accountable without paying upfront? Our flat monthly fee covers it. Our attorneys can document the violations and sue under the FDCPA. They could owe you up to $1,000 per violation, defense that can pay for itself. Prior outcomes don't guarantee similar results.","What if the threats and odd-hour calls were behind you? Right now they wear you down. Our attorneys can document the violations and sue under the FDCPA. They could owe you up to $1,000 per violation, and you could move on. Prior outcomes don't guarantee similar results.","Your debt collector may owe you. Threats, odd-hour calls, and contacting people you know are often illegal, and each violation can be worth up to $1,000 under the FDCPA. Our attorneys can document the violations and sue. We'll check your calls for violations, free. Prior outcomes don't guarantee similar results."],"Multiple_Collectors":["Juggling calls from several collectors at once? Different debts, no end in sight, and keeping track of them all is exhausting. Our attorneys can take on every collector at once and challenge each debt. Every violation could add to what they owe you. Prior outcomes don't guarantee similar results.","Letting a pile of collectors wear you down one call at a time? Divided you lose, together they are exposed. Our attorneys can take on every collector at once and challenge each debt. Turn their numbers against them. Prior outcomes don't guarantee similar results.","Overwhelmed by collectors coming from every direction? It is exhausting, and you don't have to track them all yourself. Our attorneys can take on every collector at once and challenge each debt. You could finally exhale. Prior outcomes don't guarantee similar results.","Too many collectors, not enough budget for a lawyer? One flat monthly fee covers all of them. Our attorneys can take on every collector at once and challenge each debt. One team for the whole mess, affordably. Prior outcomes don't guarantee similar results.","What if the endless collector calls finally stopped? Right now keeping track of them all is exhausting. Our attorneys can take on every collector at once and challenge each debt. You could clear the noise and move forward. Prior outcomes don't guarantee similar results.","Juggling several collectors? Some of those debts may be duplicated, unverified, or unprovable, and some of the calls may be illegal. Our attorneys can take on every collector at once and challenge each debt. Every violation could add to what they owe you. We'll check all of them, free. Prior outcomes don't guarantee similar results."],"Medical_Harassment":["Is a medical collector calling about a bill you're not sure you even owe? Medical billing is full of errors and duplicate charges. Our attorneys can send a cease-communication letter and demand the collector validate the bill. You could owe far less than they claim, or nothing at all. Prior outcomes don't guarantee similar results.","Letting a medical collector hound you over a bill you're not sure you owe? Medical billing is riddled with errors they hope you won't question. Our attorneys can demand the collector validate the bill and stop the calls. Make them prove it. Prior outcomes don't guarantee similar results.","Getting calls about a medical bill you don't even recognize? It's confusing and stressful, and you're not alone in it. Our attorneys can send a cease-communication letter and demand the collector validate the bill. You could owe far less than they claim. Prior outcomes don't guarantee similar results.","Hassled over a medical bill but can't take on legal costs? Our flat monthly fee covers it. Our attorneys can demand the collector validate the bill and stop the calls. You could owe far less, or nothing, without a big retainer. Prior outcomes don't guarantee similar results.","What if that medical bill stopped haunting your phone? Right now the calls keep coming. Our attorneys can demand the collector validate the bill and stop the contact. You could owe far less than they claim, and breathe again. Prior outcomes don't guarantee similar results.","That medical bill may be wrong, or unprovable. Medical billing is full of coding errors and duplicate charges, and collectors often can't validate it. Our attorneys can demand validation and stop the calls. You could owe far less, or nothing. We'll check it, free. Prior outcomes don't guarantee similar results."],"Medical_Lawsuit":["Sued over a medical bill? The deadline to respond is closing in, and many of these bills carry coding errors and inflated charges. Our attorneys can file your answer and demand the provider prove the amount. Your case could be dismissed or settled for less. Prior outcomes don't guarantee similar results.","Sued over a medical bill you never got to question? Hospitals and collectors expect a quiet default. Our attorneys can file your answer and demand the provider prove the amount. Make them back up every line. Prior outcomes don't guarantee similar results.","A lawsuit over a medical bill, on top of everything else? It's a lot, and it is more workable than it feels. Our attorneys can file your answer and demand the provider prove the amount. Your case could be dismissed or settled for less. Prior outcomes don't guarantee similar results.","Sued over a medical bill and worried about lawyer fees? Defense is a flat monthly fee. Our attorneys can file your answer and demand the provider prove the amount. A solid defense to a medical lawsuit, at a price you can manage. Prior outcomes don't guarantee similar results.","What if a medical lawsuit didn't have to derail your year? The deadline is closing in. Our attorneys can file your answer and challenge the charges. Your case could be dismissed or settled, and you could move on. Prior outcomes don't guarantee similar results.","Sued over a medical bill? The provider may not have the itemization to prove it, and many of these bills carry coding errors and inflated charges. Our attorneys can file your answer and demand they prove the amount. Your case could be dismissed or settled for less. We'll check, free. Prior outcomes don't guarantee similar results."],"Medical_Rights":["Is an old medical bill dragging down your credit score? It follows you everywhere, and you may have more rights than you realize. Our attorneys can dispute inaccurate medical debt and push to have it removed from your report. Your credit could start to recover. Prior outcomes don't guarantee similar results.","Letting an old medical bill quietly wreck your credit? Inaccurate medical debt sits on reports because no one challenges it. Our attorneys can dispute it and push to have it removed. Stop letting it drag your score down. Prior outcomes don't guarantee similar results.","Frustrated watching a medical bill drag your credit down? You likely have more rights here than you realize. Our attorneys can dispute inaccurate medical debt and push to remove it from your report. Your credit could start to recover. Prior outcomes don't guarantee similar results.","Want medical debt off your credit without paying upfront? Our flat monthly fee covers the work. Our attorneys can dispute inaccurate medical debt and push to have it removed. A cleaner credit report, affordably. Prior outcomes don't guarantee similar results.","What if an old medical bill stopped following you everywhere? Right now it shadows every application. Our attorneys can dispute it and push to have it removed from your report. Your credit could start fresh. Prior outcomes don't guarantee similar results.","A medical collection may not belong on your credit report. Paid, small, or unverified medical debts often shouldn't be there. Our attorneys can dispute inaccurate medical debt and push to have it removed. Your score could start to recover. We'll check your report, free. Prior outcomes don't guarantee similar results."],"Pre_Judgment_Garn":["Worried a lawsuit could start garnishing your wages? The threat of a smaller paycheck is frightening, and once it starts it is harder to undo. Our attorneys can respond to the case now and fight the judgment that leads to garnishment. More of your paycheck could stay yours. Prior outcomes don't guarantee similar results.","Going to let a lawsuit quietly turn into a garnishment? Once the judgment lands, they reach straight for your paycheck. Our attorneys can respond now and fight the judgment that leads to garnishment. Stop it before it starts. Prior outcomes don't guarantee similar results.","Scared a lawsuit could start taking your wages? That fear is valid, and there is something you can do early. Our attorneys can respond to the case now and fight the judgment behind garnishment. More of your paycheck could stay yours. Prior outcomes don't guarantee similar results.","Worried about garnishment but not about affording a lawyer? A flat monthly fee covers it. Our attorneys can respond to the case now and fight the judgment that leads to garnishment. Protect your paycheck, affordably. Prior outcomes don't guarantee similar results.","What if your paycheck stayed whole? Right now a looming judgment threatens it. Our attorneys can respond to the case now and fight the garnishment before it starts. More of your pay could stay yours, and you could plan ahead. Prior outcomes don't guarantee similar results.","They may be about to garnish your wages, and it may be preventable. Once a judgment lands they reach straight for your paycheck. Our attorneys can respond to the case now and fight the judgment behind garnishment. More of your pay could stay yours. We'll check your options, free. Prior outcomes don't guarantee similar results."],"Post_Judgment_Garn":["Is your paycheck already being garnished? Every check feels short, and it can feel like there is nothing you can do. Our attorneys can file the exemption motion and challenge the garnishment. You could qualify for protection that puts money back in your pocket. Prior outcomes don't guarantee similar results.","Watching them take a cut of every paycheck? A garnishment isn't always the last word. Our attorneys can file the exemption motion and challenge it. Fight to claw your wages back. Prior outcomes don't guarantee similar results.","Feeling helpless as your check comes up short each time? It can feel like there's nothing left to do, but there often is. Our attorneys can file the exemption motion and challenge the garnishment. You could qualify for protection. Prior outcomes don't guarantee similar results.","Already garnished and can't spare money for a lawyer? Our flat monthly fee covers it. Our attorneys can file the exemption motion and challenge the garnishment. You could put money back in your pocket, without a big retainer. Prior outcomes don't guarantee similar results.","What if your full paycheck came back? Right now every check feels short. Our attorneys can file the exemption motion and challenge the garnishment. You could qualify for protection and start rebuilding. Prior outcomes don't guarantee similar results.","Your wages are being garnished, but part of your pay may be legally exempt, and the judgment may be challengeable. Our attorneys can file the exemption motion and challenge the garnishment. You could put money back in your pocket. We'll check what can be protected, free. Prior outcomes don't guarantee similar results."]};
@@ -658,6 +734,189 @@ document.querySelectorAll('.adwrap').forEach(w=>{
   }
   draw();
 })();
+/* ===== Nextdoor channel: consolidated to TWO variants per debt category — Homeowner + Bold.
+ * Scope is Nextdoor only (Meta / Google tabs keep their full 14-ad structure). Homeowner leads
+ * with material/existential security (no repossession claim or insinuation) over one reused
+ * living-room hero scene generated at 1200px; Bold reuses the existing red hand-gesture stills
+ * (BOLD_SET) + reels. Homeowner is the default here (the neighborly register the spec favors);
+ * Bold is one click away. Images are 1:1 / 1.91:1; the Bold reel is 9:16 (reframe at upload). ===== */
+(function(){
+  const nv=document.getElementById('nextdoor-view'); if(!nv)return;
+  const NDRAT={'1x1':'1:1','1_91x1':'1.91:1'};
+  const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const LEGAL='Crēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements.';
+  /* Per-category Homeowner creative (living-room couple + everyday possessions + car through the window),
+     generated via Higgsfield — one distinct scene per debt category, each with a 1:1 (1200×1200) and
+     1.91:1 (1200×628) still plus a 1:1 video (image-to-video from the still). */
+  const HOME_CR={
+    creditcard: {'1x1':'assets/homeowner/creditcard-1x1.jpg', '1_91x1':'assets/homeowner/creditcard-1_91x1.jpg', video:'assets/homeowner/video/creditcard.mp4'},
+    lawsuit:    {'1x1':'assets/homeowner/lawsuit-1x1.jpg',    '1_91x1':'assets/homeowner/lawsuit-1_91x1.jpg',    video:'assets/homeowner/video/lawsuit.mp4'},
+    harassment: {'1x1':'assets/homeowner/harassment-1x1.jpg', '1_91x1':'assets/homeowner/harassment-1_91x1.jpg', video:'assets/homeowner/video/harassment.mp4'},
+    medical:    {'1x1':'assets/homeowner/medical-1x1.jpg',    '1_91x1':'assets/homeowner/medical-1_91x1.jpg',    video:'assets/homeowner/video/medical.mp4'},
+    garnishment:{'1x1':'assets/homeowner/garnishment-1x1.jpg','1_91x1':'assets/homeowner/garnishment-1_91x1.jpg',video:'assets/homeowner/video/garnishment.mp4'}
+  };
+  /* Homeowner copy: security/stability leitmotif, hedged, no mention or insinuation of losing a home,
+     car, or property — the imagery carries the material cue, the words stay on feeling secure. */
+  const HOME_BODY={
+    creditcard:"Credit card debt has a way of following you home and settling in the back of your mind. You have worked hard for the life you have, and you deserve to feel steady in it. Our attorneys can review the balance, challenge what isn't valid, and work toward a resolution, so you can get back to peace of mind. Prior outcomes don't guarantee similar results.",
+    lawsuit:"A debt lawsuit can unsettle the sense of security you have worked to build, but you do not have to face it alone. Our attorneys can file your answer, hold the collector to their proof, and stand between you and the case, so you can feel on solid ground again. Prior outcomes don't guarantee similar results.",
+    harassment:"Home should be the one place the pressure can't reach you, yet constant collector calls take that calm away. Our attorneys can send a cease-communication letter and pursue violations, so the quiet returns and your evenings feel like yours again. Prior outcomes don't guarantee similar results.",
+    medical:"A medical bill you are not sure you owe can cast a shadow over the life you have built. You deserve to feel settled, not braced for the next statement. Our attorneys can demand the bill be validated and challenge what isn't right, so you can get back to steady ground. Prior outcomes don't guarantee similar results.",
+    garnishment:"When your paycheck feels uncertain, so does the footing under everything else, and you deserve to feel secure again. Our attorneys can challenge the garnishment and file for the protections you may qualify for, so more of your pay, and your peace of mind, can stay with you. Prior outcomes don't guarantee similar results."
+  };
+  /* One card per debt category; each carries a Homeowner and a Bold variant. Bold reuses a
+     distinct gesture creative + its matching bold body (ADV[...][5]) + baked headline (BOLD_SET.h). */
+  const CAT=[
+    {cat:'creditcard',  set:'Credit Card',  gesture:'pinch',    boldBody:ADV.CC_Negotiation[5],      homeHl:'Get back to peace of mind'},
+    {cat:'lawsuit',     set:'Lawsuit',      gesture:'fist',     boldBody:ADV.Collection_Lawsuit[5],  homeHl:'Feel on solid ground again'},
+    {cat:'harassment',  set:'Harassment',   gesture:'pointing', boldBody:ADV.Creditor_Harassment[5], homeHl:'Make home feel calm again'},
+    {cat:'medical',     set:'Medical Debt', gesture:'stop',     boldBody:ADV.Medical_Harassment[5],  homeHl:'Get back to steady ground'},
+    {cat:'garnishment', set:'Garnishment',  gesture:'offer',    boldBody:ADV.Post_Judgment_Garn[5],  homeHl:'Feel secure again'}
+  ];
+  /* Nextdoor-format Bold videos: 1:1 (1200×1200) clips animated from the 1:1 Bold stills, so Bold
+     video is upload-ready here (the shared 9:16 Meta reels stay 9:16 and are used on the Meta tab). */
+  const BOLD_VID={pinch:'assets/bold/video/bake-pinch-1x1.mp4',fist:'assets/bold/video/bake-fist-1x1.mp4',pointing:'assets/bold/video/bake-pointing-1x1.mp4',stop:'assets/bold/video/bake-stop-1x1.mp4',offer:'assets/bold/video/bake-offer-1x1.mp4'};
+  /* ---- CTA user-journey map: every touchpoint per CTA type, drawn from Nextdoor's docs.
+     where: 'nd' = on-Nextdoor (in-app), 'off' = off-platform (dialer/site), 'data' = tracking / lead delivery. ---- */
+  const JRN=[
+    {key:'call', ic:'📞', name:'Calls', obj:'Website Traffic → click-to-call (standalone “Calls” objective [verify])', cta:'Call', steps:[
+      {st:'Ad impression', sd:'“Call” CTA on the in-feed / digest ad, shown to a verified NY neighbor.', where:'nd', tk:'Impression · CPM'},
+      {st:'Taps “Call”', sd:'The last action Nextdoor can see natively.', where:'nd', tk:'Click · CPC / CTR'},
+      {st:'Phone dialer opens', sd:'tel: hand-off with the firm’s number pre-filled. Leaves the app — no page loads, so the pixel is blind here.', where:'off'},
+      {st:'Call placed & answered', sd:'Rings the intake line. A dedicated call-tracking (DNI) number captures source, duration and first-time caller.', where:'off', tk:'DNI / call tracking'},
+      {st:'Intake & qualify', sd:'Staff qualifies the debt-defense matter and logs it to the CRM.', where:'off'},
+      {st:'Credit the call back', sd:'Push the call outcome to Nextdoor via a CAPI offline conversion to attribute it to the ad.', where:'data', tk:'CAPI offline · [verify]'}
+    ]},
+    {key:'web', ic:'🌐', name:'Website visit', obj:'Website Traffic / Sales (Conversions)', cta:'Learn More', steps:[
+      {st:'Ad impression', sd:'“Learn More” CTA on the in-feed / digest ad.', where:'nd', tk:'Impression · CPM'},
+      {st:'Taps “Learn More”', sd:'The destination opens with an ndclid click-id appended to the URL.', where:'nd', tk:'Click · CPC · ndclid'},
+      {st:'Landing page loads', sd:'The matching cluster LP on start.credolegal.com opens in the in-app / mobile browser.', where:'off', tk:'Pixel PageView · ndclid'},
+      {st:'Reads & engages', sd:'Scrolls the offer and starts the on-page qualifier.', where:'off', tk:'Pixel events (+CAPI)'},
+      {st:'Submits the site form', sd:'Completes the intake / free-review request on our page.', where:'off', tk:'Pixel Lead + CAPI (dedup)'},
+      {st:'Reported & routed', sd:'Counts in Ads Manager on a 7-day-click / 1-day-view window and flows to the Crēdo CRM.', where:'data'}
+    ]},
+    {key:'page', ic:'🏘️', name:'Business Page visit', obj:'Brand Awareness / engagement (organic + boosted)', cta:'Business name / Fave', steps:[
+      {st:'Ad or search surfaces the page', sd:'An ad, a boosted post, or a NY neighbor searching finds Crēdo.', where:'nd', tk:'Impression · CPM'},
+      {st:'Taps the business name', sd:'Opens the Nextdoor Business Page — stays in-app.', where:'nd', tk:'Page visit'},
+      {st:'Views the page', sd:'Name, NY address, phone, website link, Fave, Recommend + count, Message, posts and reviews.', where:'nd'},
+      {st:'Engages on-platform', sd:'Fave (follow) · Recommend (a public recommendation) · Message (opens a thread in the business inbox).', where:'nd', tk:'On-platform engagement'},
+      {st:'Or leaves to convert', sd:'Taps Call (→ dialer, needs DNI) or the Website link (→ LP, Pixel PageView).', where:'off'},
+      {st:'Durable relationship', sd:'A follower plus an inbound message thread, handled in the Nextdoor business inbox.', where:'data'}
+    ]},
+    {key:'lead', ic:'📝', name:'Lead Gen form', obj:'Lead Generation (native form) — primary for Crēdo', cta:'Get Quote', steps:[
+      {st:'Ad impression', sd:'A lead CTA (e.g. “Get Quote”) on the in-feed / digest ad.', where:'nd', tk:'Impression · CPM'},
+      {st:'Taps the CTA', sd:'Opens the native in-app form — no external page, the neighbor stays on Nextdoor.', where:'nd', tk:'Click · CPC'},
+      {st:'Form pre-fills', sd:'5 fields auto-filled from verified neighbor data: name, email, phone, address, ZIP.', where:'nd'},
+      {st:'Answers qualifiers', sd:'Up to 3 write-in + 3 multiple-choice (2–11 fields total): debt type, stage, amount. Required privacy-policy link is shown.', where:'nd'},
+      {st:'Submits', sd:'Optional confirmation screen with a custom message + CTA. The lead is counted natively — no pixel needed.', where:'nd', tk:'Lead conversion (native)'},
+      {st:'Lead delivered', sd:'Retrieved by on-platform download, a Zapier “New Lead” trigger, or a real-time email → Crēdo CRM.', where:'data', tk:'Zapier / email / CRM'}
+    ]}
+  ];
+  const jstep=(s,i)=>'<div class="ndj-step '+(s.where||'nd')+'"><span class="n">Step '+(i+1)+'</span><div class="st">'+esc(s.st)+'</div><div class="sd">'+esc(s.sd)+'</div>'+(s.tk?'<span class="tk">'+esc(s.tk)+'</span>':'')+'</div>';
+  const jlane=l=>'<div class="ndj-lane" data-comment-target data-comment-id="nd-journey-'+l.key+'"><div class="ndj-lh"><span class="ic">'+l.ic+'</span><b>'+esc(l.name)+'</b><span class="obj">'+esc(l.obj)+'</span><span class="cta">CTA · '+esc(l.cta)+'</span></div><div class="ndj-steps">'+l.steps.map(jstep).join('')+'</div></div>';
+  const JMAP='<div class="ndjourney" data-comment-target data-comment-id="nd-journey">'
+    +'<div class="ndj-head"><h3>User journey by CTA type</h3><p>The campaign runs as <b>three campaigns — New York, New Jersey and Connecticut</b> (each targeted by ZIP / radius; the copy is shared, only the {{city}} / {{state}} tags change). Every path starts the same way: an in-feed or digest ad shown to a verified neighbor. From the first tap, each CTA type follows a different route and crosses the Nextdoor boundary at a different point — which is what decides how we can measure it.</p></div>'
+    +'<div class="ndj-legend"><span><i class="ndj-dot nd"></i> On Nextdoor (in-app)</span><span><i class="ndj-dot off"></i> Off-platform (dialer / website)</span><span><i class="ndj-dot data"></i> Tracking &amp; lead delivery</span></div>'
+    +'<div class="ndj-lanes">'+JRN.map(jlane).join('')+'</div>'
+    +'<div class="ndj-foot"><b>Reading the map:</b> green steps stay inside Nextdoor; amber steps leave the app, where the Nextdoor pixel can’t see them — <b>Calls</b> need a DNI / call-tracking number and <b>Website</b> visits need the Universal Pixel + CAPI (with the <code>ndclid</code> click-id). The <b>native Lead Gen form</b> and the <b>Business Page</b> stay on-platform end to end, so Nextdoor counts those conversions itself. Three of these become our <b>ad groups</b> — Call Now (Calls), Learn More (Website), Apply Now (Lead Gen); the Business Page journey runs organically alongside. Steps marked <b>[verify]</b> are confirmed in Ads Manager at setup. Sourced from Nextdoor’s creative-specs, campaign-goals, lead-gen, business-page and conversion documentation (Aug 2026).</div>'
+    +'</div>';
+  /* ---- Campaign (state) × ad-group (CTA) structure + dynamic {{city}}/{{state}} tags + per-debt-type LP ---- */
+  const GEO={ny:{state:'New York',city:'Brooklyn'},nj:{state:'New Jersey',city:'Jersey City'},ct:{state:'Connecticut',city:'Hartford'}};
+  const PHONE={ny:'(347) 474-9602',nj:'(201) 416-7080',ct:''};   /* Credo call-ext lines; CT DNI set at launch */
+  const LP_BY_CAT={creditcard:'/credit-card-debt-negotiation',lawsuit:'/debt-lawsuit-respond-on-time',harassment:'/debt-harassment-stop-calls',medical:'/medical-debt-bills-errors',garnishment:'/wage-garnishment-exemptions'};
+  const CTAS={call:'Call Now',learn:'Learn More',apply:'Apply Now'};
+  const NDG={state:'ny',cta:'learn'};   /* global: which campaign + ad group is under review */
+  const ndtag=(v,tok)=>'<span class="ndtag" title="'+tok+'">'+esc(v)+'</span>';
+  const lpDisp=cat=>'start.credolegal.com'+LP_BY_CAT[cat];
+  const lpHref=cat=>'https://start.credolegal.com'+LP_BY_CAT[cat];
+  /* body = base copy + a licensing/local line using both dynamic tags; Call/Apply also carry the LP link */
+  function buildBody(base,cat){
+    const g=GEO[NDG.state];
+    let h=esc(base)+' Crēdo’s attorneys are licensed in '+ndtag(g.state,'{{state}}')+' and help neighbors across '+ndtag(g.city,'{{city}}')+'.';
+    if(NDG.cta!=='learn') h+=' Free case review: <a class="ndlp" href="'+lpHref(cat)+'" target="_blank" rel="noopener">'+esc(lpDisp(cat))+'</a>';
+    return h;
+  }
+  const stBtns=[['ny','New York'],['nj','New Jersey'],['ct','Connecticut']];
+  const ctaBtns=[['call','Call Now'],['learn','Learn More'],['apply','Apply Now']];
+  const NDCTRL='<div class="ndctrl" data-comment-target data-comment-id="nd-campaign-ctrl">'
+    +'<div class="ndctrl-row"><span class="lbl">Campaign · state</span>'+stBtns.map(s=>'<button data-st="'+s[0]+'"'+(s[0]===NDG.state?' class="on"':'')+'>'+esc(s[1])+'</button>').join('')+'</div>'
+    +'<div class="ndctrl-row"><span class="lbl">Ad group · CTA</span>'+ctaBtns.map(c=>'<button data-cta="'+c[0]+'"'+(c[0]===NDG.cta?' class="on"':'')+'>'+esc(c[1])+'</button>').join('')+'</div>'
+    +'<div class="ndctrl-note"><b>Structure:</b> 3 campaigns (New York · New Jersey · Connecticut) × 3 ad groups (Call Now · Learn More · Apply Now) × 5 debt-type ads = <b>45 ads</b>. The 5 cards below are the ads of the selected campaign + ad group (each with a Homeowner / Bold creative variant). Copy is shared across states — only the '+ndtag('{{city}}','dynamic tag')+' and '+ndtag('{{state}}','dynamic tag')+' dynamic tags change, and Nextdoor auto-fills each neighbor’s real city (tags must be all-lowercase). <b>Call Now</b> &amp; <b>Apply Now</b> ads carry the landing-page link in the body; <b>Learn More</b> sends its button straight there. <span style="color:#c9862b">Note: {{city}}/{{neighborhood}} are the documented tokens — {{state}} is [verify in-tool], and since each campaign is one state it can also be set statically.</span></div>'
+    +'</div>';
+  let html='<div class="ndinfo"><b>Nextdoor</b> — consolidated to <b>two variants per debt category</b>: <b>Homeowner</b> (default) and <b>Bold</b>. Homeowner leads with a feeling of material and existential security over a distinct living-room scene for each category; Bold reuses the red hand-gesture stills and reels. For this channel:'
+    +'<ul><li><b>Lead Generation (native form)</b> is the primary objective; this post preview stands in for the form entry point.</li>'
+    +'<li>Newsfeed images are <b>1:1 or 1.91:1</b>; each variant also has a <b>1:1 video</b> (1200×1200), upload-ready for Nextdoor. (The Meta tab keeps the original 9:16 Bold reels.)</li>'
+    +'<li>In-feed, Nextdoor shows roughly the <b>first ~90 characters</b> of the body, then &ldquo;See more&rdquo; — front-load the message.</li>'
+    +'<li>Homeowner copy evokes security and stability without any claim about keeping a home, car, or property; the imagery carries the material cue.</li></ul>'
+    +'Pre-spend review — all copy and creative are draft, pending legal sign-off and Nextdoor advertiser eligibility.</div>'+JMAP+NDCTRL+'<div class="feed">';
+  CAT.forEach(function(c){
+    const bd=BOLD_BY_SLUG[c.gesture]||{};
+    html+='<div class="setlabel">'+esc(c.set)+' <span>· Nextdoor</span></div>'
+      +'<div class="ndwrap" data-cat="'+c.cat+'">'
+      +'<div class="adtitle">'+esc(c.set)+' <span>· 2 variants</span></div>'
+      +'<div class="ndvar"><button class="ndv on" data-v="home">Homeowner</button><button class="ndv bold-v" data-v="bold">Bold</button></div>'
+      +'<div class="nd-vnote"></div>'
+      +'<article class="ndcard" data-comment-target data-comment-id="nd-'+c.cat+'-card">'
+        +'<div class="nd-head"><div class="nd-av">C</div><div class="nd-who"><strong>Crēdo Legal</strong><small>Sponsored · Business Page</small></div><div class="nd-dots">···</div></div>'
+        +'<div class="nd-body" data-comment-target data-comment-id="nd-'+c.cat+'-home-body"><span class="full">'+esc(HOME_BODY[c.cat])+'</span><div class="adlegal">'+LEGAL+'</div></div>'
+        +'<div class="dirbar"><span class="dirlbl">Creative:</span>'
+          +'<span class="modetabs"><button class="mode on" data-mode="image">Image</button><button class="mode mvbtn" data-mode="video">Video</button></span>'
+          +'<select class="ratiosel"><option value="1x1">1:1</option><option value="1_91x1">1.91:1</option></select></div>'
+        +'<div class="nd-media" data-comment-target data-comment-id="nd-'+c.cat+'-home-cr" data-variant-note="Homeowner · 1:1"><img class="mimg" src="'+esc(HOME_CR[c.cat]['1x1'])+'" alt=""><video class="mvid" src="'+esc(HOME_CR[c.cat].video||'')+'" muted loop playsinline preload="metadata" style="display:none"></video></div>'
+        +'<div class="nd-link"><div class="nd-lc"><div class="nd-dom">start.credolegal.com</div><div class="nd-hl hl" data-comment-target data-comment-id="nd-'+c.cat+'-home-hl">'+esc(c.homeHl)+'</div></div><button class="nd-cta">Learn More</button></div>'
+        +'<div class="nd-behav"></div>'
+        +'<div class="nd-react"><span>🏠 Thank</span><span>💬 Reply</span><span>↗ Share</span></div>'
+      +'</article></div>';
+  });
+  html+='</div>';
+  nv.innerHTML=html;
+  nv.querySelectorAll('.ndwrap').forEach(function(w){
+    const cat=w.dataset.cat, c=CAT.find(x=>x.cat===cat), bd=BOLD_BY_SLUG[c.gesture]||{};
+    const hl=w.querySelector('.hl'), ptextEl=w.querySelector('.nd-body'), full=ptextEl.querySelector('.full'),
+      img=w.querySelector('.mimg'), vid=w.querySelector('.mvid'), media=w.querySelector('.nd-media'),
+      rsel=w.querySelector('.ratiosel'), vnote=w.querySelector('.nd-vnote'), home=HOME_CR[cat]||{},
+      ctaBtn=w.querySelector('.nd-cta'), dom=w.querySelector('.nd-dom'), behav=w.querySelector('.nd-behav');
+    const st={variant:'home',mode:'image',ratio:'1x1'};
+    function paint(){
+      const v=st.variant, isBold=v==='bold', g=GEO[NDG.state];
+      full.innerHTML=buildBody(isBold?c.boldBody:HOME_BODY[cat], cat);
+      ptextEl.dataset.commentId='nd-'+cat+'-'+v+'-body';
+      hl.textContent=isBold?(bd.h||''):c.homeHl;
+      hl.dataset.commentId='nd-'+cat+'-'+v+'-hl';
+      /* CTA / destination per ad group */
+      ctaBtn.textContent=CTAS[NDG.cta];
+      if(NDG.cta==='call'){dom.textContent=PHONE[NDG.state]||'Tap to call';behav.innerHTML='<b>Call Now</b> → opens the phone dialer to Crēdo’s tracked '+esc(g.state)+' line (DNI'+(PHONE[NDG.state]?'':' — set at launch')+').';}
+      else if(NDG.cta==='apply'){dom.textContent='Nextdoor lead form';behav.innerHTML='<b>Apply Now</b> → opens the native in-app lead-gen form (fields pre-fill from verified neighbor data).';}
+      else{dom.textContent=lpDisp(cat);behav.innerHTML='<b>Learn More</b> → opens the matching landing page.';}
+      if(st.mode==='video'){
+        img.style.display='none';vid.style.display='block';if(rsel)rsel.style.display='none';
+        vid.src=isBold?(BOLD_VID[c.gesture]||bd.reel||''):(home.video||'');vid.play().catch(()=>{});
+        media.dataset.commentId='nd-'+cat+'-'+v+'-cr';
+        media.dataset.variantNote=(isBold?'Bold video · 1:1':'Homeowner video · 1:1')+' (upload-ready)';
+        vnote.textContent=isBold
+          ? 'Bold — red hand-gesture video, 1:1 (upload-ready for Nextdoor).'
+          : 'Homeowner — living-room video for this category; 1:1, upload-ready.';
+      } else {
+        vid.pause();vid.style.display='none';img.style.display='block';if(rsel)rsel.style.display='';
+        img.src=isBold?(bd.m&&(bd.m[st.ratio]||bd.m['1x1'])):(home[st.ratio]||home['1x1']);
+        media.dataset.commentId='nd-'+cat+'-'+v+'-cr';
+        media.dataset.variantNote=(isBold?'Bold · ':'Homeowner · ')+NDRAT[st.ratio];
+        vnote.textContent=isBold
+          ? 'Bold — the existing red hand-gesture still ('+esc(bd.g||'')+').'
+          : 'Homeowner — distinct living-room scene for this category; security leitmotif, no repossession claim.';
+      }
+      RVN();
+    }
+    w.querySelectorAll('.ndv').forEach(b=>b.addEventListener('click',()=>{st.variant=b.dataset.v;w.querySelectorAll('.ndv').forEach(x=>x.classList.toggle('on',x===b));paint();}));
+    w.querySelectorAll('.mode').forEach(b=>b.addEventListener('click',()=>{st.mode=b.dataset.mode;w.querySelectorAll('.mode').forEach(x=>x.classList.toggle('on',x===b));paint();}));
+    w.querySelector('.ratiosel').addEventListener('change',e=>{st.ratio=e.target.value;paint();});
+    w.__paint=paint; paint();
+  });
+  /* global campaign (state) + ad-group (CTA) switchers repaint every ad */
+  function repaintAll(){nv.querySelectorAll('.ndwrap').forEach(w=>w.__paint&&w.__paint());}
+  nv.querySelectorAll('.ndctrl [data-st]').forEach(b=>b.addEventListener('click',()=>{NDG.state=b.dataset.st;nv.querySelectorAll('.ndctrl [data-st]').forEach(x=>x.classList.toggle('on',x===b));repaintAll();RVN();}));
+  nv.querySelectorAll('.ndctrl [data-cta]').forEach(b=>b.addEventListener('click',()=>{NDG.cta=b.dataset.cta;nv.querySelectorAll('.ndctrl [data-cta]').forEach(x=>x.classList.toggle('on',x===b));repaintAll();RVN();}));
+})();
 /* __rwReveal: called by the review widget when a comment row is clicked. Parses
  * the comment's anchor, flips the matching dropdown/tab so that variant is on
  * screen (which updates the zone's data-comment-id), and returns the zone
@@ -665,6 +924,17 @@ document.querySelectorAll('.adwrap').forEach(w=>{
 window.__rwReveal=function(anchor){
   let m;
   const fire=(sel)=>sel.dispatchEvent(new Event('change'));
+  if(/^nd-/.test(anchor)){                                                    /* Nextdoor channel: switch tab, flip the variant, return the zone */
+    document.getElementById('chantabs').querySelector('[data-ch="nextdoor"]').click();
+    const nv=document.getElementById('nextdoor-view'); let mm;
+    if((mm=anchor.match(/^nd-([a-z]+)-(home|bold)-(body|hl|cr)$/))){
+      const w=nv.querySelector('.ndwrap[data-cat="'+mm[1]+'"]'); if(!w)return null;
+      const vb=w.querySelector('.ndv[data-v="'+mm[2]+'"]'); if(vb)vb.click();
+      return w.querySelector('[data-comment-id="'+anchor+'"]')||w.querySelector('.ndcard');
+    }
+    if((mm=anchor.match(/^nd-([a-z]+)-card$/))){const w=nv.querySelector('.ndwrap[data-cat="'+mm[1]+'"]');return w&&w.querySelector('.ndcard');}
+    return nv.querySelector('[data-comment-id="'+(window.CSS&&CSS.escape?CSS.escape(anchor):anchor)+'"]');
+  }
   if((m=anchor.match(/^hl-(\d+)$/))){
     const w=document.querySelector('.adwrap'); if(!w)return null;            /* headline is campaign-wide: reveal on the first ad */
     const s=w.querySelector('.hsel'); s.value=m[1]; fire(s); return w.querySelector('.hl');
@@ -704,7 +974,7 @@ const GADS = {"pulled":"2026-07 live","customer_id":"9399506772","campaigns":[{"
  * ad from its asset group. */
 (function(){
   const tabs=document.getElementById('chantabs'); if(!tabs) return;
-  const mv=document.getElementById('meta-view'), gv=document.getElementById('google-view');
+  const mv=document.getElementById('meta-view'), gv=document.getElementById('google-view'), nv=document.getElementById('nextdoor-view');
   const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const host=u=>{try{return new URL(u).host.replace(/^www\./,'');}catch(e){return (u||'').split('/')[0];}};
   const phone=p=>{p=(p||'').replace(/\D/g,'');return p.length===10?'('+p.slice(0,3)+') '+p.slice(3,6)+'-'+p.slice(6):p;};
@@ -874,7 +1144,7 @@ const GADS = {"pulled":"2026-07 live","customer_id":"9399506772","campaigns":[{"
 
   tabs.addEventListener('click',e=>{const b=e.target.closest('button[data-ch]');if(!b)return;
     tabs.querySelectorAll('button').forEach(x=>x.classList.toggle('on',x===b));
-    const g=b.dataset.ch==='google'; mv.hidden=g; gv.hidden=!g; window.scrollTo(0,0); if(window.__rwRefresh)window.__rwRefresh();});
+    const ch=b.dataset.ch; mv.hidden=ch!=='meta'; gv.hidden=ch!=='google'; if(nv)nv.hidden=ch!=='nextdoor'; window.scrollTo(0,0); if(window.__rwRefresh)window.__rwRefresh();});
 })();
 </script>
 <script src="review.config.js"></script>
