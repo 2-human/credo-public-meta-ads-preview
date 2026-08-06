@@ -744,7 +744,7 @@ document.querySelectorAll('.adwrap').forEach(w=>{
   const nv=document.getElementById('nextdoor-view'); if(!nv)return;
   const NDRAT={'1x1':'1:1','1_91x1':'1.91:1'};
   const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  const LEGAL='Crēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements.';
+  const LEGAL='Credo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements.';
   /* Per-category Homeowner creative (living-room couple + everyday possessions + car through the window),
      generated via Higgsfield — one distinct scene per debt category, each with a 1:1 (1200×1200) and
      1.91:1 (1200×628) still plus a 1:1 video (image-to-video from the still). */
@@ -832,7 +832,7 @@ document.querySelectorAll('.adwrap').forEach(w=>{
   /* body = base copy + a licensing/local line using both dynamic tags; Call/Apply also carry the LP link */
   function buildBody(base,cat){
     const g=GEO[NDG.state];
-    let h=esc(base)+' Crēdo’s attorneys are licensed in '+ndtag(g.state,'{{state}}')+' and help neighbors across '+ndtag(g.city,'{{city}}')+'.';
+    let h=esc(base)+' Credo’s attorneys are licensed in '+ndtag(g.state,'{{state}}')+' and help neighbors across '+ndtag(g.city,'{{city}}')+'.';
     if(NDG.cta!=='learn') h+=' Free case review: <a class="ndlp" href="'+lpHref(cat)+'" target="_blank" rel="noopener">'+esc(lpDisp(cat))+'</a>';
     return h;
   }
@@ -885,7 +885,7 @@ document.querySelectorAll('.adwrap').forEach(w=>{
       hl.dataset.commentId='nd-'+cat+'-'+v+'-hl';
       /* CTA / destination per ad group */
       ctaBtn.textContent=CTAS[NDG.cta];
-      if(NDG.cta==='call'){dom.textContent=PHONE[NDG.state]||'Tap to call';behav.innerHTML='<b>Call Now</b> → opens the phone dialer to Crēdo’s tracked '+esc(g.state)+' line (DNI'+(PHONE[NDG.state]?'':' — set at launch')+').';}
+      if(NDG.cta==='call'){dom.textContent=PHONE[NDG.state]||'Tap to call';behav.innerHTML='<b>Call Now</b> → opens the phone dialer to Credo’s tracked '+esc(g.state)+' line (DNI'+(PHONE[NDG.state]?'':' — set at launch')+').';}
       else if(NDG.cta==='apply'){dom.textContent='Nextdoor lead form';behav.innerHTML='<b>Apply Now</b> → opens the native in-app lead-gen form (fields pre-fill from verified neighbor data).';}
       else{dom.textContent=lpDisp(cat);behav.innerHTML='<b>Learn More</b> → opens the matching landing page.';}
       if(st.mode==='video'){
