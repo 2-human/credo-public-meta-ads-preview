@@ -3,6 +3,12 @@
 Everything the client needs to build the Crēdo Legal debt-defense campaigns on **Meta Ads** and
 **Google Ads** — by hand in Ads Manager / Ads Editor, or via MCP automation.
 
+> **Nextdoor is a third channel, packaged separately** on the Business Page surface:
+> **https://2-human.github.io/credo-public-nextdoor-business-page/handoff/nextdoor/README.md**
+> (same handoff shape). It is a narrower **NY & NJ clean-file** experiment — **validation/settlement
+> only, no litigation/garnishment** — so its scope, geo, and creative subset differ from this build;
+> see the cross-channel note at the bottom.
+
 > **Launch everything PAUSED and QA before any spend.** These are consumer-debt / legal ads — the
 > compliance rules below are not optional.
 
@@ -52,3 +58,24 @@ extensions (`google/extensions.csv`).
   so the person/documents sit inside the safe zone (the 9:16 *videos* and Bold 9:16s are unchanged).
 - **Google** — full 7-campaign / 19-ad-group Search structure + extensions + 2 PMax asset groups.
 - **Medical_Rights (Meta) repointed** to the debt-validation angle to match its repurposed LP.
+
+## Cross-channel (Meta · Google · Nextdoor)
+
+The three channels share one paid-media taxonomy so reporting rolls up cleanly; `utm_source` keeps
+each separable.
+
+| | Meta | Google | Nextdoor |
+|---|---|---|---|
+| Package | `meta-ads-preview/handoff/meta/` | `…/handoff/google/` | `nextdoor-business-page/handoff/nextdoor/` |
+| `utm_source` | `meta` | `google` | `nextdoor` |
+| `utm_medium` | `paid_social` | `cpc` | `paid_social` |
+| `utm_campaign` | `credo_meta_v3` | `S_*_2025` | `credo_nd_{objective}_v1` |
+| `utm_term` | — | ad-group slug | cluster |
+| `utm_content` | ad key | `{creative}` | `{ad}-{direction}` |
+| Click id | — | `gclid` | `ndclid` |
+| Geo | US, **exclude NY** | US, **exclude NY** | **NY & NJ only** |
+| Scope | full cluster set | full cluster set | validation/settlement only |
+| Creatives | full set incl. Bold + 9:16 | Google set | **reuses** Meta 1:1 + 1.91:1; **no** Bold/9:16 |
+
+Nextdoor reuses the creatives published on this mirror (its `asset-manifest.csv` links back here), so
+keep this surface live. Full detail: the Nextdoor package README linked at the top.
