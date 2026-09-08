@@ -16,9 +16,16 @@ Everything the client needs to build the Crēdo Legal debt-defense campaigns on 
 
 ```
 credo-ads-handoff-2026-07/
-├── meta/    campaign-manifest.json · copy/*.csv · asset-manifest.csv · creatives/<Ad>/…
-└── google/  campaign-manifest.json · rsa-import.csv · extensions.csv · pmax-asset-groups.json · creatives/…
+├── meta/                 campaign-manifest.json · copy/*.csv · asset-manifest.csv · creatives/<Ad>/…
+├── google/               campaign-manifest.json · rsa-import.csv · extensions.csv · pmax-asset-groups.json · creatives/…
+└── meta-competitive-v1/  a separate Meta build derived from a Freedom Debt Relief teardown
 ```
+
+**`meta-competitive-v1/`** is an additional Meta campaign built by tearing down a competitor's live
+advertising (Freedom Debt Relief, Meta Ad Library page 69869352985) and rebuilding their strongest
+creative structures in Crēdo brand. 6 ad groups, one static and one lip-synced spokesperson video
+each. It has its own README, manifest and a browsable review page (`index.html`). Separate from the
+main `meta/` build above; also PAUSED and pending attorney pre-approval.
 
 Each platform folder is self-contained: machine-readable manifest (for MCP / scripted upload),
 human CSVs, and the actual creative files. See `meta/README.md` and `google/README.md`.

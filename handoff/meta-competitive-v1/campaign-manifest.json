@@ -1,0 +1,220 @@
+{
+ "campaign": {
+  "name": "Crēdo Legal — Competitive v1 (Meta)",
+  "objective": "OUTCOME_LEADS",
+  "special_ad_categories": [
+   "CREDIT"
+  ],
+  "special_ad_category_country": "US",
+  "recommended_status": "PAUSED",
+  "derived_from": "Competitive teardown of Freedom Debt Relief (Meta Ad Library page 69869352985, ~96 active ads, analysed 2026-09-08)",
+  "notes": "Mimics FDR's creative structure, hooks and devices; all debt-settlement claims replaced with Credo's validation/defense positioning. Consumer-debt ads require Meta CREDIT Special Ad Category."
+ },
+ "utm_scheme": "utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content={ad_key}",
+ "cta": {
+  "type": "BOOK_NOW",
+  "label": "Book Now",
+  "note": "FDR uses 'Apply Now'; for a law firm 'Book Now' matches the existing Credo Meta build."
+ },
+ "compliance": {
+  "universal_footer": "Prior outcomes don't guarantee similar results.\n\nCrēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements.",
+  "ai_performer_disclosure": "Burned into V1, V2 and V5 (synthetic spokesperson): 'Paid attorney advertising. Not a real client testimonial. Features a synthetic, AI-generated performer, not a real person. Prior outcomes don't guarantee similar results.'",
+  "general_ai_disclosure": "Burned into V3, V4, V6: 'Attorney Advertising. Includes AI-generated content. Prior outcomes don't guarantee similar results.'",
+  "excluded_by_instruction": [
+   "Trustpilot / BBB / ConsumerAffairs badge row",
+   "Review-card screenshot device",
+   "NASCAR paid-influencer partnership",
+   "Real-client and creator testimonials"
+  ],
+  "forbidden_claims": [
+   "settle for less / reduce what you owe as a product promise",
+   "program pricing ($438/mo avg, 24-48 months)",
+   "aggregate outcome stats ($22B resolved, 1M members)",
+   "become debt-free outcome promises"
+  ],
+  "confirm": [
+   "Jack full name",
+   "firm mailing address / phone / email",
+   "exact NY AI-disclosure wording",
+   "NY pre-approval of every ad before launch"
+  ]
+ },
+ "ads": [
+  {
+   "key": "A1_prove-it",
+   "cluster": "Validation",
+   "mimics": "FDR 'BECOME DEBT-FREE WITHOUT A LOAN' bold-type poster + synthetic-spokesperson UGC",
+   "slug": "debt-harassment-stop-calls",
+   "headline": "Make Them Prove You Owe It",
+   "desc": "Free case review. Flat monthly fee.",
+   "body": "Getting collection calls about a debt you're not sure you owe?\n\nBefore you pay a cent, you can make the collector validate the debt in writing. Many collectors, especially debt buyers, can't produce the paperwork to back it up.\n\nOur attorneys review what they send and tell you where you stand.",
+   "creatives": [
+    "S1_prove-it_1x1.jpg",
+    "S1_prove-it_1_91x1.jpg",
+    "V1_prove-it_9x16.mp4",
+    "V1_prove-it_4x5.mp4"
+   ],
+   "final_url": "https://start.credolegal.com/debt-harassment-stop-calls",
+   "final_url_utm": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A1_prove-it",
+   "primary_text_with_footer": "Getting collection calls about a debt you're not sure you owe?\n\nBefore you pay a cent, you can make the collector validate the debt in writing. Many collectors, especially debt buyers, can't produce the paperwork to back it up.\n\nOur attorneys review what they send and tell you where you stand.\n\nPrior outcomes don't guarantee similar results.\n\nCrēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements.",
+   "audio": {
+    "has_audio": true,
+    "method": "lip-synced scripted speech (Higgsfield wan2_7 — the on-screen performer speaks the line)",
+    "spoken_script": "Getting collection calls? Before you pay a cent, make them prove the debt is yours.",
+    "seconds": 8.0,
+    "cast": "Woman (white), 30s, home kitchen"
+   }
+  },
+  {
+   "key": "A2_is-it-yours",
+   "cluster": "Validation",
+   "mimics": "FDR 'Is debt your dirty little secret?' iPhone-Notes native device + ❌/✔️ hook",
+   "slug": "debt-harassment-stop-calls",
+   "headline": "See If They Can Even Prove It, Free",
+   "desc": "Attorneys licensed in NY and NJ.",
+   "body": "❌ A collection letter shows up.\n✔️ You can demand proof in writing before you pay.\n\nDebt buyers often can't produce the original contract or the account history that proves they even own it. Our attorneys make them show it.\n\nFree case review.",
+   "creatives": [
+    "S2_notes_1x1.jpg",
+    "S2_notes_1_91x1.jpg",
+    "V2_is-it-yours_9x16.mp4",
+    "V2_is-it-yours_4x5.mp4"
+   ],
+   "final_url": "https://start.credolegal.com/debt-harassment-stop-calls",
+   "final_url_utm": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A2_is-it-yours",
+   "primary_text_with_footer": "❌ A collection letter shows up.\n✔️ You can demand proof in writing before you pay.\n\nDebt buyers often can't produce the original contract or the account history that proves they even own it. Our attorneys make them show it.\n\nFree case review.\n\nPrior outcomes don't guarantee similar results.\n\nCrēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements.",
+   "audio": {
+    "has_audio": true,
+    "method": "lip-synced scripted speech (Higgsfield wan2_7 — the on-screen performer speaks the line)",
+    "spoken_script": "A collection letter showed up. You can demand proof in writing. Many debt buyers can't produce it.",
+    "seconds": 8.0,
+    "cast": "Man (white), 40s, living room"
+   }
+  },
+  {
+   "key": "A3_three-things",
+   "cluster": "Rights education",
+   "mimics": "FDR 'QUIZ TIME! Why choose FDR?' quiz card + caption-driven list video",
+   "slug": "debt-harassment-stop-calls",
+   "headline": "Know Your Options, Free",
+   "desc": "Free case review. No cost to learn where you stand.",
+   "body": "Three things collectors hope you don't know:\n\n1. You can make them validate the debt in writing\n2. Debt buyers often can't prove they even own it\n3. Balances are frequently inflated, so you may owe far less than they claim\n\nKnowing this changes how you respond. 👇",
+   "creatives": [
+    "S4_quiz_1x1.jpg",
+    "S4_quiz_1_91x1.jpg",
+    "V3_do-they-own-it_9x16.mp4",
+    "V3_do-they-own-it_4x5.mp4"
+   ],
+   "final_url": "https://start.credolegal.com/debt-harassment-stop-calls",
+   "final_url_utm": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A3_three-things",
+   "primary_text_with_footer": "Three things collectors hope you don't know:\n\n1. You can make them validate the debt in writing\n2. Debt buyers often can't prove they even own it\n3. Balances are frequently inflated, so you may owe far less than they claim\n\nKnowing this changes how you respond. 👇\n\nPrior outcomes don't guarantee similar results.\n\nCrēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements.",
+   "audio": {
+    "has_audio": true,
+    "method": "lip-synced scripted speech (Higgsfield wan2_7 — the on-screen performer speaks the line)",
+    "spoken_script": "You can make them validate the debt. Many debt buyers can't prove they own it.",
+    "seconds": 8.0,
+    "cast": "Woman (Black), 30s, home kitchen"
+   }
+  },
+  {
+   "key": "A4_before-after",
+   "cluster": "Validation",
+   "mimics": "FDR red-pain / blue-solution colour-flip ('$$$ Credit Card Bills' → '$438/mo Program Payment')",
+   "slug": "credit-card-debt-negotiation",
+   "headline": "You Don't Have to Face Them Alone",
+   "desc": "Flat monthly fee. No contingency.",
+   "body": "They called for years. They never proved the debt was mine.\n\nBefore: calls every week, a balance that kept growing, and no proof it was even yours.\n\nAfter: they have to validate it in writing, attorneys handle the response, and you pay one flat monthly fee.\n\nFree case review.",
+   "creatives": [
+    "S3_before-after_1x1.jpg",
+    "S3_before-after_1_91x1.jpg",
+    "V6_the-calls_9x16.mp4",
+    "V6_the-calls_4x5.mp4"
+   ],
+   "final_url": "https://start.credolegal.com/credit-card-debt-negotiation",
+   "final_url_utm": "https://start.credolegal.com/credit-card-debt-negotiation?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A4_before-after",
+   "primary_text_with_footer": "They called for years. They never proved the debt was mine.\n\nBefore: calls every week, a balance that kept growing, and no proof it was even yours.\n\nAfter: they have to validate it in writing, attorneys handle the response, and you pay one flat monthly fee.\n\nFree case review.\n\nPrior outcomes don't guarantee similar results.\n\nCrēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements.",
+   "audio": {
+    "has_audio": true,
+    "method": "lip-synced scripted speech (Higgsfield wan2_7 — the on-screen performer speaks the line)",
+    "spoken_script": "The calls don't have to run your life. A free review shows where you stand.",
+    "seconds": 8.0,
+    "cast": "Man (Black), 40s, living room"
+   }
+  },
+  {
+   "key": "A5_medical",
+   "cluster": "Medical",
+   "mimics": "FDR 'A collector says you owe it, can they prove it?' spokesperson format",
+   "slug": "medical-debt-bills-errors",
+   "headline": "Can They Prove the Amount?",
+   "desc": "Free review of your medical debt.",
+   "body": "A collector says you owe a medical bill. Can they prove it?\n\nMedical billing is full of coding errors and duplicate charges, and a collector has to validate the amount if you ask. Our attorneys review it before you pay anything.\n\nFree case review.",
+   "creatives": [
+    "S5_medical_1x1.jpg",
+    "S5_medical_1_91x1.jpg",
+    "V5_medical_9x16.mp4",
+    "V5_medical_4x5.mp4"
+   ],
+   "final_url": "https://start.credolegal.com/medical-debt-bills-errors",
+   "final_url_utm": "https://start.credolegal.com/medical-debt-bills-errors?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A5_medical",
+   "primary_text_with_footer": "A collector says you owe a medical bill. Can they prove it?\n\nMedical billing is full of coding errors and duplicate charges, and a collector has to validate the amount if you ask. Our attorneys review it before you pay anything.\n\nFree case review.\n\nPrior outcomes don't guarantee similar results.\n\nCrēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements.",
+   "audio": {
+    "has_audio": true,
+    "method": "lip-synced scripted speech (Higgsfield wan2_7 — the on-screen performer speaks the line)",
+    "spoken_script": "A collector says you owe this bill. Can they prove the amount? Billing errors are common.",
+    "seconds": 8.0,
+    "cast": "Woman (white), 50s, kitchen with paperwork"
+   }
+  },
+  {
+   "key": "A6_in-writing",
+   "cluster": "Brand",
+   "mimics": "FDR synthetic-spokesperson UGC (replaces the earlier motion-poster concept)",
+   "slug": "debt-harassment-stop-calls",
+   "headline": "Make Them Prove You Owe It",
+   "desc": "Free case review. Flat monthly fee.",
+   "body": "Make them prove it.\n\nA collector has to validate the debt in writing. Many debt buyers can't.\n\nFree case review. Flat monthly fee. Attorneys licensed in New York and New Jersey.",
+   "creatives": [
+    "S6_in-writing_1x1.jpg",
+    "S6_in-writing_1_91x1.jpg",
+    "V4_in-writing_9x16.mp4",
+    "V4_in-writing_4x5.mp4"
+   ],
+   "final_url": "https://start.credolegal.com/debt-harassment-stop-calls",
+   "final_url_utm": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A6_poster",
+   "primary_text_with_footer": "Make them prove it.\n\nA collector has to validate the debt in writing. Many debt buyers can't.\n\nFree case review. Flat monthly fee. Attorneys licensed in New York and New Jersey.\n\nPrior outcomes don't guarantee similar results.\n\nCrēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements.",
+   "audio": {
+    "has_audio": true,
+    "method": "lip-synced scripted speech (Higgsfield wan2_7 — the on-screen performer speaks the line)",
+    "spoken_script": "Make them prove it. A collector has to validate the debt in writing. Free case review.",
+    "seconds": 8.0,
+    "cast": "Man (white), 50s, home kitchen"
+   }
+  }
+ ],
+ "audio": {
+  "all_videos_have_audio": true,
+  "all_lip_synced": true,
+  "loudness": "normalised to -16 LUFS / -1.5 dBTP (Meta spec)",
+  "note": "All six ads are lip-synced talking heads: the synthetic performer speaks the scripted line, so there is no VO/lip mismatch anywhere. Every spoken word matches the on-screen captions and is part of the copy Jack reviews. Meta autoplays feed video muted, so all six also read correctly with sound off via the burned-in captions.",
+  "verification": "Each final MP4 was transcribed back (faster-whisper small) and matched against its script."
+ },
+ "cast": {
+  "note": "Ensemble cast for creative representation. Meta's CREDIT Special Ad Category restricts audience TARGETING by demographics; it does not restrict who appears in the creative.",
+  "women": [
+   "Woman (white), 30s, home kitchen",
+   "Woman (white), 50s, kitchen with paperwork",
+   "Woman (Black), 30s, home kitchen"
+  ],
+  "men": [
+   "Man (white), 40s, living room",
+   "Man (white), 50s, home kitchen",
+   "Man (Black), 40s, living room"
+  ]
+ },
+ "creative_set": {
+  "per_ad": "one static concept (1:1 + 1.91:1) and one video concept (9:16 + 4:5)",
+  "statics": "12 files / 6 concepts",
+  "videos": "12 files / 6 lip-synced spokespeople",
+  "layout": "Statics use a measured block layout with auto-fit: each element renders to a tile of known size and the engine stacks them inside a safe box, shrinking until they fit, so text cannot overflow. Landscape (1.91:1) reflows to two columns rather than cropping the portrait design."
+ }
+}
