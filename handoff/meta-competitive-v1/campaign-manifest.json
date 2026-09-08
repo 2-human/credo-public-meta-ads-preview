@@ -168,7 +168,7 @@
   {
    "key": "A6_in-writing",
    "cluster": "Brand",
-   "mimics": "FDR synthetic-spokesperson UGC (replaces the earlier motion-poster concept)",
+   "mimics": "FDR synthetic-spokesperson UGC + bold-type poster typography (replaces the earlier motion-poster concept)",
    "slug": "debt-harassment-stop-calls",
    "headline": "Make Them Prove You Owe It",
    "desc": "Free case review. Flat monthly fee.",
@@ -180,7 +180,7 @@
     "V4_in-writing_4x5.mp4"
    ],
    "final_url": "https://start.credolegal.com/debt-harassment-stop-calls",
-   "final_url_utm": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A6_poster",
+   "final_url_utm": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A6_in-writing",
    "primary_text_with_footer": "Make them prove it.\n\nA collector has to validate the debt in writing. Many debt buyers can't.\n\nFree case review. Flat monthly fee. Attorneys licensed in New York and New Jersey.\n\nPrior outcomes don't guarantee similar results.\n\nCrēdo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements.",
    "audio": {
     "has_audio": true,
