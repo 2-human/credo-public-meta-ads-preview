@@ -83,6 +83,22 @@
       "slightly larger disclaimer on solid band"
      ],
      "copy": "identical to S1"
+    },
+    {
+     "id": "S1_prove-it-light-noimg",
+     "status": "under review (not in the upload set)",
+     "files": [
+      "creatives/static/S1_prove-it-light-noimg_1x1.jpg",
+      "creatives/static/S1_prove-it-light-noimg_1_91x1.jpg"
+     ],
+     "reason": "compare the light design with vs without the photo",
+     "changes": [
+      "same light design as S1_prove-it-light",
+      "photo removed; text re-flowed across the full width",
+      "1:1: two-line headline (MAKE THEM / PROVE IT.)",
+      "1.91:1: one-line headline, sub-copy + CTA left, checklist right, all three checklist items"
+     ],
+     "copy": "identical to S1"
     }
    ]
   },
