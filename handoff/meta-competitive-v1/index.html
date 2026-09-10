@@ -27,6 +27,14 @@ figcaption{font-size:10.5px;color:#9aa0a6;margin-top:4px;word-break:break-all}
 .url{font-family:ui-monospace,Menlo,monospace;font-size:11px;color:#4b5563;word-break:break-all}
 footer{margin-top:26px;font-size:12px;color:var(--sec);border-top:1px solid var(--line);padding-top:14px}
 @media(max-width:720px){.copy{grid-template-columns:1fr}}
+.compare{margin:2px 0 16px;border:1px solid var(--line);border-radius:12px;padding:14px 14px 12px;background:#fbfbfa}
+.cmp-head{margin:0 0 10px}.cmp-head .lbl{display:block;margin-bottom:2px}.cmp-head p{margin:0;font-size:13px;color:var(--sec)}
+.cmp-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.cmp-col h3{font-size:13.5px;margin:0 0 6px}.cmp-col.b h3{color:var(--red)}
+.cmp-col figure{width:auto;margin:0 0 10px}.cmp-col figure img{width:100%;border:1px solid var(--line)}
+.cmp-why{font-size:12.5px;color:#374151;margin:6px 0 0;padding-left:18px}.cmp-why li{margin:2px 0}
+@media(max-width:720px){.cmp-grid{grid-template-columns:1fr}}
+
 </style></head><body><div class="wrap">
 <h1>Crēdo Legal — Meta Competitive v1</h1>
 <p class="sub">Built from a teardown of Freedom Debt Relief (Meta Ad Library page 69869352985, ~96 active ads).
@@ -40,6 +48,27 @@ Excluded on instruction: Trustpilot / BBB / ConsumerAffairs badge row, Review-ca
  <header><h2>A1_prove-it</h2><span class="pill">Validation</span><span class="cast">🎥 Woman (white), 30s, home kitchen</span></header>
  <p class="mimics"><b>Mimics:</b> FDR &#x27;BECOME DEBT-FREE WITHOUT A LOAN&#x27; bold-type poster + synthetic-spokesperson UGC</p>
  <div class="media"><figure data-comment-target data-comment-id="A1_prove-it-static-1x1"><img src="creatives/static/S1_prove-it_1x1.jpg" alt="S1_prove-it_1x1.jpg" loading="lazy"><figcaption>S1_prove-it_1x1.jpg</figcaption></figure><figure data-comment-target data-comment-id="A1_prove-it-static-1_91x1"><img src="creatives/static/S1_prove-it_1_91x1.jpg" alt="S1_prove-it_1_91x1.jpg" loading="lazy"><figcaption>S1_prove-it_1_91x1.jpg</figcaption></figure><figure data-comment-target data-comment-id="A1_prove-it-video-9x16"><video src="creatives/video/V1_prove-it_9x16.mp4" controls muted playsinline preload="metadata"></video><figcaption>V1_prove-it_9x16.mp4</figcaption></figure><figure data-comment-target data-comment-id="A1_prove-it-video-4x5"><video src="creatives/video/V1_prove-it_4x5.mp4" controls muted playsinline preload="metadata"></video><figcaption>V1_prove-it_4x5.mp4</figcaption></figure></div>
+<section class="compare" data-comment-target data-comment-id="A1_prove-it-compare">
+ <div class="cmp-head"><span class="lbl">Design comparison · S1 static · for review</span>
+ <p>Responding to Vernon's comment (9 Sep) that black backgrounds and red bars hurt legibility. Copy is identical in A and B; only the design changes. Comment on A in the strip above, on B below.</p></div>
+ <div class="cmp-grid">
+  <div class="cmp-col a"><h3>A · Current (dark)</h3>
+   <figure><img src="creatives/static/S1_prove-it_1x1.jpg" alt="S1 current 1:1" loading="lazy"><figcaption>S1_prove-it_1x1.jpg</figcaption></figure>
+   <figure><img src="creatives/static/S1_prove-it_1_91x1.jpg" alt="S1 current 1.91:1" loading="lazy"><figcaption>S1_prove-it_1_91x1.jpg</figcaption></figure>
+  </div>
+  <div class="cmp-col b"><h3>B · Light variant</h3>
+   <figure data-comment-target data-comment-id="A1_prove-it-static-light-1x1"><img src="creatives/static/S1_prove-it-light_1x1.jpg" alt="S1 light variant 1:1" loading="lazy"><figcaption>S1_prove-it-light_1x1.jpg</figcaption></figure>
+   <figure data-comment-target data-comment-id="A1_prove-it-static-light-1_91x1"><img src="creatives/static/S1_prove-it-light_1_91x1.jpg" alt="S1 light variant 1.91:1" loading="lazy"><figcaption>S1_prove-it-light_1_91x1.jpg</figcaption></figure>
+  </div>
+ </div>
+ <ul class="cmp-why">
+  <li><b>Background:</b> dark photo → light paper. Overall brightness 0.20 → 0.71 (FDR samples average 0.51).</li>
+  <li><b>Red used once:</b> only the word PROVE. No red bar, no red tags.</li>
+  <li><b>Photo</b> at full brightness in its own panel; no text sits on the photo.</li>
+  <li><b>Larger sub-copy</b> (49px vs ~38px on 1:1); the red tags become an ink checklist (3 items on 1:1, 2 on 1.91:1).</li>
+  <li><b>CTA</b> becomes a dark pill; the disclaimer is slightly larger, on a solid band.</li>
+ </ul>
+</section>
  <div class="copy">
    <div class="full" data-comment-target data-comment-id="A1_prove-it-vo"><span class="lbl">Spoken on camera (lip-synced)</span><p class="vo">“Getting collection calls? Before you pay a cent, make them prove the debt is yours.”</p></div>
    <div data-comment-target data-comment-id="A1_prove-it-headline"><span class="lbl">Headline</span><p>Make Them Prove You Owe It</p></div>

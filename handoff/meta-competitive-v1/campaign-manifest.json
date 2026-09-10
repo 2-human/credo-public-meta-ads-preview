@@ -63,7 +63,28 @@
     "spoken_script": "Getting collection calls? Before you pay a cent, make them prove the debt is yours.",
     "seconds": 8.0,
     "cast": "Woman (white), 30s, home kitchen"
-   }
+   },
+   "review_variants": [
+    {
+     "id": "S1_prove-it-light",
+     "status": "under review (not in the upload set)",
+     "files": [
+      "creatives/static/S1_prove-it-light_1x1.jpg",
+      "creatives/static/S1_prove-it-light_1_91x1.jpg"
+     ],
+     "reason": "Vernon, 2026-09-09: black backgrounds and red bars hurt legibility vs the FDR samples",
+     "changes": [
+      "light paper ground (brightness 0.20 -> 0.71)",
+      "red used once (PROVE)",
+      "full-brightness photo panel, no text on photo",
+      "larger sub-copy",
+      "ink checklist replaces red tags",
+      "ink CTA pill",
+      "slightly larger disclaimer on solid band"
+     ],
+     "copy": "identical to S1"
+    }
+   ]
   },
   {
    "key": "A2_is-it-yours",
