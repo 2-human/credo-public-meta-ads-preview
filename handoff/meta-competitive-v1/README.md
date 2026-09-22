@@ -128,9 +128,20 @@ Applied in this package:
   the image looks very sad." The A1 strip and `ads[0].creatives` now point at
   `S1_prove-it-light-noimg_{1x1,1_91x1}.jpg`; the comparison block records the decision.
 
-Still open — video production, not editable in this package:
+Videos re-generated 22 Sep (both now applied; previous cuts are in git history at 43bb515):
 
-- **V2_is-it-yours (9x16)** — "A little abrupt ending." Needs a re-cut with a longer end card.
-- **V5_medical (9x16)** — "Need to improve this video. Can they talk about the primary text
-  instead of just the hook line?" Needs a new VO script covering the primary text, then a re-shoot
-  or re-generation. The current VO is the hook line only; see `copy/vo-scripts.csv`.
+- **V2_is-it-yours** — re-shot at 8s instead of 6s so the performer holds a calm beat and a
+  small nod after the line before the end card. Total 10.1s. Same script; transcribed back and
+  matched word for word. New synthetic performer (a fresh generation cannot reproduce the earlier
+  face).
+- **V5_medical** — now speaks the primary text, not just the hook: *"A collector says you owe a
+  medical bill. Can they prove it? Medical billing is full of coding errors and duplicate charges.
+  They have to validate the amount if you ask. Our attorneys check it before you pay anything.
+  Free case review."* Total 15.8s. A single 14s take garbled its last two sentences (wan2_7 drifts
+  past ~10s of continuous speech), so the clean first 6.6s were kept and the rest generated as a
+  second take started from that exact frame; the join is continuous and the whole thing
+  transcribes back word for word.
+- Bake pipeline (captions from Whisper word timings, compliance strip, end card, 4:5 cut,
+  −16 LUFS) is now in the repo at `scripts/meta-ads/bake-talking-head.py`. Captions are set in
+  Helvetica Neue Bold on this machine (Hanken Grotesk is not installed locally); the end cards are
+  the original frames, unchanged.

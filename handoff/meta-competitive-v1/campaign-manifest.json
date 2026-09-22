@@ -161,8 +161,9 @@
         "has_audio": true,
         "method": "lip-synced scripted speech (Higgsfield wan2_7 — the on-screen performer speaks the line)",
         "spoken_script": "A collection letter showed up. You can demand proof in writing. Many debt buyers can't produce it.",
-        "seconds": 8.0,
-        "cast": "Man (white), 40s, living room"
+        "seconds": 10.0,
+        "cast": "Man (white), 40s, living room",
+        "revision": "2026-09-22: re-generated at 8s so the performer holds a calm beat after the line (Sona: ending was abrupt); 2s end card unchanged"
       },
       "review_variants": [
         {
@@ -355,9 +356,10 @@
       "audio": {
         "has_audio": true,
         "method": "lip-synced scripted speech (Higgsfield wan2_7 — the on-screen performer speaks the line)",
-        "spoken_script": "A collector says you owe this bill. Can they prove the amount? Billing errors are common.",
-        "seconds": 8.0,
-        "cast": "Woman (white), 50s, kitchen with paperwork"
+        "spoken_script": "A collector says you owe a medical bill. Can they prove it? Medical billing is full of coding errors and duplicate charges. They have to validate the amount if you ask. Our attorneys check it before you pay anything. Free case review.",
+        "seconds": 15.8,
+        "cast": "Woman (white), 50s, kitchen with paperwork",
+        "revision": "2026-09-22: re-generated to speak the primary text, not just the hook (Sona). Two wan2_7 takes joined at 6.6s, the second started from the first's last frame so the shot stays continuous; transcribed back and matched word for word."
       },
       "review_variants": [
         {
