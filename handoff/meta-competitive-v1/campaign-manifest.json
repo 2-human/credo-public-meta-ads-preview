@@ -99,6 +99,44 @@
             "1.91:1: one-line headline, sub-copy + CTA left, checklist right, all three checklist items"
           ],
           "copy": "identical to S1"
+        },
+        {
+          "id": "S1_prove-it-v3",
+          "label": "Variant 3",
+          "status": "under review (not in the upload set)",
+          "files": [
+            "creatives/static/v3/S1_prove-it_v3_1x1.jpg",
+            "creatives/static/v3/S1_prove-it_v3_4x5.jpg",
+            "creatives/static/v3/S1_prove-it_v3_9x16.jpg",
+            "creatives/static/v3/S1_prove-it_v3_16x9.jpg"
+          ],
+          "source": "Designer set 1 · 16 Sep, supplied as 1440/1920px PNG, stored here as JPEG q92",
+          "ratios": [
+            "1x1",
+            "4x5",
+            "9x16",
+            "16x9"
+          ],
+          "copy": "as designed"
+        },
+        {
+          "id": "S1_prove-it-v4",
+          "label": "Variant 4",
+          "status": "under review (not in the upload set)",
+          "files": [
+            "creatives/static/v4/S1_prove-it_v4_1x1.jpg",
+            "creatives/static/v4/S1_prove-it_v4_4x5.jpg",
+            "creatives/static/v4/S1_prove-it_v4_9x16.jpg",
+            "creatives/static/v4/S1_prove-it_v4_16x9.jpg"
+          ],
+          "source": "Designer set 2 · 17 Sep, supplied as 1440/1920px PNG, stored here as JPEG q92",
+          "ratios": [
+            "1x1",
+            "4x5",
+            "9x16",
+            "16x9"
+          ],
+          "copy": "as designed"
         }
       ]
     },
@@ -125,7 +163,47 @@
         "spoken_script": "A collection letter showed up. You can demand proof in writing. Many debt buyers can't produce it.",
         "seconds": 8.0,
         "cast": "Man (white), 40s, living room"
-      }
+      },
+      "review_variants": [
+        {
+          "id": "S2_is-it-yours-v3",
+          "label": "Variant 3",
+          "status": "under review (not in the upload set)",
+          "files": [
+            "creatives/static/v3/S2_is-it-yours_v3_1x1.jpg",
+            "creatives/static/v3/S2_is-it-yours_v3_4x5.jpg",
+            "creatives/static/v3/S2_is-it-yours_v3_9x16.jpg",
+            "creatives/static/v3/S2_is-it-yours_v3_16x9.jpg"
+          ],
+          "source": "Designer set 1 · 16 Sep, supplied as 1440/1920px PNG, stored here as JPEG q92",
+          "ratios": [
+            "1x1",
+            "4x5",
+            "9x16",
+            "16x9"
+          ],
+          "copy": "as designed"
+        },
+        {
+          "id": "S2_is-it-yours-v4",
+          "label": "Variant 4",
+          "status": "under review (not in the upload set)",
+          "files": [
+            "creatives/static/v4/S2_is-it-yours_v4_1x1.jpg",
+            "creatives/static/v4/S2_is-it-yours_v4_4x5.jpg",
+            "creatives/static/v4/S2_is-it-yours_v4_9x16.jpg",
+            "creatives/static/v4/S2_is-it-yours_v4_16x9.jpg"
+          ],
+          "source": "Designer set 2 · 17 Sep, supplied as 1440/1920px PNG, stored here as JPEG q92",
+          "ratios": [
+            "1x1",
+            "4x5",
+            "9x16",
+            "16x9"
+          ],
+          "copy": "as designed"
+        }
+      ]
     },
     {
       "key": "A3_three-things",
@@ -150,7 +228,47 @@
         "spoken_script": "You can make them validate the debt. Many debt buyers can't prove they own it.",
         "seconds": 8.0,
         "cast": "Woman (Black), 30s, home kitchen"
-      }
+      },
+      "review_variants": [
+        {
+          "id": "S3_three-things-v3",
+          "label": "Variant 3",
+          "status": "under review (not in the upload set)",
+          "files": [
+            "creatives/static/v3/S3_three-things_v3_1x1.jpg",
+            "creatives/static/v3/S3_three-things_v3_4x5.jpg",
+            "creatives/static/v3/S3_three-things_v3_9x16.jpg",
+            "creatives/static/v3/S3_three-things_v3_16x9.jpg"
+          ],
+          "source": "Designer set 1 · 16 Sep, supplied as 1440/1920px PNG, stored here as JPEG q92",
+          "ratios": [
+            "1x1",
+            "4x5",
+            "9x16",
+            "16x9"
+          ],
+          "copy": "as designed"
+        },
+        {
+          "id": "S3_three-things-v4",
+          "label": "Variant 4",
+          "status": "under review (not in the upload set)",
+          "files": [
+            "creatives/static/v4/S3_three-things_v4_1x1.jpg",
+            "creatives/static/v4/S3_three-things_v4_4x5.jpg",
+            "creatives/static/v4/S3_three-things_v4_9x16.jpg",
+            "creatives/static/v4/S3_three-things_v4_16x9.jpg"
+          ],
+          "source": "Designer set 2 · 17 Sep, supplied as 1440/1920px PNG, stored here as JPEG q92",
+          "ratios": [
+            "1x1",
+            "4x5",
+            "9x16",
+            "16x9"
+          ],
+          "copy": "as designed"
+        }
+      ]
     },
     {
       "key": "A4_before-after",
@@ -175,7 +293,47 @@
         "spoken_script": "The calls don't have to run your life. A free review shows where you stand.",
         "seconds": 8.0,
         "cast": "Man (Black), 40s, living room"
-      }
+      },
+      "review_variants": [
+        {
+          "id": "S4_before-after-v3",
+          "label": "Variant 3",
+          "status": "under review (not in the upload set)",
+          "files": [
+            "creatives/static/v3/S4_before-after_v3_1x1.jpg",
+            "creatives/static/v3/S4_before-after_v3_4x5.jpg",
+            "creatives/static/v3/S4_before-after_v3_9x16.jpg",
+            "creatives/static/v3/S4_before-after_v3_16x9.jpg"
+          ],
+          "source": "Designer set 1 · 16 Sep, supplied as 1440/1920px PNG, stored here as JPEG q92",
+          "ratios": [
+            "1x1",
+            "4x5",
+            "9x16",
+            "16x9"
+          ],
+          "copy": "as designed"
+        },
+        {
+          "id": "S4_before-after-v4",
+          "label": "Variant 4",
+          "status": "under review (not in the upload set)",
+          "files": [
+            "creatives/static/v4/S4_before-after_v4_1x1.jpg",
+            "creatives/static/v4/S4_before-after_v4_4x5.jpg",
+            "creatives/static/v4/S4_before-after_v4_9x16.jpg",
+            "creatives/static/v4/S4_before-after_v4_16x9.jpg"
+          ],
+          "source": "Designer set 2 · 17 Sep, supplied as 1440/1920px PNG, stored here as JPEG q92",
+          "ratios": [
+            "1x1",
+            "4x5",
+            "9x16",
+            "16x9"
+          ],
+          "copy": "as designed"
+        }
+      ]
     },
     {
       "key": "A5_medical",
@@ -200,7 +358,47 @@
         "spoken_script": "A collector says you owe this bill. Can they prove the amount? Billing errors are common.",
         "seconds": 8.0,
         "cast": "Woman (white), 50s, kitchen with paperwork"
-      }
+      },
+      "review_variants": [
+        {
+          "id": "S5_medical-v3",
+          "label": "Variant 3",
+          "status": "under review (not in the upload set)",
+          "files": [
+            "creatives/static/v3/S5_medical_v3_1x1.jpg",
+            "creatives/static/v3/S5_medical_v3_4x5.jpg",
+            "creatives/static/v3/S5_medical_v3_9x16.jpg",
+            "creatives/static/v3/S5_medical_v3_16x9.jpg"
+          ],
+          "source": "Designer set 1 · 16 Sep, supplied as 1440/1920px PNG, stored here as JPEG q92",
+          "ratios": [
+            "1x1",
+            "4x5",
+            "9x16",
+            "16x9"
+          ],
+          "copy": "as designed"
+        },
+        {
+          "id": "S5_medical-v4",
+          "label": "Variant 4",
+          "status": "under review (not in the upload set)",
+          "files": [
+            "creatives/static/v4/S5_medical_v4_1x1.jpg",
+            "creatives/static/v4/S5_medical_v4_4x5.jpg",
+            "creatives/static/v4/S5_medical_v4_9x16.jpg",
+            "creatives/static/v4/S5_medical_v4_16x9.jpg"
+          ],
+          "source": "Designer set 2 · 17 Sep, supplied as 1440/1920px PNG, stored here as JPEG q92",
+          "ratios": [
+            "1x1",
+            "4x5",
+            "9x16",
+            "16x9"
+          ],
+          "copy": "as designed"
+        }
+      ]
     },
     {
       "key": "A6_in-writing",
@@ -225,7 +423,47 @@
         "spoken_script": "Make them prove it. A collector has to validate the debt in writing. Free case review.",
         "seconds": 8.0,
         "cast": "Man (white), 50s, home kitchen"
-      }
+      },
+      "review_variants": [
+        {
+          "id": "S6_in-writing-v3",
+          "label": "Variant 3",
+          "status": "under review (not in the upload set)",
+          "files": [
+            "creatives/static/v3/S6_in-writing_v3_1x1.jpg",
+            "creatives/static/v3/S6_in-writing_v3_4x5.jpg",
+            "creatives/static/v3/S6_in-writing_v3_9x16.jpg",
+            "creatives/static/v3/S6_in-writing_v3_16x9.jpg"
+          ],
+          "source": "Designer set 1 · 16 Sep, supplied as 1440/1920px PNG, stored here as JPEG q92",
+          "ratios": [
+            "1x1",
+            "4x5",
+            "9x16",
+            "16x9"
+          ],
+          "copy": "as designed"
+        },
+        {
+          "id": "S6_in-writing-v4",
+          "label": "Variant 4",
+          "status": "under review (not in the upload set)",
+          "files": [
+            "creatives/static/v4/S6_in-writing_v4_1x1.jpg",
+            "creatives/static/v4/S6_in-writing_v4_4x5.jpg",
+            "creatives/static/v4/S6_in-writing_v4_9x16.jpg",
+            "creatives/static/v4/S6_in-writing_v4_16x9.jpg"
+          ],
+          "source": "Designer set 2 · 17 Sep, supplied as 1440/1920px PNG, stored here as JPEG q92",
+          "ratios": [
+            "1x1",
+            "4x5",
+            "9x16",
+            "16x9"
+          ],
+          "copy": "as designed"
+        }
+      ]
     }
   ],
   "audio": {

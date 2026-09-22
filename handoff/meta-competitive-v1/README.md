@@ -101,6 +101,19 @@ creatives/static/        8 JPEGs (1:1 + 1.91:1)
 creatives/video/         12 MP4s (9:16 + 4:5)
 ```
 
+## Static variants 3 and 4 — agency designer sets (added 22 Sep 2026)
+
+Two complete static sets from the designer, one concept per ad (C1–C6 ↔ A1–A6), each in **four
+ratios — 1:1 (1440²), 4:5 (1440×1800), 9:16 (1080×1920), 16:9 (1920×1080)**:
+
+- **Variant 3** = designer set 1 (16 Sep) → `creatives/static/v3/S{n}_{slug}_v3_{ratio}.jpg`
+- **Variant 4** = designer set 2 (17 Sep) → `creatives/static/v4/S{n}_{slug}_v4_{ratio}.jpg`
+
+They sit on the review page under each ad as "Designer sets · variants 3 and 4", every image
+commentable, and in `campaign-manifest.json` as `review_variants` `S{n}_{slug}-v3` / `-v4`
+(status: under review, not in the upload set). The supplied PNGs (31 MB + 68 MB) are stored here
+as JPEG q92 (13 MB for all 48); the PNG originals stay with the designer's delivery.
+
 ## Review revisions — Sona, 22 Sep 2026
 
 Applied in this package:
