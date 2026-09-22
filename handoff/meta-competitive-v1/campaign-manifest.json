@@ -149,8 +149,6 @@
       "desc": "Attorneys licensed in NY and NJ.",
       "body": "❌ A collection letter shows up.\n✔️ You can demand proof in writing before you pay.\n\nDebt buyers often can't produce the original contract or the account history that proves they even own it. Our attorneys make them show it.\n\nFree case review.",
       "creatives": [
-        "S2_notes_1x1.jpg",
-        "S2_notes_1_91x1.jpg",
         "V2_is-it-yours_9x16.mp4",
         "V2_is-it-yours_4x5.mp4"
       ],
@@ -215,8 +213,6 @@
       "desc": "Free case review. No cost to learn where you stand.",
       "body": "Three things collectors hope you don't know:\n\n1. You can make them validate the debt in writing\n2. Debt buyers often can't prove they even own it\n3. Balances are frequently inflated, so you may owe far less than they claim\n\nKnowing this changes how you respond. 👇",
       "creatives": [
-        "S4_quiz_1x1.jpg",
-        "S4_quiz_1_91x1.jpg",
         "V3_do-they-own-it_9x16.mp4",
         "V3_do-they-own-it_4x5.mp4"
       ],
@@ -280,8 +276,6 @@
       "desc": "Flat monthly fee. No contingency.",
       "body": "They called for years. They never proved the debt was mine.\n\nBefore: calls every week, a balance that kept growing, and no proof it was even yours.\n\nAfter: they have to validate it in writing, attorneys handle the response, and you pay one flat monthly fee.\n\nFree case review.",
       "creatives": [
-        "S3_before-after_1x1.jpg",
-        "S3_before-after_1_91x1.jpg",
         "V6_the-calls_9x16.mp4",
         "V6_the-calls_4x5.mp4"
       ],
@@ -345,8 +339,6 @@
       "desc": "Free review of your medical debt.",
       "body": "A collector says you owe a medical bill. Can they prove it?\n\nMedical billing is full of coding errors and duplicate charges, and a collector has to validate the amount if you ask. Our attorneys review it before you pay anything.\n\nFree case review.",
       "creatives": [
-        "S5_medical_1x1.jpg",
-        "S5_medical_1_91x1.jpg",
         "V5_medical_9x16.mp4",
         "V5_medical_4x5.mp4"
       ],
@@ -411,8 +403,6 @@
       "desc": "Free case review. Flat monthly fee.",
       "body": "Make them prove it.\n\nA collector has to validate the debt in writing. Many debt buyers can't.\n\nFree case review. Flat monthly fee. Attorneys licensed in New York and New Jersey.",
       "creatives": [
-        "S6_in-writing_1x1.jpg",
-        "S6_in-writing_1_91x1.jpg",
         "V4_in-writing_9x16.mp4",
         "V4_in-writing_4x5.mp4"
       ],
@@ -489,8 +479,8 @@
     ]
   },
   "creative_set": {
-    "per_ad": "one static concept (1:1 + 1.91:1) and one video concept (9:16 + 4:5)",
-    "statics": "12 files / 6 concepts",
+    "per_ad": "one video concept (9:16 + 4:5); statics under review in three variants (S1 light, designer set 1 = -v3, designer set 2 = -v4). Dark-background statics removed 2026-09-22.",
+    "statics": "S1 light (2 files) + designer sets v3 and v4 (48 files) — none in the upload set yet",
     "videos": "12 files / 6 lip-synced spokespeople",
     "layout": "Statics use a measured block layout with auto-fit: each element renders to a tile of known size and the engine stacks them inside a safe box, shrinking until they fit, so text cannot overflow. Landscape (1.91:1) reflows to two columns rather than cropping the portrait design."
   }

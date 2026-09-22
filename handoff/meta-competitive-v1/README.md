@@ -114,6 +114,19 @@ commentable, and in `campaign-manifest.json` as `review_variants` `S{n}_{slug}-v
 (status: under review, not in the upload set). The supplied PNGs (31 MB + 68 MB) are stored here
 as JPEG q92 (13 MB for all 48); the PNG originals stay with the designer's delivery.
 
+## Page restructure + dark statics removed (22 Sep 2026)
+
+On instruction, the **dark-background statics (S1–S6 `_1x1` / `_1_91x1`) are removed** from the
+package (they remain in git history at `a1f1ca6`). The review page is now organised for comparison:
+
+1. **Light background — original set** (S1 light, with and without photo; no-photo is the chosen one)
+2. **Designer set 1** (16 Sep, manifest `-v3`)
+3. **Designer set 2** (17 Sep, manifest `-v4`)
+4. **Videos** — all six, with the full ad copy
+
+No static is in the upload set yet: `campaign-manifest.json` `ads[].creatives` now lists the
+videos only (plus the S1 light no-photo pair for A1) until a variant is picked per ad.
+
 ## Review revisions — Sona, 22 Sep 2026
 
 Applied in this package:
