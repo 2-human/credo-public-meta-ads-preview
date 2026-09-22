@@ -100,3 +100,24 @@ copy/bodies.csv          primary text with the compliance footer baked in
 creatives/static/        8 JPEGs (1:1 + 1.91:1)
 creatives/video/         12 MP4s (9:16 + 4:5)
 ```
+
+## Review revisions — Sona, 22 Sep 2026
+
+Applied in this package:
+
+- **A1 headline** — "Make Them Prove You Owe It" → **"Make Collectors Prove Before You Pay"**.
+  Sona: the old line doesn't signal consumer debt fast enough. Changed in `index.html`,
+  `campaign-manifest.json` (`ads[0]`) and `copy/ads.csv`. **A6_in-writing still carries the old
+  line** — it was not the ad she commented on.
+  *Open consequence:* the S1 statics have `MAKE THEM PROVE IT.` baked into the artwork, so the
+  art needs re-rendering to match the new headline field.
+- **A1 static design** — option **C (light, no image)** chosen over B. Sona: "Lighter is better…
+  the image looks very sad." The A1 strip and `ads[0].creatives` now point at
+  `S1_prove-it-light-noimg_{1x1,1_91x1}.jpg`; the comparison block records the decision.
+
+Still open — video production, not editable in this package:
+
+- **V2_is-it-yours (9x16)** — "A little abrupt ending." Needs a re-cut with a longer end card.
+- **V5_medical (9x16)** — "Need to improve this video. Can they talk about the primary text
+  instead of just the hook line?" Needs a new VO script covering the primary text, then a re-shoot
+  or re-generation. The current VO is the hook line only; see `copy/vo-scripts.csv`.
