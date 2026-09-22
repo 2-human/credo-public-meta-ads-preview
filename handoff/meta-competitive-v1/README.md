@@ -147,16 +147,17 @@ Videos re-generated 22 Sep (both now applied; previous cuts are in git history a
   small nod after the line before the end card. Total 10.1s. Same script; transcribed back and
   matched word for word. New synthetic performer (a fresh generation cannot reproduce the earlier
   face).
-- **V5_medical** — now speaks the primary text, in **one continuous 12 s take** (a first pass joined two
-  takes and the seam was audible as a voice/volume change — replaced): *"A collector says you owe a
-  medical bill. Can they prove it? Medical billing is full of coding errors and duplicate charges.
-  They have to validate the amount if you ask. Our attorneys check it before you pay."* Transcribed
-  back and matched word for word; 0.5 s dissolve into the end card. Total 14.1 s.
-- **V6_the-calls (the A4_before-after video)** — the previous take had a stray voice burst at
-  5.9–6.0 s, right after the line and before the end card. Re-shot at 8 s: silent after the line
-  (−47 dB through the hold), calm beat, then the end card. Same script, matched word for word.
-  Total 10.1 s.
+- **V5_medical** — now speaks the primary text in **one continuous 12 s take**: *"A collector says
+  you owe a medical bill. Can they prove it? Medical billing is full of coding errors and duplicate
+  charges. They have to validate the amount if you ask. Our attorneys check it before you pay."*
+  Third pass on 22 Sep: a two-take join had an audible seam (dropped), then a single take lost lip
+  sync around "if you ask" (dropped). The shipped take is transcribed back word for word and its
+  mouth movement was checked frame-by-frame against the audio (`scripts/meta-ads/check-lip-sync.py`).
+  0.6 s hold on the last frame, 0.5 s dissolve into the end card. Total 14.7 s.
+- **V6_the-calls (the A4_before-after video)** — **original take kept.** A 22 Sep re-shoot came out
+  with a British accent and was dropped on review. The stray voice burst at 5.9–6.0 s, in the silence
+  after the line, is muted (−90 dB); picture and voice otherwise untouched. Total 8.0 s.
 - Bake pipeline (captions from Whisper word timings, compliance strip, end card, 4:5 cut,
-  −16 LUFS, optional `XFADE` dissolve) is in the repo at `scripts/meta-ads/bake-talking-head.py`. Captions are set in
+  −16 LUFS, optional `XFADE` dissolve and `TAIL_HOLD` freeze) is in the repo at `scripts/meta-ads/bake-talking-head.py`. Captions are set in
   Helvetica Neue Bold on this machine (Hanken Grotesk is not installed locally); the end cards are
   the original frames, unchanged.

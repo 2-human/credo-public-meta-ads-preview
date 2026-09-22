@@ -286,9 +286,9 @@
         "has_audio": true,
         "method": "lip-synced scripted speech (Higgsfield wan2_7 — the on-screen performer speaks the line)",
         "spoken_script": "The calls don't have to run your life. A free review shows where you stand.",
-        "seconds": 10.0,
+        "seconds": 8.0,
         "cast": "Man (Black), 40s, living room",
-        "revision": "2026-09-22: re-generated at 8s — the previous take had a stray voice burst at 5.9–6.0s, right after the line (operator + Vernon); the new take is silent after the line and holds a calm beat before the end card. Same script, transcribed back and matched."
+        "revision": "2026-09-22: original take kept (the 22 Sep re-shoot came out with a British accent and was dropped). The stray voice burst at 5.9–6.0s, after the line, is muted; picture and voice otherwise untouched."
       },
       "review_variants": [
         {
@@ -350,9 +350,9 @@
         "has_audio": true,
         "method": "lip-synced scripted speech (Higgsfield wan2_7 — the on-screen performer speaks the line)",
         "spoken_script": "A collector says you owe a medical bill. Can they prove it? Medical billing is full of coding errors and duplicate charges. They have to validate the amount if you ask. Our attorneys check it before you pay.",
-        "seconds": 14.1,
+        "seconds": 14.7,
         "cast": "Woman (white), 50s, kitchen with paperwork",
-        "revision": "2026-09-22 (2nd pass): one continuous 12s take — the earlier two-take join had an audible voice/volume change at the seam. Speaks the primary text; transcribed back and matched word for word; 0.5s dissolve into the end card."
+        "revision": "2026-09-22 (3rd pass): re-shot — the previous take lost lip sync around \"if you ask\". One continuous 12s take, transcribed back and matched word for word, mouth checked frame-by-frame against the audio; 0.6s hold on the last frame, 0.5s dissolve into the end card."
       },
       "review_variants": [
         {
