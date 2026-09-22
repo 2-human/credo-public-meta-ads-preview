@@ -30,6 +30,9 @@
   /* Depth-safe: pages nested below the surface root set window.CREDO_REVIEW_BASE
    * (e.g. '../../') so the engine resolves from any depth. Defaults to '' = root. */
   var BASE = window.CREDO_REVIEW_BASE || '';
-  var css = document.createElement('link'); css.rel = 'stylesheet'; css.href = BASE + 'review-mode.css'; document.head.appendChild(css);
-  var js = document.createElement('script'); js.src = BASE + 'review-mode.js'; document.body.appendChild(js);
+  /* Cache-bust the widget assets (2026-09-22) — see the note in the other hubs:
+   * a stale cached widget kept showing reviewers an old build. */
+  var v = '?v=' + Date.now();
+  var css = document.createElement('link'); css.rel = 'stylesheet'; css.href = BASE + 'review-mode.css' + v; document.head.appendChild(css);
+  var js = document.createElement('script'); js.src = BASE + 'review-mode.js' + v; document.body.appendChild(js);
 })();
