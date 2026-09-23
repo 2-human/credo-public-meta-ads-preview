@@ -96,10 +96,9 @@
             "same light design as S1_prove-it-light",
             "photo removed; text re-flowed across the full width",
             "1:1: two-line headline (MAKE THEM / PROVE IT.)",
-            "1.91:1: one-line headline, sub-copy + CTA left, checklist right, all three checklist items",
-            "23 Sep: copy reduced 29 -> 19 words, same layout/type/colours (scripts/meta-ads/render-s1-light.py)"
+            "1.91:1: one-line headline, sub-copy + CTA left, checklist right, all three checklist items"
           ],
-          "copy": "reduced 23 Sep 2026: sub \"A collector has to validate the debt in writing. Many can't.\"; checklist Free case review / Flat monthly fee (licensing line dropped); CTA \"Get a free review\". Headline and disclaimer unchanged."
+          "copy": "identical to S1"
         },
         {
           "id": "S1_prove-it-v3",
@@ -138,6 +137,17 @@
             "16x9"
           ],
           "copy": "as designed"
+        },
+        {
+          "id": "S1_prove-it-light-noimg-reduced",
+          "label": "S1 light no photo — reduced copy",
+          "status": "under review (not in the upload set)",
+          "files": [
+            "creatives/static/S1_prove-it-light-noimg-reduced_1x1.jpg",
+            "creatives/static/S1_prove-it-light-noimg-reduced_1_91x1.jpg"
+          ],
+          "copy": "sub \"A collector has to validate the debt in writing. Many can't.\"; checklist Free case review / Flat monthly fee; CTA \"Get a free review\"",
+          "source": "scripts/meta-ads/render-s1-light.py"
         }
       ]
     },
@@ -182,7 +192,7 @@
             "9x16",
             "16x9"
           ],
-          "copy": "reduced 23 Sep 2026: sub-line \"Make them prove it in writing before you pay.\" (was \"You can make them prove it in writing before you pay.\"). Headline, photo, CTA and disclaimer unchanged."
+          "copy": "as designed"
         },
         {
           "id": "S2_is-it-yours-v4",
@@ -202,6 +212,19 @@
             "16x9"
           ],
           "copy": "as designed"
+        },
+        {
+          "id": "S2_is-it-yours-v3-reduced",
+          "label": "Variant 3 — reduced copy",
+          "status": "under review (not in the upload set)",
+          "files": [
+            "creatives/static/v3/S2_is-it-yours_v3-reduced_1x1.jpg",
+            "creatives/static/v3/S2_is-it-yours_v3-reduced_4x5.jpg",
+            "creatives/static/v3/S2_is-it-yours_v3-reduced_9x16.jpg",
+            "creatives/static/v3/S2_is-it-yours_v3-reduced_16x9.jpg"
+          ],
+          "copy": "sub-line \"Make them prove it in writing before you pay.\"",
+          "source": "scripts/meta-ads/retext-c2-set1.py"
         }
       ]
     },
