@@ -136,6 +136,12 @@ exactly. Headlines: MAKE THEM **PROVE** IT. · IS THIS DEBT EVEN **YOURS**? · T
 MINE. · WHAT CAN YOU MAKE A **COLLECTOR** DO? · CAN THEY **PROVE** IT? · GET IT IN **WRITING**. No photos, so
 no "Image is a dramatization"; C1 and C3 carry "Prior results do not guarantee a similar outcome".
 
+## Concept mapping fixed (23 Sep 2026)
+
+The designer brief numbers concepts S1–S6, and **S3 (Before/After) is ad A4_before-after while S4 (Quiz)
+is ad A3_three-things**. The designer sets had been filed by position (C3→A3, C4→A4), which swapped them.
+Files are now named for the brief concept (`S3_before-after_*`, `S4_quiz_*`) and shown under the right ad.
+
 ## Review page merged by concept (23 Sep 2026)
 
 Sections 2, 2b and 3 are merged into one section, "Statics by concept — three versions": for each ad A1–A6,

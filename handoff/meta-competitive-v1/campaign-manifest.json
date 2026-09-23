@@ -252,14 +252,14 @@
       },
       "review_variants": [
         {
-          "id": "S3_three-things-v3",
+          "id": "S4_quiz-v3",
           "label": "Variant 3",
           "status": "under review (not in the upload set)",
           "files": [
-            "creatives/static/v3/S3_three-things_v3_1x1.jpg",
-            "creatives/static/v3/S3_three-things_v3_4x5.jpg",
-            "creatives/static/v3/S3_three-things_v3_9x16.jpg",
-            "creatives/static/v3/S3_three-things_v3_16x9.jpg"
+            "creatives/static/v3/S4_quiz_v3_1x1.jpg",
+            "creatives/static/v3/S4_quiz_v3_4x5.jpg",
+            "creatives/static/v3/S4_quiz_v3_9x16.jpg",
+            "creatives/static/v3/S4_quiz_v3_16x9.jpg"
           ],
           "source": "Designer set 1 · 16 Sep, supplied as 1440/1920px PNG, stored here as JPEG q92",
           "ratios": [
@@ -271,14 +271,14 @@
           "copy": "as designed"
         },
         {
-          "id": "S3_three-things-v4",
+          "id": "S4_quiz-v4",
           "label": "Variant 4",
           "status": "under review (not in the upload set)",
           "files": [
-            "creatives/static/v4/S3_three-things_v4_1x1.jpg",
-            "creatives/static/v4/S3_three-things_v4_4x5.jpg",
-            "creatives/static/v4/S3_three-things_v4_9x16.jpg",
-            "creatives/static/v4/S3_three-things_v4_16x9.jpg"
+            "creatives/static/v4/S4_quiz_v4_1x1.jpg",
+            "creatives/static/v4/S4_quiz_v4_4x5.jpg",
+            "creatives/static/v4/S4_quiz_v4_9x16.jpg",
+            "creatives/static/v4/S4_quiz_v4_16x9.jpg"
           ],
           "source": "Designer set 2 · 17 Sep, supplied as 1440/1920px PNG, stored here as JPEG q92",
           "ratios": [
@@ -290,14 +290,14 @@
           "copy": "as designed"
         },
         {
-          "id": "S3_three-things-light",
+          "id": "S4_quiz-light",
           "label": "Set 1 in the S1 light style",
           "status": "under review (not in the upload set)",
           "files": [
-            "creatives/static/light/S3_three-things_light_1x1.jpg",
-            "creatives/static/light/S3_three-things_light_4x5.jpg",
-            "creatives/static/light/S3_three-things_light_9x16.jpg",
-            "creatives/static/light/S3_three-things_light_16x9.jpg"
+            "creatives/static/light/S4_quiz_light_1x1.jpg",
+            "creatives/static/light/S4_quiz_light_4x5.jpg",
+            "creatives/static/light/S4_quiz_light_9x16.jpg",
+            "creatives/static/light/S4_quiz_light_16x9.jpg"
           ],
           "source": "scripts/meta-ads/render-light-set.py"
         }
@@ -328,14 +328,14 @@
       },
       "review_variants": [
         {
-          "id": "S4_before-after-v3",
+          "id": "S3_before-after-v3",
           "label": "Variant 3",
           "status": "under review (not in the upload set)",
           "files": [
-            "creatives/static/v3/S4_before-after_v3_1x1.jpg",
-            "creatives/static/v3/S4_before-after_v3_4x5.jpg",
-            "creatives/static/v3/S4_before-after_v3_9x16.jpg",
-            "creatives/static/v3/S4_before-after_v3_16x9.jpg"
+            "creatives/static/v3/S3_before-after_v3_1x1.jpg",
+            "creatives/static/v3/S3_before-after_v3_4x5.jpg",
+            "creatives/static/v3/S3_before-after_v3_9x16.jpg",
+            "creatives/static/v3/S3_before-after_v3_16x9.jpg"
           ],
           "source": "Designer set 1 · 16 Sep, supplied as 1440/1920px PNG, stored here as JPEG q92",
           "ratios": [
@@ -347,14 +347,14 @@
           "copy": "as designed"
         },
         {
-          "id": "S4_before-after-v4",
+          "id": "S3_before-after-v4",
           "label": "Variant 4",
           "status": "under review (not in the upload set)",
           "files": [
-            "creatives/static/v4/S4_before-after_v4_1x1.jpg",
-            "creatives/static/v4/S4_before-after_v4_4x5.jpg",
-            "creatives/static/v4/S4_before-after_v4_9x16.jpg",
-            "creatives/static/v4/S4_before-after_v4_16x9.jpg"
+            "creatives/static/v4/S3_before-after_v4_1x1.jpg",
+            "creatives/static/v4/S3_before-after_v4_4x5.jpg",
+            "creatives/static/v4/S3_before-after_v4_9x16.jpg",
+            "creatives/static/v4/S3_before-after_v4_16x9.jpg"
           ],
           "source": "Designer set 2 · 17 Sep, supplied as 1440/1920px PNG, stored here as JPEG q92",
           "ratios": [
@@ -366,14 +366,14 @@
           "copy": "as designed"
         },
         {
-          "id": "S4_before-after-light",
+          "id": "S3_before-after-light",
           "label": "Set 1 in the S1 light style",
           "status": "under review (not in the upload set)",
           "files": [
-            "creatives/static/light/S4_before-after_light_1x1.jpg",
-            "creatives/static/light/S4_before-after_light_4x5.jpg",
-            "creatives/static/light/S4_before-after_light_9x16.jpg",
-            "creatives/static/light/S4_before-after_light_16x9.jpg"
+            "creatives/static/light/S3_before-after_light_1x1.jpg",
+            "creatives/static/light/S3_before-after_light_4x5.jpg",
+            "creatives/static/light/S3_before-after_light_9x16.jpg",
+            "creatives/static/light/S3_before-after_light_16x9.jpg"
           ],
           "source": "scripts/meta-ads/render-light-set.py"
         }
