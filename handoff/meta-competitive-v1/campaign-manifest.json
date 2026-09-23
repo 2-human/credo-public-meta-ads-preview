@@ -96,9 +96,10 @@
             "same light design as S1_prove-it-light",
             "photo removed; text re-flowed across the full width",
             "1:1: two-line headline (MAKE THEM / PROVE IT.)",
-            "1.91:1: one-line headline, sub-copy + CTA left, checklist right, all three checklist items"
+            "1.91:1: one-line headline, sub-copy + CTA left, checklist right, all three checklist items",
+            "23 Sep: copy reduced 29 -> 19 words, same layout/type/colours (scripts/meta-ads/render-s1-light.py)"
           ],
-          "copy": "identical to S1"
+          "copy": "reduced 23 Sep 2026: sub \"A collector has to validate the debt in writing. Many can't.\"; checklist Free case review / Flat monthly fee (licensing line dropped); CTA \"Get a free review\". Headline and disclaimer unchanged."
         },
         {
           "id": "S1_prove-it-v3",

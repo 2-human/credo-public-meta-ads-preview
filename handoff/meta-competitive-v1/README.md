@@ -127,6 +127,13 @@ package (they remain in git history at `a1f1ca6`). The review page is now organi
 No static is in the upload set yet: `campaign-manifest.json` `ads[].creatives` now lists the
 videos only (plus the S1 light no-photo pair for A1) until a variant is picked per ad.
 
+## S1 light (no photo) — copy reduced (23 Sep 2026)
+
+Re-rendered with the same layout, type sizes, weights and colours (Hanken Grotesk, measured from the
+previous files) and less text: sub-line "A collector has to validate the debt in writing. Many can't.",
+checklist reduced to Free case review / Flat monthly fee, CTA "Get a free review". Headline and
+disclaimer unchanged. Renderer: `scripts/meta-ads/render-s1-light.py`. Previous version in git at `19bc3b5`.
+
 ## Review revisions — Sona, 22 Sep 2026
 
 Applied in this package:
