@@ -134,6 +134,15 @@ previous files) and less text: sub-line "A collector has to validate the debt in
 checklist reduced to Free case review / Flat monthly fee, CTA "Get a free review". Headline and
 disclaimer unchanged. Renderer: `scripts/meta-ads/render-s1-light.py`. Previous version in git at `19bc3b5`.
 
+## Set 1 C2 (A2 "Is this debt even yours?") — copy reduced (23 Sep 2026)
+
+All four ratios: sub-line "You can make them prove it in writing before you pay." → "Make them prove it
+in writing before you pay." Nothing else changed. The old words were lifted off the photo by
+registering the clean photograph from the 16:9 file (where nothing is printed over it) onto each
+portrait ratio and copying the true pixels back, with the designer's darkening gradient preserved;
+the new line is set in Hanken Grotesk at the measured size, colour and baseline grid.
+Script: `scripts/meta-ads/retext-c2-set1.py`. Previous files in git at `dcb8895`.
+
 ## Review revisions — Sona, 22 Sep 2026
 
 Applied in this package:
