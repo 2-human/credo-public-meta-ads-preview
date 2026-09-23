@@ -127,6 +127,21 @@ package (they remain in git history at `a1f1ca6`). The review page is now organi
 No static is in the upload set yet: `campaign-manifest.json` `ads[].creatives` now lists the
 videos only (plus the S1 light no-photo pair for A1) until a variant is picked per ad.
 
+## Disclaimer updated on every static (23 Sep 2026)
+
+All 52 static files now carry the New York three-component disclaimer
+(`brand/ny-attorney-advertising-disclaimer.md`); the old line with the responsible-attorney
+placeholder, "NY & NJ" and "Not legal advice" is gone. Ads run in New York only.
+
+- Base, on every banner: *Attorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026.*
+- *Image is a dramatization.* — banners with a photo of a person or a staged scene: S1 light (with photo), Set 1 C1, C2, C6; Set 2 C1, C2, C3, C5.
+- *Prior results do not guarantee a similar outcome.* — S1 light (both), Set 1 C1, Set 1 C3 (Before/After).
+- Base only: Set 1 C4 (Quiz), C5 (Medical); Set 2 C4, C6.
+
+Nothing else in the images changed. Text set in Hanken Grotesk at the measured size, weight, colour,
+alignment and line pitch of each file; line positions from the macOS Vision OCR. Scripts:
+`scripts/meta-ads/replace-disclaimer.py` + `ocr.swift`. Originals in git at `2c634ca`.
+
 ## Review revisions — Sona, 22 Sep 2026
 
 Applied in this package:
