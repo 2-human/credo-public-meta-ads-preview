@@ -137,17 +137,6 @@
             "16x9"
           ],
           "copy": "as designed"
-        },
-        {
-          "id": "S1_prove-it-light-noimg-reduced",
-          "label": "S1 light no photo — reduced copy",
-          "status": "under review (not in the upload set)",
-          "files": [
-            "creatives/static/S1_prove-it-light-noimg-reduced_1x1.jpg",
-            "creatives/static/S1_prove-it-light-noimg-reduced_1_91x1.jpg"
-          ],
-          "copy": "sub \"A collector has to validate the debt in writing. Many can't.\"; checklist Free case review / Flat monthly fee; CTA \"Get a free review\"",
-          "source": "scripts/meta-ads/render-s1-light.py"
         }
       ]
     },
@@ -212,19 +201,6 @@
             "16x9"
           ],
           "copy": "as designed"
-        },
-        {
-          "id": "S2_is-it-yours-v3-reduced",
-          "label": "Variant 3 — reduced copy",
-          "status": "under review (not in the upload set)",
-          "files": [
-            "creatives/static/v3/S2_is-it-yours_v3-reduced_1x1.jpg",
-            "creatives/static/v3/S2_is-it-yours_v3-reduced_4x5.jpg",
-            "creatives/static/v3/S2_is-it-yours_v3-reduced_9x16.jpg",
-            "creatives/static/v3/S2_is-it-yours_v3-reduced_16x9.jpg"
-          ],
-          "copy": "sub-line \"Make them prove it in writing before you pay.\"",
-          "source": "scripts/meta-ads/retext-c2-set1.py"
         }
       ]
     },

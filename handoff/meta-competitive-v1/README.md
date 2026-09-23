@@ -127,22 +127,6 @@ package (they remain in git history at `a1f1ca6`). The review page is now organi
 No static is in the upload set yet: `campaign-manifest.json` `ads[].creatives` now lists the
 videos only (plus the S1 light no-photo pair for A1) until a variant is picked per ad.
 
-## S1 light (no photo) — copy reduced (23 Sep 2026)
-
-Re-rendered with the same layout, type sizes, weights and colours (Hanken Grotesk, measured from the
-previous files) and less text: sub-line "A collector has to validate the debt in writing. Many can't.",
-checklist reduced to Free case review / Flat monthly fee, CTA "Get a free review". Headline and
-disclaimer unchanged. Renderer: `scripts/meta-ads/render-s1-light.py`. The original stays in place; the reduced version is a separate file, `S1_prove-it-light-noimg-reduced_*`, shown on the review page in its own row directly below the original.
-
-## Set 1 C2 (A2 "Is this debt even yours?") — copy reduced (23 Sep 2026)
-
-All four ratios: sub-line "You can make them prove it in writing before you pay." → "Make them prove it
-in writing before you pay." Nothing else changed. The old words were lifted off the photo by
-registering the clean photograph from the 16:9 file (where nothing is printed over it) onto each
-portrait ratio and copying the true pixels back, with the designer's darkening gradient preserved;
-the new line is set in Hanken Grotesk at the measured size, colour and baseline grid.
-Script: `scripts/meta-ads/retext-c2-set1.py`. The originals stay in place; the reduced versions are separate files, `v3/S2_is-it-yours_v3-reduced_*`, shown in their own row directly below the original in section 2.
-
 ## Review revisions — Sona, 22 Sep 2026
 
 Applied in this package:
