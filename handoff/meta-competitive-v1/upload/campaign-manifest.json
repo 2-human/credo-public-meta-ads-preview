@@ -1,0 +1,642 @@
+{
+  "campaign": {
+    "name": "Credo Legal — Competitive v1 (Meta)",
+    "objective": "OUTCOME_LEADS",
+    "special_ad_categories": [
+      "CREDIT"
+    ],
+    "special_ad_category_country": "US",
+    "buying_type": "AUCTION",
+    "recommended_status": "PAUSED",
+    "notes": "Consumer-debt ads require the CREDIT Special Ad Category (no age/gender/ZIP targeting, limited detailed targeting, location radius >= 15 miles). Launch PAUSED; QA before spend."
+  },
+  "targeting_defaults": {
+    "geo": "US — New York State only",
+    "note": "Ads are New York only (decided 23 Sep). Every disclaimer is the NY attorney-advertising disclaimer; do not extend to other states without new compliance review."
+  },
+  "cta": {
+    "type": "BOOK_NOW",
+    "label": "Book Now",
+    "destination": "landing page (website)"
+  },
+  "utm": {
+    "pattern": "utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content={ad_name}",
+    "note": "Paste the url_parameters value into Ads Manager > Ad > Tracking > URL parameters (or use full_link as the website URL). utm_content identifies the ad and its creative version."
+  },
+  "placement_plan": {
+    "feeds": "4:5",
+    "stories_reels": "4:5 (Meta fits it inside Stories/Reels)",
+    "right_column_search_marketplace": "1:1",
+    "on_hold": "9:16 — 16 of 18 static 9:16 banners and the videos' burned-in strip put the disclaimer in the bottom 20% of the frame, which Stories/Reels cover with the CTA. Do not upload 9:16 until they are moved.",
+    "not_used": "16:9"
+  },
+  "compliance": {
+    "disclaimer_rule": "brand/ny-attorney-advertising-disclaimer.md",
+    "in_primary_text": "Every primary text ends with the NY disclaimer; do not edit or shorten it.",
+    "in_creative": "Every image carries the NY disclaimer; videos carry the AI-performer disclosure strip.",
+    "before_launch": [
+      "Responsible attorney pre-approves every ad (NY Rule 7.1(k)).",
+      "Keep a copy of each ad for at least one year.",
+      "Confirm the New York entity name (Credo Legal Services, P.C.)."
+    ]
+  },
+  "placeholders_operator_must_fill": [
+    "<META_AD_ACCOUNT_ID>",
+    "<FACEBOOK_PAGE_ID>",
+    "<INSTAGRAM_ACCOUNT_ID (optional)>",
+    "<PIXEL_OR_DATASET_ID>",
+    "<DAILY_BUDGET_PER_AD_SET>",
+    "<SCHEDULE_START>"
+  ],
+  "ad_sets": [
+    {
+      "name": "AS_A1_prove-it",
+      "concept": "Validation",
+      "landing_page": "https://start.credolegal.com/debt-harassment-stop-calls",
+      "meta_tracking_number_on_lp": "(612) 256-8820",
+      "ads": [
+        {
+          "ad_name": "A1_prove-it-v3",
+          "creative_version": "Designer set 1",
+          "format": "Single image",
+          "primary_text": "Getting collection calls about a debt you're not sure you owe?\n\nBefore you pay a cent, you can make the collector validate the debt in writing. Many collectors, especially debt buyers, can't produce the paperwork to back it up.\n\nOur attorneys review what they send and tell you where you stand.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Image is a dramatization. Prior results do not guarantee a similar outcome.",
+          "headline": "Make Collectors Prove Before You Pay",
+          "description": "Free case review. Flat monthly fee.",
+          "cta": "BOOK_NOW",
+          "website_url": "https://start.credolegal.com/debt-harassment-stop-calls",
+          "url_parameters": "utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A1_prove-it-v3",
+          "full_link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A1_prove-it-v3",
+          "placement_creatives": {
+            "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S1_prove-it_v3_4x5.jpg",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S1_prove-it_v3_4x5.jpg",
+            "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S1_prove-it_v3_1x1.jpg"
+          },
+          "all_files": {
+            "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S1_prove-it_v3_1x1.jpg",
+            "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S1_prove-it_v3_4x5.jpg",
+            "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S1_prove-it_v3_9x16.jpg",
+            "16x9": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S1_prove-it_v3_16x9.jpg"
+          }
+        },
+        {
+          "ad_name": "A1_prove-it-light",
+          "creative_version": "Light style",
+          "format": "Single image",
+          "primary_text": "Getting collection calls about a debt you're not sure you owe?\n\nBefore you pay a cent, you can make the collector validate the debt in writing. Many collectors, especially debt buyers, can't produce the paperwork to back it up.\n\nOur attorneys review what they send and tell you where you stand.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Prior results do not guarantee a similar outcome.",
+          "headline": "Make Collectors Prove Before You Pay",
+          "description": "Free case review. Flat monthly fee.",
+          "cta": "BOOK_NOW",
+          "website_url": "https://start.credolegal.com/debt-harassment-stop-calls",
+          "url_parameters": "utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A1_prove-it-light",
+          "full_link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A1_prove-it-light",
+          "placement_creatives": {
+            "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S1_prove-it_light_4x5.jpg",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S1_prove-it_light_4x5.jpg",
+            "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S1_prove-it_light_1x1.jpg"
+          },
+          "all_files": {
+            "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S1_prove-it_light_1x1.jpg",
+            "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S1_prove-it_light_4x5.jpg",
+            "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S1_prove-it_light_9x16.jpg",
+            "16x9": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S1_prove-it_light_16x9.jpg"
+          }
+        },
+        {
+          "ad_name": "A1_prove-it-v4",
+          "creative_version": "Designer set 2",
+          "format": "Single image",
+          "primary_text": "Getting collection calls about a debt you're not sure you owe?\n\nBefore you pay a cent, you can make the collector validate the debt in writing. Many collectors, especially debt buyers, can't produce the paperwork to back it up.\n\nOur attorneys review what they send and tell you where you stand.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Image is a dramatization. Prior results do not guarantee a similar outcome.",
+          "headline": "Make Collectors Prove Before You Pay",
+          "description": "Free case review. Flat monthly fee.",
+          "cta": "BOOK_NOW",
+          "website_url": "https://start.credolegal.com/debt-harassment-stop-calls",
+          "url_parameters": "utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A1_prove-it-v4",
+          "full_link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A1_prove-it-v4",
+          "placement_creatives": {
+            "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S1_prove-it_v4_4x5.jpg",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S1_prove-it_v4_4x5.jpg",
+            "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S1_prove-it_v4_1x1.jpg"
+          },
+          "all_files": {
+            "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S1_prove-it_v4_1x1.jpg",
+            "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S1_prove-it_v4_4x5.jpg",
+            "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S1_prove-it_v4_9x16.jpg",
+            "16x9": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S1_prove-it_v4_16x9.jpg"
+          }
+        },
+        {
+          "ad_name": "A1_prove-it-video",
+          "creative_version": "Video",
+          "format": "Video",
+          "primary_text": "Getting collection calls about a debt you're not sure you owe?\n\nBefore you pay a cent, you can make the collector validate the debt in writing. Many collectors, especially debt buyers, can't produce the paperwork to back it up.\n\nOur attorneys review what they send and tell you where you stand.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Image is a dramatization. Prior results do not guarantee a similar outcome.",
+          "headline": "Make Collectors Prove Before You Pay",
+          "description": "Free case review. Flat monthly fee.",
+          "cta": "BOOK_NOW",
+          "website_url": "https://start.credolegal.com/debt-harassment-stop-calls",
+          "url_parameters": "utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A1_prove-it-video",
+          "full_link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A1_prove-it-video",
+          "placement_creatives": {
+            "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V1_prove-it_4x5.mp4",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V1_prove-it_4x5.mp4",
+            "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V1_prove-it_4x5.mp4"
+          },
+          "all_files": {
+            "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V1_prove-it_9x16.mp4",
+            "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V1_prove-it_4x5.mp4"
+          }
+        }
+      ]
+    },
+    {
+      "name": "AS_A2_is-it-yours",
+      "concept": "Validation",
+      "landing_page": "https://start.credolegal.com/debt-harassment-stop-calls",
+      "meta_tracking_number_on_lp": "(612) 256-8820",
+      "ads": [
+        {
+          "ad_name": "A2_is-it-yours-v3",
+          "creative_version": "Designer set 1",
+          "format": "Single image",
+          "primary_text": "A collection letter shows up. You can demand proof in writing before you pay.\n\nDebt buyers often can't produce the original contract or the account history that proves they even own it. Our attorneys make them show it.\n\nFree case review.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Image is a dramatization. Prior results do not guarantee a similar outcome.",
+          "headline": "See If They Can Even Prove It, Free",
+          "description": "Attorneys licensed in New York.",
+          "cta": "BOOK_NOW",
+          "website_url": "https://start.credolegal.com/debt-harassment-stop-calls",
+          "url_parameters": "utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A2_is-it-yours-v3",
+          "full_link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A2_is-it-yours-v3",
+          "placement_creatives": {
+            "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S2_is-it-yours_v3_4x5.jpg",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S2_is-it-yours_v3_4x5.jpg",
+            "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S2_is-it-yours_v3_1x1.jpg"
+          },
+          "all_files": {
+            "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S2_is-it-yours_v3_1x1.jpg",
+            "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S2_is-it-yours_v3_4x5.jpg",
+            "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S2_is-it-yours_v3_9x16.jpg",
+            "16x9": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S2_is-it-yours_v3_16x9.jpg"
+          }
+        },
+        {
+          "ad_name": "A2_is-it-yours-light",
+          "creative_version": "Light style",
+          "format": "Single image",
+          "primary_text": "A collection letter shows up. You can demand proof in writing before you pay.\n\nDebt buyers often can't produce the original contract or the account history that proves they even own it. Our attorneys make them show it.\n\nFree case review.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Prior results do not guarantee a similar outcome.",
+          "headline": "See If They Can Even Prove It, Free",
+          "description": "Attorneys licensed in New York.",
+          "cta": "BOOK_NOW",
+          "website_url": "https://start.credolegal.com/debt-harassment-stop-calls",
+          "url_parameters": "utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A2_is-it-yours-light",
+          "full_link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A2_is-it-yours-light",
+          "placement_creatives": {
+            "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S2_is-it-yours_light_4x5.jpg",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S2_is-it-yours_light_4x5.jpg",
+            "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S2_is-it-yours_light_1x1.jpg"
+          },
+          "all_files": {
+            "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S2_is-it-yours_light_1x1.jpg",
+            "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S2_is-it-yours_light_4x5.jpg",
+            "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S2_is-it-yours_light_9x16.jpg",
+            "16x9": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S2_is-it-yours_light_16x9.jpg"
+          }
+        },
+        {
+          "ad_name": "A2_is-it-yours-v4",
+          "creative_version": "Designer set 2",
+          "format": "Single image",
+          "primary_text": "A collection letter shows up. You can demand proof in writing before you pay.\n\nDebt buyers often can't produce the original contract or the account history that proves they even own it. Our attorneys make them show it.\n\nFree case review.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Image is a dramatization. Prior results do not guarantee a similar outcome.",
+          "headline": "See If They Can Even Prove It, Free",
+          "description": "Attorneys licensed in New York.",
+          "cta": "BOOK_NOW",
+          "website_url": "https://start.credolegal.com/debt-harassment-stop-calls",
+          "url_parameters": "utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A2_is-it-yours-v4",
+          "full_link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A2_is-it-yours-v4",
+          "placement_creatives": {
+            "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S2_is-it-yours_v4_4x5.jpg",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S2_is-it-yours_v4_4x5.jpg",
+            "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S2_is-it-yours_v4_1x1.jpg"
+          },
+          "all_files": {
+            "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S2_is-it-yours_v4_1x1.jpg",
+            "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S2_is-it-yours_v4_4x5.jpg",
+            "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S2_is-it-yours_v4_9x16.jpg",
+            "16x9": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S2_is-it-yours_v4_16x9.jpg"
+          }
+        },
+        {
+          "ad_name": "A2_is-it-yours-video",
+          "creative_version": "Video",
+          "format": "Video",
+          "primary_text": "A collection letter shows up. You can demand proof in writing before you pay.\n\nDebt buyers often can't produce the original contract or the account history that proves they even own it. Our attorneys make them show it.\n\nFree case review.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Image is a dramatization. Prior results do not guarantee a similar outcome.",
+          "headline": "See If They Can Even Prove It, Free",
+          "description": "Attorneys licensed in New York.",
+          "cta": "BOOK_NOW",
+          "website_url": "https://start.credolegal.com/debt-harassment-stop-calls",
+          "url_parameters": "utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A2_is-it-yours-video",
+          "full_link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A2_is-it-yours-video",
+          "placement_creatives": {
+            "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V2_is-it-yours_4x5.mp4",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V2_is-it-yours_4x5.mp4",
+            "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V2_is-it-yours_4x5.mp4"
+          },
+          "all_files": {
+            "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V2_is-it-yours_9x16.mp4",
+            "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V2_is-it-yours_4x5.mp4"
+          }
+        }
+      ]
+    },
+    {
+      "name": "AS_A3_three-things",
+      "concept": "Rights education",
+      "landing_page": "https://start.credolegal.com/debt-harassment-stop-calls",
+      "meta_tracking_number_on_lp": "(612) 256-8820",
+      "ads": [
+        {
+          "ad_name": "A3_three-things-v3",
+          "creative_version": "Designer set 1",
+          "format": "Single image",
+          "primary_text": "Three things collectors hope you don't know:\n\n1. You can make them validate the debt in writing\n2. Debt buyers often can't prove they even own it\n3. Balances are frequently inflated, so you may owe far less than they claim\n\nKnowing this changes how you respond.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Prior results do not guarantee a similar outcome.",
+          "headline": "Know Your Options, Free",
+          "description": "Free case review. No cost to learn where you stand.",
+          "cta": "BOOK_NOW",
+          "website_url": "https://start.credolegal.com/debt-harassment-stop-calls",
+          "url_parameters": "utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A3_three-things-v3",
+          "full_link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A3_three-things-v3",
+          "placement_creatives": {
+            "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S4_quiz_v3_4x5.jpg",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S4_quiz_v3_4x5.jpg",
+            "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S4_quiz_v3_1x1.jpg"
+          },
+          "all_files": {
+            "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S4_quiz_v3_1x1.jpg",
+            "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S4_quiz_v3_4x5.jpg",
+            "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S4_quiz_v3_9x16.jpg",
+            "16x9": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S4_quiz_v3_16x9.jpg"
+          }
+        },
+        {
+          "ad_name": "A3_three-things-light",
+          "creative_version": "Light style",
+          "format": "Single image",
+          "primary_text": "Three things collectors hope you don't know:\n\n1. You can make them validate the debt in writing\n2. Debt buyers often can't prove they even own it\n3. Balances are frequently inflated, so you may owe far less than they claim\n\nKnowing this changes how you respond.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Prior results do not guarantee a similar outcome.",
+          "headline": "Know Your Options, Free",
+          "description": "Free case review. No cost to learn where you stand.",
+          "cta": "BOOK_NOW",
+          "website_url": "https://start.credolegal.com/debt-harassment-stop-calls",
+          "url_parameters": "utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A3_three-things-light",
+          "full_link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A3_three-things-light",
+          "placement_creatives": {
+            "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S4_quiz_light_4x5.jpg",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S4_quiz_light_4x5.jpg",
+            "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S4_quiz_light_1x1.jpg"
+          },
+          "all_files": {
+            "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S4_quiz_light_1x1.jpg",
+            "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S4_quiz_light_4x5.jpg",
+            "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S4_quiz_light_9x16.jpg",
+            "16x9": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S4_quiz_light_16x9.jpg"
+          }
+        },
+        {
+          "ad_name": "A3_three-things-v4",
+          "creative_version": "Designer set 2",
+          "format": "Single image",
+          "primary_text": "Three things collectors hope you don't know:\n\n1. You can make them validate the debt in writing\n2. Debt buyers often can't prove they even own it\n3. Balances are frequently inflated, so you may owe far less than they claim\n\nKnowing this changes how you respond.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Prior results do not guarantee a similar outcome.",
+          "headline": "Know Your Options, Free",
+          "description": "Free case review. No cost to learn where you stand.",
+          "cta": "BOOK_NOW",
+          "website_url": "https://start.credolegal.com/debt-harassment-stop-calls",
+          "url_parameters": "utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A3_three-things-v4",
+          "full_link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A3_three-things-v4",
+          "placement_creatives": {
+            "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S4_quiz_v4_4x5.jpg",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S4_quiz_v4_4x5.jpg",
+            "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S4_quiz_v4_1x1.jpg"
+          },
+          "all_files": {
+            "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S4_quiz_v4_1x1.jpg",
+            "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S4_quiz_v4_4x5.jpg",
+            "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S4_quiz_v4_9x16.jpg",
+            "16x9": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S4_quiz_v4_16x9.jpg"
+          }
+        },
+        {
+          "ad_name": "A3_three-things-video",
+          "creative_version": "Video",
+          "format": "Video",
+          "primary_text": "Three things collectors hope you don't know:\n\n1. You can make them validate the debt in writing\n2. Debt buyers often can't prove they even own it\n3. Balances are frequently inflated, so you may owe far less than they claim\n\nKnowing this changes how you respond.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Image is a dramatization. Prior results do not guarantee a similar outcome.",
+          "headline": "Know Your Options, Free",
+          "description": "Free case review. No cost to learn where you stand.",
+          "cta": "BOOK_NOW",
+          "website_url": "https://start.credolegal.com/debt-harassment-stop-calls",
+          "url_parameters": "utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A3_three-things-video",
+          "full_link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A3_three-things-video",
+          "placement_creatives": {
+            "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V3_do-they-own-it_4x5.mp4",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V3_do-they-own-it_4x5.mp4",
+            "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V3_do-they-own-it_4x5.mp4"
+          },
+          "all_files": {
+            "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V3_do-they-own-it_9x16.mp4",
+            "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V3_do-they-own-it_4x5.mp4"
+          }
+        }
+      ]
+    },
+    {
+      "name": "AS_A4_before-after",
+      "concept": "Validation",
+      "landing_page": "https://start.credolegal.com/credit-card-debt-negotiation",
+      "meta_tracking_number_on_lp": "(407) 624-3722",
+      "ads": [
+        {
+          "ad_name": "A4_before-after-v3",
+          "creative_version": "Designer set 1",
+          "format": "Single image",
+          "primary_text": "They called for years. They never proved the debt was mine.\n\nBefore: calls every week, a balance that kept growing, and no proof it was even yours.\n\nAfter: they have to validate it in writing, attorneys handle the response, and you pay one flat monthly fee.\n\nFree case review.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Prior results do not guarantee a similar outcome.",
+          "headline": "You Don't Have to Face Them Alone",
+          "description": "Flat monthly fee. No contingency.",
+          "cta": "BOOK_NOW",
+          "website_url": "https://start.credolegal.com/credit-card-debt-negotiation",
+          "url_parameters": "utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A4_before-after-v3",
+          "full_link": "https://start.credolegal.com/credit-card-debt-negotiation?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A4_before-after-v3",
+          "placement_creatives": {
+            "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S3_before-after_v3_4x5.jpg",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S3_before-after_v3_4x5.jpg",
+            "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S3_before-after_v3_1x1.jpg"
+          },
+          "all_files": {
+            "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S3_before-after_v3_1x1.jpg",
+            "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S3_before-after_v3_4x5.jpg",
+            "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S3_before-after_v3_9x16.jpg",
+            "16x9": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S3_before-after_v3_16x9.jpg"
+          }
+        },
+        {
+          "ad_name": "A4_before-after-light",
+          "creative_version": "Light style",
+          "format": "Single image",
+          "primary_text": "They called for years. They never proved the debt was mine.\n\nBefore: calls every week, a balance that kept growing, and no proof it was even yours.\n\nAfter: they have to validate it in writing, attorneys handle the response, and you pay one flat monthly fee.\n\nFree case review.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Prior results do not guarantee a similar outcome.",
+          "headline": "You Don't Have to Face Them Alone",
+          "description": "Flat monthly fee. No contingency.",
+          "cta": "BOOK_NOW",
+          "website_url": "https://start.credolegal.com/credit-card-debt-negotiation",
+          "url_parameters": "utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A4_before-after-light",
+          "full_link": "https://start.credolegal.com/credit-card-debt-negotiation?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A4_before-after-light",
+          "placement_creatives": {
+            "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S3_before-after_light_4x5.jpg",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S3_before-after_light_4x5.jpg",
+            "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S3_before-after_light_1x1.jpg"
+          },
+          "all_files": {
+            "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S3_before-after_light_1x1.jpg",
+            "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S3_before-after_light_4x5.jpg",
+            "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S3_before-after_light_9x16.jpg",
+            "16x9": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S3_before-after_light_16x9.jpg"
+          }
+        },
+        {
+          "ad_name": "A4_before-after-v4",
+          "creative_version": "Designer set 2",
+          "format": "Single image",
+          "primary_text": "They called for years. They never proved the debt was mine.\n\nBefore: calls every week, a balance that kept growing, and no proof it was even yours.\n\nAfter: they have to validate it in writing, attorneys handle the response, and you pay one flat monthly fee.\n\nFree case review.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Image is a dramatization. Prior results do not guarantee a similar outcome.",
+          "headline": "You Don't Have to Face Them Alone",
+          "description": "Flat monthly fee. No contingency.",
+          "cta": "BOOK_NOW",
+          "website_url": "https://start.credolegal.com/credit-card-debt-negotiation",
+          "url_parameters": "utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A4_before-after-v4",
+          "full_link": "https://start.credolegal.com/credit-card-debt-negotiation?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A4_before-after-v4",
+          "placement_creatives": {
+            "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S3_before-after_v4_4x5.jpg",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S3_before-after_v4_4x5.jpg",
+            "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S3_before-after_v4_1x1.jpg"
+          },
+          "all_files": {
+            "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S3_before-after_v4_1x1.jpg",
+            "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S3_before-after_v4_4x5.jpg",
+            "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S3_before-after_v4_9x16.jpg",
+            "16x9": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S3_before-after_v4_16x9.jpg"
+          }
+        },
+        {
+          "ad_name": "A4_before-after-video",
+          "creative_version": "Video",
+          "format": "Video",
+          "primary_text": "They called for years. They never proved the debt was mine.\n\nBefore: calls every week, a balance that kept growing, and no proof it was even yours.\n\nAfter: they have to validate it in writing, attorneys handle the response, and you pay one flat monthly fee.\n\nFree case review.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Image is a dramatization. Prior results do not guarantee a similar outcome.",
+          "headline": "You Don't Have to Face Them Alone",
+          "description": "Flat monthly fee. No contingency.",
+          "cta": "BOOK_NOW",
+          "website_url": "https://start.credolegal.com/credit-card-debt-negotiation",
+          "url_parameters": "utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A4_before-after-video",
+          "full_link": "https://start.credolegal.com/credit-card-debt-negotiation?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A4_before-after-video",
+          "placement_creatives": {
+            "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V6_the-calls_4x5.mp4",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V6_the-calls_4x5.mp4",
+            "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V6_the-calls_4x5.mp4"
+          },
+          "all_files": {
+            "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V6_the-calls_9x16.mp4",
+            "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V6_the-calls_4x5.mp4"
+          }
+        }
+      ]
+    },
+    {
+      "name": "AS_A5_medical",
+      "concept": "Medical",
+      "landing_page": "https://start.credolegal.com/medical-debt-bills-errors",
+      "meta_tracking_number_on_lp": "(801) 386-9050",
+      "ads": [
+        {
+          "ad_name": "A5_medical-v3",
+          "creative_version": "Designer set 1",
+          "format": "Single image",
+          "primary_text": "A collector says you owe a medical bill. Can they prove it?\n\nMedical billing is full of coding errors and duplicate charges, and a collector has to validate the amount if you ask. Our attorneys review it before you pay anything.\n\nFree case review.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Prior results do not guarantee a similar outcome.",
+          "headline": "Can They Prove the Amount?",
+          "description": "Free review of your medical debt.",
+          "cta": "BOOK_NOW",
+          "website_url": "https://start.credolegal.com/medical-debt-bills-errors",
+          "url_parameters": "utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A5_medical-v3",
+          "full_link": "https://start.credolegal.com/medical-debt-bills-errors?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A5_medical-v3",
+          "placement_creatives": {
+            "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S5_medical_v3_4x5.jpg",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S5_medical_v3_4x5.jpg",
+            "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S5_medical_v3_1x1.jpg"
+          },
+          "all_files": {
+            "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S5_medical_v3_1x1.jpg",
+            "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S5_medical_v3_4x5.jpg",
+            "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S5_medical_v3_9x16.jpg",
+            "16x9": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S5_medical_v3_16x9.jpg"
+          }
+        },
+        {
+          "ad_name": "A5_medical-light",
+          "creative_version": "Light style",
+          "format": "Single image",
+          "primary_text": "A collector says you owe a medical bill. Can they prove it?\n\nMedical billing is full of coding errors and duplicate charges, and a collector has to validate the amount if you ask. Our attorneys review it before you pay anything.\n\nFree case review.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Prior results do not guarantee a similar outcome.",
+          "headline": "Can They Prove the Amount?",
+          "description": "Free review of your medical debt.",
+          "cta": "BOOK_NOW",
+          "website_url": "https://start.credolegal.com/medical-debt-bills-errors",
+          "url_parameters": "utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A5_medical-light",
+          "full_link": "https://start.credolegal.com/medical-debt-bills-errors?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A5_medical-light",
+          "placement_creatives": {
+            "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S5_medical_light_4x5.jpg",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S5_medical_light_4x5.jpg",
+            "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S5_medical_light_1x1.jpg"
+          },
+          "all_files": {
+            "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S5_medical_light_1x1.jpg",
+            "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S5_medical_light_4x5.jpg",
+            "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S5_medical_light_9x16.jpg",
+            "16x9": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S5_medical_light_16x9.jpg"
+          }
+        },
+        {
+          "ad_name": "A5_medical-v4",
+          "creative_version": "Designer set 2",
+          "format": "Single image",
+          "primary_text": "A collector says you owe a medical bill. Can they prove it?\n\nMedical billing is full of coding errors and duplicate charges, and a collector has to validate the amount if you ask. Our attorneys review it before you pay anything.\n\nFree case review.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Image is a dramatization. Prior results do not guarantee a similar outcome.",
+          "headline": "Can They Prove the Amount?",
+          "description": "Free review of your medical debt.",
+          "cta": "BOOK_NOW",
+          "website_url": "https://start.credolegal.com/medical-debt-bills-errors",
+          "url_parameters": "utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A5_medical-v4",
+          "full_link": "https://start.credolegal.com/medical-debt-bills-errors?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A5_medical-v4",
+          "placement_creatives": {
+            "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S5_medical_v4_4x5.jpg",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S5_medical_v4_4x5.jpg",
+            "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S5_medical_v4_1x1.jpg"
+          },
+          "all_files": {
+            "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S5_medical_v4_1x1.jpg",
+            "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S5_medical_v4_4x5.jpg",
+            "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S5_medical_v4_9x16.jpg",
+            "16x9": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S5_medical_v4_16x9.jpg"
+          }
+        },
+        {
+          "ad_name": "A5_medical-video",
+          "creative_version": "Video",
+          "format": "Video",
+          "primary_text": "A collector says you owe a medical bill. Can they prove it?\n\nMedical billing is full of coding errors and duplicate charges, and a collector has to validate the amount if you ask. Our attorneys review it before you pay anything.\n\nFree case review.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Image is a dramatization. Prior results do not guarantee a similar outcome.",
+          "headline": "Can They Prove the Amount?",
+          "description": "Free review of your medical debt.",
+          "cta": "BOOK_NOW",
+          "website_url": "https://start.credolegal.com/medical-debt-bills-errors",
+          "url_parameters": "utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A5_medical-video",
+          "full_link": "https://start.credolegal.com/medical-debt-bills-errors?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A5_medical-video",
+          "placement_creatives": {
+            "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V5_medical_4x5.mp4",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V5_medical_4x5.mp4",
+            "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V5_medical_4x5.mp4"
+          },
+          "all_files": {
+            "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V5_medical_9x16.mp4",
+            "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V5_medical_4x5.mp4"
+          }
+        }
+      ]
+    },
+    {
+      "name": "AS_A6_in-writing",
+      "concept": "Brand",
+      "landing_page": "https://start.credolegal.com/debt-harassment-stop-calls",
+      "meta_tracking_number_on_lp": "(612) 256-8820",
+      "ads": [
+        {
+          "ad_name": "A6_in-writing-v3",
+          "creative_version": "Designer set 1",
+          "format": "Single image",
+          "primary_text": "Make them prove it.\n\nA collector has to validate the debt in writing. Many debt buyers can't.\n\nFree case review. Flat monthly fee. Attorneys licensed in New York.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Image is a dramatization. Prior results do not guarantee a similar outcome.",
+          "headline": "Make Collectors Prove Before You Pay",
+          "description": "Free case review. Flat monthly fee.",
+          "cta": "BOOK_NOW",
+          "website_url": "https://start.credolegal.com/debt-harassment-stop-calls",
+          "url_parameters": "utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A6_in-writing-v3",
+          "full_link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A6_in-writing-v3",
+          "placement_creatives": {
+            "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S6_in-writing_v3_4x5.jpg",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S6_in-writing_v3_4x5.jpg",
+            "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S6_in-writing_v3_1x1.jpg"
+          },
+          "all_files": {
+            "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S6_in-writing_v3_1x1.jpg",
+            "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S6_in-writing_v3_4x5.jpg",
+            "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S6_in-writing_v3_9x16.jpg",
+            "16x9": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S6_in-writing_v3_16x9.jpg"
+          }
+        },
+        {
+          "ad_name": "A6_in-writing-light",
+          "creative_version": "Light style",
+          "format": "Single image",
+          "primary_text": "Make them prove it.\n\nA collector has to validate the debt in writing. Many debt buyers can't.\n\nFree case review. Flat monthly fee. Attorneys licensed in New York.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Prior results do not guarantee a similar outcome.",
+          "headline": "Make Collectors Prove Before You Pay",
+          "description": "Free case review. Flat monthly fee.",
+          "cta": "BOOK_NOW",
+          "website_url": "https://start.credolegal.com/debt-harassment-stop-calls",
+          "url_parameters": "utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A6_in-writing-light",
+          "full_link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A6_in-writing-light",
+          "placement_creatives": {
+            "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S6_in-writing_light_4x5.jpg",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S6_in-writing_light_4x5.jpg",
+            "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S6_in-writing_light_1x1.jpg"
+          },
+          "all_files": {
+            "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S6_in-writing_light_1x1.jpg",
+            "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S6_in-writing_light_4x5.jpg",
+            "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S6_in-writing_light_9x16.jpg",
+            "16x9": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S6_in-writing_light_16x9.jpg"
+          }
+        },
+        {
+          "ad_name": "A6_in-writing-v4",
+          "creative_version": "Designer set 2",
+          "format": "Single image",
+          "primary_text": "Make them prove it.\n\nA collector has to validate the debt in writing. Many debt buyers can't.\n\nFree case review. Flat monthly fee. Attorneys licensed in New York.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Prior results do not guarantee a similar outcome.",
+          "headline": "Make Collectors Prove Before You Pay",
+          "description": "Free case review. Flat monthly fee.",
+          "cta": "BOOK_NOW",
+          "website_url": "https://start.credolegal.com/debt-harassment-stop-calls",
+          "url_parameters": "utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A6_in-writing-v4",
+          "full_link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A6_in-writing-v4",
+          "placement_creatives": {
+            "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S6_in-writing_v4_4x5.jpg",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S6_in-writing_v4_4x5.jpg",
+            "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S6_in-writing_v4_1x1.jpg"
+          },
+          "all_files": {
+            "1x1": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S6_in-writing_v4_1x1.jpg",
+            "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S6_in-writing_v4_4x5.jpg",
+            "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S6_in-writing_v4_9x16.jpg",
+            "16x9": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S6_in-writing_v4_16x9.jpg"
+          }
+        },
+        {
+          "ad_name": "A6_in-writing-video",
+          "creative_version": "Video",
+          "format": "Video",
+          "primary_text": "Make them prove it.\n\nA collector has to validate the debt in writing. Many debt buyers can't.\n\nFree case review. Flat monthly fee. Attorneys licensed in New York.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Image is a dramatization. Prior results do not guarantee a similar outcome.",
+          "headline": "Make Collectors Prove Before You Pay",
+          "description": "Free case review. Flat monthly fee.",
+          "cta": "BOOK_NOW",
+          "website_url": "https://start.credolegal.com/debt-harassment-stop-calls",
+          "url_parameters": "utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A6_in-writing-video",
+          "full_link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A6_in-writing-video",
+          "placement_creatives": {
+            "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V4_in-writing_4x5.mp4",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V4_in-writing_4x5.mp4",
+            "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V4_in-writing_4x5.mp4"
+          },
+          "all_files": {
+            "9x16": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V4_in-writing_9x16.mp4",
+            "4x5": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V4_in-writing_4x5.mp4"
+          }
+        }
+      ]
+    }
+  ],
+  "_note": "Creative URLs point at the review mirror and download directly. Built by scripts/meta-ads/build-competitive-upload.py from ../campaign-manifest.json (ads_final)."
+}

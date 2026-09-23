@@ -24,7 +24,7 @@ credo-ads-handoff-2026-07/
 **`meta-competitive-v1/`** is an additional Meta campaign built by tearing down a competitor's live
 advertising (Freedom Debt Relief, Meta Ad Library page 69869352985) and rebuilding their strongest
 creative structures in Crēdo brand. 6 ad groups, one static and one lip-synced spokesperson video
-each. It has its own README, manifest and a browsable review page (`index.html`). Separate from the
+each. It has its own README, manifest and a browsable review page (`index.html`). **Its upload package is `meta-competitive-v1/upload/`** (guide, manifest, `copy/ads.csv`, `asset-manifest.csv`): 6 ad sets × 4 creative versions = 24 ads, New York only. Separate from the
 main `meta/` build above; also PAUSED and pending attorney pre-approval.
 
 Each platform folder is self-contained: machine-readable manifest (for MCP / scripted upload),
