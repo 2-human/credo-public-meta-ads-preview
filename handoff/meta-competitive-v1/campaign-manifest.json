@@ -139,7 +139,7 @@
           "copy": "as designed"
         },
         {
-          "id": "S1_prove-it-light",
+          "id": "S1_prove-it-light-style",
           "label": "Set 1 in the S1 light style",
           "status": "under review (not in the upload set)",
           "files": [
@@ -215,7 +215,7 @@
           "copy": "as designed"
         },
         {
-          "id": "S2_is-it-yours-light",
+          "id": "S2_is-it-yours-light-style",
           "label": "Set 1 in the S1 light style",
           "status": "under review (not in the upload set)",
           "files": [
@@ -290,7 +290,7 @@
           "copy": "as designed"
         },
         {
-          "id": "S4_quiz-light",
+          "id": "S4_quiz-light-style",
           "label": "Set 1 in the S1 light style",
           "status": "under review (not in the upload set)",
           "files": [
@@ -366,7 +366,7 @@
           "copy": "as designed"
         },
         {
-          "id": "S3_before-after-light",
+          "id": "S3_before-after-light-style",
           "label": "Set 1 in the S1 light style",
           "status": "under review (not in the upload set)",
           "files": [
@@ -442,7 +442,7 @@
           "copy": "as designed"
         },
         {
-          "id": "S5_medical-light",
+          "id": "S5_medical-light-style",
           "label": "Set 1 in the S1 light style",
           "status": "under review (not in the upload set)",
           "files": [
@@ -517,7 +517,7 @@
           "copy": "as designed"
         },
         {
-          "id": "S6_in-writing-light",
+          "id": "S6_in-writing-light-style",
           "label": "Set 1 in the S1 light style",
           "status": "under review (not in the upload set)",
           "files": [
@@ -573,7 +573,7 @@
       "ad_name": "A1_prove-it-light",
       "ad_group": "A1_prove-it",
       "creative_version": "Set 1 light-style static",
-      "creatives": "S1_prove-it-light_1x1.jpg | S1_prove-it-light_1_91x1.jpg",
+      "creatives": "S1_prove-it_light_1x1.jpg | S1_prove-it_light_4x5.jpg | S1_prove-it_light_9x16.jpg | S1_prove-it_light_16x9.jpg",
       "headline": "Make Collectors Prove Before You Pay",
       "description": "Free case review. Flat monthly fee.",
       "cta": "Book Now",

@@ -136,6 +136,15 @@ exactly. Headlines: MAKE THEM **PROVE** IT. · IS THIS DEBT EVEN **YOURS**? · T
 MINE. · WHAT CAN YOU MAKE A **COLLECTOR** DO? · CAN THEY **PROVE** IT? · GET IT IN **WRITING**. No photos, so
 no "Image is a dramatization"; C1 and C3 carry "Prior results do not guarantee a similar outcome".
 
+## Facebook feed preview (23 Sep 2026)
+
+The review page opens with "Ads · Facebook feed preview": one feed card per ad group in the Ad Review Hub's
+card design, with a creative switcher (Designer set 1, Light style, Designer set 2, Video) and a ratio picker.
+Message text, disclaimer and tracking link follow the chosen creative. Built by
+`scripts/meta-ads/build-feed-preview.py` from `campaign-manifest.json` → `ads_final` (re-run after copy changes).
+Fixed at the same time: the light-style variants now have their own ids (`*-light-style`); before, A1's
+clashed with the section-1 photo version and ad A1_prove-it-light listed the wrong creative files.
+
 ## Meta ad copy finalised (23 Sep 2026)
 
 - New York only: A2 description and A6 primary text no longer mention New Jersey.
