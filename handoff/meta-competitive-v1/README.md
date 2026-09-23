@@ -127,6 +127,15 @@ package (they remain in git history at `a1f1ca6`). The review page is now organi
 No static is in the upload set yet: `campaign-manifest.json` `ads[].creatives` now lists the
 videos only (plus the S1 light no-photo pair for A1) until a variant is picked per ad.
 
+## Set 1 in the S1 light style (23 Sep 2026)
+
+All six Set 1 concepts redrawn in the S1 light, no-photo style (section 1), four ratios each, in
+`creatives/static/light/` — shown on the review page as section 2b. Rendered (not generated) by
+`scripts/meta-ads/render-light-set.py` from the measured S1 style so type, colour and spacing match
+exactly. Headlines: MAKE THEM **PROVE** IT. · IS THIS DEBT EVEN **YOURS**? · THEY NEVER **PROVED** IT WAS
+MINE. · WHAT CAN YOU MAKE A **COLLECTOR** DO? · CAN THEY **PROVE** IT? · GET IT IN **WRITING**. No photos, so
+no "Image is a dramatization"; C1 and C3 carry "Prior results do not guarantee a similar outcome".
+
 ## Disclaimer updated on every static (23 Sep 2026)
 
 All 52 static files now carry the New York three-component disclaimer

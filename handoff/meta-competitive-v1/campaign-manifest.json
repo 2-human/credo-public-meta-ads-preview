@@ -137,6 +137,18 @@
             "16x9"
           ],
           "copy": "as designed"
+        },
+        {
+          "id": "S1_prove-it-light",
+          "label": "Set 1 in the S1 light style",
+          "status": "under review (not in the upload set)",
+          "files": [
+            "creatives/static/light/S1_prove-it_light_1x1.jpg",
+            "creatives/static/light/S1_prove-it_light_4x5.jpg",
+            "creatives/static/light/S1_prove-it_light_9x16.jpg",
+            "creatives/static/light/S1_prove-it_light_16x9.jpg"
+          ],
+          "source": "scripts/meta-ads/render-light-set.py"
         }
       ]
     },
@@ -201,6 +213,18 @@
             "16x9"
           ],
           "copy": "as designed"
+        },
+        {
+          "id": "S2_is-it-yours-light",
+          "label": "Set 1 in the S1 light style",
+          "status": "under review (not in the upload set)",
+          "files": [
+            "creatives/static/light/S2_is-it-yours_light_1x1.jpg",
+            "creatives/static/light/S2_is-it-yours_light_4x5.jpg",
+            "creatives/static/light/S2_is-it-yours_light_9x16.jpg",
+            "creatives/static/light/S2_is-it-yours_light_16x9.jpg"
+          ],
+          "source": "scripts/meta-ads/render-light-set.py"
         }
       ]
     },
@@ -264,6 +288,18 @@
             "16x9"
           ],
           "copy": "as designed"
+        },
+        {
+          "id": "S3_three-things-light",
+          "label": "Set 1 in the S1 light style",
+          "status": "under review (not in the upload set)",
+          "files": [
+            "creatives/static/light/S3_three-things_light_1x1.jpg",
+            "creatives/static/light/S3_three-things_light_4x5.jpg",
+            "creatives/static/light/S3_three-things_light_9x16.jpg",
+            "creatives/static/light/S3_three-things_light_16x9.jpg"
+          ],
+          "source": "scripts/meta-ads/render-light-set.py"
         }
       ]
     },
@@ -328,6 +364,18 @@
             "16x9"
           ],
           "copy": "as designed"
+        },
+        {
+          "id": "S4_before-after-light",
+          "label": "Set 1 in the S1 light style",
+          "status": "under review (not in the upload set)",
+          "files": [
+            "creatives/static/light/S4_before-after_light_1x1.jpg",
+            "creatives/static/light/S4_before-after_light_4x5.jpg",
+            "creatives/static/light/S4_before-after_light_9x16.jpg",
+            "creatives/static/light/S4_before-after_light_16x9.jpg"
+          ],
+          "source": "scripts/meta-ads/render-light-set.py"
         }
       ]
     },
@@ -392,6 +440,18 @@
             "16x9"
           ],
           "copy": "as designed"
+        },
+        {
+          "id": "S5_medical-light",
+          "label": "Set 1 in the S1 light style",
+          "status": "under review (not in the upload set)",
+          "files": [
+            "creatives/static/light/S5_medical_light_1x1.jpg",
+            "creatives/static/light/S5_medical_light_4x5.jpg",
+            "creatives/static/light/S5_medical_light_9x16.jpg",
+            "creatives/static/light/S5_medical_light_16x9.jpg"
+          ],
+          "source": "scripts/meta-ads/render-light-set.py"
         }
       ]
     },
@@ -455,6 +515,18 @@
             "16x9"
           ],
           "copy": "as designed"
+        },
+        {
+          "id": "S6_in-writing-light",
+          "label": "Set 1 in the S1 light style",
+          "status": "under review (not in the upload set)",
+          "files": [
+            "creatives/static/light/S6_in-writing_light_1x1.jpg",
+            "creatives/static/light/S6_in-writing_light_4x5.jpg",
+            "creatives/static/light/S6_in-writing_light_9x16.jpg",
+            "creatives/static/light/S6_in-writing_light_16x9.jpg"
+          ],
+          "source": "scripts/meta-ads/render-light-set.py"
         }
       ]
     }
