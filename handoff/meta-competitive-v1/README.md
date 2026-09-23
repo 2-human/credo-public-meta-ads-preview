@@ -136,6 +136,12 @@ exactly. Headlines: MAKE THEM **PROVE** IT. · IS THIS DEBT EVEN **YOURS**? · T
 MINE. · WHAT CAN YOU MAKE A **COLLECTOR** DO? · CAN THEY **PROVE** IT? · GET IT IN **WRITING**. No photos, so
 no "Image is a dramatization"; C1 and C3 carry "Prior results do not guarantee a similar outcome".
 
+## Review page merged by concept (23 Sep 2026)
+
+Sections 2, 2b and 3 are merged into one section, "Statics by concept — three versions": for each ad A1–A6,
+Designer set 1, Set 1 in the light style and Designer set 2, one below the other. Videos are now section 3.
+Row and image comment ids are unchanged, so existing comments stay attached.
+
 ## Disclaimer updated on every static (23 Sep 2026)
 
 All 52 static files now carry the New York three-component disclaimer
