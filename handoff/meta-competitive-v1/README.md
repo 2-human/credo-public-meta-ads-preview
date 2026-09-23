@@ -136,6 +136,19 @@ exactly. Headlines: MAKE THEM **PROVE** IT. · IS THIS DEBT EVEN **YOURS**? · T
 MINE. · WHAT CAN YOU MAKE A **COLLECTOR** DO? · CAN THEY **PROVE** IT? · GET IT IN **WRITING**. No photos, so
 no "Image is a dramatization"; C1 and C3 carry "Prior results do not guarantee a similar outcome".
 
+## Meta ad copy finalised (23 Sep 2026)
+
+- New York only: A2 description and A6 primary text no longer mention New Jersey.
+- Every primary text now ends with the NY disclaimer: the base line, "Image is a dramatization." when the
+  creative shows a person or a staged photo (all videos; Set 1 C1/C2/C6; Set 2 C1/C2/C3/C5), and "Prior
+  results do not guarantee a similar outcome." The old "choice of a lawyer" footer is gone.
+- Emojis removed (A2, A3). A6 headline = "Make Collectors Prove Before You Pay" (Sona's A1 change).
+- A3 now links to /debt-harassment-fdcpa-rights. NOTE: that page has no Meta tracking number in the phone
+  sheet, so Meta visitors see the Google line (443) 483-4080.
+- One Meta ad per creative version: `utm_content={ad_key}-{v3|light|v4|video}`. Full spec for all 24 ads in
+  `copy/meta-ads-final.csv` and `campaign-manifest.json` → `ads_final`; each static row on the review page
+  shows its ad name, headline, CTA and link.
+
 ## Concept mapping fixed (23 Sep 2026)
 
 The designer brief numbers concepts S1–S6, and **S3 (Before/After) is ad A4_before-after while S4 (Quiz)
