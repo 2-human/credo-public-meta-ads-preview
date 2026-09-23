@@ -143,8 +143,7 @@ no "Image is a dramatization"; C1 and C3 carry "Prior results do not guarantee a
   creative shows a person or a staged photo (all videos; Set 1 C1/C2/C6; Set 2 C1/C2/C3/C5), and "Prior
   results do not guarantee a similar outcome." The old "choice of a lawyer" footer is gone.
 - Emojis removed (A2, A3). A6 headline = "Make Collectors Prove Before You Pay" (Sona's A1 change).
-- A3 now links to /debt-harassment-fdcpa-rights. NOTE: that page has no Meta tracking number in the phone
-  sheet, so Meta visitors see the Google line (443) 483-4080.
+- A3 stays on /debt-harassment-stop-calls: the rights page has no Meta tracking number in the phone sheet.
 - One Meta ad per creative version: `utm_content={ad_key}-{v3|light|v4|video}`. Full spec for all 24 ads in
   `copy/meta-ads-final.csv` and `campaign-manifest.json` → `ads_final`; each static row on the review page
   shows its ad name, headline, CTA and link.
