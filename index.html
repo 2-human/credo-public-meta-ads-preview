@@ -745,6 +745,11 @@ document.querySelectorAll('.adwrap').forEach(w=>{
   const NDRAT={'1x1':'1:1','1_91x1':'1.91:1'};
   const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const LEGAL='Credo Legal. The choice of a lawyer is an important decision and should not be based solely upon advertisements.';
+  /* Attorney-advertising disclosures per target state (from the NY/NJ compliance direction).
+     NY: "Attorney Advertising" label + attorney pre-approval before launch + AI disclosure.
+     NJ: responsible-attorney name + firm contact. ATTY / address / email are [CONFIRM] placeholders. */
+  const FIRM='Credo Legal Services, P.C.';
+  const ATTY='Jack [last name — CONFIRM]';
   /* Per-category Homeowner creative (living-room couple + everyday possessions + car through the window),
      generated via Higgsfield — one distinct scene per debt category, each with a 1:1 (1200×1200) and
      1.91:1 (1200×628) still plus a 1:1 video (image-to-video from the still). */
@@ -757,21 +762,17 @@ document.querySelectorAll('.adwrap').forEach(w=>{
   };
   /* Homeowner copy: security/stability leitmotif, hedged, no mention or insinuation of losing a home,
      car, or property — the imagery carries the material cue, the words stay on feeling secure. */
+  /* Nextdoor = validation / invalidation + settlement only (no litigation, garnishment or lawsuit
+     topics, per NY/NJ legal direction). Copy stays on "make them prove it / settle for less". */
   const HOME_BODY={
-    creditcard:"Credit card debt has a way of following you home and settling in the back of your mind. You have worked hard for the life you have, and you deserve to feel steady in it. Our attorneys can review the balance, challenge what isn't valid, and work toward a resolution, so you can get back to peace of mind. Prior outcomes don't guarantee similar results.",
-    lawsuit:"A debt lawsuit can unsettle the sense of security you have worked to build, but you do not have to face it alone. Our attorneys can file your answer, hold the collector to their proof, and stand between you and the case, so you can feel on solid ground again. Prior outcomes don't guarantee similar results.",
-    harassment:"Home should be the one place the pressure can't reach you, yet constant collector calls take that calm away. Our attorneys can send a cease-communication letter and pursue violations, so the quiet returns and your evenings feel like yours again. Prior outcomes don't guarantee similar results.",
-    medical:"A medical bill you are not sure you owe can cast a shadow over the life you have built. You deserve to feel settled, not braced for the next statement. Our attorneys can demand the bill be validated and challenge what isn't right, so you can get back to steady ground. Prior outcomes don't guarantee similar results.",
-    garnishment:"When your paycheck feels uncertain, so does the footing under everything else, and you deserve to feel secure again. Our attorneys can challenge the garnishment and file for the protections you may qualify for, so more of your pay, and your peace of mind, can stay with you. Prior outcomes don't guarantee similar results."
+    creditcard:"Credit card debt has a way of following you home, but you may not owe what the collector says you do. Balances get inflated with interest and fees, and debt buyers routinely can't produce the paperwork to prove the account is even yours. Our attorneys can review the debt, challenge whether it is valid, and work to negotiate or settle it for less than they are asking, sometimes far less. You deserve to know where you really stand before you pay a dollar.",
+    medical:"A medical bill you are not sure you owe can weigh on you long after you leave the doctor's office. Medical billing is full of coding errors, duplicate charges, and amounts a collector simply cannot validate. Our attorneys can demand the bill be validated, dispute what isn't right, and work to settle what's left for less. You could owe far less than the number on the statement, or nothing at all."
   };
   /* One card per debt category; each carries a Homeowner and a Bold variant. Bold reuses a
      distinct gesture creative + its matching bold body (ADV[...][5]) + baked headline (BOLD_SET.h). */
   const CAT=[
-    {cat:'creditcard',  set:'Credit Card',  gesture:'pinch',    boldBody:ADV.CC_Negotiation[5],      homeHl:'Get back to peace of mind'},
-    {cat:'lawsuit',     set:'Lawsuit',      gesture:'fist',     boldBody:ADV.Collection_Lawsuit[5],  homeHl:'Feel on solid ground again'},
-    {cat:'harassment',  set:'Harassment',   gesture:'pointing', boldBody:ADV.Creditor_Harassment[5], homeHl:'Make home feel calm again'},
-    {cat:'medical',     set:'Medical Debt', gesture:'stop',     boldBody:ADV.Medical_Harassment[5],  homeHl:'Get back to steady ground'},
-    {cat:'garnishment', set:'Garnishment',  gesture:'offer',    boldBody:ADV.Post_Judgment_Garn[5],  homeHl:'Feel secure again'}
+    {cat:'creditcard',  set:'Credit Card',  gesture:'pinch', boldBody:"You may be about to overpay a credit card debt. Interest and fees inflate balances, debt buyers often can't prove the account is even yours, and you may not owe every dollar they claim. Our attorneys can challenge whether the debt is valid and work to negotiate or settle it down before you pay. You could owe far less. We'll review it, free.", homeHl:'See what you really owe'},
+    {cat:'medical',     set:'Medical Debt', gesture:'stop',  boldBody:"That medical bill may be wrong, or unprovable. Medical billing is full of coding errors and duplicate charges, and collectors often can't validate the amount. Our attorneys can demand validation, dispute what isn't right, and work to settle what's left for less. You could owe far less, or nothing. We'll check it, free.", homeHl:'Check the bill first'}
   ];
   /* Nextdoor-format Bold videos: 1:1 (1200×1200) clips animated from the 1:1 Bold stills, so Bold
      video is upload-ready here (the shared 9:16 Meta reels stay 9:16 and are used on the Meta tab). */
@@ -827,12 +828,23 @@ document.querySelectorAll('.adwrap').forEach(w=>{
   const CTAS={call:'Call Now',learn:'Learn More',apply:'Apply Now'};
   const NDG={state:'ny',cta:'learn'};   /* global: which campaign + ad group is under review */
   const ndtag=(v,tok)=>'<span class="ndtag" title="'+tok+'">'+esc(v)+'</span>';
+  /* State-aware attorney-advertising disclosure appended to every ad. On upload this text is part
+     of the ad body (Nextdoor has a single text field). NY carries the label + AI disclosure. */
+  const cf='<span style="color:#c9862b">[mailing address &amp; email — CONFIRM]</span>';
+  function DISC(){
+    const s=NDG.state, st=esc(GEO[s].state), ph=esc(PHONE[s]||'');
+    let h=(s==='ny'?'<b>Attorney Advertising.</b> ':'')
+      +esc(FIRM)+' Responsible attorney: '+esc(ATTY)+', admitted in '+st+'. '+ph+' · start.credolegal.com · '+cf+'.'
+      +' Prior results do not guarantee a similar outcome; every matter is different. The choice of a lawyer is an important decision and should not be based solely upon advertisements.';
+    if(s==='ny') h+=' This advertisement includes AI-generated content.';
+    return h;
+  }
   const lpDisp=cat=>'start.credolegal.com'+LP_BY_CAT[cat];
   const lpHref=cat=>'https://start.credolegal.com'+LP_BY_CAT[cat];
   /* body = base copy + a licensing/local line using both dynamic tags; Call/Apply also carry the LP link */
   function buildBody(base,cat){
     const g=GEO[NDG.state];
-    let h=esc(base)+' Credo’s attorneys are licensed in '+ndtag(g.state,'{{state}}')+' and help neighbors across '+ndtag(g.city,'{{city}}')+'.';
+    let h=esc(base)+' Serving '+ndtag(g.city,'{{city}}')+' and neighbors across '+ndtag(g.state,'{{state}}')+'.';
     if(NDG.cta!=='learn') h+=' Free case review: <a class="ndlp" href="'+lpHref(cat)+'" target="_blank" rel="noopener">'+esc(lpDisp(cat))+'</a>';
     return h;
   }
@@ -841,14 +853,13 @@ document.querySelectorAll('.adwrap').forEach(w=>{
   const NDCTRL='<div class="ndctrl" data-comment-target data-comment-id="nd-campaign-ctrl">'
     +'<div class="ndctrl-row"><span class="lbl">Campaign · state</span>'+stBtns.map(s=>'<button data-st="'+s[0]+'"'+(s[0]===NDG.state?' class="on"':'')+'>'+esc(s[1])+'</button>').join('')+'</div>'
     +'<div class="ndctrl-row"><span class="lbl">Ad group · CTA</span>'+ctaBtns.map(c=>'<button data-cta="'+c[0]+'"'+(c[0]===NDG.cta?' class="on"':'')+'>'+esc(c[1])+'</button>').join('')+'</div>'
-    +'<div class="ndctrl-note"><b>Structure:</b> 2 campaigns (New York · New Jersey) × 3 ad groups (Call Now · Learn More · Apply Now) × 5 debt-type ads = <b>30 ads</b>. The 5 cards below are the ads of the selected campaign + ad group (each with a Homeowner / Bold creative variant). Copy is shared across states — only the '+ndtag('{{city}}','dynamic tag')+' and '+ndtag('{{state}}','dynamic tag')+' dynamic tags change, and Nextdoor auto-fills each neighbor’s real city (tags must be all-lowercase). <b>Call Now</b> &amp; <b>Apply Now</b> ads carry the landing-page link in the body; <b>Learn More</b> sends its button straight there. <span style="color:#c9862b">Note: {{city}}/{{neighborhood}} are the documented tokens — {{state}} is [verify in-tool], and since each campaign is one state it can also be set statically.</span></div>'
+    +'<div class="ndctrl-note"><b>Structure:</b> 2 campaigns (New York · New Jersey) × 3 ad groups (Call Now · Learn More · Apply Now) × 2 validation ads (Credit Card · Medical) = <b>12 ads</b>. The 2 cards below are the ads of the selected campaign + ad group (each with a Homeowner / Bold creative variant). The state disclosure below each ad updates with the selected campaign. Copy is shared across states — only the '+ndtag('{{city}}','dynamic tag')+' and '+ndtag('{{state}}','dynamic tag')+' dynamic tags change, and Nextdoor auto-fills each neighbor’s real city (tags must be all-lowercase). <b>Call Now</b> &amp; <b>Apply Now</b> ads carry the landing-page link in the body; <b>Learn More</b> sends its button straight there. <span style="color:#c9862b">Note: {{city}}/{{neighborhood}} are the documented tokens — {{state}} is [verify in-tool], and since each campaign is one state it can also be set statically.</span></div>'
     +'</div>';
-  let html='<div class="ndinfo"><b>Nextdoor</b> — consolidated to <b>two variants per debt category</b>: <b>Homeowner</b> (default) and <b>Bold</b>. Homeowner leads with a feeling of material and existential security over a distinct living-room scene for each category; Bold reuses the red hand-gesture stills and reels. For this channel:'
-    +'<ul><li><b>Lead Generation (native form)</b> is the primary objective; this post preview stands in for the form entry point.</li>'
-    +'<li>Newsfeed images are <b>1:1 or 1.91:1</b>; each variant also has a <b>1:1 video</b> (1200×1200), upload-ready for Nextdoor. (The Meta tab keeps the original 9:16 Bold reels.)</li>'
-    +'<li>In-feed, Nextdoor shows roughly the <b>first ~90 characters</b> of the body, then &ldquo;See more&rdquo; — front-load the message.</li>'
-    +'<li>Homeowner copy evokes security and stability without any claim about keeping a home, car, or property; the imagery carries the material cue.</li></ul>'
-    +'Pre-spend review — all copy and creative are draft, pending legal sign-off and Nextdoor advertiser eligibility.</div>'+JMAP+NDCTRL+'<div class="feed">';
+  let html='<div class="ndinfo"><b>Nextdoor — NY &amp; NJ, debt validation &amp; settlement only.</b> Per legal direction, Nextdoor runs as a clean-file experiment: <b>no litigation, lawsuit, garnishment or judgment topics</b> — only challenging whether a debt is valid and negotiating / settling it down. Two categories remain: <b>Credit Card</b> and <b>Medical</b> (each with a Homeowner and a Bold variant). For this channel:'
+    +'<ul><li><b>Attorney-advertising disclosures render per state</b> (select NY / NJ above). <b>New York:</b> shows the required <b>“Attorney Advertising”</b> label + an <b>AI-generated-content</b> disclosure, and <b>every NY ad must be pre-approved by the attorney (Jack) before it goes live</b>. <b>New Jersey:</b> shows the responsible attorney’s name + firm contact. On upload the disclosure text is part of the single ad-body field.</li>'
+    +'<li><b>Lead Generation (native form)</b> is the primary objective; this post preview stands in for the form entry point. Images are <b>1:1 / 1.91:1</b> + a <b>1:1 video</b> per variant. Nextdoor shows ~<b>first 90 chars</b> then “See more”; platform favours <b>longer</b> body copy, so front-load the hook and let the detail + disclosure follow.</li>'
+    +'<li>Homeowner copy stays on “make them prove it / settle for less”; imagery carries the material cue. <span style="color:#c9862b">Placeholders to finalize against the state compliance sheet + Jack: attorney full name, firm mailing address &amp; email, exact NY AI-disclosure wording.</span></li></ul>'
+    +'Pre-spend review — copy is AI-drafted (pending humanizing) and <b>not live until Jack’s review / NY pre-approval</b>.</div>'+JMAP+NDCTRL+'<div class="feed">';
   CAT.forEach(function(c){
     const bd=BOLD_BY_SLUG[c.gesture]||{};
     html+='<div class="setlabel">'+esc(c.set)+' <span>· Nextdoor</span></div>'
@@ -858,7 +869,7 @@ document.querySelectorAll('.adwrap').forEach(w=>{
       +'<div class="nd-vnote"></div>'
       +'<article class="ndcard" data-comment-target data-comment-id="nd-'+c.cat+'-card">'
         +'<div class="nd-head"><div class="nd-av">C</div><div class="nd-who"><strong>Crēdo Legal</strong><small>Sponsored · Business Page</small></div><div class="nd-dots">···</div></div>'
-        +'<div class="nd-body" data-comment-target data-comment-id="nd-'+c.cat+'-home-body"><span class="full">'+esc(HOME_BODY[c.cat])+'</span><div class="adlegal">'+LEGAL+'</div></div>'
+        +'<div class="nd-body" data-comment-target data-comment-id="nd-'+c.cat+'-home-body"><span class="full">'+esc(HOME_BODY[c.cat])+'</span><div class="adlegal nd-disc"></div></div>'
         +'<div class="dirbar"><span class="dirlbl">Creative:</span>'
           +'<span class="modetabs"><button class="mode on" data-mode="image">Image</button><button class="mode mvbtn" data-mode="video">Video</button></span>'
           +'<select class="ratiosel"><option value="1x1">1:1</option><option value="1_91x1">1.91:1</option></select></div>'
@@ -875,11 +886,13 @@ document.querySelectorAll('.adwrap').forEach(w=>{
     const hl=w.querySelector('.hl'), ptextEl=w.querySelector('.nd-body'), full=ptextEl.querySelector('.full'),
       img=w.querySelector('.mimg'), vid=w.querySelector('.mvid'), media=w.querySelector('.nd-media'),
       rsel=w.querySelector('.ratiosel'), vnote=w.querySelector('.nd-vnote'), home=HOME_CR[cat]||{},
-      ctaBtn=w.querySelector('.nd-cta'), dom=w.querySelector('.nd-dom'), behav=w.querySelector('.nd-behav');
+      ctaBtn=w.querySelector('.nd-cta'), dom=w.querySelector('.nd-dom'), behav=w.querySelector('.nd-behav'),
+      disc=w.querySelector('.nd-disc');
     const st={variant:'home',mode:'image',ratio:'1x1'};
     function paint(){
       const v=st.variant, isBold=v==='bold', g=GEO[NDG.state];
       full.innerHTML=buildBody(isBold?c.boldBody:HOME_BODY[cat], cat);
+      if(disc)disc.innerHTML=DISC();   /* state-aware attorney-advertising disclosure */
       ptextEl.dataset.commentId='nd-'+cat+'-'+v+'-body';
       hl.textContent=isBold?(bd.h||''):c.homeHl;
       hl.dataset.commentId='nd-'+cat+'-'+v+'-hl';
