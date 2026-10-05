@@ -99,6 +99,12 @@ Inside each ad set the ads differ only in creative, so compare them there first.
 Dynamic Creative, so each result maps to one creative version. With 20 ad sets, start with a few and add more as
 budget allows rather than switching all on at once.
 
+## Download
+
+`credo-meta-handoff.zip` holds this guide, the manifest, `copy/ads.csv` and `asset-manifest.csv`, plus
+`download-creatives.sh`: run `sh download-creatives.sh` in the unzipped folder to fetch every creative into
+`creatives/<ad set>/`.
+
 ## Files
 
 - `campaign-manifest.json` — campaign → ad sets → ads, with copy, links and creative URLs (for MCP/scripted upload)
