@@ -3,6 +3,7 @@
 One Facebook + Instagram campaign for the **whole US** (5 Oct 2026). It holds the Competitive v1 ads (built from a
 Freedom Debt Relief teardown) and, consolidated into it, every ad of the earlier main Meta build (Debt Defense v4,
 `handoff/meta/`), which is no longer a separate campaign. Build it in Ads Manager or via MCP. **Launch PAUSED.**
+**Building it with Claude?** Open a new Claude session in the unzipped folder and paste `CLAUDE-PROMPT.md`.
 Competitive v1 ads in the feed: https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/?review=1 (section "Ads · Facebook feed preview").
 
 ## Structure
@@ -113,3 +114,4 @@ reads the creative URLs from the manifest).
 - `campaign-manifest.json` — campaign → ad sets → ads, with copy, links and creative URLs (for MCP/scripted upload)
 - `copy/ads.csv` — the same, one row per ad (for building by hand)
 - `asset-manifest.csv` — every creative file with placement, status and download link
+- `CLAUDE-PROMPT.md` — the prompt for a Claude session that builds the campaign from this package
