@@ -101,9 +101,12 @@ budget allows rather than switching all on at once.
 
 ## Download
 
-`credo-meta-handoff.zip` holds this guide, the manifest, `copy/ads.csv` and `asset-manifest.csv`, plus
-`download-creatives.sh`: run `sh download-creatives.sh` in the unzipped folder to fetch every creative into
-`creatives/<ad set>/`.
+**Full package (one zip, about 240 MB):** https://github.com/2-human/credo-public-meta-ads-preview/releases/download/meta-handoff/credo-meta-handoff-full.zip
+It holds this guide, the manifest, `copy/ads.csv`, `asset-manifest.csv` and all 191 creatives to upload, in
+`creatives/<ad set>/`. The 9:16 versions on hold (disclaimer in the Stories/Reels unsafe zone) are not in it.
+
+`credo-meta-handoff.zip` next to this guide has the same files without the creatives (for a scripted upload, which
+reads the creative URLs from the manifest).
 
 ## Files
 
