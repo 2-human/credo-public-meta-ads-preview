@@ -25,7 +25,9 @@ lip-synced spokesperson video.
 
 - Objective **Leads** (`OUTCOME_LEADS`), website conversion; wire the pixel/dataset and the Lead event.
 - Special Ad Category **CREDIT** (US). This limits targeting: no age, gender or ZIP targeting; location radius at least 15 miles.
-- Location **New York State only**. The disclaimers are New York's; do not add other states.
+- Location **United States**. Exclude the 7 jurisdictions Credo does not serve: **District of Columbia, Delaware, Idaho, North Carolina,
+  Oklahoma, West Virginia, Wyoming**. Also exclude **Florida and Texas** until the ads are filed with those state bars
+  (Florida at least 20 days before they run), then remove those two exclusions.
 - Call to action **Book Now** on every ad.
 - **Status PAUSED** until QA and attorney sign-off.
 - Fill the operator placeholders in `campaign-manifest.json`: ad account, Facebook Page, Instagram account, pixel/dataset, daily budget per ad set, start date.
@@ -33,10 +35,12 @@ lip-synced spokesperson video.
 ## Copy — `copy/ads.csv`
 
 One row per ad: primary text, headline, description, CTA, website URL, **URL parameters**, and the creative
-link for each placement. Paste the primary text exactly as written — it ends with the NY disclaimer
-(`Attorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006.
-(212) 461-4026.` plus "Image is a dramatization." where the creative shows a person, and "Prior results do
-not guarantee a similar outcome."). Do not shorten it or move it to a comment.
+link for each placement. Paste the primary text exactly as written — it ends with the nationwide disclaimer: the New York
+line (`Attorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026.`),
+the responsible attorney, where services are offered, the choice-of-lawyer line, "Image is a dramatization." where the creative
+shows a person, and "Prior results do not guarantee a similar outcome." It covers the stricter states' rules, so it is the same
+in every state. Do not shorten it or move it to a comment. **Replace `[RESPONSIBLE ATTORNEY NAME]` with the attorney's full name
+in every ad before launch.**
 
 Put the website URL in **Website URL** and the `url_parameters` value in **Tracking → URL parameters**.
 `utm_content` names the ad and its creative version, so reports show which creative won.
@@ -62,12 +66,15 @@ Videos: upload the **4:5** video for Feeds and for Stories/Reels. Sound on; capt
 
 ## Before launch (checklist)
 
-1. Responsible attorney pre-approves all 24 ads (NY Rule 7.1(k)); keep a copy of each ad for a year.
-2. Confirm the NY entity name "Credo Legal Services, P.C." (the BBB profile says P.A.).
-3. Open each landing page from its ad preview with its URL parameters and check the phone number shown
+1. Fill in the responsible attorney's full name in all 24 primary texts (`[RESPONSIBLE ATTORNEY NAME]`).
+2. Responsible attorney pre-approves all 24 ads (NY Rule 7.1(k)); keep a copy of each ad (New York: at least one
+   year for online ads; other states can require longer, so the attorney sets the retention period).
+3. Confirm the entity name "Credo Legal Services, P.C." (the BBB profile says P.A.).
+4. Florida and Texas stay excluded until the ads are filed with the Florida Bar and the Texas Advertising Review Committee.
+5. Open each landing page from its ad preview with its URL parameters and check the phone number shown
    is the Meta number in the table above.
-4. Check a test lead arrives with the UTM values filled in.
-5. Leave everything PAUSED; switch on one ad set at a time.
+6. Check a test lead arrives with the UTM values filled in.
+7. Leave everything PAUSED; switch on one ad set at a time.
 
 ## Test plan
 

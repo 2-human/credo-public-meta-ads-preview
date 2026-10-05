@@ -24,7 +24,7 @@ credo-ads-handoff-2026-07/
 **`meta-competitive-v1/`** is an additional Meta campaign built by tearing down a competitor's live
 advertising (Freedom Debt Relief, Meta Ad Library page 69869352985) and rebuilding their strongest
 creative structures in Crēdo brand. 6 ad groups, one static and one lip-synced spokesperson video
-each. It has its own README, manifest and a browsable review page (`index.html`). **Its upload package is `meta-competitive-v1/upload/`** (guide, manifest, `copy/ads.csv`, `asset-manifest.csv`): 6 ad sets × 4 creative versions = 24 ads, New York only. Separate from the
+each. It has its own README, manifest and a browsable review page (`index.html`). **Its upload package is `meta-competitive-v1/upload/`** (guide, manifest, `copy/ads.csv`, `asset-manifest.csv`): 6 ad sets × 4 creative versions = 24 ads, **whole US** since 5 Oct 2026 (was New York only): exclude DC, DE, ID, NC, OK, WV, WY (not served) and, until the bar filings are done, Florida and Texas. Its ads carry the nationwide disclaimer (`brand/us-attorney-advertising-disclaimer.md`). Separate from the
 main `meta/` build above; also PAUSED and pending attorney pre-approval.
 
 Each platform folder is self-contained: machine-readable manifest (for MCP / scripted upload),
@@ -81,6 +81,7 @@ each separable.
 | `utm_content` | ad key | `{creative}` | `{ad}-{direction}` |
 | Click id | — | `gclid` | `ndclid` |
 | Geo | US, **exclude NY** | US, **exclude NY** | **NY & NJ only** |
+| Geo (Meta Competitive v1) | **whole US** minus the 7 not served; FL/TX after filing | | |
 | Scope | full cluster set | full cluster set | validation/settlement only |
 | Creatives | full set incl. Bold + 9:16 | Google set | **reuses** Meta 1:1 + 1.91:1; **no** Bold/9:16 |
 

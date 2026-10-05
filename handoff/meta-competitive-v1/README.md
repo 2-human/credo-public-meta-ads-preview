@@ -1,7 +1,7 @@
 # Crēdo Legal — Meta Competitive v1
 
 A Meta campaign built by tearing down **Freedom Debt Relief**'s live Meta advertising and
-rebuilding their highest-performing creative structures in Crēdo brand. **Launch PAUSED.**
+rebuilding their highest-performing creative structures in Crēdo brand. **Launch PAUSED.** **Targets the whole US since 5 Oct 2026** (see the last section).
 
 Source: Meta Ad Library, page `69869352985`, **~96 active ads** (94 captured: 38 video / 56 static),
 analysed **2026-09-08**.
@@ -218,3 +218,23 @@ Videos re-generated 22 Sep (both now applied; previous cuts are in git history a
   −16 LUFS, optional `XFADE` dissolve and `TAIL_HOLD` freeze) is in the repo at `scripts/meta-ads/bake-talking-head.py`. Captions are set in
   Helvetica Neue Bold on this machine (Hanken Grotesk is not installed locally); the end cards are
   the original frames, unchanged.
+
+## Whole US, nationwide disclaimer (5 Oct 2026)
+
+Operator: the campaign addresses the whole US and keeps the restrictive disclaimer so that every state is covered.
+
+- **Geo:** United States. Exclude the 7 jurisdictions Credo does not serve (DC, DE, ID, NC, OK, WV, WY). Florida and
+  Texas stay excluded until the ads are filed with the Florida Bar (at least 20 days before they run) and the Texas
+  Advertising Review Committee; then remove those two exclusions.
+- **Disclaimer:** every primary text (24 ads) now ends with the nationwide text in `brand/us-attorney-advertising-disclaimer.md`:
+  the New York line unchanged, then *Responsible attorney: [RESPONSIBLE ATTORNEY NAME].* *Legal services are provided by
+  attorneys licensed in the states where they practice; not available in DC, DE, ID, NC, OK, WV or WY.* *The choice of a
+  lawyer is an important decision and should not be based solely upon advertisements.*, then the dramatization line where it
+  applied and the prior-results line. **Fill in the attorney's full name before launch.**
+- **New York-only copy replaced:** "Attorneys licensed in New York." (A2 description, 4 ads) → "Licensed attorneys. Not a
+  settlement company."; A6 primary text (4 ads) now ends "Free case review. Flat monthly fee. Licensed attorneys."
+- **Images and videos unchanged.** The statics keep the New York disclaimer line (firm, address, phone, dramatization and
+  prior-results lines); the full nationwide text is in the primary text of the same ad.
+- Rebuilt: `upload/` (README, manifest, `copy/ads.csv`, asset list) and the feed preview on the review page.
+- Overlap: the main Meta build (`handoff/meta/`, Debt Defense v4) targets the US excluding New York. If both run, they
+  compete for the same audience outside New York; decide whether this campaign replaces it or runs alongside as a test.

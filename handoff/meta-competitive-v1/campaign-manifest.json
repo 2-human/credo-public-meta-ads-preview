@@ -8,7 +8,24 @@
     "special_ad_category_country": "US",
     "recommended_status": "PAUSED",
     "derived_from": "Competitive teardown of Freedom Debt Relief (Meta Ad Library page 69869352985, ~96 active ads, analysed 2026-09-08)",
-    "notes": "Mimics FDR's creative structure, hooks and devices; all debt-settlement claims replaced with Credo's validation/defense positioning. Consumer-debt ads require Meta CREDIT Special Ad Category."
+    "notes": "Mimics FDR's creative structure, hooks and devices; all debt-settlement claims replaced with Credo's validation/defense positioning. Consumer-debt ads require Meta CREDIT Special Ad Category.",
+    "geo": {
+      "locations": "United States",
+      "exclude_not_served": [
+        "District of Columbia",
+        "Delaware",
+        "Idaho",
+        "North Carolina",
+        "Oklahoma",
+        "West Virginia",
+        "Wyoming"
+      ],
+      "exclude_until_filed": [
+        "Florida",
+        "Texas"
+      ],
+      "note": "Whole US (operator 5 Oct 2026), minus the 7 jurisdictions Credo does not serve. Florida and Texas need the ad filed with the state bar first: exclude them until the filings are done, then remove the exclusion."
+    }
   },
   "utm_scheme": "utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content={ad_key}-{version}   (version: v3 | light | v4 | video)",
   "cta": {
@@ -17,7 +34,7 @@
     "note": "FDR uses 'Apply Now'; for a law firm 'Book Now' matches the existing Credo Meta build."
   },
   "compliance": {
-    "universal_footer": "NY disclaimer (brand/ny-attorney-advertising-disclaimer.md): Attorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. [+ Image is a dramatization. when the creative shows a person or a staged photo] + Prior results do not guarantee a similar outcome.",
+    "universal_footer": "Nationwide disclaimer (brand/us-attorney-advertising-disclaimer.md): the New York disclaimer plus what other states add. Attorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Responsible attorney: [RESPONSIBLE ATTORNEY NAME]. Legal services are provided by attorneys licensed in the states where they practice; not available in DC, DE, ID, NC, OK, WV or WY. The choice of a lawyer is an important decision and should not be based solely upon advertisements. [+ Image is a dramatization. when the creative shows a person or a staged photo] + Prior results do not guarantee a similar outcome.",
     "ai_performer_disclosure": "Burned into V1, V2 and V5 (synthetic spokesperson): 'Paid attorney advertising. Not a real client testimonial. Features a synthetic, AI-generated performer, not a real person. Prior outcomes don't guarantee similar results.'",
     "general_ai_disclosure": "Burned into V3, V4, V6: 'Attorney Advertising. Includes AI-generated content. Prior outcomes don't guarantee similar results.'",
     "excluded_by_instruction": [
@@ -33,10 +50,11 @@
       "become debt-free outcome promises"
     ],
     "confirm": [
-      "Jack full name",
+      "Responsible attorney's full name (replaces [RESPONSIBLE ATTORNEY NAME] in every primary text)",
       "firm mailing address / phone / email",
       "exact NY AI-disclosure wording",
-      "NY pre-approval of every ad before launch"
+      "attorney pre-approval of every ad before launch",
+      "Florida Bar filing (20 days before Florida runs) and Texas Advertising Review Committee filing before Texas runs"
     ]
   },
   "ads": [
@@ -56,7 +74,7 @@
       ],
       "final_url": "https://start.credolegal.com/debt-harassment-stop-calls",
       "final_url_utm": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A1_prove-it",
-      "primary_text_with_footer": "Getting collection calls about a debt you're not sure you owe?\n\nBefore you pay a cent, you can make the collector validate the debt in writing. Many collectors, especially debt buyers, can't produce the paperwork to back it up.\n\nOur attorneys review what they send and tell you where you stand.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Image is a dramatization. Prior results do not guarantee a similar outcome.",
+      "primary_text_with_footer": "Getting collection calls about a debt you're not sure you owe?\n\nBefore you pay a cent, you can make the collector validate the debt in writing. Many collectors, especially debt buyers, can't produce the paperwork to back it up.\n\nOur attorneys review what they send and tell you where you stand.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Responsible attorney: [RESPONSIBLE ATTORNEY NAME]. Legal services are provided by attorneys licensed in the states where they practice; not available in DC, DE, ID, NC, OK, WV or WY. The choice of a lawyer is an important decision and should not be based solely upon advertisements. Image is a dramatization. Prior results do not guarantee a similar outcome.",
       "audio": {
         "has_audio": true,
         "method": "lip-synced scripted speech (Higgsfield wan2_7 — the on-screen performer speaks the line)",
@@ -158,7 +176,7 @@
       "mimics": "FDR 'Is debt your dirty little secret?' iPhone-Notes native device + ❌/✔️ hook",
       "slug": "debt-harassment-stop-calls",
       "headline": "See If They Can Even Prove It, Free",
-      "desc": "Attorneys licensed in New York.",
+      "desc": "Licensed attorneys. Not a settlement company.",
       "body": "A collection letter shows up. You can demand proof in writing before you pay.\n\nDebt buyers often can't produce the original contract or the account history that proves they even own it. Our attorneys make them show it.\n\nFree case review.",
       "creatives": [
         "V2_is-it-yours_9x16.mp4",
@@ -166,7 +184,7 @@
       ],
       "final_url": "https://start.credolegal.com/debt-harassment-stop-calls",
       "final_url_utm": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A2_is-it-yours",
-      "primary_text_with_footer": "A collection letter shows up. You can demand proof in writing before you pay.\n\nDebt buyers often can't produce the original contract or the account history that proves they even own it. Our attorneys make them show it.\n\nFree case review.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Image is a dramatization. Prior results do not guarantee a similar outcome.",
+      "primary_text_with_footer": "A collection letter shows up. You can demand proof in writing before you pay.\n\nDebt buyers often can't produce the original contract or the account history that proves they even own it. Our attorneys make them show it.\n\nFree case review.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Responsible attorney: [RESPONSIBLE ATTORNEY NAME]. Legal services are provided by attorneys licensed in the states where they practice; not available in DC, DE, ID, NC, OK, WV or WY. The choice of a lawyer is an important decision and should not be based solely upon advertisements. Image is a dramatization. Prior results do not guarantee a similar outcome.",
       "audio": {
         "has_audio": true,
         "method": "lip-synced scripted speech (Higgsfield wan2_7 — the on-screen performer speaks the line)",
@@ -242,7 +260,7 @@
       ],
       "final_url": "https://start.credolegal.com/debt-harassment-stop-calls",
       "final_url_utm": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A3_three-things",
-      "primary_text_with_footer": "Three things collectors hope you don't know:\n\n1. You can make them validate the debt in writing\n2. Debt buyers often can't prove they even own it\n3. Balances are frequently inflated, so you may owe far less than they claim\n\nKnowing this changes how you respond.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Image is a dramatization. Prior results do not guarantee a similar outcome.",
+      "primary_text_with_footer": "Three things collectors hope you don't know:\n\n1. You can make them validate the debt in writing\n2. Debt buyers often can't prove they even own it\n3. Balances are frequently inflated, so you may owe far less than they claim\n\nKnowing this changes how you respond.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Responsible attorney: [RESPONSIBLE ATTORNEY NAME]. Legal services are provided by attorneys licensed in the states where they practice; not available in DC, DE, ID, NC, OK, WV or WY. The choice of a lawyer is an important decision and should not be based solely upon advertisements. Image is a dramatization. Prior results do not guarantee a similar outcome.",
       "audio": {
         "has_audio": true,
         "method": "lip-synced scripted speech (Higgsfield wan2_7 — the on-screen performer speaks the line)",
@@ -317,7 +335,7 @@
       ],
       "final_url": "https://start.credolegal.com/credit-card-debt-negotiation",
       "final_url_utm": "https://start.credolegal.com/credit-card-debt-negotiation?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A4_before-after",
-      "primary_text_with_footer": "They called for years. They never proved the debt was mine.\n\nBefore: calls every week, a balance that kept growing, and no proof it was even yours.\n\nAfter: they have to validate it in writing, attorneys handle the response, and you pay one flat monthly fee.\n\nFree case review.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Image is a dramatization. Prior results do not guarantee a similar outcome.",
+      "primary_text_with_footer": "They called for years. They never proved the debt was mine.\n\nBefore: calls every week, a balance that kept growing, and no proof it was even yours.\n\nAfter: they have to validate it in writing, attorneys handle the response, and you pay one flat monthly fee.\n\nFree case review.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Responsible attorney: [RESPONSIBLE ATTORNEY NAME]. Legal services are provided by attorneys licensed in the states where they practice; not available in DC, DE, ID, NC, OK, WV or WY. The choice of a lawyer is an important decision and should not be based solely upon advertisements. Image is a dramatization. Prior results do not guarantee a similar outcome.",
       "audio": {
         "has_audio": true,
         "method": "lip-synced scripted speech (Higgsfield wan2_7 — the on-screen performer speaks the line)",
@@ -393,7 +411,7 @@
       ],
       "final_url": "https://start.credolegal.com/medical-debt-bills-errors",
       "final_url_utm": "https://start.credolegal.com/medical-debt-bills-errors?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A5_medical",
-      "primary_text_with_footer": "A collector says you owe a medical bill. Can they prove it?\n\nMedical billing is full of coding errors and duplicate charges, and a collector has to validate the amount if you ask. Our attorneys review it before you pay anything.\n\nFree case review.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Image is a dramatization. Prior results do not guarantee a similar outcome.",
+      "primary_text_with_footer": "A collector says you owe a medical bill. Can they prove it?\n\nMedical billing is full of coding errors and duplicate charges, and a collector has to validate the amount if you ask. Our attorneys review it before you pay anything.\n\nFree case review.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Responsible attorney: [RESPONSIBLE ATTORNEY NAME]. Legal services are provided by attorneys licensed in the states where they practice; not available in DC, DE, ID, NC, OK, WV or WY. The choice of a lawyer is an important decision and should not be based solely upon advertisements. Image is a dramatization. Prior results do not guarantee a similar outcome.",
       "audio": {
         "has_audio": true,
         "method": "lip-synced scripted speech (Higgsfield wan2_7 — the on-screen performer speaks the line)",
@@ -462,14 +480,14 @@
       "slug": "debt-harassment-stop-calls",
       "headline": "Make Collectors Prove Before You Pay",
       "desc": "Free case review. Flat monthly fee.",
-      "body": "Make them prove it.\n\nA collector has to validate the debt in writing. Many debt buyers can't.\n\nFree case review. Flat monthly fee. Attorneys licensed in New York.",
+      "body": "Make them prove it.\n\nA collector has to validate the debt in writing. Many debt buyers can't.\n\nFree case review. Flat monthly fee. Licensed attorneys.",
       "creatives": [
         "V4_in-writing_9x16.mp4",
         "V4_in-writing_4x5.mp4"
       ],
       "final_url": "https://start.credolegal.com/debt-harassment-stop-calls",
       "final_url_utm": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A6_in-writing",
-      "primary_text_with_footer": "Make them prove it.\n\nA collector has to validate the debt in writing. Many debt buyers can't.\n\nFree case review. Flat monthly fee. Attorneys licensed in New York.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Image is a dramatization. Prior results do not guarantee a similar outcome.",
+      "primary_text_with_footer": "Make them prove it.\n\nA collector has to validate the debt in writing. Many debt buyers can't.\n\nFree case review. Flat monthly fee. Licensed attorneys.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Responsible attorney: [RESPONSIBLE ATTORNEY NAME]. Legal services are provided by attorneys licensed in the states where they practice; not available in DC, DE, ID, NC, OK, WV or WY. The choice of a lawyer is an important decision and should not be based solely upon advertisements. Image is a dramatization. Prior results do not guarantee a similar outcome.",
       "audio": {
         "has_audio": true,
         "method": "lip-synced scripted speech (Higgsfield wan2_7 — the on-screen performer speaks the line)",
@@ -566,7 +584,7 @@
       "headline": "Make Collectors Prove Before You Pay",
       "description": "Free case review. Flat monthly fee.",
       "cta": "Book Now",
-      "primary_text": "Getting collection calls about a debt you're not sure you owe?\n\nBefore you pay a cent, you can make the collector validate the debt in writing. Many collectors, especially debt buyers, can't produce the paperwork to back it up.\n\nOur attorneys review what they send and tell you where you stand.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Image is a dramatization. Prior results do not guarantee a similar outcome.",
+      "primary_text": "Getting collection calls about a debt you're not sure you owe?\n\nBefore you pay a cent, you can make the collector validate the debt in writing. Many collectors, especially debt buyers, can't produce the paperwork to back it up.\n\nOur attorneys review what they send and tell you where you stand.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Responsible attorney: [RESPONSIBLE ATTORNEY NAME]. Legal services are provided by attorneys licensed in the states where they practice; not available in DC, DE, ID, NC, OK, WV or WY. The choice of a lawyer is an important decision and should not be based solely upon advertisements. Image is a dramatization. Prior results do not guarantee a similar outcome.",
       "link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A1_prove-it-v3"
     },
     {
@@ -577,7 +595,7 @@
       "headline": "Make Collectors Prove Before You Pay",
       "description": "Free case review. Flat monthly fee.",
       "cta": "Book Now",
-      "primary_text": "Getting collection calls about a debt you're not sure you owe?\n\nBefore you pay a cent, you can make the collector validate the debt in writing. Many collectors, especially debt buyers, can't produce the paperwork to back it up.\n\nOur attorneys review what they send and tell you where you stand.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Prior results do not guarantee a similar outcome.",
+      "primary_text": "Getting collection calls about a debt you're not sure you owe?\n\nBefore you pay a cent, you can make the collector validate the debt in writing. Many collectors, especially debt buyers, can't produce the paperwork to back it up.\n\nOur attorneys review what they send and tell you where you stand.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Responsible attorney: [RESPONSIBLE ATTORNEY NAME]. Legal services are provided by attorneys licensed in the states where they practice; not available in DC, DE, ID, NC, OK, WV or WY. The choice of a lawyer is an important decision and should not be based solely upon advertisements. Prior results do not guarantee a similar outcome.",
       "link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A1_prove-it-light"
     },
     {
@@ -588,7 +606,7 @@
       "headline": "Make Collectors Prove Before You Pay",
       "description": "Free case review. Flat monthly fee.",
       "cta": "Book Now",
-      "primary_text": "Getting collection calls about a debt you're not sure you owe?\n\nBefore you pay a cent, you can make the collector validate the debt in writing. Many collectors, especially debt buyers, can't produce the paperwork to back it up.\n\nOur attorneys review what they send and tell you where you stand.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Image is a dramatization. Prior results do not guarantee a similar outcome.",
+      "primary_text": "Getting collection calls about a debt you're not sure you owe?\n\nBefore you pay a cent, you can make the collector validate the debt in writing. Many collectors, especially debt buyers, can't produce the paperwork to back it up.\n\nOur attorneys review what they send and tell you where you stand.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Responsible attorney: [RESPONSIBLE ATTORNEY NAME]. Legal services are provided by attorneys licensed in the states where they practice; not available in DC, DE, ID, NC, OK, WV or WY. The choice of a lawyer is an important decision and should not be based solely upon advertisements. Image is a dramatization. Prior results do not guarantee a similar outcome.",
       "link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A1_prove-it-v4"
     },
     {
@@ -599,7 +617,7 @@
       "headline": "Make Collectors Prove Before You Pay",
       "description": "Free case review. Flat monthly fee.",
       "cta": "Book Now",
-      "primary_text": "Getting collection calls about a debt you're not sure you owe?\n\nBefore you pay a cent, you can make the collector validate the debt in writing. Many collectors, especially debt buyers, can't produce the paperwork to back it up.\n\nOur attorneys review what they send and tell you where you stand.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Image is a dramatization. Prior results do not guarantee a similar outcome.",
+      "primary_text": "Getting collection calls about a debt you're not sure you owe?\n\nBefore you pay a cent, you can make the collector validate the debt in writing. Many collectors, especially debt buyers, can't produce the paperwork to back it up.\n\nOur attorneys review what they send and tell you where you stand.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Responsible attorney: [RESPONSIBLE ATTORNEY NAME]. Legal services are provided by attorneys licensed in the states where they practice; not available in DC, DE, ID, NC, OK, WV or WY. The choice of a lawyer is an important decision and should not be based solely upon advertisements. Image is a dramatization. Prior results do not guarantee a similar outcome.",
       "link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A1_prove-it-video"
     },
     {
@@ -608,9 +626,9 @@
       "creative_version": "Designer set 1 static",
       "creatives": "S2_is-it-yours_v3_1x1.jpg | S2_is-it-yours_v3_4x5.jpg | S2_is-it-yours_v3_9x16.jpg | S2_is-it-yours_v3_16x9.jpg",
       "headline": "See If They Can Even Prove It, Free",
-      "description": "Attorneys licensed in New York.",
+      "description": "Licensed attorneys. Not a settlement company.",
       "cta": "Book Now",
-      "primary_text": "A collection letter shows up. You can demand proof in writing before you pay.\n\nDebt buyers often can't produce the original contract or the account history that proves they even own it. Our attorneys make them show it.\n\nFree case review.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Image is a dramatization. Prior results do not guarantee a similar outcome.",
+      "primary_text": "A collection letter shows up. You can demand proof in writing before you pay.\n\nDebt buyers often can't produce the original contract or the account history that proves they even own it. Our attorneys make them show it.\n\nFree case review.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Responsible attorney: [RESPONSIBLE ATTORNEY NAME]. Legal services are provided by attorneys licensed in the states where they practice; not available in DC, DE, ID, NC, OK, WV or WY. The choice of a lawyer is an important decision and should not be based solely upon advertisements. Image is a dramatization. Prior results do not guarantee a similar outcome.",
       "link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A2_is-it-yours-v3"
     },
     {
@@ -619,9 +637,9 @@
       "creative_version": "Set 1 light-style static",
       "creatives": "S2_is-it-yours_light_1x1.jpg | S2_is-it-yours_light_4x5.jpg | S2_is-it-yours_light_9x16.jpg | S2_is-it-yours_light_16x9.jpg",
       "headline": "See If They Can Even Prove It, Free",
-      "description": "Attorneys licensed in New York.",
+      "description": "Licensed attorneys. Not a settlement company.",
       "cta": "Book Now",
-      "primary_text": "A collection letter shows up. You can demand proof in writing before you pay.\n\nDebt buyers often can't produce the original contract or the account history that proves they even own it. Our attorneys make them show it.\n\nFree case review.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Prior results do not guarantee a similar outcome.",
+      "primary_text": "A collection letter shows up. You can demand proof in writing before you pay.\n\nDebt buyers often can't produce the original contract or the account history that proves they even own it. Our attorneys make them show it.\n\nFree case review.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Responsible attorney: [RESPONSIBLE ATTORNEY NAME]. Legal services are provided by attorneys licensed in the states where they practice; not available in DC, DE, ID, NC, OK, WV or WY. The choice of a lawyer is an important decision and should not be based solely upon advertisements. Prior results do not guarantee a similar outcome.",
       "link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A2_is-it-yours-light"
     },
     {
@@ -630,9 +648,9 @@
       "creative_version": "Designer set 2 static",
       "creatives": "S2_is-it-yours_v4_1x1.jpg | S2_is-it-yours_v4_4x5.jpg | S2_is-it-yours_v4_9x16.jpg | S2_is-it-yours_v4_16x9.jpg",
       "headline": "See If They Can Even Prove It, Free",
-      "description": "Attorneys licensed in New York.",
+      "description": "Licensed attorneys. Not a settlement company.",
       "cta": "Book Now",
-      "primary_text": "A collection letter shows up. You can demand proof in writing before you pay.\n\nDebt buyers often can't produce the original contract or the account history that proves they even own it. Our attorneys make them show it.\n\nFree case review.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Image is a dramatization. Prior results do not guarantee a similar outcome.",
+      "primary_text": "A collection letter shows up. You can demand proof in writing before you pay.\n\nDebt buyers often can't produce the original contract or the account history that proves they even own it. Our attorneys make them show it.\n\nFree case review.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Responsible attorney: [RESPONSIBLE ATTORNEY NAME]. Legal services are provided by attorneys licensed in the states where they practice; not available in DC, DE, ID, NC, OK, WV or WY. The choice of a lawyer is an important decision and should not be based solely upon advertisements. Image is a dramatization. Prior results do not guarantee a similar outcome.",
       "link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A2_is-it-yours-v4"
     },
     {
@@ -641,9 +659,9 @@
       "creative_version": "Video",
       "creatives": "V2_is-it-yours_9x16.mp4 | V2_is-it-yours_4x5.mp4",
       "headline": "See If They Can Even Prove It, Free",
-      "description": "Attorneys licensed in New York.",
+      "description": "Licensed attorneys. Not a settlement company.",
       "cta": "Book Now",
-      "primary_text": "A collection letter shows up. You can demand proof in writing before you pay.\n\nDebt buyers often can't produce the original contract or the account history that proves they even own it. Our attorneys make them show it.\n\nFree case review.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Image is a dramatization. Prior results do not guarantee a similar outcome.",
+      "primary_text": "A collection letter shows up. You can demand proof in writing before you pay.\n\nDebt buyers often can't produce the original contract or the account history that proves they even own it. Our attorneys make them show it.\n\nFree case review.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Responsible attorney: [RESPONSIBLE ATTORNEY NAME]. Legal services are provided by attorneys licensed in the states where they practice; not available in DC, DE, ID, NC, OK, WV or WY. The choice of a lawyer is an important decision and should not be based solely upon advertisements. Image is a dramatization. Prior results do not guarantee a similar outcome.",
       "link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A2_is-it-yours-video"
     },
     {
@@ -654,7 +672,7 @@
       "headline": "Know Your Options, Free",
       "description": "Free case review. No cost to learn where you stand.",
       "cta": "Book Now",
-      "primary_text": "Three things collectors hope you don't know:\n\n1. You can make them validate the debt in writing\n2. Debt buyers often can't prove they even own it\n3. Balances are frequently inflated, so you may owe far less than they claim\n\nKnowing this changes how you respond.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Prior results do not guarantee a similar outcome.",
+      "primary_text": "Three things collectors hope you don't know:\n\n1. You can make them validate the debt in writing\n2. Debt buyers often can't prove they even own it\n3. Balances are frequently inflated, so you may owe far less than they claim\n\nKnowing this changes how you respond.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Responsible attorney: [RESPONSIBLE ATTORNEY NAME]. Legal services are provided by attorneys licensed in the states where they practice; not available in DC, DE, ID, NC, OK, WV or WY. The choice of a lawyer is an important decision and should not be based solely upon advertisements. Prior results do not guarantee a similar outcome.",
       "link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A3_three-things-v3"
     },
     {
@@ -665,7 +683,7 @@
       "headline": "Know Your Options, Free",
       "description": "Free case review. No cost to learn where you stand.",
       "cta": "Book Now",
-      "primary_text": "Three things collectors hope you don't know:\n\n1. You can make them validate the debt in writing\n2. Debt buyers often can't prove they even own it\n3. Balances are frequently inflated, so you may owe far less than they claim\n\nKnowing this changes how you respond.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Prior results do not guarantee a similar outcome.",
+      "primary_text": "Three things collectors hope you don't know:\n\n1. You can make them validate the debt in writing\n2. Debt buyers often can't prove they even own it\n3. Balances are frequently inflated, so you may owe far less than they claim\n\nKnowing this changes how you respond.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Responsible attorney: [RESPONSIBLE ATTORNEY NAME]. Legal services are provided by attorneys licensed in the states where they practice; not available in DC, DE, ID, NC, OK, WV or WY. The choice of a lawyer is an important decision and should not be based solely upon advertisements. Prior results do not guarantee a similar outcome.",
       "link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A3_three-things-light"
     },
     {
@@ -676,7 +694,7 @@
       "headline": "Know Your Options, Free",
       "description": "Free case review. No cost to learn where you stand.",
       "cta": "Book Now",
-      "primary_text": "Three things collectors hope you don't know:\n\n1. You can make them validate the debt in writing\n2. Debt buyers often can't prove they even own it\n3. Balances are frequently inflated, so you may owe far less than they claim\n\nKnowing this changes how you respond.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Prior results do not guarantee a similar outcome.",
+      "primary_text": "Three things collectors hope you don't know:\n\n1. You can make them validate the debt in writing\n2. Debt buyers often can't prove they even own it\n3. Balances are frequently inflated, so you may owe far less than they claim\n\nKnowing this changes how you respond.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Responsible attorney: [RESPONSIBLE ATTORNEY NAME]. Legal services are provided by attorneys licensed in the states where they practice; not available in DC, DE, ID, NC, OK, WV or WY. The choice of a lawyer is an important decision and should not be based solely upon advertisements. Prior results do not guarantee a similar outcome.",
       "link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A3_three-things-v4"
     },
     {
@@ -687,7 +705,7 @@
       "headline": "Know Your Options, Free",
       "description": "Free case review. No cost to learn where you stand.",
       "cta": "Book Now",
-      "primary_text": "Three things collectors hope you don't know:\n\n1. You can make them validate the debt in writing\n2. Debt buyers often can't prove they even own it\n3. Balances are frequently inflated, so you may owe far less than they claim\n\nKnowing this changes how you respond.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Image is a dramatization. Prior results do not guarantee a similar outcome.",
+      "primary_text": "Three things collectors hope you don't know:\n\n1. You can make them validate the debt in writing\n2. Debt buyers often can't prove they even own it\n3. Balances are frequently inflated, so you may owe far less than they claim\n\nKnowing this changes how you respond.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Responsible attorney: [RESPONSIBLE ATTORNEY NAME]. Legal services are provided by attorneys licensed in the states where they practice; not available in DC, DE, ID, NC, OK, WV or WY. The choice of a lawyer is an important decision and should not be based solely upon advertisements. Image is a dramatization. Prior results do not guarantee a similar outcome.",
       "link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A3_three-things-video"
     },
     {
@@ -698,7 +716,7 @@
       "headline": "You Don't Have to Face Them Alone",
       "description": "Flat monthly fee. No contingency.",
       "cta": "Book Now",
-      "primary_text": "They called for years. They never proved the debt was mine.\n\nBefore: calls every week, a balance that kept growing, and no proof it was even yours.\n\nAfter: they have to validate it in writing, attorneys handle the response, and you pay one flat monthly fee.\n\nFree case review.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Prior results do not guarantee a similar outcome.",
+      "primary_text": "They called for years. They never proved the debt was mine.\n\nBefore: calls every week, a balance that kept growing, and no proof it was even yours.\n\nAfter: they have to validate it in writing, attorneys handle the response, and you pay one flat monthly fee.\n\nFree case review.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Responsible attorney: [RESPONSIBLE ATTORNEY NAME]. Legal services are provided by attorneys licensed in the states where they practice; not available in DC, DE, ID, NC, OK, WV or WY. The choice of a lawyer is an important decision and should not be based solely upon advertisements. Prior results do not guarantee a similar outcome.",
       "link": "https://start.credolegal.com/credit-card-debt-negotiation?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A4_before-after-v3"
     },
     {
@@ -709,7 +727,7 @@
       "headline": "You Don't Have to Face Them Alone",
       "description": "Flat monthly fee. No contingency.",
       "cta": "Book Now",
-      "primary_text": "They called for years. They never proved the debt was mine.\n\nBefore: calls every week, a balance that kept growing, and no proof it was even yours.\n\nAfter: they have to validate it in writing, attorneys handle the response, and you pay one flat monthly fee.\n\nFree case review.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Prior results do not guarantee a similar outcome.",
+      "primary_text": "They called for years. They never proved the debt was mine.\n\nBefore: calls every week, a balance that kept growing, and no proof it was even yours.\n\nAfter: they have to validate it in writing, attorneys handle the response, and you pay one flat monthly fee.\n\nFree case review.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Responsible attorney: [RESPONSIBLE ATTORNEY NAME]. Legal services are provided by attorneys licensed in the states where they practice; not available in DC, DE, ID, NC, OK, WV or WY. The choice of a lawyer is an important decision and should not be based solely upon advertisements. Prior results do not guarantee a similar outcome.",
       "link": "https://start.credolegal.com/credit-card-debt-negotiation?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A4_before-after-light"
     },
     {
@@ -720,7 +738,7 @@
       "headline": "You Don't Have to Face Them Alone",
       "description": "Flat monthly fee. No contingency.",
       "cta": "Book Now",
-      "primary_text": "They called for years. They never proved the debt was mine.\n\nBefore: calls every week, a balance that kept growing, and no proof it was even yours.\n\nAfter: they have to validate it in writing, attorneys handle the response, and you pay one flat monthly fee.\n\nFree case review.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Image is a dramatization. Prior results do not guarantee a similar outcome.",
+      "primary_text": "They called for years. They never proved the debt was mine.\n\nBefore: calls every week, a balance that kept growing, and no proof it was even yours.\n\nAfter: they have to validate it in writing, attorneys handle the response, and you pay one flat monthly fee.\n\nFree case review.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Responsible attorney: [RESPONSIBLE ATTORNEY NAME]. Legal services are provided by attorneys licensed in the states where they practice; not available in DC, DE, ID, NC, OK, WV or WY. The choice of a lawyer is an important decision and should not be based solely upon advertisements. Image is a dramatization. Prior results do not guarantee a similar outcome.",
       "link": "https://start.credolegal.com/credit-card-debt-negotiation?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A4_before-after-v4"
     },
     {
@@ -731,7 +749,7 @@
       "headline": "You Don't Have to Face Them Alone",
       "description": "Flat monthly fee. No contingency.",
       "cta": "Book Now",
-      "primary_text": "They called for years. They never proved the debt was mine.\n\nBefore: calls every week, a balance that kept growing, and no proof it was even yours.\n\nAfter: they have to validate it in writing, attorneys handle the response, and you pay one flat monthly fee.\n\nFree case review.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Image is a dramatization. Prior results do not guarantee a similar outcome.",
+      "primary_text": "They called for years. They never proved the debt was mine.\n\nBefore: calls every week, a balance that kept growing, and no proof it was even yours.\n\nAfter: they have to validate it in writing, attorneys handle the response, and you pay one flat monthly fee.\n\nFree case review.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Responsible attorney: [RESPONSIBLE ATTORNEY NAME]. Legal services are provided by attorneys licensed in the states where they practice; not available in DC, DE, ID, NC, OK, WV or WY. The choice of a lawyer is an important decision and should not be based solely upon advertisements. Image is a dramatization. Prior results do not guarantee a similar outcome.",
       "link": "https://start.credolegal.com/credit-card-debt-negotiation?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A4_before-after-video"
     },
     {
@@ -742,7 +760,7 @@
       "headline": "Can They Prove the Amount?",
       "description": "Free review of your medical debt.",
       "cta": "Book Now",
-      "primary_text": "A collector says you owe a medical bill. Can they prove it?\n\nMedical billing is full of coding errors and duplicate charges, and a collector has to validate the amount if you ask. Our attorneys review it before you pay anything.\n\nFree case review.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Prior results do not guarantee a similar outcome.",
+      "primary_text": "A collector says you owe a medical bill. Can they prove it?\n\nMedical billing is full of coding errors and duplicate charges, and a collector has to validate the amount if you ask. Our attorneys review it before you pay anything.\n\nFree case review.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Responsible attorney: [RESPONSIBLE ATTORNEY NAME]. Legal services are provided by attorneys licensed in the states where they practice; not available in DC, DE, ID, NC, OK, WV or WY. The choice of a lawyer is an important decision and should not be based solely upon advertisements. Prior results do not guarantee a similar outcome.",
       "link": "https://start.credolegal.com/medical-debt-bills-errors?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A5_medical-v3"
     },
     {
@@ -753,7 +771,7 @@
       "headline": "Can They Prove the Amount?",
       "description": "Free review of your medical debt.",
       "cta": "Book Now",
-      "primary_text": "A collector says you owe a medical bill. Can they prove it?\n\nMedical billing is full of coding errors and duplicate charges, and a collector has to validate the amount if you ask. Our attorneys review it before you pay anything.\n\nFree case review.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Prior results do not guarantee a similar outcome.",
+      "primary_text": "A collector says you owe a medical bill. Can they prove it?\n\nMedical billing is full of coding errors and duplicate charges, and a collector has to validate the amount if you ask. Our attorneys review it before you pay anything.\n\nFree case review.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Responsible attorney: [RESPONSIBLE ATTORNEY NAME]. Legal services are provided by attorneys licensed in the states where they practice; not available in DC, DE, ID, NC, OK, WV or WY. The choice of a lawyer is an important decision and should not be based solely upon advertisements. Prior results do not guarantee a similar outcome.",
       "link": "https://start.credolegal.com/medical-debt-bills-errors?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A5_medical-light"
     },
     {
@@ -764,7 +782,7 @@
       "headline": "Can They Prove the Amount?",
       "description": "Free review of your medical debt.",
       "cta": "Book Now",
-      "primary_text": "A collector says you owe a medical bill. Can they prove it?\n\nMedical billing is full of coding errors and duplicate charges, and a collector has to validate the amount if you ask. Our attorneys review it before you pay anything.\n\nFree case review.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Image is a dramatization. Prior results do not guarantee a similar outcome.",
+      "primary_text": "A collector says you owe a medical bill. Can they prove it?\n\nMedical billing is full of coding errors and duplicate charges, and a collector has to validate the amount if you ask. Our attorneys review it before you pay anything.\n\nFree case review.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Responsible attorney: [RESPONSIBLE ATTORNEY NAME]. Legal services are provided by attorneys licensed in the states where they practice; not available in DC, DE, ID, NC, OK, WV or WY. The choice of a lawyer is an important decision and should not be based solely upon advertisements. Image is a dramatization. Prior results do not guarantee a similar outcome.",
       "link": "https://start.credolegal.com/medical-debt-bills-errors?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A5_medical-v4"
     },
     {
@@ -775,7 +793,7 @@
       "headline": "Can They Prove the Amount?",
       "description": "Free review of your medical debt.",
       "cta": "Book Now",
-      "primary_text": "A collector says you owe a medical bill. Can they prove it?\n\nMedical billing is full of coding errors and duplicate charges, and a collector has to validate the amount if you ask. Our attorneys review it before you pay anything.\n\nFree case review.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Image is a dramatization. Prior results do not guarantee a similar outcome.",
+      "primary_text": "A collector says you owe a medical bill. Can they prove it?\n\nMedical billing is full of coding errors and duplicate charges, and a collector has to validate the amount if you ask. Our attorneys review it before you pay anything.\n\nFree case review.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Responsible attorney: [RESPONSIBLE ATTORNEY NAME]. Legal services are provided by attorneys licensed in the states where they practice; not available in DC, DE, ID, NC, OK, WV or WY. The choice of a lawyer is an important decision and should not be based solely upon advertisements. Image is a dramatization. Prior results do not guarantee a similar outcome.",
       "link": "https://start.credolegal.com/medical-debt-bills-errors?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A5_medical-video"
     },
     {
@@ -786,7 +804,7 @@
       "headline": "Make Collectors Prove Before You Pay",
       "description": "Free case review. Flat monthly fee.",
       "cta": "Book Now",
-      "primary_text": "Make them prove it.\n\nA collector has to validate the debt in writing. Many debt buyers can't.\n\nFree case review. Flat monthly fee. Attorneys licensed in New York.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Image is a dramatization. Prior results do not guarantee a similar outcome.",
+      "primary_text": "Make them prove it.\n\nA collector has to validate the debt in writing. Many debt buyers can't.\n\nFree case review. Flat monthly fee. Licensed attorneys.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Responsible attorney: [RESPONSIBLE ATTORNEY NAME]. Legal services are provided by attorneys licensed in the states where they practice; not available in DC, DE, ID, NC, OK, WV or WY. The choice of a lawyer is an important decision and should not be based solely upon advertisements. Image is a dramatization. Prior results do not guarantee a similar outcome.",
       "link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A6_in-writing-v3"
     },
     {
@@ -797,7 +815,7 @@
       "headline": "Make Collectors Prove Before You Pay",
       "description": "Free case review. Flat monthly fee.",
       "cta": "Book Now",
-      "primary_text": "Make them prove it.\n\nA collector has to validate the debt in writing. Many debt buyers can't.\n\nFree case review. Flat monthly fee. Attorneys licensed in New York.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Prior results do not guarantee a similar outcome.",
+      "primary_text": "Make them prove it.\n\nA collector has to validate the debt in writing. Many debt buyers can't.\n\nFree case review. Flat monthly fee. Licensed attorneys.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Responsible attorney: [RESPONSIBLE ATTORNEY NAME]. Legal services are provided by attorneys licensed in the states where they practice; not available in DC, DE, ID, NC, OK, WV or WY. The choice of a lawyer is an important decision and should not be based solely upon advertisements. Prior results do not guarantee a similar outcome.",
       "link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A6_in-writing-light"
     },
     {
@@ -808,7 +826,7 @@
       "headline": "Make Collectors Prove Before You Pay",
       "description": "Free case review. Flat monthly fee.",
       "cta": "Book Now",
-      "primary_text": "Make them prove it.\n\nA collector has to validate the debt in writing. Many debt buyers can't.\n\nFree case review. Flat monthly fee. Attorneys licensed in New York.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Prior results do not guarantee a similar outcome.",
+      "primary_text": "Make them prove it.\n\nA collector has to validate the debt in writing. Many debt buyers can't.\n\nFree case review. Flat monthly fee. Licensed attorneys.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Responsible attorney: [RESPONSIBLE ATTORNEY NAME]. Legal services are provided by attorneys licensed in the states where they practice; not available in DC, DE, ID, NC, OK, WV or WY. The choice of a lawyer is an important decision and should not be based solely upon advertisements. Prior results do not guarantee a similar outcome.",
       "link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A6_in-writing-v4"
     },
     {
@@ -819,7 +837,7 @@
       "headline": "Make Collectors Prove Before You Pay",
       "description": "Free case review. Flat monthly fee.",
       "cta": "Book Now",
-      "primary_text": "Make them prove it.\n\nA collector has to validate the debt in writing. Many debt buyers can't.\n\nFree case review. Flat monthly fee. Attorneys licensed in New York.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Image is a dramatization. Prior results do not guarantee a similar outcome.",
+      "primary_text": "Make them prove it.\n\nA collector has to validate the debt in writing. Many debt buyers can't.\n\nFree case review. Flat monthly fee. Licensed attorneys.\n\nAttorney Advertising. Credo Legal Services, P.C., 1 Liberty Street, Suite 4010, New York, NY 10006. (212) 461-4026. Responsible attorney: [RESPONSIBLE ATTORNEY NAME]. Legal services are provided by attorneys licensed in the states where they practice; not available in DC, DE, ID, NC, OK, WV or WY. The choice of a lawyer is an important decision and should not be based solely upon advertisements. Image is a dramatization. Prior results do not guarantee a similar outcome.",
       "link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A6_in-writing-video"
     }
   ]
