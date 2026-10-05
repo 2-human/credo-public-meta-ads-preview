@@ -35,9 +35,9 @@
   },
   "placement_plan": {
     "feeds": "4:5",
-    "stories_reels": "4:5 (Meta fits it inside Stories/Reels)",
+    "stories_reels": "9:16",
     "right_column_search_marketplace": "1:1",
-    "on_hold": "9:16 — 16 of 18 static 9:16 banners and the videos' burned-in strip put the disclaimer in the bottom 20% of the frame, which Stories/Reels cover with the CTA. Do not upload 9:16 until they are moved.",
+    "note_9x16": "Operator decision 5 Oct 2026: 9:16 is published for Stories/Reels. In 16 of the 18 Competitive v1 static 9:16 banners and in the videos' burned-in strip the baked disclaimer sits in the bottom 20% of the frame, which Stories/Reels may cover with the CTA and caption; the full nationwide disclaimer is in the primary text of every ad.",
     "not_used": "16:9"
   },
   "compliance": {
@@ -87,7 +87,7 @@
           "full_link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A1_prove-it-v3",
           "placement_creatives": {
             "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S1_prove-it_v3_4x5.jpg",
-            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S1_prove-it_v3_4x5.jpg",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S1_prove-it_v3_9x16.jpg",
             "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S1_prove-it_v3_1x1.jpg"
           },
           "all_files": {
@@ -110,7 +110,7 @@
           "full_link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A1_prove-it-light",
           "placement_creatives": {
             "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S1_prove-it_light_4x5.jpg",
-            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S1_prove-it_light_4x5.jpg",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S1_prove-it_light_9x16.jpg",
             "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S1_prove-it_light_1x1.jpg"
           },
           "all_files": {
@@ -133,7 +133,7 @@
           "full_link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A1_prove-it-v4",
           "placement_creatives": {
             "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S1_prove-it_v4_4x5.jpg",
-            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S1_prove-it_v4_4x5.jpg",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S1_prove-it_v4_9x16.jpg",
             "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S1_prove-it_v4_1x1.jpg"
           },
           "all_files": {
@@ -156,7 +156,7 @@
           "full_link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A1_prove-it-video",
           "placement_creatives": {
             "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V1_prove-it_4x5.mp4",
-            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V1_prove-it_4x5.mp4",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V1_prove-it_9x16.mp4",
             "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V1_prove-it_4x5.mp4"
           },
           "all_files": {
@@ -185,7 +185,7 @@
           "full_link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A2_is-it-yours-v3",
           "placement_creatives": {
             "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S2_is-it-yours_v3_4x5.jpg",
-            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S2_is-it-yours_v3_4x5.jpg",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S2_is-it-yours_v3_9x16.jpg",
             "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S2_is-it-yours_v3_1x1.jpg"
           },
           "all_files": {
@@ -208,7 +208,7 @@
           "full_link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A2_is-it-yours-light",
           "placement_creatives": {
             "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S2_is-it-yours_light_4x5.jpg",
-            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S2_is-it-yours_light_4x5.jpg",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S2_is-it-yours_light_9x16.jpg",
             "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S2_is-it-yours_light_1x1.jpg"
           },
           "all_files": {
@@ -231,7 +231,7 @@
           "full_link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A2_is-it-yours-v4",
           "placement_creatives": {
             "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S2_is-it-yours_v4_4x5.jpg",
-            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S2_is-it-yours_v4_4x5.jpg",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S2_is-it-yours_v4_9x16.jpg",
             "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S2_is-it-yours_v4_1x1.jpg"
           },
           "all_files": {
@@ -254,7 +254,7 @@
           "full_link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A2_is-it-yours-video",
           "placement_creatives": {
             "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V2_is-it-yours_4x5.mp4",
-            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V2_is-it-yours_4x5.mp4",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V2_is-it-yours_9x16.mp4",
             "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V2_is-it-yours_4x5.mp4"
           },
           "all_files": {
@@ -283,7 +283,7 @@
           "full_link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A3_three-things-v3",
           "placement_creatives": {
             "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S4_quiz_v3_4x5.jpg",
-            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S4_quiz_v3_4x5.jpg",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S4_quiz_v3_9x16.jpg",
             "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S4_quiz_v3_1x1.jpg"
           },
           "all_files": {
@@ -306,7 +306,7 @@
           "full_link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A3_three-things-light",
           "placement_creatives": {
             "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S4_quiz_light_4x5.jpg",
-            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S4_quiz_light_4x5.jpg",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S4_quiz_light_9x16.jpg",
             "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S4_quiz_light_1x1.jpg"
           },
           "all_files": {
@@ -329,7 +329,7 @@
           "full_link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A3_three-things-v4",
           "placement_creatives": {
             "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S4_quiz_v4_4x5.jpg",
-            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S4_quiz_v4_4x5.jpg",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S4_quiz_v4_9x16.jpg",
             "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S4_quiz_v4_1x1.jpg"
           },
           "all_files": {
@@ -352,7 +352,7 @@
           "full_link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A3_three-things-video",
           "placement_creatives": {
             "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V3_do-they-own-it_4x5.mp4",
-            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V3_do-they-own-it_4x5.mp4",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V3_do-they-own-it_9x16.mp4",
             "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V3_do-they-own-it_4x5.mp4"
           },
           "all_files": {
@@ -381,7 +381,7 @@
           "full_link": "https://start.credolegal.com/credit-card-debt-negotiation?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A4_before-after-v3",
           "placement_creatives": {
             "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S3_before-after_v3_4x5.jpg",
-            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S3_before-after_v3_4x5.jpg",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S3_before-after_v3_9x16.jpg",
             "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S3_before-after_v3_1x1.jpg"
           },
           "all_files": {
@@ -404,7 +404,7 @@
           "full_link": "https://start.credolegal.com/credit-card-debt-negotiation?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A4_before-after-light",
           "placement_creatives": {
             "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S3_before-after_light_4x5.jpg",
-            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S3_before-after_light_4x5.jpg",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S3_before-after_light_9x16.jpg",
             "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S3_before-after_light_1x1.jpg"
           },
           "all_files": {
@@ -427,7 +427,7 @@
           "full_link": "https://start.credolegal.com/credit-card-debt-negotiation?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A4_before-after-v4",
           "placement_creatives": {
             "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S3_before-after_v4_4x5.jpg",
-            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S3_before-after_v4_4x5.jpg",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S3_before-after_v4_9x16.jpg",
             "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S3_before-after_v4_1x1.jpg"
           },
           "all_files": {
@@ -450,7 +450,7 @@
           "full_link": "https://start.credolegal.com/credit-card-debt-negotiation?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A4_before-after-video",
           "placement_creatives": {
             "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V6_the-calls_4x5.mp4",
-            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V6_the-calls_4x5.mp4",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V6_the-calls_9x16.mp4",
             "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V6_the-calls_4x5.mp4"
           },
           "all_files": {
@@ -479,7 +479,7 @@
           "full_link": "https://start.credolegal.com/medical-debt-bills-errors?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A5_medical-v3",
           "placement_creatives": {
             "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S5_medical_v3_4x5.jpg",
-            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S5_medical_v3_4x5.jpg",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S5_medical_v3_9x16.jpg",
             "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S5_medical_v3_1x1.jpg"
           },
           "all_files": {
@@ -502,7 +502,7 @@
           "full_link": "https://start.credolegal.com/medical-debt-bills-errors?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A5_medical-light",
           "placement_creatives": {
             "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S5_medical_light_4x5.jpg",
-            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S5_medical_light_4x5.jpg",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S5_medical_light_9x16.jpg",
             "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S5_medical_light_1x1.jpg"
           },
           "all_files": {
@@ -525,7 +525,7 @@
           "full_link": "https://start.credolegal.com/medical-debt-bills-errors?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A5_medical-v4",
           "placement_creatives": {
             "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S5_medical_v4_4x5.jpg",
-            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S5_medical_v4_4x5.jpg",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S5_medical_v4_9x16.jpg",
             "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S5_medical_v4_1x1.jpg"
           },
           "all_files": {
@@ -548,7 +548,7 @@
           "full_link": "https://start.credolegal.com/medical-debt-bills-errors?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A5_medical-video",
           "placement_creatives": {
             "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V5_medical_4x5.mp4",
-            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V5_medical_4x5.mp4",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V5_medical_9x16.mp4",
             "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V5_medical_4x5.mp4"
           },
           "all_files": {
@@ -577,7 +577,7 @@
           "full_link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A6_in-writing-v3",
           "placement_creatives": {
             "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S6_in-writing_v3_4x5.jpg",
-            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S6_in-writing_v3_4x5.jpg",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S6_in-writing_v3_9x16.jpg",
             "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v3/S6_in-writing_v3_1x1.jpg"
           },
           "all_files": {
@@ -600,7 +600,7 @@
           "full_link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A6_in-writing-light",
           "placement_creatives": {
             "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S6_in-writing_light_4x5.jpg",
-            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S6_in-writing_light_4x5.jpg",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S6_in-writing_light_9x16.jpg",
             "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/light/S6_in-writing_light_1x1.jpg"
           },
           "all_files": {
@@ -623,7 +623,7 @@
           "full_link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A6_in-writing-v4",
           "placement_creatives": {
             "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S6_in-writing_v4_4x5.jpg",
-            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S6_in-writing_v4_4x5.jpg",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S6_in-writing_v4_9x16.jpg",
             "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/static/v4/S6_in-writing_v4_1x1.jpg"
           },
           "all_files": {
@@ -646,7 +646,7 @@
           "full_link": "https://start.credolegal.com/debt-harassment-stop-calls?utm_source=meta&utm_medium=paid_social&utm_campaign=credo_meta_competitive_v1&utm_content=A6_in-writing-video",
           "placement_creatives": {
             "feeds": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V4_in-writing_4x5.mp4",
-            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V4_in-writing_4x5.mp4",
+            "stories_reels": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V4_in-writing_9x16.mp4",
             "right_column_search_marketplace": "https://2-human.github.io/credo-public-meta-ads-preview/handoff/meta-competitive-v1/creatives/video/V4_in-writing_4x5.mp4"
           },
           "all_files": {

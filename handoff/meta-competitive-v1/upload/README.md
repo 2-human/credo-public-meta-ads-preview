@@ -74,14 +74,14 @@ Every file is listed with its ad, ratio, placement and a direct download link.
 
 | Ratio | Competitive v1 | Debt Defense v4 |
 |---|---|---|
-| **4:5** | Feeds **and** Stories/Reels | Feeds |
+| **4:5** | Feeds | Feeds |
 | **1:1** | Right column, Search, Marketplace | Right column, Search, Marketplace |
-| 9:16 | **hold** (see below) | **Stories/Reels** (safe-zone baked); videos are 9:16 only, for every placement |
+| **9:16** | **Stories/Reels** | **Stories/Reels** (safe-zone baked); videos are 9:16 only, for every placement |
 | 16:9 / 1.91:1 | not used | not used |
 
-**Why Competitive v1 9:16 is on hold:** in 16 of its 18 static 9:16 banners, and in the videos' burned-in strip, the
-disclaimer sits in the bottom 20% of the frame, where Stories and Reels place the CTA button and caption. Use its 4:5 in
-Stories/Reels (Meta fits it inside the frame). The Debt Defense v4 creatives carry no baked disclaimer, so their 9:16 is fine.
+**Competitive v1 9:16 (operator decision, 5 Oct 2026):** published for Stories/Reels. In 16 of its 18 static 9:16 banners,
+and in the videos' burned-in strip, the baked disclaimer sits in the bottom 20% of the frame, where Stories and Reels may
+cover it with the CTA button and caption. The full nationwide disclaimer is in the primary text of every ad.
 
 ## Before launch (checklist)
 
@@ -101,9 +101,9 @@ budget allows rather than switching all on at once.
 
 ## Download
 
-**Full package (one zip, about 240 MB):** https://github.com/2-human/credo-public-meta-ads-preview/releases/download/meta-handoff/credo-meta-handoff-full.zip
-It holds this guide, the manifest, `copy/ads.csv`, `asset-manifest.csv` and all 191 creatives to upload, in
-`creatives/<ad set>/`. The 9:16 versions on hold (disclaimer in the Stories/Reels unsafe zone) are not in it.
+**Full package (one zip, about 290 MB):** https://github.com/2-human/credo-public-meta-ads-preview/releases/download/meta-handoff/credo-meta-handoff-full.zip
+It holds this guide, the manifest, `copy/ads.csv`, `asset-manifest.csv` and all 215 creatives to upload, in
+`creatives/<ad set>/`.
 
 `credo-meta-handoff.zip` next to this guide has the same files without the creatives (for a scripted upload, which
 reads the creative URLs from the manifest).
