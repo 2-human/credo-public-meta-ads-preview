@@ -24,7 +24,7 @@ credo-ads-handoff-2026-07/
 **`meta-competitive-v1/`** is an additional Meta campaign built by tearing down a competitor's live
 advertising (Freedom Debt Relief, Meta Ad Library page 69869352985) and rebuilding their strongest
 creative structures in Crēdo brand. 6 ad groups, one static and one lip-synced spokesperson video
-each. It has its own README, manifest and a browsable review page (`index.html`). **Its upload package is `meta-competitive-v1/upload/`** (guide, manifest, `copy/ads.csv`, `asset-manifest.csv`): 6 ad sets × 4 creative versions = 24 ads, **whole US** since 5 Oct 2026 (was New York only): exclude DC, DE, ID, NC, OK, WV, WY (not served) and, until the bar filings are done, Florida and Texas. Its ads carry the nationwide disclaimer (`brand/us-attorney-advertising-disclaimer.md`). Separate from the
+each. It has its own README, manifest and a browsable review page (`index.html`). **Its upload package is `meta-competitive-v1/upload/`** (guide, manifest, `copy/ads.csv`, `asset-manifest.csv`): **whole US** since 5 Oct 2026 (was New York only; New Jersey and the 7 jurisdictions Credo does not serve excluded), nationwide disclaimer on every ad. **The main `meta/` build is consolidated into it** (ad sets `AS_DD_*`): 20 ad sets, 87 ads. Build only this campaign for Meta. Separate from the
 main `meta/` build above; also PAUSED and pending attorney pre-approval.
 
 Each platform folder is self-contained: machine-readable manifest (for MCP / scripted upload),
@@ -41,10 +41,10 @@ human CSVs, and the actual creative files. See `meta/README.md` and `google/READ
 ## Shared compliance (read first)
 
 - **Special Ad Category = CREDIT** (Meta) / consumer-finance policy (Google): restricted targeting.
-- **Geo: US, exclude New York.** **Exclude TX & FL at launch** (attorney-ad filing + local-counsel
-  disclosure; FL pre-approval ~15-day review) — add once cleared.
-- **State disclosures** (KS/OH/SD/NJ/KY name+address, jurisdiction notice) are **not** in the copy —
-  add per the compliance matrix before those states run.
+- **Meta geo (5 Oct 2026): whole US**, excluding New Jersey and the 7 jurisdictions Credo does not serve (DC, DE, ID, NC,
+  OK, WV, WY); Florida and Texas included. One Meta campaign: `meta-competitive-v1/upload/`. Every Meta ad ends with the
+  nationwide disclaimer (`brand/us-attorney-advertising-disclaimer.md`), which covers the stricter states' rules.
+- Google keeps its own geo (see `google/README.md`).
 - Every Meta message carries two disclaimer lines ("Prior outcomes don't guarantee similar results."
   + the universal footer).
 - **Launch status: PAUSED**, both platforms.
@@ -81,7 +81,7 @@ each separable.
 | `utm_content` | ad key | `{creative}` | `{ad}-{direction}` |
 | Click id | — | `gclid` | `ndclid` |
 | Geo | US, **exclude NY** | US, **exclude NY** | **NY & NJ only** |
-| Geo (Meta Competitive v1) | **whole US** minus the 7 not served; FL/TX after filing | | |
+| Geo (Meta Competitive v1, which now holds the `meta/` ads) | **whole US** minus NJ and the 7 not served | | |
 | Scope | full cluster set | full cluster set | validation/settlement only |
 | Creatives | full set incl. Bold + 9:16 | Google set | **reuses** Meta 1:1 + 1.91:1; **no** Bold/9:16 |
 

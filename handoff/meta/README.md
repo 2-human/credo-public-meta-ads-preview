@@ -1,5 +1,8 @@
 # Crēdo Legal — Meta Ads · Upload
 
+> **SUPERSEDED (5 Oct 2026): do not build this campaign separately.** All its ads are consolidated into the
+> Meta Competitive v1 campaign (whole US, nationwide disclaimer): `../meta-competitive-v1/upload/` (ad sets `AS_DD_*`).
+
 Facebook + Instagram debt-defense campaign. Build in Ads Manager or via MCP. **Launch PAUSED.**
 See `../README.md` for shared compliance and call-tracking numbers.
 

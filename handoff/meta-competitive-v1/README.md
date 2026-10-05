@@ -1,7 +1,7 @@
 # Crēdo Legal — Meta Competitive v1
 
 A Meta campaign built by tearing down **Freedom Debt Relief**'s live Meta advertising and
-rebuilding their highest-performing creative structures in Crēdo brand. **Launch PAUSED.** **Targets the whole US since 5 Oct 2026** (see the last section).
+rebuilding their highest-performing creative structures in Crēdo brand. **Launch PAUSED.** **Whole US since 5 Oct 2026, and the main Meta build is consolidated into it** (see the last two sections).
 
 Source: Meta Ad Library, page `69869352985`, **~96 active ads** (94 captured: 38 video / 56 static),
 analysed **2026-09-08**.
@@ -223,18 +223,26 @@ Videos re-generated 22 Sep (both now applied; previous cuts are in git history a
 
 Operator: the campaign addresses the whole US and keeps the restrictive disclaimer so that every state is covered.
 
-- **Geo:** United States. Exclude the 7 jurisdictions Credo does not serve (DC, DE, ID, NC, OK, WV, WY). Florida and
-  Texas stay excluded until the ads are filed with the Florida Bar (at least 20 days before they run) and the Texas
-  Advertising Review Committee; then remove those two exclusions.
+- **Geo:** United States. Exclude New Jersey (not targeted) and the 7 jurisdictions Credo does not serve (DC, DE, ID, NC,
+  OK, WV, WY). Florida and Texas are included.
 - **Disclaimer:** every primary text (24 ads) now ends with the nationwide text in `brand/us-attorney-advertising-disclaimer.md`:
-  the New York line unchanged, then *Responsible attorney: [RESPONSIBLE ATTORNEY NAME].* *Legal services are provided by
+  the New York line unchanged, then *Legal services are provided by
   attorneys licensed in the states where they practice; not available in DC, DE, ID, NC, OK, WV or WY.* *The choice of a
   lawyer is an important decision and should not be based solely upon advertisements.*, then the dramatization line where it
-  applied and the prior-results line. **Fill in the attorney's full name before launch.**
+  applied and the prior-results line.
 - **New York-only copy replaced:** "Attorneys licensed in New York." (A2 description, 4 ads) → "Licensed attorneys. Not a
   settlement company."; A6 primary text (4 ads) now ends "Free case review. Flat monthly fee. Licensed attorneys."
 - **Images and videos unchanged.** The statics keep the New York disclaimer line (firm, address, phone, dramatization and
   prior-results lines); the full nationwide text is in the primary text of the same ad.
 - Rebuilt: `upload/` (README, manifest, `copy/ads.csv`, asset list) and the feed preview on the review page.
-- Overlap: the main Meta build (`handoff/meta/`, Debt Defense v4) targets the US excluding New York. If both run, they
-  compete for the same audience outside New York; decide whether this campaign replaces it or runs alongside as a test.
+
+## Main Meta build consolidated into this campaign (5 Oct 2026)
+
+Operator: "Consolidate everything in the new campaign." The 14 ads of the main Meta build (`handoff/meta/`, Debt Defense v4)
+are now ad sets `AS_DD_<ad>` of this campaign, one ad per creative version (illustration, photo, still life, video, Bold):
+20 ad sets and 87 ads in all. Same targeting, same nationwide disclaimer, `utm_campaign=credo_meta_competitive_v1`.
+Their copy is the Default message (the Bold message with the Bold creative), with two claims corrected for a nationwide
+audience ("up to $1,000 per violation" → "in statutory damages"; "20 to 28 days" → "a few weeks"). Seven Bold ads are held
+back because the claim is baked into the image (fist: "20 to 28 days to answer"; pointing: "$1,000 per violation", plus a
+render glitch). `handoff/meta/` is kept for reference and marked superseded. Built by
+`scripts/meta-ads/build-competitive-upload.py` (reads `../meta/campaign-manifest.json`).
